@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { footerLinks, brand } from "@/content/copy";
 
 export default function Footer() {
@@ -6,7 +7,8 @@ export default function Footer() {
     <footer className="border-t border-paper/10 bg-ink px-6 py-16 text-paper">
       <div className="mx-auto flex max-w-7xl flex-col gap-10 md:flex-row md:justify-between">
         <div className="max-w-sm">
-          <p className="font-display text-xl tracking-[0.2em]">{brand.name}</p>
+          <Image src="/brand/logo.jpg" alt="" width={140} height={93} className="h-10 w-auto rounded-sm" />
+          <p className="font-display mt-4 text-xl tracking-[0.2em]">{brand.name}</p>
           <p className="mt-4 text-sm leading-relaxed text-paper/60">{brand.fullName}</p>
           <p className="mt-6 text-sm text-gold-soft/90">{brand.tagline}</p>
         </div>

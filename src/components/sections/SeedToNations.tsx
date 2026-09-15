@@ -1,8 +1,6 @@
 import Reveal from "@/components/motion/Reveal";
-import FeatureRow from "@/components/sections/FeatureRow";
+import StageSequence from "@/components/motion/StageSequence";
 import { seedToNations } from "@/content/copy";
-
-const mediaKeys = ["seedSoil", "seedSprout", "seedForest", "seedContinents", "seedEarth"];
 
 export default function SeedToNations() {
   return (
@@ -18,18 +16,7 @@ export default function SeedToNations() {
         </Reveal>
       </div>
 
-      <div className="mx-auto flex max-w-3xl flex-col gap-16 px-6 text-paper">
-        {seedToNations.map((stage, i) => (
-          <FeatureRow
-            key={stage.title}
-            icon={stage.icon}
-            title={stage.title}
-            body={stage.body}
-            mediaKey={mediaKeys[i]}
-            reverse={i % 2 === 1}
-          />
-        ))}
-      </div>
+      <StageSequence stages={seedToNations} />
     </section>
   );
 }
