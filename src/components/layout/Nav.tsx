@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import TypewriterBrand from "@/components/layout/TypewriterBrand";
 import { nav, brand } from "@/content/copy";
 
 export default function Nav() {
@@ -31,9 +32,10 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-        <Link href="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <Image src="/brand/logo.jpg" alt="" width={140} height={93} priority className="h-9 w-auto rounded-sm" />
-          <span className="font-display text-xl tracking-[0.2em] text-paper">{brand.name}</span>
+        <Link href="/" className="flex min-w-0 items-center gap-2.5" onClick={() => setOpen(false)}>
+          <Image src="/brand/logo.png" alt="" width={140} height={93} priority className="h-9 w-auto shrink-0" />
+          <span className="font-display text-xl tracking-[0.2em] text-paper lg:hidden">{brand.name}</span>
+          <TypewriterBrand className="hidden truncate text-sm text-paper lg:inline-block" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

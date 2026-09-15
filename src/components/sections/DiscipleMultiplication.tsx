@@ -1,15 +1,6 @@
 import Reveal from "@/components/motion/Reveal";
-import FeatureRow from "@/components/sections/FeatureRow";
+import DiscipleStageSequence from "@/components/motion/DiscipleStageSequence";
 import { discipleSteps, scripture } from "@/content/copy";
-
-const mediaKeys = [
-  "discipleLearn",
-  "discipleGrow",
-  "discipleHelp",
-  "discipleExpand",
-  "discipleMultiply",
-  "discipleNations",
-];
 
 export default function DiscipleMultiplication() {
   return (
@@ -25,18 +16,7 @@ export default function DiscipleMultiplication() {
         </Reveal>
       </div>
 
-      <div className="mx-auto flex max-w-3xl flex-col gap-16 px-6 text-ink">
-        {discipleSteps.map((step, i) => (
-          <FeatureRow
-            key={step.title}
-            icon={step.icon}
-            title={step.title}
-            body={step.body}
-            mediaKey={mediaKeys[i]}
-            reverse={i % 2 === 1}
-          />
-        ))}
-      </div>
+      <DiscipleStageSequence steps={discipleSteps} />
 
       <div className="px-6 pt-20 text-center">
         <Reveal>
