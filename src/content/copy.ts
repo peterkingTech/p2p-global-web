@@ -194,6 +194,80 @@ export const ecosystem = [
   { key: "stories", title: "STORIES", body: "Discover what God has done.", href: "/kingdom-stories" },
 ] as const;
 
+export const kingdomStoryCategories = [
+  { icon: "📜", mediaKey: "storyHistory", title: "CHRISTIAN HISTORY", body: "The long story of the Church, from the early creeds to today." },
+  { icon: "🔥", mediaKey: "storyRevival", title: "REVIVAL", body: "Seasons when God moved in unusual, widely-witnessed ways." },
+  { icon: "🌍", mediaKey: "storyGlobalChurch", title: "GLOBAL CHURCH", body: "How believers across cultures and continents live out the same faith." },
+  { icon: "🧭", mediaKey: "storyMissions", title: "MISSIONS", body: "Those sent to carry the gospel across cultures and borders." },
+  { icon: "👤", mediaKey: "storyPeople", title: "PEOPLE", body: "Figures whose faith shaped the Church that followed them." },
+  { icon: "🌱", mediaKey: "storyMovements", title: "MOVEMENTS", body: "Moments when discipleship multiplied faster than anyone expected." },
+  { icon: "✝️", mediaKey: "storyPersecution", title: "PERSECUTION & PERSEVERANCE", body: "The cost some believers carry, and the faith that sustains them." },
+  { icon: "📖", mediaKey: "storyToday", title: "CHRISTIANITY TODAY", body: "What God is doing in the Church right now, told honestly." },
+] as const;
+
+export const kingdomWinCategories = [
+  { icon: "🙏", mediaKey: "winPrayer", title: "ANSWERED PRAYER", outcome: "God moving in a specific, named need." },
+  { icon: "💛", mediaKey: "winLife", title: "A LIFE CHANGED", outcome: "Someone coming to know Jesus, or growing in Him." },
+  { icon: "🏠", mediaKey: "winFamily", title: "A FAMILY RESTORED", outcome: "Reconciliation, healing, renewed hope at home." },
+  { icon: "🤝", mediaKey: "winGroup", title: "A GROUP FORMED", outcome: "Believers finding each other and starting to grow together." },
+  { icon: "⛪", mediaKey: "winChurch", title: "A CHURCH STRENGTHENED", outcome: "A local congregation encouraged or equipped." },
+  { icon: "🧳", mediaKey: "winSent", title: "SOMEONE SENT", outcome: "A believer stepping into service or mission." },
+] as const;
+
+export const familyRows = [
+  {
+    icon: "📖",
+    mediaKey: "familyGather",
+    title: "GATHER AROUND THE WORD",
+    body: "A short passage, read together — around the table, in the car, before bed. Scripture doesn't need a classroom to take root.",
+  },
+  {
+    icon: "🙏",
+    mediaKey: "familyPray",
+    title: "PRAY TOGETHER",
+    body: "Simple, honest prayer as a family rhythm — naming what's hard, thanking God for what's good.",
+  },
+  {
+    icon: "📓",
+    mediaKey: "familyStudy",
+    title: "STUDY TOGETHER",
+    body: "Age-appropriate study rhythms parents and children can actually keep, not another program to manage.",
+  },
+  {
+    icon: "🌱",
+    mediaKey: "family",
+    title: "GROW TOGETHER",
+    body: "Faith that's caught as much as taught — children watching parents wrestle with Scripture honestly, and grow.",
+  },
+] as const;
+
+export const churchRows = [
+  {
+    icon: "👥",
+    mediaKey: "churchCohorts",
+    title: "COHORTS & SMALL GROUPS",
+    body: "Structured discipleship groups a church can run using P2P's study rhythm, led by its own people.",
+  },
+  {
+    icon: "🗓️",
+    mediaKey: "churchPlans",
+    title: "SHARED STUDY PLANS",
+    body: "A common Scripture plan a congregation can move through together, in step with what's preached on Sunday.",
+  },
+  {
+    icon: "📞",
+    mediaKey: "churchCalls",
+    title: "PRAYER & CHECK-INS",
+    body: "Lightweight ways for members to stay connected and pray for one another between gatherings.",
+  },
+  {
+    icon: "🌿",
+    mediaKey: "church",
+    title: "A DISCIPLESHIP PATHWAY",
+    body: "A clear next step for anyone in the congregation who wants to go deeper — not a competing program, a supporting one.",
+  },
+] as const;
+
 export const journeySteps = [
   "DISCOVER",
   "LEARN",

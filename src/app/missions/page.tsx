@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import CinematicMedia from "@/components/media/CinematicMedia";
@@ -50,6 +51,24 @@ export default function MissionsPage() {
           ))}
         </div>
       </section>
+
+      <Prose eyebrow="Preparation Matters" heading="Faithful, not just urgent">
+        <p>
+          A heart for missions isn&rsquo;t enough on its own &mdash; the workers who last are the ones who prepared
+          well: in Scripture, in character, in cross-cultural humility, and in real accountability to a sending
+          church. P2P&rsquo;s discipleship pathway exists partly to build that foundation before anyone goes.
+        </p>
+      </Prose>
+
+      <div className="bg-paper px-6 py-20 text-center">
+        <p className="text-lg text-ink/70">Pray for the workers. Give as you&rsquo;re able. Go where He sends you.</p>
+        <Link
+          href="/join"
+          className="mt-8 inline-block rounded-full bg-ink px-8 py-3.5 text-sm tracking-wide text-paper transition-transform hover:scale-[1.03]"
+        >
+          Start With Discipleship
+        </Link>
+      </div>
     </>
   );
 }

@@ -201,6 +201,112 @@ export const media: Record<string, MediaAsset> = {
     ],
     ...MOCK("ocean horizon at dusk, closing image"),
   },
+  storyHistory: {
+    base: "#171008",
+    gradient: ["linear-gradient(160deg, #1e1710 0%, #0f0b07 100%)"],
+    ...MOCK("archival-style imagery, standing in for Christian history"),
+  },
+  storyRevival: {
+    base: "#1a1006",
+    gradient: [
+      "radial-gradient(80% 60% at 50% 30%, rgba(182,144,63,0.28) 0%, rgba(26,16,6,0) 65%)",
+      "linear-gradient(180deg, #211508 0%, #100a04 100%)",
+    ],
+    ...MOCK("warm gathered-crowd light, standing in for revival"),
+  },
+  storyGlobalChurch: {
+    base: "#0e161a",
+    gradient: ["linear-gradient(200deg, #16232a 0%, #0a0f12 100%)"],
+    ...MOCK("diverse global congregation montage"),
+  },
+  storyMissions: {
+    base: "#0e1a16",
+    gradient: ["linear-gradient(180deg, #0c1512 0%, #16241d 100%)"],
+    ...MOCK("mission-field landscape"),
+  },
+  storyPeople: {
+    base: "#14110a",
+    gradient: ["linear-gradient(160deg, #1a1610 0%, #0b0c0a 100%)"],
+    ...MOCK("portrait-style close crop, standing in for a historical figure"),
+  },
+  storyMovements: {
+    base: "#12200f",
+    gradient: ["linear-gradient(180deg, #16260f 0%, #0e1a0c 100%)"],
+    ...MOCK("growth and multiplication imagery"),
+  },
+  storyPersecution: {
+    base: "#14171a",
+    gradient: ["linear-gradient(180deg, #1a1d21 0%, #0b0c0a 100%)"],
+    ...MOCK("quiet, solemn tone standing in for persecution and perseverance"),
+  },
+  storyToday: {
+    base: "#0e2024",
+    gradient: ["linear-gradient(180deg, #163135 0%, #0b1517 100%)"],
+    ...MOCK("contemporary church life, wide shot"),
+  },
+  winPrayer: {
+    base: "#0d161a",
+    gradient: ["linear-gradient(180deg, #12222a 0%, #0a1216 100%)"],
+    ...MOCK("hands folded in prayer"),
+  },
+  winLife: {
+    base: "#171008",
+    gradient: [
+      "radial-gradient(80% 60% at 50% 30%, rgba(182,144,63,0.22) 0%, rgba(23,16,8,0) 65%)",
+      "linear-gradient(180deg, #1e1710 0%, #0f0b07 100%)",
+    ],
+    ...MOCK("warm light standing in for a changed life"),
+  },
+  winFamily: {
+    base: "#191209",
+    gradient: ["linear-gradient(160deg, #201709 0%, #100b05 100%)"],
+    ...MOCK("family gathered together"),
+  },
+  winGroup: {
+    base: "#151a12",
+    gradient: ["linear-gradient(160deg, #1c2417 0%, #10140c 100%)"],
+    ...MOCK("small group meeting"),
+  },
+  winChurch: {
+    base: "#111418",
+    gradient: ["linear-gradient(160deg, #171b20 0%, #0a0c0e 100%)"],
+    ...MOCK("congregation gathered"),
+  },
+  winSent: {
+    base: "#0e1a16",
+    gradient: ["linear-gradient(180deg, #0c1512 0%, #16241d 100%)"],
+    ...MOCK("someone departing for service, wide landscape"),
+  },
+  familyGather: {
+    base: "#191209",
+    gradient: ["linear-gradient(160deg, #201709 0%, #100b05 100%)"],
+    ...MOCK("family around a table with an open Bible"),
+  },
+  familyPray: {
+    base: "#0d161a",
+    gradient: ["linear-gradient(180deg, #12222a 0%, #0a1216 100%)"],
+    ...MOCK("family praying together"),
+  },
+  familyStudy: {
+    base: "#151107",
+    gradient: ["linear-gradient(180deg, #1a1610 0%, #0e0b06 100%)"],
+    ...MOCK("parent and child reading together"),
+  },
+  churchCohorts: {
+    base: "#151a12",
+    gradient: ["linear-gradient(160deg, #1c2417 0%, #10140c 100%)"],
+    ...MOCK("small group cohort meeting"),
+  },
+  churchPlans: {
+    base: "#151107",
+    gradient: ["linear-gradient(180deg, #1a1610 0%, #0e0b06 100%)"],
+    ...MOCK("open study plan and notes"),
+  },
+  churchCalls: {
+    base: "#0d161a",
+    gradient: ["linear-gradient(180deg, #12222a 0%, #0a1216 100%)"],
+    ...MOCK("two people in conversation, standing in for check-ins"),
+  },
   about: {
     base: "#14110a",
     gradient: ["linear-gradient(160deg, #1a1610 0%, #0b0c0a 100%)"],
