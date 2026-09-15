@@ -47,14 +47,14 @@ const MOCK = (note: string): Pick<MediaAsset, "note"> => ({
 });
 
 export const media: Record<string, MediaAsset> = {
-  hero: {
-    base: "#0b0c0a",
+  heroVideo: {
+    base: "#0b1517",
     gradient: [
-      "radial-gradient(120% 90% at 50% 15%, rgba(221,192,125,0.22) 0%, rgba(11,12,10,0) 55%)",
-      "linear-gradient(180deg, rgba(11,12,10,0.2) 0%, rgba(11,12,10,0.75) 70%, #0b0c0a 100%)",
-      "linear-gradient(120deg, #12211f 0%, #0b0c0a 55%, #1a1408 100%)",
+      "radial-gradient(160% 120% at 50% 100%, rgba(221,192,125,0.2) 0%, rgba(11,21,23,0) 55%)",
+      "linear-gradient(180deg, #0b1517 0%, #163135 100%)",
     ],
-    ...PHOTO("worship.jpg", "hands raised in worship gathering"),
+    scene: "ocean",
+    ...VIDEO("ocean-sunrise.mp4", "ocean-sunrise.jpg", "waves at sunrise — a full-screen moment with no text over it"),
   },
   vision: {
     base: "#0f2226",
@@ -63,7 +63,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #0b1517 0%, #12292d 55%, #1f3a3f 100%)",
     ],
     scene: "ocean",
-    ...VIDEO("ocean-sunrise.mp4", "ocean-sunrise.jpg", "waves at sunrise, standing in for the Habakkuk 2:14 visual"),
+    ...PHOTO("ocean-sunrise.jpg", "ocean horizon at dawn"),
   },
   mission: {
     base: "#14110a",
@@ -440,5 +440,5 @@ export const media: Record<string, MediaAsset> = {
 };
 
 export function getMedia(key: string): MediaAsset {
-  return media[key] ?? media.hero;
+  return media[key] ?? media.heroVideo;
 }

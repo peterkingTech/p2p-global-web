@@ -1,5 +1,5 @@
-import CinematicMedia from "@/components/media/CinematicMedia";
 import Reveal from "@/components/motion/Reveal";
+import MediaCard from "@/components/sections/MediaCard";
 import { serviceQueries, serviceOffers } from "@/content/copy";
 
 export default function KingdomServiceNetwork() {
@@ -18,11 +18,12 @@ export default function KingdomServiceNetwork() {
         </Reveal>
       </div>
 
-      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-4 px-6 md:grid-cols-2">
-        <Reveal className="relative min-h-[420px] overflow-hidden rounded-lg">
-          <CinematicMedia mediaKey="serviceNetwork" />
-          <div className="relative z-10 flex h-full flex-col p-8 text-paper">
-            <span className="text-3xl" aria-hidden="true">🔍</span>
+      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-6 px-6 md:grid-cols-2">
+        <Reveal>
+          <MediaCard mediaKey="serviceNetwork" imgHeight="h-40">
+            <span className="text-3xl" aria-hidden="true">
+              🔍
+            </span>
             <h3 className="font-display mt-3 text-2xl tracking-tight">Looking for Help</h3>
             <ul className="mt-6 space-y-4">
               {serviceQueries.map((q) => (
@@ -31,13 +32,14 @@ export default function KingdomServiceNetwork() {
                 </li>
               ))}
             </ul>
-          </div>
+          </MediaCard>
         </Reveal>
 
-        <Reveal delay={0.1} className="relative min-h-[420px] overflow-hidden rounded-lg">
-          <CinematicMedia mediaKey="gifts" />
-          <div className="relative z-10 flex h-full flex-col p-8 text-paper">
-            <span className="text-3xl" aria-hidden="true">✋</span>
+        <Reveal delay={0.1}>
+          <MediaCard mediaKey="gifts" imgHeight="h-40">
+            <span className="text-3xl" aria-hidden="true">
+              ✋
+            </span>
             <h3 className="font-display mt-3 text-2xl tracking-tight">Offering Your Gift</h3>
             <ul className="mt-6 space-y-4">
               {serviceOffers.map((o) => (
@@ -46,7 +48,7 @@ export default function KingdomServiceNetwork() {
                 </li>
               ))}
             </ul>
-          </div>
+          </MediaCard>
         </Reveal>
       </div>
 

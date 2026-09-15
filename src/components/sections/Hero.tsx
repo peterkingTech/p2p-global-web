@@ -3,27 +3,29 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
-import CinematicMedia from "@/components/media/CinematicMedia";
 import { brand } from "@/content/copy";
 
+/** Text-only opening hero — no photo or video, matching the site's original design. */
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
 
-  const scale = useTransform(scrollYProgress, [0, 1], [1, prefersReducedMotion ? 1 : 1.15]);
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, prefersReducedMotion ? 0 : -80]);
 
   return (
-    <div ref={ref} className="relative h-[100svh] overflow-hidden">
-      <motion.div className="absolute inset-0" style={{ scale }}>
-        <CinematicMedia mediaKey="hero" kenBurns />
-      </motion.div>
-
+    <div
+      ref={ref}
+      className="relative flex h-[100svh] items-center justify-center overflow-hidden bg-ink"
+      style={{
+        backgroundImage:
+          "radial-gradient(120% 90% at 50% 15%, rgba(221,192,125,0.16) 0%, rgba(11,12,10,0) 55%), linear-gradient(120deg, #12211f 0%, #0b0c0a 55%, #1a1408 100%)",
+      }}
+    >
       <motion.div
         style={{ opacity, y: textY }}
-        className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center text-paper"
+        className="relative z-10 flex flex-col items-center px-6 text-center text-paper"
       >
         <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">{brand.name} &mdash; Global Network</p>
         <h1 className="font-display mt-6 max-w-4xl text-4xl leading-[1.1] tracking-tight sm:text-6xl md:text-7xl">
@@ -56,14 +58,15 @@ export default function Hero() {
           </Link>
         </div>
 
-        <motion.p
-          animate={prefersReducedMotion ? {} : { y: [0, 8, 0] }}
-          transition={{ repeat: Infinity, duration: 2.4, ease: "easeInOut" }}
-          className="absolute bottom-10 text-xs tracking-[0.3em] text-paper/50 uppercase"
-        >
-          Discover the Journey ↓
-        </motion.p>
       </motion.div>
+
+      <motion.p
+        animate={prefersReducedMotion ? {} : { y: [0, 8, 0] }}
+        transition={{ repeat: Infinity, duration: 2.4, ease: "easeInOut" }}
+        className="absolute bottom-10 left-1/2 z-10 -translate-x-1/2 text-xs tracking-[0.3em] text-paper/50 uppercase"
+      >
+        Discover the Journey ↓
+      </motion.p>
     </div>
   );
 }

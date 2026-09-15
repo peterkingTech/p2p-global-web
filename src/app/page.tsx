@@ -1,4 +1,5 @@
 import Hero from "@/components/sections/Hero";
+import HeroVideo from "@/components/sections/HeroVideo";
 import JesusCenter from "@/components/sections/JesusCenter";
 import ScriptureFull from "@/components/sections/ScriptureFull";
 import SeedToNations from "@/components/sections/SeedToNations";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <HeroVideo />
       <JesusCenter />
       <ScriptureFull
         eyebrow="Vision"
@@ -29,6 +31,7 @@ export default function Home() {
         text={scripture.mission.text}
         mediaKey="mission"
         footer="Everyone is learning from someone and helping someone grow. This is the core P2P discipleship model."
+        reverse
       />
       <SeedToNations />
       <DiscipleMultiplication />

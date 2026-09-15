@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CinematicMedia from "@/components/media/CinematicMedia";
 import Reveal from "@/components/motion/Reveal";
+import MediaCard from "@/components/sections/MediaCard";
 import { giftCategories, giftExamples, scripture } from "@/content/copy";
 
 const exampleMediaKeys = ["discipleHelp", "discipleExpand", "discipleGrow", "discipleLearn"];
@@ -25,26 +26,17 @@ export default function BodyOfChristEngine() {
         </Reveal>
       </div>
 
-      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-4 px-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-4 px-6 sm:grid-cols-2 md:grid-cols-3">
         {giftCategories.map((cat, i) => (
-          <Reveal
-            key={cat.title}
-            delay={i * 0.05}
-            className={`relative min-h-[280px] overflow-hidden rounded-lg ${
-              i < 2 ? "lg:col-span-3" : "lg:col-span-2"
-            }`}
-          >
-            <div className="relative h-full min-h-[280px]">
-              <CinematicMedia mediaKey={categoryMediaKeys[i]} />
-              <div className="relative z-10 flex h-full flex-col justify-end p-6 text-paper">
-                <span className="text-3xl" aria-hidden="true">
-                  {cat.icon}
-                </span>
-                <h3 className="font-display mt-3 text-lg tracking-tight">{cat.title}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-paper/70">{cat.examples}</p>
-                <p className="mt-3 text-[11px] tracking-[0.2em] text-gold-soft/90 uppercase">→ {cat.outcome}</p>
-              </div>
-            </div>
+          <Reveal key={cat.title} delay={i * 0.05}>
+            <MediaCard mediaKey={categoryMediaKeys[i]} imgHeight="h-40">
+              <span className="text-3xl" aria-hidden="true">
+                {cat.icon}
+              </span>
+              <h3 className="font-display mt-3 text-lg tracking-tight">{cat.title}</h3>
+              <p className="mt-2 text-xs leading-relaxed text-paper/70">{cat.examples}</p>
+              <p className="mt-3 text-[11px] tracking-[0.2em] text-gold-soft/90 uppercase">→ {cat.outcome}</p>
+            </MediaCard>
           </Reveal>
         ))}
       </div>

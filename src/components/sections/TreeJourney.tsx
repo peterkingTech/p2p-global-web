@@ -1,5 +1,5 @@
-import CinematicMedia from "@/components/media/CinematicMedia";
 import Reveal from "@/components/motion/Reveal";
+import MediaCard from "@/components/sections/MediaCard";
 import { treeJourney } from "@/content/copy";
 
 const mediaKeys = ["seedSoil", "seedSprout", "discipleGrow", "seedForest", "discipleMultiply", "seedEarth"];
@@ -25,16 +25,14 @@ export default function TreeJourney() {
           className="mt-16 flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 pb-6 [scrollbar-width:thin] sm:px-[max(1.5rem,calc((100vw-72rem)/2))]"
         >
           {treeJourney.map((stage, i) => (
-            <div
-              key={stage.title}
-              className="relative h-[440px] w-[78vw] shrink-0 snap-start overflow-hidden rounded-lg sm:w-[360px]"
-            >
-              <CinematicMedia mediaKey={mediaKeys[i]} />
-              <div className="relative z-10 flex h-full flex-col justify-end p-7 text-paper">
-                <span className="text-4xl" aria-hidden="true">{stage.icon}</span>
-                <h3 className="font-display mt-4 text-2xl tracking-tight">{stage.title}</h3>
+            <div key={stage.title} className="w-[78vw] shrink-0 snap-start sm:w-[300px]">
+              <MediaCard mediaKey={mediaKeys[i]} imgHeight="h-56">
+                <span className="text-3xl" aria-hidden="true">
+                  {stage.icon}
+                </span>
+                <h3 className="font-display mt-3 text-xl tracking-tight">{stage.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-paper/75">{stage.body}</p>
-              </div>
+              </MediaCard>
             </div>
           ))}
         </div>
