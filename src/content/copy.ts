@@ -275,6 +275,18 @@ export const faqItems = [
     a: "A global peer-to-peer discipleship network centered on Jesus Christ — Scripture, prayer, community, and mission, built around the idea that everyone is learning from someone and everyone can help someone grow.",
   },
   {
+    q: "Who built P2P?",
+    a: "P2P Global Discipleship Network is powered by Amen Kingdom Tech Ministry — a technology ministry that designs and builds websites, apps, and digital systems for churches, organizations, and businesses.",
+  },
+  {
+    q: "What is Amen Kingdom Tech Ministry?",
+    a: "A purpose-driven technology ministry founded through obedience to God's calling in the digital age, existing to represent Him faithfully across the various mountains of influence in the tech world. The name AMEN reflects agreement with what God is doing through the systems it builds — guided by the Holy Spirit rather than trends alone, and built with excellence, precision, and integrity.",
+  },
+  {
+    q: "Is P2P a commercial product built by Amen Kingdom Tech?",
+    a: "No. P2P is a ministry expression of that same calling, not a business — which is exactly why every feature is free.",
+  },
+  {
     q: "Does P2P replace my local church?",
     a: "No. P2P is built to strengthen the local church, not compete with it. Membership, pastoral care, and the sacraments stay where they belong — with your congregation.",
   },
@@ -292,11 +304,15 @@ export const faqItems = [
   },
   {
     q: "Is there a cost to join?",
-    a: "Pricing hasn't been finalized. This page will be updated with clear details the moment web and app onboarding go live — we won't leave that vague once it matters.",
+    a: "No — everything is free. Every resource and tool for growth, for individuals, families, and churches alike, is offered at no charge, and P2P does not charge for any feature. This isn't a business model; it's a kingdom assignment and a ministry, carried out in pursuit of God's vision that the earth would be filled with the knowledge of the glory of the Lord, as the waters cover the sea (Habakkuk 2:14).",
   },
   {
-    q: "When will the app be available?",
-    a: "There's no fixed date yet. Rather than posting a launch date we might miss, this site will be updated the moment sign-up is actually live.",
+    q: "Why is everything free?",
+    a: "Because P2P exists to serve that vision, not to generate revenue from it. Charging for discipleship, prayer, or the tools to help someone grow would work against the very thing this network was built to do.",
+  },
+  {
+    q: "Can my church use P2P for free too?",
+    a: "Yes. Churches, families, and individuals all use the same free network — there's no paid tier, no premium plan, and no feature held back behind a paywall.",
   },
   {
     q: "How is this website different from the P2P app?",
