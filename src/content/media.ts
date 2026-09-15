@@ -120,6 +120,48 @@ export const media: Record<string, MediaAsset> = {
     gradient: ["linear-gradient(160deg, #163135 0%, #0b1517 100%)"],
     ...MOCK("diverse global community, wide shot"),
   },
+  giftCare: {
+    base: "#171a1c",
+    gradient: [
+      "radial-gradient(80% 60% at 30% 20%, rgba(61,96,104,0.22) 0%, rgba(23,26,28,0) 60%)",
+      "linear-gradient(180deg, #1c2124 0%, #0e1113 100%)",
+    ],
+    ...MOCK("gentle, warm-lit conversation — standing in for care and wellness"),
+  },
+  giftTech: {
+    base: "#10141a",
+    gradient: [
+      "radial-gradient(70% 60% at 70% 20%, rgba(182,144,63,0.16) 0%, rgba(16,20,26,0) 60%)",
+      "linear-gradient(180deg, #151a21 0%, #0a0c10 100%)",
+    ],
+    ...MOCK("close-up of hands at a keyboard, standing in for tech and digital"),
+  },
+  giftLeadership: {
+    base: "#16130a",
+    gradient: ["linear-gradient(160deg, #1c1810 0%, #0d0a05 100%)"],
+    ...MOCK("planning and coordination, standing in for leadership and admin"),
+  },
+  giftCreative: {
+    base: "#1a1210",
+    gradient: [
+      "radial-gradient(70% 60% at 50% 30%, rgba(182,144,63,0.2) 0%, rgba(26,18,16,0) 60%)",
+      "linear-gradient(180deg, #201613 0%, #0f0a09 100%)",
+    ],
+    ...MOCK("creative studio light, standing in for creative and media gifts"),
+  },
+  giftEducation: {
+    base: "#151107",
+    gradient: ["linear-gradient(180deg, #1a1610 0%, #0e0b06 100%)"],
+    ...MOCK("teaching and tutoring moment, standing in for education gifts"),
+  },
+  giftMinistry: {
+    base: "#111418",
+    gradient: [
+      "radial-gradient(80% 60% at 50% 15%, rgba(221,192,125,0.16) 0%, rgba(17,20,24,0) 60%)",
+      "linear-gradient(180deg, #171b20 0%, #0a0c0e 100%)",
+    ],
+    ...MOCK("worship and prayer setting, standing in for ministry gifts"),
+  },
   gifts: {
     base: "#16130a",
     gradient: [

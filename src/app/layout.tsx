@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
+import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const display = Playfair_Display({
@@ -14,8 +15,6 @@ const body = Inter({
   variable: "--font-body",
   subsets: ["latin"],
 });
-
-const siteUrl = "https://p2p-global-web.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

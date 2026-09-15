@@ -4,6 +4,7 @@ import Reveal from "@/components/motion/Reveal";
 import { giftCategories, giftExamples, scripture } from "@/content/copy";
 
 const exampleMediaKeys = ["discipleHelp", "discipleExpand", "discipleGrow", "discipleLearn"];
+const categoryMediaKeys = ["giftCare", "giftTech", "giftLeadership", "giftCreative", "giftEducation", "giftMinistry"];
 
 export default function BodyOfChristEngine() {
   return (
@@ -34,9 +35,11 @@ export default function BodyOfChristEngine() {
             }`}
           >
             <div className="relative h-full min-h-[280px]">
-              <CinematicMedia mediaKey="gifts" />
+              <CinematicMedia mediaKey={categoryMediaKeys[i]} />
               <div className="relative z-10 flex h-full flex-col justify-end p-6 text-paper">
-                <span className="text-3xl">{cat.icon}</span>
+                <span className="text-3xl" aria-hidden="true">
+                  {cat.icon}
+                </span>
                 <h3 className="font-display mt-3 text-lg tracking-tight">{cat.title}</h3>
                 <p className="mt-2 text-xs leading-relaxed text-paper/70">{cat.examples}</p>
                 <p className="mt-3 text-[11px] tracking-[0.2em] text-gold-soft/90 uppercase">→ {cat.outcome}</p>
@@ -60,7 +63,9 @@ export default function BodyOfChristEngine() {
                   <CinematicMedia mediaKey={exampleMediaKeys[i % exampleMediaKeys.length]} />
                 </div>
                 <div className="text-center sm:text-left">
-                  <span className="text-3xl">{ex.icon}</span>
+                  <span className="text-3xl" aria-hidden="true">
+                    {ex.icon}
+                  </span>
                   <h4 className="font-display mt-2 text-xl text-paper">{ex.title}</h4>
                   <div className="mt-2 flex flex-wrap justify-center gap-2 sm:justify-start">
                     {ex.tags.map((tag) => (

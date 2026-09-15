@@ -19,7 +19,11 @@ export default function TreeJourney() {
       </div>
 
       <Reveal delay={0.1}>
-        <div className="mt-16 flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 pb-6 [scrollbar-width:thin] sm:px-[max(1.5rem,calc((100vw-72rem)/2))]">
+        <div
+          role="group"
+          aria-label="Stages of the P2P discipleship journey"
+          className="mt-16 flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 pb-6 [scrollbar-width:thin] sm:px-[max(1.5rem,calc((100vw-72rem)/2))]"
+        >
           {treeJourney.map((stage, i) => (
             <div
               key={stage.title}
@@ -27,7 +31,7 @@ export default function TreeJourney() {
             >
               <CinematicMedia mediaKey={mediaKeys[i]} />
               <div className="relative z-10 flex h-full flex-col justify-end p-7 text-paper">
-                <span className="text-4xl">{stage.icon}</span>
+                <span className="text-4xl" aria-hidden="true">{stage.icon}</span>
                 <h3 className="font-display mt-4 text-2xl tracking-tight">{stage.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-paper/75">{stage.body}</p>
               </div>

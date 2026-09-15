@@ -18,7 +18,7 @@ export default function FeatureRow({ icon, title, body, mediaKey, reverse = fals
           <CinematicMedia mediaKey={mediaKey} />
         </div>
         <div className="text-center sm:text-left">
-          <span className="text-3xl">{icon}</span>
+          <span className="text-3xl" aria-hidden="true">{icon}</span>
           <h3 className="font-display mt-3 text-2xl tracking-tight">{title}</h3>
           <p className="mt-3 max-w-md text-base leading-relaxed opacity-75">{body}</p>
         </div>

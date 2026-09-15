@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Quote from "@/components/sections/Quote";
@@ -33,6 +34,30 @@ export default function AboutPage() {
           The name isn&rsquo;t incidental. P2P assumes that spiritual growth is relational and mutual — everyone is
           learning from someone, and everyone, no matter how new in the faith, has something to offer someone else.
           A guide is a further-along peer, not a distant authority.
+        </p>
+      </Prose>
+
+      <Prose eyebrow="Relationship to Scripture" heading="The Word has the final word">
+        <p>
+          Every study plan, prompt, and piece of content in P2P is meant to point a person back to the Bible
+          itself, not to stand in for it. Where anything here ever seems to add to or override what Scripture
+          says, Scripture wins — P2P is a tool for engaging the text, never a substitute authority over it.
+        </p>
+      </Prose>
+
+      <Prose eyebrow="Relationship to the Church" heading="A supporting instrument, not a substitute" tone="dark">
+        <p>
+          P2P assumes every believer using it belongs, or is being pointed toward belonging, to a local church —
+          with its own leadership, sacraments, and accountability. Nothing here is designed to be a person&rsquo;s
+          only spiritual community. See how this plays out in practice on the{" "}
+          <Link href="/churches" className="underline decoration-gold-soft/50 underline-offset-4 hover:text-gold-soft">
+            Churches
+          </Link>{" "}
+          and{" "}
+          <Link href="/families" className="underline decoration-gold-soft/50 underline-offset-4 hover:text-gold-soft">
+            Families
+          </Link>{" "}
+          pages.
         </p>
       </Prose>
 

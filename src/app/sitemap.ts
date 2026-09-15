@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { siteUrl } from "@/lib/site";
 
 const routes = [
   "",
@@ -15,9 +16,8 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://p2p-global-web.vercel.app";
   return routes.map((route) => ({
-    url: `${base}${route}`,
+    url: `${siteUrl}${route}`,
     lastModified: new Date(),
   }));
 }

@@ -50,7 +50,7 @@ function StageLayer({
       <CinematicMedia mediaKey={stage.mediaKey} />
       <div className="relative z-10 flex h-full items-center justify-center px-6">
         <motion.div style={{ y }} className="max-w-2xl text-center text-paper">
-          <span className="text-6xl" role="presentation">
+          <span className="text-6xl" aria-hidden="true">
             {stage.icon}
           </span>
           <h3 className="font-display mt-6 text-3xl tracking-tight md:text-5xl">{stage.title}</h3>
@@ -76,7 +76,7 @@ export default function StickySequence({ stages, eyebrow }: Props) {
           <div key={i} className="relative flex min-h-[80vh] items-center justify-center overflow-hidden px-6 py-24">
             <CinematicMedia mediaKey={stage.mediaKey} />
             <Reveal className="relative z-10 max-w-2xl text-center text-paper">
-              <span className="text-6xl">{stage.icon}</span>
+              <span className="text-6xl" aria-hidden="true">{stage.icon}</span>
               <h3 className="font-display mt-6 text-3xl tracking-tight md:text-5xl">{stage.title}</h3>
               <p className="mx-auto mt-5 max-w-lg text-lg leading-relaxed text-paper/80">{stage.body}</p>
             </Reveal>

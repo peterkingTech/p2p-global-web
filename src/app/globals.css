@@ -50,6 +50,11 @@ h1, h2, h3, h4,
   font-family: var(--font-display), ui-serif, Georgia, serif;
 }
 
+:focus-visible {
+  outline: 2px solid var(--color-gold-soft);
+  outline-offset: 3px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

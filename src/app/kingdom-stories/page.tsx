@@ -29,7 +29,7 @@ export default function KingdomStoriesPage() {
           </p>
         </div>
         <div className="mt-14">
-          <Filmstrip items={kingdomStoryCategories} />
+          <Filmstrip items={kingdomStoryCategories} ariaLabel="Kingdom Stories categories" />
         </div>
       </section>
 

@@ -48,7 +48,7 @@ export default function KingdomWinsPage() {
             <Reveal key={cat.title} delay={i * 0.05} className="relative min-h-[220px] overflow-hidden rounded-lg">
               <CinematicMedia mediaKey={cat.mediaKey} />
               <div className="relative z-10 flex h-full flex-col justify-end p-6 text-paper">
-                <span className="text-3xl">{cat.icon}</span>
+                <span className="text-3xl" aria-hidden="true">{cat.icon}</span>
                 <h3 className="font-display mt-2 text-lg tracking-tight">{cat.title}</h3>
                 <p className="mt-2 text-xs leading-relaxed text-paper/70">{cat.outcome}</p>
               </div>
