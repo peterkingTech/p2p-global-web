@@ -1,4 +1,5 @@
 import { getMedia } from "@/content/media";
+import Scene from "@/components/media/Scene";
 
 type Props = {
   mediaKey: string;
@@ -45,12 +46,14 @@ export default function CinematicMedia({
         />
       ) : (
         <div
-          className={`absolute inset-0 ${kenBurns ? "animate-kenburns" : ""}`}
+          className={`absolute inset-0 flex items-center justify-center ${kenBurns ? "animate-kenburns" : ""}`}
           style={{
             backgroundColor: asset.base,
             backgroundImage: asset.gradient.join(", "),
           }}
-        />
+        >
+          {asset.scene && <Scene variant={asset.scene} />}
+        </div>
       )}
       {grain && <div className="grain-overlay" />}
       {vignette && <div className="vignette" />}

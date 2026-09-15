@@ -12,6 +12,7 @@ const routes = [
   "/families",
   "/churches",
   "/about",
+  "/faq",
   "/join",
 ];
 

@@ -8,6 +8,7 @@ import BodyOfChristEngine from "@/components/sections/BodyOfChristEngine";
 import KingdomServiceNetwork from "@/components/sections/KingdomServiceNetwork";
 import EcosystemStrip from "@/components/sections/EcosystemStrip";
 import GlobalCommunity from "@/components/sections/GlobalCommunity";
+import Faq from "@/components/sections/Faq";
 import FinalCTA from "@/components/sections/FinalCTA";
 import { scripture } from "@/content/copy";
 
@@ -36,6 +37,7 @@ export default function Home() {
       <KingdomServiceNetwork />
       <EcosystemStrip />
       <GlobalCommunity />
+      <Faq />
       <FinalCTA />
     </>
   );

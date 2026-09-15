@@ -91,7 +91,7 @@ export default function StickySequence({ stages, eyebrow }: Props) {
       <p className="pointer-events-none absolute top-8 left-1/2 z-20 -translate-x-1/2 text-xs tracking-[0.35em] text-paper/60 uppercase">
         {eyebrow}
       </p>
-      <div className="sticky top-0 h-screen overflow-hidden">
+      <div className="sticky top-0 h-[100svh] min-h-[480px] overflow-hidden">
         {stages.map((stage, i) => (
           <StageLayer key={i} stage={stage} index={i} total={stages.length} scrollYProgress={scrollYProgress} />
         ))}

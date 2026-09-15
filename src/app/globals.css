@@ -50,6 +50,10 @@ h1, h2, h3, h4,
   font-family: var(--font-display), ui-serif, Georgia, serif;
 }
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
 :focus-visible {
   outline: 2px solid var(--color-gold-soft);
   outline-offset: 3px;

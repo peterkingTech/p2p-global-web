@@ -39,7 +39,7 @@ export default function Nav() {
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm tracking-wide text-paper/80 transition-colors hover:text-gold-soft"
+              className="py-2 text-sm tracking-wide text-paper/80 transition-colors hover:text-gold-soft"
             >
               {item.label}
             </Link>
@@ -57,7 +57,7 @@ export default function Nav() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 md:hidden"
+          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 md:hidden"
         >
           <span
             className={`h-px w-6 bg-paper transition-transform ${open ? "translate-y-[3.5px] rotate-45" : ""}`}

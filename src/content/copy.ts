@@ -48,6 +48,7 @@ export const footerLinks = [
   { label: "Families", href: "/families" },
   { label: "Churches", href: "/churches" },
   { label: "About", href: "/about" },
+  { label: "FAQ", href: "/faq" },
 ] as const;
 
 export const seedToNations = [
@@ -265,6 +266,41 @@ export const churchRows = [
     mediaKey: "church",
     title: "A DISCIPLESHIP PATHWAY",
     body: "A clear next step for anyone in the congregation who wants to go deeper — not a competing program, a supporting one.",
+  },
+] as const;
+
+export const faqItems = [
+  {
+    q: "What is P2P?",
+    a: "A global peer-to-peer discipleship network centered on Jesus Christ — Scripture, prayer, community, and mission, built around the idea that everyone is learning from someone and everyone can help someone grow.",
+  },
+  {
+    q: "Does P2P replace my local church?",
+    a: "No. P2P is built to strengthen the local church, not compete with it. Membership, pastoral care, and the sacraments stay where they belong — with your congregation.",
+  },
+  {
+    q: "Is P2P a replacement for therapy or professional counseling?",
+    a: "No. Where P2P touches care and wellness, it's peer encouragement alongside professional help, never a substitute for it. Anyone in crisis should reach out to a licensed professional or local emergency services.",
+  },
+  {
+    q: "Is the Gifts & Service Network a marketplace where I pay for help?",
+    a: "No. It's a vision for how believers can offer and find help within the community — not a freelancer marketplace, a paid services platform, or an unverified professional directory. Any future version would include identity verification, safeguarding, and moderation appropriate to what's being offered.",
+  },
+  {
+    q: "Who can join P2P?",
+    a: "Anyone who wants to grow as a disciple of Jesus and help someone else do the same — new believers and long-time believers alike. A peer guide is simply someone a little further along the road, not a distant authority.",
+  },
+  {
+    q: "Is there a cost to join?",
+    a: "Pricing hasn't been finalized. This page will be updated with clear details the moment web and app onboarding go live — we won't leave that vague once it matters.",
+  },
+  {
+    q: "When will the app be available?",
+    a: "There's no fixed date yet. Rather than posting a launch date we might miss, this site will be updated the moment sign-up is actually live.",
+  },
+  {
+    q: "How is this website different from the P2P app?",
+    a: "This site casts the vision and explains the model. Some of what's described — like gift-based service discovery — is a direction for where P2P can go, not a claim about what the app already does today. The About page spells out that distinction in more detail.",
   },
 ] as const;
 

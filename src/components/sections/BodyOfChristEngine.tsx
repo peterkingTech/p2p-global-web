@@ -25,7 +25,7 @@ export default function BodyOfChristEngine() {
         </Reveal>
       </div>
 
-      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-4 px-6 sm:grid-cols-2 lg:grid-cols-6">
+      <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-4 px-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
         {giftCategories.map((cat, i) => (
           <Reveal
             key={cat.title}
