@@ -6,7 +6,7 @@ import { foundationModules, electiveCategories } from "@/content/copy";
 
 export const metadata: Metadata = {
   title: "Kingdom School",
-  description: "The Foundation — 12 modules, 84 lessons. The Electives — 144 plans across 10 categories.",
+  description: "The Foundation — 12 modules, 84 lessons. The Electives — over 144 plans across 10 categories.",
 };
 
 export default function KingdomSchoolPage() {
@@ -14,7 +14,7 @@ export default function KingdomSchoolPage() {
     <>
       <PageHero
         eyebrow="Kingdom School"
-        title="One Foundation. 144 Electives. A lifetime of growth."
+        title="A Core Curriculum. Over 144 Electives to Keep You Growing."
         subtitle="The complete discipleship curriculum — free, at your pace, in your language."
       />
 
@@ -51,9 +51,9 @@ export default function KingdomSchoolPage() {
         </div>
       </section>
 
-      <Prose eyebrow="The Electives" heading="144 plans. Choose what matches your season.">
+      <Prose eyebrow="The Electives" heading="Over 144 plans. Choose what matches your season.">
         <p>
-          After — or alongside — the Foundation, every member can choose from 144 elective plans across 10
+          After — or alongside — the Foundation, every member can choose from over 144 elective plans across 10
           categories. Plans are sequential within each category: complete the first to unlock the next. Start
           with whatever speaks to your current season of life.
         </p>

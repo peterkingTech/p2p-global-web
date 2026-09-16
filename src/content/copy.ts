@@ -513,24 +513,24 @@ export const treeAnatomy = [
 // ─── HOW IT WORKS — GETTING STARTED ──────────────────────────
 export const gettingStartedSteps = [
   {
-    day: "Day 1",
+    step: "01",
     title: "Create your account",
     body: "Register with your name and email. Choose your @username — this is how the whole network knows you. Set your ministry role (new believer, growing believer, pastor, etc) — this shapes your experience from the start.",
   },
   {
-    day: "Day 1",
+    step: "02",
     title: "The Onboarding Journey",
     body: "Five steps anchored in Romans 15:7 — Accept one another, just as Christ accepted you. You meet your peer guide, share your story, pray together, plant your tree, and begin Module 1.",
   },
   {
-    day: "Days 2–7",
+    step: "03",
     title: "Your first lesson",
-    body: "Read through Lesson 1 of Module 1 at your own pace. Answer the reflection questions. Submit when you are ready. Your peer guide reviews your answers and responds. That is week one. No pressure. No deadline. No clock.",
+    body: "Read through Lesson 1 of Module 1 at your own pace. Answer the reflection questions. Submit when you are ready. Your peer guide reviews your answers and responds. That is the beginning. No pressure. No deadline. No clock.",
   },
   {
-    day: "Ongoing",
+    step: "04",
     title: "The rhythm continues",
-    body: "One lesson at a time. Submit. Peer guide reviews. Unlock the next lesson. 84 lessons across 12 modules. Some take a week. Some take a month. The journey is yours.",
+    body: "One lesson at a time. Submit. Peer guide reviews. Unlock the next lesson. Some take a week. Some take a month. The journey is yours.",
   },
 ] as const;
 
@@ -590,7 +590,7 @@ export const peerCircleExplainer = {
   how_it_works: [
     "A circle leader creates the circle and invites members by @username",
     "Everyone reads the lesson individually at their own pace",
-    "The group meets — in-app group call or externally via WhatsApp or Zoom",
+    "The group meets on an in-app group call — audio or video, built into P2P Global itself",
     "The circle leader guides the discussion questions",
     "Members submit their reflections individually",
     "Any 2 circle members can approve a submission — no single person holds progress back",

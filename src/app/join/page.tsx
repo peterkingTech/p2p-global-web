@@ -41,15 +41,13 @@ export default function JoinPage() {
         <div className="mx-auto max-w-2xl">
           <Reveal className="mb-16 text-center">
             <p className="text-xs tracking-[0.35em] text-water uppercase">Before You Begin</p>
-            <h2 className="font-display mt-4 text-3xl tracking-tight">What to expect in your first week</h2>
+            <h2 className="font-display mt-4 text-3xl tracking-tight">Your first P2P Experience</h2>
           </Reveal>
 
           <div className="flex flex-col gap-10">
             {gettingStartedSteps.map((step) => (
               <Reveal key={step.title} className="flex gap-6">
-                <div className="w-20 shrink-0 text-right">
-                  <span className="text-xs tracking-widest text-ink/40 uppercase">{step.day}</span>
-                </div>
+                <span className="w-10 shrink-0 font-display text-3xl text-water/40">{step.step}</span>
                 <div className="border-l border-ink/10 pl-6">
                   <h3 className="text-lg font-medium">{step.title}</h3>
                   <p className="mt-2 leading-relaxed text-ink/70">{step.body}</p>
