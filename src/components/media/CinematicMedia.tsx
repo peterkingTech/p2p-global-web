@@ -27,7 +27,7 @@ export default function CinematicMedia({
   const asset = getMedia(mediaKey);
 
   return (
-    <div className={`absolute inset-0 grayscale overflow-hidden ${className}`} aria-hidden="true">
+    <div className={`absolute inset-0 overflow-hidden ${className}`} aria-hidden="true">
       {asset.video ? (
         <>
           {asset.photo && (

@@ -5,7 +5,7 @@ import { treeJourney } from "@/content/copy";
 const mediaKeys = [
   "treeSeed",
   "treeSprout",
-  "treeSprout",
+  "treeYoung",
   "treeFruitful",
   "treeForestBuilder",
   "treeForestNations",

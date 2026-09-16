@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CinematicMedia from "@/components/media/CinematicMedia";
 import Reveal from "@/components/motion/Reveal";
 import PhoneMock from "@/components/join/PhoneMock";
 import StoreBadge from "@/components/join/StoreBadge";
@@ -14,9 +13,8 @@ export const metadata: Metadata = {
 export default function JoinPage() {
   return (
     <>
-      <section className="relative flex min-h-[100svh] items-center justify-center overflow-hidden px-6 py-32 text-center">
-        <CinematicMedia mediaKey="join" kenBurns />
-        <Reveal className="relative z-10 mx-auto max-w-xl text-paper">
+      <section className="flex min-h-[70vh] items-center justify-center bg-ink px-6 py-32 text-center">
+        <Reveal className="mx-auto max-w-xl text-paper">
           <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">Join {brand.name}</p>
           <h1 className="font-display mt-6 text-4xl tracking-tight sm:text-6xl">Who Will You Help Grow?</h1>
           <p className="mt-8 text-left text-lg leading-relaxed text-paper/80">{brand.tagline}</p>

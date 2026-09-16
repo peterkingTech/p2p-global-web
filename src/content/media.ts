@@ -455,6 +455,12 @@ export const media: Record<string, MediaAsset> = {
     scene: "sprout",
     ...P2P_PHOTO("tree-sprout.jpg", "a sprout breaking soil toward the light"),
   },
+  treeYoung: {
+    base: "#0e1a12",
+    gradient: ["linear-gradient(180deg, #16281c 0%, #0a120e 100%)"],
+    scene: "tree",
+    ...P2P_PHOTO("tree-young.jpg", "a young tree standing before a forested hillside"),
+  },
   treeFruitful: {
     base: "#0e1a12",
     gradient: ["linear-gradient(180deg, #16281c 0%, #0a120e 100%)"],
