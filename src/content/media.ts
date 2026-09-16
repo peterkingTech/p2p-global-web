@@ -153,7 +153,7 @@ export const media: Record<string, MediaAsset> = {
     base: "#0d1a15",
     gradient: ["linear-gradient(160deg, #142822 0%, #0a120e 100%)"],
     scene: "forest",
-    ...PHOTO("forest.jpg", "forest, standing in for generational multiplication"),
+    ...P2P_PHOTO("disciples-multiply.jpg", "a crowd carrying crosses, standing in for generational multiplication"),
   },
   discipleNations: {
     base: "#0e2024",
@@ -192,7 +192,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #201613 0%, #0f0a09 100%)",
     ],
     scene: "palette",
-    ...PHOTO("creative.jpg", "close-up of a painter at work"),
+    ...P2P_PHOTO("creative-design.jpg", "a stylized brain-and-lightbulb illustration, standing in for creative gifts"),
   },
   giftEducation: {
     base: "#151107",
@@ -249,7 +249,7 @@ export const media: Record<string, MediaAsset> = {
     base: "#171008",
     gradient: ["linear-gradient(160deg, #1e1710 0%, #0f0b07 100%)"],
     scene: "scroll",
-    ...PHOTO("church.jpg", "historic church steeple"),
+    ...P2P_PHOTO("stories-photo.jpg", "a 'Stories' title card"),
   },
   missions: {
     base: "#0e1a16",
