@@ -32,12 +32,16 @@ export default function Nav() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-        <Link href="/" className="flex min-w-0 flex-1 items-center gap-2 md:flex-initial" onClick={() => setOpen(false)}>
+        <Link
+          href="/"
+          className="flex min-w-0 flex-1 items-center gap-2 xl:flex-initial xl:shrink-0"
+          onClick={() => setOpen(false)}
+        >
           <Image src="/brand/logo.png" alt="" width={140} height={93} priority className="h-8 w-auto shrink-0" />
-          <TypewriterBrand className="block min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[9px] text-paper sm:text-[10px] md:flex-initial md:text-xs" />
+          <TypewriterBrand className="block min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[9px] text-paper sm:text-[10px] xl:flex-initial xl:shrink-0 xl:text-xs" />
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-5 xl:flex">
           {nav.map((item) => (
             <Link
               key={item.href}
@@ -60,7 +64,7 @@ export default function Nav() {
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 md:hidden"
+          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 xl:hidden"
         >
           <span
             className={`h-px w-6 bg-paper transition-transform ${open ? "translate-y-[3.5px] rotate-45" : ""}`}
@@ -78,7 +82,7 @@ export default function Nav() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="overflow-hidden border-t border-paper/10 bg-ink md:hidden"
+            className="overflow-hidden border-t border-paper/10 bg-ink xl:hidden"
           >
             <nav className="flex flex-col gap-1 px-6 py-6">
               {nav.map((item) => (
