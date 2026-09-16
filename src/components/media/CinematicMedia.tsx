@@ -25,17 +25,17 @@ export default function CinematicMedia({
   children,
 }: Props) {
   const asset = getMedia(mediaKey);
+  const backdrop = {
+    backgroundColor: asset.base,
+    backgroundImage: asset.gradient.join(", "),
+  };
 
   return (
     <div className={`absolute inset-0 overflow-hidden ${className}`} aria-hidden="true">
       {asset.video ? (
-        <>
-          {asset.photo && (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={asset.photo} alt="" className="absolute inset-0 h-full w-full object-cover" />
-          )}
+        <div className="absolute inset-0" style={backdrop}>
           <video
-            className={`absolute inset-0 h-full w-full object-cover motion-reduce:hidden ${kenBurns ? "animate-kenburns" : ""}`}
+            className={`absolute inset-0 h-full w-full object-contain motion-reduce:hidden ${kenBurns ? "animate-kenburns" : ""}`}
             src={asset.video}
             poster={asset.photo}
             preload="metadata"
@@ -44,21 +44,20 @@ export default function CinematicMedia({
             loop
             playsInline
           />
-        </>
+        </div>
       ) : asset.photo ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={asset.photo}
-          alt=""
-          className={`absolute inset-0 h-full w-full object-cover ${kenBurns ? "animate-kenburns" : ""}`}
-        />
+        <div className="absolute inset-0" style={backdrop}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={asset.photo}
+            alt=""
+            className={`absolute inset-0 h-full w-full object-contain ${kenBurns ? "animate-kenburns" : ""}`}
+          />
+        </div>
       ) : (
         <div
           className={`absolute inset-0 flex items-center justify-center ${kenBurns ? "animate-kenburns" : ""}`}
-          style={{
-            backgroundColor: asset.base,
-            backgroundImage: asset.gradient.join(", "),
-          }}
+          style={backdrop}
         >
           {asset.scene && <Scene variant={asset.scene} />}
         </div>

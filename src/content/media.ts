@@ -54,13 +54,13 @@ const MOCK = (note: string): Pick<MediaAsset, "note"> => ({
 
 export const media: Record<string, MediaAsset> = {
   heroVideo: {
-    base: "#0b1517",
+    base: "#0f2226",
     gradient: [
       "radial-gradient(160% 120% at 50% 100%, rgba(221,192,125,0.2) 0%, rgba(11,21,23,0) 55%)",
-      "linear-gradient(180deg, #0b1517 0%, #163135 100%)",
+      "linear-gradient(180deg, #12292d 0%, #1f3a3f 100%)",
     ],
-    scene: "ocean",
-    ...VIDEO("ocean-sunrise.mp4", "ocean-sunrise.jpg", "waves at sunrise — a full-screen moment with no text over it"),
+    scene: "book",
+    ...P2P_PHOTO("people-holding-bible.jpg", "many hands together holding up one Bible — a full-screen moment with no text over it"),
   },
   vision: {
     base: "#0f2226",
@@ -69,7 +69,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #0b1517 0%, #12292d 55%, #1f3a3f 100%)",
     ],
     scene: "ocean",
-    ...PHOTO("ocean-sunrise.jpg", "ocean horizon at dawn"),
+    ...P2P_PHOTO("vision-flags-bible.jpg", "an open Bible circled by the flags of the nations"),
   },
   mission: {
     base: "#14110a",
@@ -78,7 +78,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(160deg, #1a1610 0%, #14110a 60%, #0b0c0a 100%)",
     ],
     scene: "book",
-    ...PHOTO("bible-hands.jpg", "hands on an open Bible"),
+    ...P2P_PHOTO("mission-studying-bible.jpg", "a group studying the Bible together"),
   },
   seedSoil: {
     base: "#1c1408",
@@ -168,7 +168,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #1c2124 0%, #0e1113 100%)",
     ],
     scene: "heart",
-    ...PHOTO("prayer.jpg", "gentle moment of prayer, standing in for care and wellness"),
+    ...P2P_PHOTO("gift-care.jpg", "hands held gently in care, standing in for care and wellness"),
   },
   giftTech: {
     base: "#10141a",
@@ -183,7 +183,7 @@ export const media: Record<string, MediaAsset> = {
     base: "#16130a",
     gradient: ["linear-gradient(160deg, #1c1810 0%, #0d0a05 100%)"],
     scene: "target",
-    ...PHOTO("leadership.jpg", "team planning around a desk"),
+    ...P2P_PHOTO("gift-leadership.jpg", "a leadership presentation in a boardroom"),
   },
   giftCreative: {
     base: "#1a1210",
@@ -207,7 +207,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #171b20 0%, #0a0c0e 100%)",
     ],
     scene: "flame",
-    ...PHOTO("worship.jpg", "worship gathering, standing in for ministry gifts"),
+    ...P2P_PHOTO("gift-ministry.jpg", "a small group gathered around a table, standing in for ministry gifts"),
   },
   gifts: {
     base: "#16130a",
@@ -225,7 +225,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #14181c 0%, #0b0d0f 100%)",
     ],
     scene: "network",
-    ...PHOTO("group.jpg", "small group in conversation"),
+    ...P2P_PHOTO("service-looking-for-help.jpg", "a diverse group of friends in conversation"),
   },
   study: {
     base: "#151107",
@@ -300,7 +300,7 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #0b1517 0%, #163135 100%)",
     ],
     scene: "sunrise",
-    ...VIDEO("ocean-sunrise.mp4", "ocean-sunrise.jpg", "waves at sunrise, closing image with subtle movement"),
+    ...P2P_PHOTO("final-cta-praying.jpg", "hands held together in prayer, closing image"),
   },
   storyHistory: {
     base: "#171008",
@@ -315,13 +315,13 @@ export const media: Record<string, MediaAsset> = {
       "linear-gradient(180deg, #211508 0%, #100a04 100%)",
     ],
     scene: "flame",
-    ...PHOTO("worship.jpg", "worship gathering, standing in for revival"),
+    ...P2P_PHOTO("story-revival.jpg", "a worship crowd bathed in dramatic light, standing in for revival"),
   },
   storyGlobalChurch: {
     base: "#0e161a",
     gradient: ["linear-gradient(200deg, #16232a 0%, #0a0f12 100%)"],
     scene: "globe",
-    ...PHOTO("city.jpg", "city skyline, standing in for the global church"),
+    ...P2P_PHOTO("story-global-church.jpg", "a cross resting on a world map, standing in for the global church"),
   },
   storyMissions: {
     base: "#0e1a16",
@@ -339,19 +339,19 @@ export const media: Record<string, MediaAsset> = {
     base: "#12200f",
     gradient: ["linear-gradient(180deg, #16260f 0%, #0e1a0c 100%)"],
     scene: "forest",
-    ...PHOTO("forest.jpg", "forest, standing in for movements"),
+    ...P2P_PHOTO("story-movements.jpg", "a packed stadium gathered under the name Jesus, standing in for movements"),
   },
   storyPersecution: {
     base: "#14171a",
     gradient: ["linear-gradient(180deg, #1a1d21 0%, #0b0c0a 100%)"],
     scene: "cross",
-    ...MOCK("no suitable free stock photo sourced yet — kept as line art out of respect for the subject"),
+    ...P2P_PHOTO("story-persecution.jpg", "an illustrative depiction of a church under persecution"),
   },
   storyToday: {
     base: "#0e2024",
     gradient: ["linear-gradient(180deg, #163135 0%, #0b1517 100%)"],
     scene: "book",
-    ...PHOTO("group.jpg", "contemporary church life"),
+    ...P2P_PHOTO("story-today.jpg", "a stadium crowd gathered beneath a lit cross, standing in for Christianity today"),
   },
   winPrayer: {
     base: "#0d161a",
@@ -484,6 +484,30 @@ export const media: Record<string, MediaAsset> = {
     gradient: ["linear-gradient(180deg, #14261a 0%, #0a120c 100%)"],
     scene: "globe",
     ...P2P_PHOTO("forest-global.jpg", "the earth wrapped in forest, standing in for the nations"),
+  },
+  giftExTherapist: {
+    base: "#171a1c",
+    gradient: ["linear-gradient(180deg, #1c2124 0%, #0e1113 100%)"],
+    scene: "heart",
+    ...P2P_PHOTO("gift-ex-therapist.jpg", "a therapist and client in a counseling session"),
+  },
+  giftExProgrammer: {
+    base: "#10141a",
+    gradient: ["linear-gradient(180deg, #151a21 0%, #0a0c10 100%)"],
+    scene: "code",
+    ...P2P_PHOTO("gift-ex-programmer.jpg", "two developers reviewing code together"),
+  },
+  giftExAdmin: {
+    base: "#16130a",
+    gradient: ["linear-gradient(180deg, #1c1810 0%, #0d0a05 100%)"],
+    scene: "target",
+    ...P2P_PHOTO("gift-ex-admin.jpg", "a mentor and mentee reviewing work together"),
+  },
+  giftExArtist: {
+    base: "#111418",
+    gradient: ["linear-gradient(180deg, #171b20 0%, #0a0c0e 100%)"],
+    scene: "flame",
+    ...P2P_PHOTO("gift-ex-artist.jpg", "a worship leader singing on stage"),
   },
 };
 

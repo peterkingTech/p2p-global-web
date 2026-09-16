@@ -4,7 +4,7 @@ import Reveal from "@/components/motion/Reveal";
 import MediaCard from "@/components/sections/MediaCard";
 import { giftCategories, giftExamples, scripture } from "@/content/copy";
 
-const exampleMediaKeys = ["discipleHelp", "discipleExpand", "discipleGrow", "discipleLearn"];
+const exampleMediaKeys = ["giftExTherapist", "giftExProgrammer", "giftExAdmin", "giftExArtist"];
 const categoryMediaKeys = ["giftCare", "giftTech", "giftLeadership", "giftCreative", "giftEducation", "giftMinistry"];
 
 export default function BodyOfChristEngine() {

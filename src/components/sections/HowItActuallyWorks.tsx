@@ -10,7 +10,7 @@ const steps = [
   {
     number: "02",
     title: "Begin Kingdom School",
-    body: "12 modules. 84 lessons. Go through each one with your peer guide — at your pace, in your language, from anywhere on earth.",
+    body: "17 modules — orientation, the Gospel & Salvation track, and the 12-module Christian Foundation. Go through each one with your peer guide, at your pace, in your language, from anywhere on earth.",
   },
   {
     number: "03",
