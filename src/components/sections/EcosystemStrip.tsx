@@ -8,7 +8,7 @@ export default function EcosystemStrip() {
       <div className="px-6 text-center text-paper">
         <Reveal>
           <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">The P2P Ecosystem</p>
-          <h2 className="font-display mt-4 text-4xl tracking-tight sm:text-6xl">Everything Points Back to Him</h2>
+          <h2 className="font-display mt-4 text-4xl tracking-tight sm:text-6xl">Everything Points Back To Jesus Christ</h2>
         </Reveal>
       </div>
 
