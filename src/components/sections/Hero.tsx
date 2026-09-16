@@ -38,7 +38,7 @@ export default function Hero() {
           <br />
           Everyone can help someone grow.
         </p>
-        <p className="mt-6 max-w-md text-sm text-paper/60">
+        <p className="mt-6 max-w-md text-left text-sm text-paper/60">
           A global peer-to-peer discipleship network centered on Jesus Christ, Scripture, prayer, community, and
           mission.
         </p>

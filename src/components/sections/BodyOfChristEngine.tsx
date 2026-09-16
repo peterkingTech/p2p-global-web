@@ -18,7 +18,7 @@ export default function BodyOfChristEngine() {
             &ldquo;{scripture.gifts.text}&rdquo;
           </blockquote>
           <p className="mt-3 text-sm tracking-[0.2em] text-paper/50 uppercase">{scripture.gifts.reference}</p>
-          <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-paper/70">
+          <p className="mx-auto mt-8 max-w-xl text-left text-base leading-relaxed text-paper/70">
             Believers do not only learn Bible lessons — what you learn can shape how you serve, and what God has
             placed in you can strengthen someone else. Discipleship becomes service, service becomes contribution,
             and contribution becomes multiplication.

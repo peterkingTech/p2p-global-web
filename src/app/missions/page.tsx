@@ -61,7 +61,9 @@ export default function MissionsPage() {
       </Prose>
 
       <div className="bg-paper px-6 py-20 text-center">
-        <p className="text-lg text-ink/70">Pray for the workers. Give as you&rsquo;re able. Go where He sends you.</p>
+        <p className="mx-auto max-w-md text-left text-lg text-ink/70">
+          Pray for the workers. Give as you&rsquo;re able. Go where He sends you.
+        </p>
         <Link
           href="/join"
           className="mt-8 inline-block rounded-full bg-ink px-8 py-3.5 text-sm tracking-wide text-paper transition-transform hover:scale-[1.03]"

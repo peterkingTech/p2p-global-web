@@ -15,7 +15,7 @@ export default function PageHero({ eyebrow, title, subtitle, mediaKey }: Props) 
       <Reveal className="relative z-10 mx-auto max-w-2xl text-paper">
         <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">{eyebrow}</p>
         <h1 className="font-display mt-6 text-4xl leading-tight tracking-tight sm:text-6xl">{title}</h1>
-        {subtitle && <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-paper/80">{subtitle}</p>}
+        {subtitle && <p className="mx-auto mt-6 max-w-xl text-left text-lg leading-relaxed text-paper/80">{subtitle}</p>}
       </Reveal>
     </section>
   );

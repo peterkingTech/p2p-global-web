@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useReducedMotion } from "framer-motion";
 
-const FULL_TEXT = "Peer to Peer — Global Discipleship Network";
+const FULL_TEXT = "Peer to Peer Global Discipleship Network";
 const TYPE_MS = 45;
 const DELETE_MS = 25;
 const HOLD_MS = 1800;

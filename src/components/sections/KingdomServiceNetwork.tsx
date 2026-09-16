@@ -11,7 +11,7 @@ export default function KingdomServiceNetwork() {
           <h2 className="font-display mt-4 text-4xl tracking-tight text-ink sm:text-6xl">
             Your Gift Can Meet a Need
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink/70">
+          <p className="mx-auto mt-6 max-w-2xl text-left text-lg leading-relaxed text-ink/70">
             The Body of Christ is strongest when people don&rsquo;t only ask &ldquo;What can I receive?&rdquo; but
             also &ldquo;What can I give?&rdquo;
           </p>
@@ -52,8 +52,8 @@ export default function KingdomServiceNetwork() {
         </Reveal>
       </div>
 
-      <Reveal delay={0.15} className="mx-auto mt-10 max-w-2xl px-6 text-center">
-        <p className="text-sm leading-relaxed text-ink/50">
+      <Reveal delay={0.15} className="mx-auto mt-10 max-w-2xl px-6">
+        <p className="text-left text-sm leading-relaxed text-ink/50">
           These are illustrative examples of the vision, not a live directory. P2P is not a freelancer marketplace,
           a paid services marketplace, or an unverified professional directory — any future gift-discovery feature
           would include identity verification, safeguarding, privacy, and moderation appropriate to what is offered.

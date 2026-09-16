@@ -20,7 +20,7 @@ export default function TreeJourney() {
           <h2 className="font-display mt-4 text-4xl tracking-tight text-paper sm:text-6xl">
             A Journey, Not a Status
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-paper/70">
+          <p className="mx-auto mt-6 max-w-xl text-left text-lg leading-relaxed text-paper/70">
             Growth is not about status. It is about becoming rooted, fruitful, and able to help others grow.
           </p>
         </Reveal>

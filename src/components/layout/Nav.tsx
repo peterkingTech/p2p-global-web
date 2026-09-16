@@ -34,7 +34,7 @@ export default function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <Link href="/" className="flex min-w-0 items-center gap-2.5" onClick={() => setOpen(false)}>
           <Image src="/brand/logo.png" alt="" width={140} height={93} priority className="h-9 w-auto shrink-0" />
-          <TypewriterBrand className="block max-w-[150px] overflow-hidden text-xs text-paper sm:max-w-[260px] sm:text-sm md:max-w-none" />
+          <TypewriterBrand className="block max-w-[190px] overflow-hidden text-[10px] text-paper sm:max-w-[260px] sm:text-xs md:max-w-none" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

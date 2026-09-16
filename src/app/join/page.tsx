@@ -19,7 +19,7 @@ export default function JoinPage() {
         <Reveal className="relative z-10 mx-auto max-w-xl text-paper">
           <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">Join {brand.name}</p>
           <h1 className="font-display mt-6 text-4xl tracking-tight sm:text-6xl">Who Will You Help Grow?</h1>
-          <p className="mt-8 text-lg leading-relaxed text-paper/80">{brand.tagline}</p>
+          <p className="mt-8 text-left text-lg leading-relaxed text-paper/80">{brand.tagline}</p>
 
           <div className="mt-12 rounded-lg border border-paper/20 bg-ink/40 p-6 text-sm leading-relaxed text-paper/70">
             Web onboarding and app sign-up will appear here as soon as they&rsquo;re live. We&rsquo;d rather leave
@@ -38,7 +38,7 @@ export default function JoinPage() {
         <Reveal>
           <p className="text-xs tracking-[0.35em] text-gold-soft/90 uppercase">A Preview, Not a Product Yet</p>
           <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">The App Is on Its Way</h2>
-          <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-paper/70">
+          <p className="mx-auto mt-5 max-w-md text-left text-base leading-relaxed text-paper/70">
             These are mockups standing in for the real app screens, store listings, and QR code — none of them are
             live or functional yet.
           </p>

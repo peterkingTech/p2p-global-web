@@ -37,7 +37,7 @@ export default function KingdomWinsPage() {
         <div className="mx-auto max-w-2xl px-6 text-center text-paper">
           <p className="text-xs tracking-[0.35em] text-gold-soft/90 uppercase">The Shape of a Win</p>
           <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">What gets shared here</h2>
-          <p className="mt-6 text-lg leading-relaxed text-paper/75">
+          <p className="mt-6 text-left text-lg leading-relaxed text-paper/75">
             These are the kinds of stories this page will hold &mdash; categories, not claims. No specific wins are
             published yet.
           </p>

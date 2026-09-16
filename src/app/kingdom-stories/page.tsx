@@ -23,7 +23,7 @@ export default function KingdomStoriesPage() {
         <div className="mx-auto max-w-2xl px-6 text-center text-paper">
           <p className="text-xs tracking-[0.35em] text-gold-soft/90 uppercase">Editorial Discovery</p>
           <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">Eight ways into the story</h2>
-          <p className="mt-6 text-lg leading-relaxed text-paper/75">
+          <p className="mt-6 text-left text-lg leading-relaxed text-paper/75">
             This isn&rsquo;t a feed to scroll past — it&rsquo;s a growing library organized around how the Church
             has actually moved through history, and where it stands today.
           </p>

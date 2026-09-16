@@ -9,7 +9,7 @@ export default function SeedToNations() {
         <Reveal>
           <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">The Master Metaphor</p>
           <h2 className="font-display mt-4 text-4xl tracking-tight sm:text-6xl">From Seed to Nations</h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-paper/70">
+          <p className="mx-auto mt-6 max-w-xl text-left text-lg leading-relaxed text-paper/70">
             God&rsquo;s work often begins in ways that look small. One person. One conversation. One Scripture. One
             act of obedience. Then multiplication begins.
           </p>
