@@ -556,19 +556,98 @@ export const peerGuideExplainer = {
 } as const;
 
 // ─── KINGDOM SCHOOL ───────────────────────────────────────────
+// Module 0 — a short orientation every member goes through before Module 1
+// of the Christian Foundation begins.
+export const orientationModule = {
+  title: "Peer-to-Peer Orientation",
+  description: "Before Module 1 begins, this short orientation explains how P2P actually works — what a peer guide is, what to expect from the journey ahead, and why discipleship here is relational, not just informational.",
+} as const;
+
+// The Gospel & Salvation track — four modules whose order is not fixed,
+// grounding someone in the gospel itself before or alongside the Christian
+// Foundation below.
+export const gospelSalvationModules = [
+  {
+    title: "The Gospel — Who Jesus Is and What He Did",
+    description: "The actual good news, stated plainly and then explored in depth: who Jesus genuinely is, why He died, why the resurrection matters, and what it means that He now reigns as Lord.",
+  },
+  {
+    title: "Responding to the Gospel and Knowing You're Saved",
+    description: "Understanding the gospel is not the same as responding to it. This module walks through what genuine repentance and faith actually involve, and how you can know — with real confidence — that your salvation is genuine.",
+  },
+  {
+    title: "From Convert to Disciple",
+    description: "Believing in Jesus was the beginning, not the finish line. This module explains what it actually means to follow Him as an ongoing disciple, the habits that will sustain your growth, and why you were never meant to walk this road alone.",
+  },
+  {
+    title: "Before You Believed",
+    description: "Before you can fully appreciate the good news, it helps to understand the bad news it answers. This module tells the honest, biblical story of where every person starts — including you, before you trusted Christ.",
+  },
+] as const;
+
+// The Christian Foundation — the core 12-module curriculum referenced
+// elsewhere on the site (The Completion Moment, Living Tree roots, etc.).
 export const foundationModules = [
-  { number: 1, title: "Your New Identity in Christ", description: "Discover who you truly are in the finished work of Christ." },
-  { number: 2, title: "The Word of God", description: "Understanding Scripture as the foundation of all growth." },
-  { number: 3, title: "Prayer and Communion with God", description: "Building a real, daily conversation with God." },
-  { number: 4, title: "The Holy Spirit", description: "Who He is, what He does, and how to walk with Him." },
-  { number: 5, title: "Faith and Trust", description: "Learning to walk by faith not by sight in every season." },
-  { number: 6, title: "Repentance and Grace", description: "The ongoing rhythm of turning, receiving, and growing." },
-  { number: 7, title: "Community and Fellowship", description: "Why we need each other and what that looks like." },
-  { number: 8, title: "Spiritual Warfare", description: "Knowing your enemy, your armour, and your authority." },
-  { number: 9, title: "Serving Others", description: "Moving from consumer to contributor in the body of Christ." },
-  { number: 10, title: "Evangelism and Witness", description: "Sharing your faith naturally and faithfully." },
-  { number: 11, title: "Discipleship and Multiplication", description: "How to guide someone else through what you have received." },
-  { number: 12, title: "Your Commission", description: "You are ready. Go find your person." },
+  {
+    number: 1,
+    title: "Your New Identity in Christ",
+    description: "Who you were before Christ isn't who you are now. This module unpacks what Scripture actually says about your new identity — not how you feel about yourself, but who God says you are now that you belong to Him.",
+  },
+  {
+    number: 2,
+    title: "Knowing God",
+    description: "Believing facts about God is not the same as knowing Him. This module moves from information to relationship — learning who God actually is, and what it means to walk with Him personally, not just believe in Him abstractly.",
+  },
+  {
+    number: 3,
+    title: "The Lordship of Jesus Christ",
+    description: "Jesus is not only Savior — He is Lord. This module explores what it means to actually submit your life to His authority, not just accept His forgiveness.",
+  },
+  {
+    number: 4,
+    title: "The Holy Spirit and You",
+    description: "The Holy Spirit is not an abstract doctrine — He is a Person who lives in every believer. This module explains who He is, how He works, and how to walk in step with Him day to day.",
+  },
+  {
+    number: 5,
+    title: "The Bible—God's Word to You",
+    description: "The Bible is not just a book of rules or history — it is God speaking to you. This module builds the habits and confidence to read Scripture for yourself and let it actually shape your life.",
+  },
+  {
+    number: 6,
+    title: "Prayer—Talking With God",
+    description: "Prayer is not a performance or a formula — it's a real conversation with a real Father. This module walks through how to actually talk with God, and how to keep listening too.",
+  },
+  {
+    number: 7,
+    title: "The Church—Your New Family",
+    description: "You were never meant to follow Jesus alone. This module explains what the local church actually is, why it matters, and how to belong to one as family, not just attend one as a visitor.",
+  },
+  {
+    number: 8,
+    title: "Water Baptism and the Lord's Supper",
+    description: "Two simple, physical acts that carry deep meaning. This module explains what baptism and communion actually represent, and why Jesus asked believers to keep doing them.",
+  },
+  {
+    number: 9,
+    title: "The Christian and Sin",
+    description: "Becoming a believer doesn't mean the fight with sin is over. This module gives an honest, grace-filled framework for understanding sin, confession, and ongoing growth — without shame and without pretending it doesn't matter.",
+  },
+  {
+    number: 10,
+    title: "Sharing Your Faith",
+    description: "Evangelism doesn't have to feel like a performance. This module gives practical, natural ways to talk about what Jesus has done in your life with the people around you.",
+  },
+  {
+    number: 11,
+    title: "Spiritual Disciplines",
+    description: "Growth isn't accidental — it's built through consistent habits. This module covers the practices — prayer, fasting, Scripture, solitude, and more — that keep a life anchored in Christ over the long run.",
+  },
+  {
+    number: 12,
+    title: "Living With Eternity in View",
+    description: "This life is not all there is. This final module reorients everything you've learned around eternity — how the hope of what's coming should shape how you live, give, and love right now.",
+  },
 ] as const;
 
 export const electiveCategories = [
