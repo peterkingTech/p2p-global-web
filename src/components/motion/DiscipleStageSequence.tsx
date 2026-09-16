@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, useReducedMotion, type MotionValue } from "framer-motion";
 import Reveal from "@/components/motion/Reveal";
+import { stageStops, useStageMotion } from "@/components/motion/useStageMotion";
 
 export type Step = {
   icon: string;
@@ -13,22 +14,6 @@ export type Step = {
 type Props = {
   steps: readonly Step[];
 };
-
-function stageStops(index: number, total: number) {
-  const step = 1 / total;
-  const start = index * step;
-  const end = start + step;
-  const inEnd = start + step * 0.35;
-  const outStart = end - step * 0.35;
-  const stops =
-    index === 0
-      ? [start, inEnd, outStart, end]
-      : index === total - 1
-        ? [start, inEnd, 1, 1]
-        : [start, inEnd, outStart, end];
-  const values = index === 0 ? [1, 1, 1, 0] : index === total - 1 ? [0, 1, 1, 1] : [0, 1, 1, 0];
-  return { stops, values, start, inEnd };
-}
 
 function StepListItem({ step, index, total, scrollYProgress }: { step: Step; index: number; total: number; scrollYProgress: MotionValue<number> }) {
   const { stops } = stageStops(index, total);
@@ -49,19 +34,15 @@ function StepListItem({ step, index, total, scrollYProgress }: { step: Step; ind
 }
 
 function DetailLayer({ step, index, total, scrollYProgress }: { step: Step; index: number; total: number; scrollYProgress: MotionValue<number> }) {
-  const { stops, values, start, inEnd } = stageStops(index, total);
-  const opacity = useTransform(scrollYProgress, stops, values);
-  const y = useTransform(scrollYProgress, [start, inEnd], [20, 0]);
+  const { opacity, y } = useStageMotion(scrollYProgress, index, total);
 
   return (
-    <motion.div style={{ opacity }} className="absolute inset-0 flex flex-col justify-center">
-      <motion.div style={{ y }}>
-        <span className="text-5xl" aria-hidden="true">
-          {step.icon}
-        </span>
-        <h3 className="font-display mt-5 text-3xl tracking-tight text-ink sm:text-4xl">{step.title}</h3>
-        <p className="mt-4 max-w-md text-lg leading-relaxed text-ink/70">{step.body}</p>
-      </motion.div>
+    <motion.div style={{ opacity, y }} className="absolute inset-0 flex flex-col justify-center">
+      <span className="text-5xl" aria-hidden="true">
+        {step.icon}
+      </span>
+      <h3 className="font-display mt-5 text-3xl tracking-tight text-ink sm:text-4xl">{step.title}</h3>
+      <p className="mt-4 max-w-md text-lg leading-relaxed text-ink/70">{step.body}</p>
     </motion.div>
   );
 }

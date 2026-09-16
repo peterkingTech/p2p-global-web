@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import TypewriterBrand from "@/components/layout/TypewriterBrand";
-import { nav, brand } from "@/content/copy";
+import { nav } from "@/content/copy";
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -34,8 +34,7 @@ export default function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <Link href="/" className="flex min-w-0 items-center gap-2.5" onClick={() => setOpen(false)}>
           <Image src="/brand/logo.png" alt="" width={140} height={93} priority className="h-9 w-auto shrink-0" />
-          <span className="font-display text-xl tracking-[0.2em] text-paper lg:hidden">{brand.name}</span>
-          <TypewriterBrand className="hidden truncate text-sm text-paper lg:inline-block" />
+          <TypewriterBrand className="block max-w-[150px] overflow-hidden text-xs text-paper sm:max-w-[260px] sm:text-sm md:max-w-none" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

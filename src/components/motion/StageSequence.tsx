@@ -1,7 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useScroll, useTransform, useReducedMotion, type MotionValue } from "framer-motion";
+import { motion, useScroll, useReducedMotion, type MotionValue } from "framer-motion";
+import { useStageMotion } from "@/components/motion/useStageMotion";
 import Reveal from "@/components/motion/Reveal";
 
 export type Stage = {
@@ -25,37 +26,22 @@ function StageLayer({
   total: number;
   scrollYProgress: MotionValue<number>;
 }) {
-  const step = 1 / total;
-  const start = index * step;
-  const end = start + step;
-  const inEnd = start + step * 0.35;
-  const outStart = end - step * 0.35;
-
-  const stops =
-    index === 0
-      ? [start, inEnd, outStart, end]
-      : index === total - 1
-        ? [start, inEnd, 1, 1]
-        : [start, inEnd, outStart, end];
-  const values = index === 0 ? [1, 1, 1, 0] : index === total - 1 ? [0, 1, 1, 1] : [0, 1, 1, 0];
-
-  const opacity = useTransform(scrollYProgress, stops, values);
-  const y = useTransform(scrollYProgress, [start, inEnd], [24, 0]);
+  const { opacity, y } = useStageMotion(scrollYProgress, index, total);
 
   return (
-    <motion.div style={{ opacity }} className="absolute inset-0 flex items-center justify-center px-6">
-      <motion.div style={{ y }} className="max-w-2xl text-center text-paper">
+    <motion.div style={{ opacity, y }} className="absolute inset-0 flex items-center justify-center px-6">
+      <div className="max-w-2xl text-center text-paper">
         <span className="text-6xl" aria-hidden="true">
           {stage.icon}
         </span>
         <h3 className="font-display mt-6 text-3xl tracking-tight md:text-5xl">{stage.title}</h3>
         <p className="mx-auto mt-5 max-w-lg text-lg leading-relaxed text-paper/80">{stage.body}</p>
-      </motion.div>
+      </div>
     </motion.div>
   );
 }
 
-/** Sticky pinned scroll sequence — each stage crossfades in, text only, no media. */
+/** Sticky pinned scroll sequence — each stage rises in, holds, sinks out. Text only, no media. */
 export default function StageSequence({ stages }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();

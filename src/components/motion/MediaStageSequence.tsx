@@ -1,9 +1,10 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useScroll, useTransform, useReducedMotion, type MotionValue } from "framer-motion";
+import { motion, useScroll, useReducedMotion, type MotionValue } from "framer-motion";
 import CinematicMedia from "@/components/media/CinematicMedia";
 import Reveal from "@/components/motion/Reveal";
+import { useStageMotion } from "@/components/motion/useStageMotion";
 
 export type MediaStage = {
   mediaKey: string;
@@ -27,26 +28,11 @@ function Layer({
   total: number;
   scrollYProgress: MotionValue<number>;
 }) {
-  const step = 1 / total;
-  const start = index * step;
-  const end = start + step;
-  const inEnd = start + step * 0.35;
-  const outStart = end - step * 0.35;
-
-  const stops =
-    index === 0
-      ? [start, inEnd, outStart, end]
-      : index === total - 1
-        ? [start, inEnd, 1, 1]
-        : [start, inEnd, outStart, end];
-  const values = index === 0 ? [1, 1, 1, 0] : index === total - 1 ? [0, 1, 1, 1] : [0, 1, 1, 0];
-
-  const opacity = useTransform(scrollYProgress, stops, values);
-  const y = useTransform(scrollYProgress, [start, inEnd], [24, 0]);
+  const { opacity, y } = useStageMotion(scrollYProgress, index, total);
 
   return (
-    <motion.div style={{ opacity }} className="absolute inset-0 flex items-center justify-center px-6">
-      <motion.div style={{ y }} className="flex w-full max-w-4xl flex-col items-center gap-8 sm:flex-row">
+    <motion.div style={{ opacity, y }} className="absolute inset-0 flex items-center justify-center px-6">
+      <div className="flex w-full max-w-4xl flex-col items-center gap-8 sm:flex-row">
         <div className="relative h-56 w-full shrink-0 overflow-hidden rounded-lg sm:h-72 sm:w-80">
           <CinematicMedia mediaKey={stage.mediaKey} />
         </div>
@@ -57,12 +43,12 @@ function Layer({
           <h3 className="font-display mt-3 text-2xl tracking-tight sm:text-3xl">{stage.title}</h3>
           <p className="mt-3 max-w-md text-base leading-relaxed text-paper/75">{stage.body}</p>
         </div>
-      </motion.div>
+      </div>
     </motion.div>
   );
 }
 
-/** Sticky pinned sequence where each stage crossfades in with its image beside (never under) the text. */
+/** Sticky pinned sequence where each stage rises in, holds, sinks out — image beside (never under) the text. */
 export default function MediaStageSequence({ stages }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();
