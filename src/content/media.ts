@@ -42,6 +42,12 @@ const VIDEO = (
   note: `TEMPORARY — free stock video (Pexels License), standing in for real P2P footage: ${note}`,
 });
 
+/** Official P2P-provided artwork — not a stock stand-in. */
+const P2P_PHOTO = (file: string, note: string): Pick<MediaAsset, "photo" | "note"> => ({
+  photo: `/media/photos/${file}`,
+  note: `Official P2P artwork: ${note}`,
+});
+
 const MOCK = (note: string): Pick<MediaAsset, "note"> => ({
   note: `MOCK/TEMPORARY — ${note}`,
 });
@@ -436,6 +442,42 @@ export const media: Record<string, MediaAsset> = {
     ],
     scene: "sunrise",
     ...PHOTO("ocean-sunrise.jpg", "sunrise over water, closing invitation"),
+  },
+  treeSeed: {
+    base: "#14110a",
+    gradient: ["linear-gradient(180deg, #1a1610 0%, #0b0c0a 100%)"],
+    scene: "seed",
+    ...P2P_PHOTO("tree-seed.jpg", "a single dormant seed in soil"),
+  },
+  treeSprout: {
+    base: "#10190f",
+    gradient: ["linear-gradient(180deg, #16241a 0%, #0d150d 100%)"],
+    scene: "sprout",
+    ...P2P_PHOTO("tree-sprout.jpg", "a sprout breaking soil toward the light"),
+  },
+  treeFruitful: {
+    base: "#0e1a12",
+    gradient: ["linear-gradient(180deg, #16281c 0%, #0a120e 100%)"],
+    scene: "tree",
+    ...P2P_PHOTO("tree-fruitful.jpg", "a fruitful tree, full and bearing fruit"),
+  },
+  treeForestBuilder: {
+    base: "#0d1a15",
+    gradient: ["linear-gradient(180deg, #142822 0%, #0a120e 100%)"],
+    scene: "forest",
+    ...P2P_PHOTO("tree-forest-builder.jpg", "a sunlit forest path"),
+  },
+  treeForestNations: {
+    base: "#0d1a15",
+    gradient: ["linear-gradient(180deg, #142822 0%, #0a120e 100%)"],
+    scene: "forest",
+    ...P2P_PHOTO("tree-forest-nations.jpg", "an aerial view across an unbroken forest"),
+  },
+  forestGlobal: {
+    base: "#0d1a12",
+    gradient: ["linear-gradient(180deg, #14261a 0%, #0a120c 100%)"],
+    scene: "globe",
+    ...P2P_PHOTO("forest-global.jpg", "the earth wrapped in forest, standing in for the nations"),
   },
 };
 

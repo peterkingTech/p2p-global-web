@@ -196,14 +196,102 @@ export const ecosystem = [
 ] as const;
 
 export const kingdomStoryCategories = [
-  { icon: "📜", mediaKey: "storyHistory", title: "CHRISTIAN HISTORY", body: "The long story of the Church, from the early creeds to today." },
-  { icon: "🔥", mediaKey: "storyRevival", title: "REVIVAL", body: "Seasons when God moved in unusual, widely-witnessed ways." },
-  { icon: "🌍", mediaKey: "storyGlobalChurch", title: "GLOBAL CHURCH", body: "How believers across cultures and continents live out the same faith." },
-  { icon: "🧭", mediaKey: "storyMissions", title: "MISSIONS", body: "Those sent to carry the gospel across cultures and borders." },
-  { icon: "👤", mediaKey: "storyPeople", title: "PEOPLE", body: "Figures whose faith shaped the Church that followed them." },
-  { icon: "🌱", mediaKey: "storyMovements", title: "MOVEMENTS", body: "Moments when discipleship multiplied faster than anyone expected." },
-  { icon: "✝️", mediaKey: "storyPersecution", title: "PERSECUTION & PERSEVERANCE", body: "The cost some believers carry, and the faith that sustains them." },
-  { icon: "📖", mediaKey: "storyToday", title: "CHRISTIANITY TODAY", body: "What God is doing in the Church right now, told honestly." },
+  {
+    slug: "christian-history",
+    icon: "📜",
+    mediaKey: "storyHistory",
+    title: "CHRISTIAN HISTORY",
+    body: "The long story of the Church, from the early creeds to today.",
+    article: [
+      "The Church's story begins in the first century with a small band of disciples in Jerusalem, and the book of Acts records how the gospel spread rapidly along Roman trade routes through the missionary journeys of Paul and others, reaching most of the Mediterranean world within a few decades.",
+      "The early centuries were shaped by seasons of Roman persecution alongside the steady work of clarifying core Christian belief. Councils such as Nicaea (325) and Chalcedon (451) produced the creeds still recited in churches worldwide today, affirming the church's shared confession about who Jesus is.",
+      "In the centuries that followed, monastic communities preserved learning and Scripture through the medieval period, the Eastern and Western churches formally divided in 1054, and the Reformation of the 16th century — sparked by Martin Luther's 1517 challenge to the Church at Wittenberg — renewed the call to Scripture as the church's final authority. From there, the gospel continued to spread outward through the missionary movements of the following centuries, which is where the next category picks up.",
+    ],
+  },
+  {
+    slug: "revival",
+    icon: "🔥",
+    mediaKey: "storyRevival",
+    title: "REVIVAL",
+    body: "Seasons when God moved in unusual, widely-witnessed ways.",
+    article: [
+      "Church history includes recurring seasons where renewed conviction and prayer spread through whole communities faster than any single person organized. The First Great Awakening swept Britain and the American colonies in the 1730s–40s under preachers like George Whitefield and Jonathan Edwards, followed by a Second Great Awakening in the early 1800s.",
+      "The Welsh Revival of 1904–05, associated with a young evangelist named Evan Roberts, saw a wave of conversions and public prayer across Wales that was reported in newspapers of the day. Soon after, the Azusa Street Revival began in Los Angeles in 1906 under William J. Seymour, a meeting that historians widely credit as the origin point of the modern global Pentecostal movement.",
+      "Revivals like the East African Revival of the 1930s onward reshaped whole regional churches around confession, reconciliation, and renewed discipleship. What these seasons share isn't a formula — it's ordinary believers responding to an extraordinary sense that God was near, in ways that outlasted the moment itself.",
+    ],
+  },
+  {
+    slug: "global-church",
+    icon: "🌍",
+    mediaKey: "storyGlobalChurch",
+    title: "GLOBAL CHURCH",
+    body: "How believers across cultures and continents live out the same faith.",
+    article: [
+      "One of the most significant shifts in modern church history has been geographic: researchers who track global Christianity — including the Center for the Study of Global Christianity and the Pew Research Center — have documented for decades how the church's center of gravity has moved away from Europe and North America toward Africa, Asia, and Latin America, where the fastest growth has occurred over the past century.",
+      "That means the 'typical' Christian today is less likely to be a European or North American than at almost any point since the early church, and more likely to worship in a language, style, and setting shaped by a very different culture than the ones that sent the first modern missionaries.",
+      "What holds this global, culturally diverse church together isn't uniformity — it's a shared confession about Jesus Christ, expressed through remarkably different languages, music, and forms of gathering. P2P's own peer-to-peer model reflects that same conviction: the faith travels through relationships, not through any one culture's ownership of it.",
+    ],
+  },
+  {
+    slug: "missions",
+    icon: "🧭",
+    mediaKey: "storyMissions",
+    title: "MISSIONS",
+    body: "Those sent to carry the gospel across cultures and borders.",
+    article: [
+      "Christian mission goes back to the New Testament itself, but the modern missionary movement is often dated to William Carey, an English cobbler-turned-missionary whose 1792 pamphlet and subsequent work in India helped launch a wave of Protestant missionary societies that would send workers across the globe through the 19th century.",
+      "Figures like Hudson Taylor, who founded the China Inland Mission in 1865 and pioneered missionaries adopting local dress and customs rather than imposing Western culture, shaped how later generations thought about crossing cultures with the gospel respectfully rather than as an extension of colonial power.",
+      "Today, one of the clearest trends in global missions is its reversal: churches in Africa, Asia, and Latin America — many of them planted by 19th- and 20th-century missionaries — now send significant numbers of their own missionaries worldwide, including back to the historically Christian West. Mission has become something the whole global church does together, in every direction.",
+    ],
+  },
+  {
+    slug: "people",
+    icon: "👤",
+    mediaKey: "storyPeople",
+    title: "PEOPLE",
+    body: "Figures whose faith shaped the Church that followed them.",
+    article: [
+      "Church history is carried forward by particular people whose lives are still studied today. Augustine of Hippo (354–430) shaped Western theology for over a thousand years after his conversion and his writing on grace, sin, and the nature of the church. Athanasius spent much of his life defending the Nicene understanding of Christ against fierce opposition, at real personal cost.",
+      "Francis of Assisi in the 13th century embodied simplicity and care for the poor in a way that still shapes how Christians think about possessions and creation. The Reformation produced Martin Luther and later John Calvin, while the 18th-century Wesleyan revival under John and Charles Wesley left behind not just hymns still sung today, but a whole model of small-group discipleship built around mutual accountability.",
+      "Missionary figures like Hudson Taylor and Amy Carmichael, who spent decades serving vulnerable children in India, remind us that faithfulness is usually measured in decades of unglamorous work, not single dramatic moments. None of these figures were without flaws — but their lives are part of the inheritance every believer today has received.",
+    ],
+  },
+  {
+    slug: "movements",
+    icon: "🌱",
+    mediaKey: "storyMovements",
+    title: "MOVEMENTS",
+    body: "Moments when discipleship multiplied faster than anyone expected.",
+    article: [
+      "Alongside individual figures, church history includes whole movements built around a particular way of forming disciples. Early monasticism, formalized by Benedict of Nursia's Rule in the 6th century, created communities organized around shared prayer, work, and Scripture that preserved the faith through unstable centuries.",
+      "The 18th-century Methodist movement under John Wesley organized converts into small 'class meetings' of a dozen or so people who met weekly for mutual accountability and encouragement in the faith — a structure historians credit with sustaining Methodism's rapid growth, and one that peer-to-peer discipleship models draw directly on today.",
+      "More recently, the house-church movement that sustained the Chinese church through decades of restriction, and the global spread of campus ministries and small-group or cell-church discipleship models, all share a common thread: faith multiplies fastest not through institutions alone, but through ordinary believers deliberately investing in a few others.",
+    ],
+  },
+  {
+    slug: "persecution",
+    icon: "✝️",
+    mediaKey: "storyPersecution",
+    title: "PERSECUTION & PERSEVERANCE",
+    body: "The cost some believers carry, and the faith that sustains them.",
+    article: [
+      "Persecution is part of the church's story from its earliest days — the book of Acts records the stoning of Stephen, widely regarded as the first Christian martyr, and Roman emperors including Nero and later Diocletian carried out organized persecutions in the first three centuries before Christianity was legalized in the empire.",
+      "The early church father Tertullian wrote that 'the blood of the martyrs is the seed of the church' — a pattern historians have observed repeat since: persecution has often coincided with growth rather than extinguishing the church it targeted.",
+      "Persecution of Christians continues in parts of the world today, and organizations such as Open Doors and Voice of the Martyrs document these situations in detail for anyone who wants to understand or pray specifically. We won't attach specific figures or claims here that we haven't verified — but we hold the reality in view, and it shapes how P2P thinks about prayer for the persecuted church as part of ordinary discipleship, not a separate concern.",
+    ],
+  },
+  {
+    slug: "christianity-today",
+    icon: "📖",
+    mediaKey: "storyToday",
+    title: "CHRISTIANITY TODAY",
+    body: "What God is doing in the Church right now, told honestly.",
+    article: [
+      "Christianity remains the world's largest religion by number of adherents, and — as the Global Church category above touches on — its fastest-growing regions today are in the Global South rather than the historically Christian West, which is seeing continued secularization in many places even as immigration and renewal movements bring their own changes.",
+      "Digital tools have reshaped how many believers engage with Scripture, teaching, and community, for better and for worse — the same technology that lets a believer in one country study alongside a peer guide in another can also make faith feel like something consumed alone rather than lived in community. That tension is part of why P2P exists: to use technology in service of real relationships, not as a replacement for them.",
+      "None of this is a finished story. Whatever else is true of this moment in church history, ordinary discipleship — one person helping another follow Jesus — remains exactly as available and exactly as needed as it was in the first century.",
+    ],
+  },
 ] as const;
 
 export const kingdomWinCategories = [

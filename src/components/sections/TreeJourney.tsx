@@ -2,7 +2,14 @@ import Reveal from "@/components/motion/Reveal";
 import MediaCard from "@/components/sections/MediaCard";
 import { treeJourney } from "@/content/copy";
 
-const mediaKeys = ["seedSoil", "seedSprout", "discipleGrow", "seedForest", "discipleMultiply", "seedEarth"];
+const mediaKeys = [
+  "treeSeed",
+  "treeSprout",
+  "treeSprout",
+  "treeFruitful",
+  "treeForestBuilder",
+  "treeForestNations",
+];
 
 /** Horizontal, snap-scrolling filmstrip — deliberately not a card grid. */
 export default function TreeJourney() {

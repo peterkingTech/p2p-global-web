@@ -9,10 +9,10 @@
   --color-paper: #fafafa;
   --color-paper-dim: #ececec;
   --color-mist: #9e9e9e;
-  --color-gold: #8a8a8a;
-  --color-gold-soft: #d4d4d4;
-  --color-water: #525252;
-  --color-water-light: #737373;
+  --color-gold: #7d8a72;
+  --color-gold-soft: #b7c4a8;
+  --color-water: #445340;
+  --color-water-light: #62735a;
 }
 
 @theme inline {

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteUrl } from "@/lib/site";
+import { kingdomStoryCategories } from "@/content/copy";
 
 const routes = [
   "",
@@ -14,6 +15,7 @@ const routes = [
   "/about",
   "/faq",
   "/join",
+  ...kingdomStoryCategories.map((c) => `/kingdom-stories/${c.slug}`),
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
