@@ -141,7 +141,7 @@ export const media: Record<string, MediaAsset> = {
     base: "#151a12",
     gradient: ["linear-gradient(160deg, #1c2417 0%, #10140c 100%)"],
     scene: "people",
-    ...PHOTO("group.jpg", "small group in conversation"),
+    ...P2P_PHOTO("helping-others-rise.jpg", "silhouettes helping one another climb, standing in for helping someone grow"),
   },
   discipleExpand: {
     base: "#101a1d",
