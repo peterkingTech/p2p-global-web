@@ -30,6 +30,7 @@ export const brand = {
 
 export const nav = [
   { label: "Vision", href: "/vision" },
+  { label: "How It Works", href: "/how-it-works" },
   { label: "Discipleship", href: "/discipleship" },
   { label: "Gifts & Service", href: "/gifts" },
   { label: "Missions", href: "/missions" },
@@ -40,6 +41,7 @@ export const nav = [
 
 export const footerLinks = [
   { label: "Vision", href: "/vision" },
+  { label: "How It Works", href: "/how-it-works" },
   { label: "Discipleship", href: "/discipleship" },
   { label: "Gifts", href: "/gifts" },
   { label: "Missions", href: "/missions" },
@@ -418,4 +420,303 @@ export const journeySteps = [
   "DISCIPLE",
   "MULTIPLY",
   "NATIONS",
+] as const;
+
+// ─── GROWTH STAGES ───────────────────────────────────────────
+// The six real stages of the in-app Living Tree — confirmed product feature.
+export const growthStages = [
+  {
+    emoji: "🌰",
+    stage: "seed",
+    title: "SEED",
+    subtitle: "Stage 1 of 6",
+    headline: "The journey begins.",
+    body: "You have taken the first step. You have created your account and your seed is in the soil. The roots have not yet appeared above the surface — but something has begun. Every forest on earth started exactly here.",
+    what_it_means: "You just joined. You are completing your onboarding journey and meeting your peer guide.",
+  },
+  {
+    emoji: "🌱",
+    stage: "sprout",
+    title: "SPROUT",
+    subtitle: "Stage 2 of 6",
+    headline: "Something is above the surface.",
+    body: "You have completed your first module or connected with your first peer guide. Growth has begun. The sprout is fragile but it is real. This is the most important stage — the decision to keep going when it is still new.",
+    what_it_means: "You have completed Module 1 or are actively engaged with your peer guide.",
+  },
+  {
+    emoji: "🌿",
+    stage: "young_tree",
+    title: "YOUNG TREE",
+    subtitle: "Stage 3 of 6",
+    headline: "Roots going deeper.",
+    body: "You are working through the middle modules. You are actively learning, submitting reflections, engaging with your peer guide — and you have begun to walk alongside someone else. The tree is gaining strength.",
+    what_it_means: "You have completed 4 or more modules and are actively guiding at least one other person.",
+  },
+  {
+    emoji: "🌳",
+    stage: "fruitful_tree",
+    title: "FRUITFUL TREE",
+    subtitle: "Stage 4 of 6",
+    headline: "The branches are bearing fruit.",
+    body: "You are in the later modules of the Foundation. Disciples are growing under your guidance. Fruit is appearing — not just for you but through you. This is the stage 2 Timothy 2:2 describes: the things you received, you are entrusting to faithful people.",
+    what_it_means: "You have completed 9 or more modules, are guiding multiple people, and have earned 5 or more fruits.",
+  },
+  {
+    emoji: "🌲",
+    stage: "forest_builder",
+    title: "FOREST BUILDER",
+    subtitle: "Stage 5 of 6",
+    headline: "Your disciples have disciples.",
+    body: "You have completed all 12 Foundation modules. The people you guided are now guiding others. You are no longer just a tree — you are the beginning of a forest. Generational discipleship is no longer a concept. It is happening.",
+    what_it_means: "Foundation complete. Your mentees have their own mentees. Second-generation discipleship is active.",
+  },
+  {
+    emoji: "🌍",
+    stage: "forest_of_nations",
+    title: "FOREST OF NATIONS",
+    subtitle: "Stage 6 of 6",
+    headline: "The earth being filled.",
+    body: "Your generational discipleship impact has spread across nations. People you have never met, in countries you have never visited, are growing in Christ because of a chain of faithfulness that began with you. Habakkuk 2:14 is not just a verse. It is a trajectory. You are on it.",
+    what_it_means: "Your discipleship lineage spans multiple nations. The forest is spreading.",
+  },
+] as const;
+
+// ─── TREE ANATOMY ─────────────────────────────────────────────
+export const treeAnatomy = [
+  {
+    part: "Roots",
+    icon: "🌿",
+    explanation: "Every module you complete deepens your roots. 12 modules — 12 visible roots. Roots cannot be seen from the outside but they hold everything up. The deeper the roots the stronger the tree.",
+  },
+  {
+    part: "Trunk",
+    icon: "🌳",
+    explanation: "Your trunk grows with faithfulness over time. Days active. Sessions held. Consistency across weeks and months. The trunk does not lie — it reflects how long and how steadily you have been at this.",
+  },
+  {
+    part: "Branches",
+    icon: "🌿",
+    explanation: "Each branch represents a mentee — someone you are guiding. Active mentees glow green. A mentee who has gone quiet shows a wilting branch — a gentle signal that they may need a check-in. No branch is forgotten.",
+  },
+  {
+    part: "Fruit",
+    icon: "🍎",
+    explanation: "52 named biblical fruits — each one a real milestone. Completing a module. Guiding someone through their first lesson. Inviting someone who joins. Fruit is permanent. It never falls from your tree.",
+  },
+  {
+    part: "Grain",
+    icon: "🌾",
+    explanation: "Every person you invite who joins P2P Global adds one Grain to your profile. Grain is your harvest record — not a score, not a currency. A testimony. Based on John 12:24.",
+  },
+] as const;
+
+// ─── HOW IT WORKS — GETTING STARTED ──────────────────────────
+export const gettingStartedSteps = [
+  {
+    day: "Day 1",
+    title: "Create your account",
+    body: "Register with your name and email. Choose your @username — this is how the whole network knows you. Set your ministry role (new believer, growing believer, pastor, etc) — this shapes your experience from the start.",
+  },
+  {
+    day: "Day 1",
+    title: "The Onboarding Journey",
+    body: "Five steps anchored in Romans 15:7 — Accept one another, just as Christ accepted you. You meet your peer guide, share your story, pray together, plant your tree, and begin Module 1.",
+  },
+  {
+    day: "Days 2–7",
+    title: "Your first lesson",
+    body: "Read through Lesson 1 of Module 1 at your own pace. Answer the reflection questions. Submit when you are ready. Your peer guide reviews your answers and responds. That is week one. No pressure. No deadline. No clock.",
+  },
+  {
+    day: "Ongoing",
+    title: "The rhythm continues",
+    body: "One lesson at a time. Submit. Peer guide reviews. Unlock the next lesson. 84 lessons across 12 modules. Some take a week. Some take a month. The journey is yours.",
+  },
+] as const;
+
+// ─── PEER GUIDE ───────────────────────────────────────────────
+export const peerGuideExplainer = {
+  definition: "A peer guide is a fellow believer who is one step ahead of you on the journey — ready to walk alongside you now. Not a pastor. Not a teacher. Not an authority over you. A further-along peer.",
+  what_they_do: [
+    "Go through every lesson with you",
+    "Read your reflection answers",
+    "Ask good questions",
+    "Pray with you",
+    "Notice when you go quiet",
+    "Evaluate your submissions before the next lesson unlocks",
+  ],
+  matching_factors: [
+    { label: "Language", detail: "You share a content language" },
+    { label: "Timezone", detail: "Sessions work across your schedules" },
+    { label: "Life stage", detail: "Matched to where you are" },
+    { label: "Background sensitivity", detail: "For members with specific pastoral needs" },
+    { label: "GPS-verified location", detail: "No fake profiles — real people, real places" },
+  ],
+  becoming_a_guide: "When you complete all 12 Foundation modules — The Completion Moment fires and you are commissioned as a peer guide. From that point you can accept mentees and guide them through the same journey you just completed. The pattern of 2 Timothy 2:2 made real.",
+} as const;
+
+// ─── KINGDOM SCHOOL ───────────────────────────────────────────
+export const foundationModules = [
+  { number: 1, title: "Your New Identity in Christ", description: "Discover who you truly are in the finished work of Christ." },
+  { number: 2, title: "The Word of God", description: "Understanding Scripture as the foundation of all growth." },
+  { number: 3, title: "Prayer and Communion with God", description: "Building a real, daily conversation with God." },
+  { number: 4, title: "The Holy Spirit", description: "Who He is, what He does, and how to walk with Him." },
+  { number: 5, title: "Faith and Trust", description: "Learning to walk by faith not by sight in every season." },
+  { number: 6, title: "Repentance and Grace", description: "The ongoing rhythm of turning, receiving, and growing." },
+  { number: 7, title: "Community and Fellowship", description: "Why we need each other and what that looks like." },
+  { number: 8, title: "Spiritual Warfare", description: "Knowing your enemy, your armour, and your authority." },
+  { number: 9, title: "Serving Others", description: "Moving from consumer to contributor in the body of Christ." },
+  { number: 10, title: "Evangelism and Witness", description: "Sharing your faith naturally and faithfully." },
+  { number: 11, title: "Discipleship and Multiplication", description: "How to guide someone else through what you have received." },
+  { number: 12, title: "Your Commission", description: "You are ready. Go find your person." },
+] as const;
+
+export const electiveCategories = [
+  { emoji: "👑", name: "Faith and Kingdom Living", count: 15, color: "#1D4E2B" },
+  { emoji: "⛪", name: "Ministry and Leadership", count: 15, color: "#2C3E6B" },
+  { emoji: "🌱", name: "Spiritual Growth", count: 15, color: "#1D9E75" },
+  { emoji: "🏠", name: "Family and Relationships", count: 12, color: "#8B4513" },
+  { emoji: "✝️", name: "Identity and Salvation", count: 16, color: "#4B0082" },
+  { emoji: "💼", name: "Marketplace and Purpose", count: 12, color: "#B8860B" },
+  { emoji: "🙏", name: "Prayer", count: 16, color: "#1A237E" },
+  { emoji: "🕊️", name: "Holy Spirit", count: 14, color: "#4A90D9" },
+  { emoji: "💊", name: "Healing and Freedom", count: 15, color: "#C0392B" },
+  { emoji: "🤝", name: "Church and Community", count: 12, color: "#2E7D32" },
+] as const;
+
+// ─── PEER CIRCLES ─────────────────────────────────────────────
+export const peerCircleExplainer = {
+  definition: "Peer Circles are groups of 3 to 8 believers going through the same plan or module together — from anywhere in the world. Discipleship does not have to be one-on-one.",
+  how_it_works: [
+    "A circle leader creates the circle and invites members by @username",
+    "Everyone reads the lesson individually at their own pace",
+    "The group meets — in-app group call or externally via WhatsApp or Zoom",
+    "The circle leader guides the discussion questions",
+    "Members submit their reflections individually",
+    "Any 2 circle members can approve a submission — no single person holds progress back",
+  ],
+  fruits: [
+    "The Fellowship Fruit — for completing a plan through a circle",
+    "The Unity Fruit — if circle members are from different nations",
+    "The Shepherd Fruit — for the circle leader when members complete modules",
+  ],
+} as const;
+
+// ─── FEATURES ─────────────────────────────────────────────────
+export const messagingFeatures = [
+  { icon: "💬", title: "Direct Messages", body: "Message any connection directly — your peer guide, circle members, and fellow believers in your network." },
+  { icon: "📌", title: "Pinned Messages", body: "Pin any message in a conversation with a label — Important, Follow Up, Scripture Reference, Action Item." },
+  { icon: "🎙️", title: "Audio Calls", body: "One-tap audio calls with your peer guide. Works on low-bandwidth connections anywhere in the world." },
+  { icon: "📹", title: "Video Calls", body: "Face to face with your peer guide. The lesson stays accessible in a sidebar during the call." },
+  { icon: "👥", title: "Group Calls", body: "Your Peer Circle meets live. Up to 8 participants. Raise your hand. Discussion questions on screen." },
+  { icon: "🎙️", title: "Break Rooms", body: "Spontaneous audio rooms in the Discover tab. Morning Prayer. Bible Q&A. Kingdom Men. Kingdom Women. Open rooms that disappear when the last person leaves." },
+  { icon: "✉️", title: "Contact P2P Global", body: "Message the team directly from the Messages tab. Select a department — Help Request, Crisis Response, Support, or Marketing. A team member responds in your inbox." },
+] as const;
+
+export const inboxTabs = [
+  { tab: "All", description: "Every conversation, ordered by most recent activity." },
+  { tab: "Unread", description: "Only conversations with messages you have not read yet." },
+  { tab: "Favourites", description: "Your peer guide and pinned contacts. Always at hand." },
+  { tab: "Peer Groups", description: "Informal groups — study groups, prayer partners, community conversations." },
+  { tab: "Circles", description: "Your Peer Circle conversations — tied to your learning plans." },
+] as const;
+
+export const prayerFeatures = [
+  { icon: "✝️", title: "The Sinner's Prayer", body: "A sacred screen — always accessible. A prayer of commitment for anyone who wants to begin with Jesus or recommit their life to Him. When you pray it — you can tell your peer guide immediately." },
+  { icon: "🙏", title: "Prayer Library", body: "Four categories — Grace and Mercy, Favour, Healing, and Confessions and Declarations. Biblical prayers grounded in Scripture, available any time." },
+  { icon: "📝", title: "Confession Builder", body: "Build your personal daily confession. Select scriptures. Arrange them. Set a morning notification. Wake up to your own words of faith." },
+  { icon: "📔", title: "Prayer Journal", body: "Write your prayers. Mark them answered. Your answered prayers become your personal testimony record — proof of God's faithfulness in your own life." },
+] as const;
+
+export const profileFeatures = [
+  { icon: "@", title: "Your @Username", body: "Your unique identity across the entire P2P Global network. Find people, be found, and invite others — all by username." },
+  { icon: "✓", title: "Identity Verification", body: "Submit a selfie with a handwritten note. Our team reviews it within 72 hours. The blue tick confirms you are a real person with a real identity. It builds trust across the network." },
+  { icon: "🌍", title: "GPS-Verified Location", body: "Your location is verified by your device GPS — not typed manually. City and country displayed on your profile. Coordinates are never shared with other users." },
+  { icon: "🌾", title: "Grain", body: "Every person who joins P2P Global through your personal invite link adds one Grain to your harvest record. Based on John 12:24." },
+] as const;
+
+// ─── CHURCH PORTAL ────────────────────────────────────────────
+export const churchPortalFeatures = [
+  {
+    icon: "📊",
+    title: "The Grove Dashboard",
+    body: "A real-time view of your congregation's discipleship activity. Active learners, lessons this week, peer guides, nations reached, and who needs a check-in. Not attendance numbers — discipleship. The thing Jesus commanded.",
+  },
+  {
+    icon: "🌳",
+    title: "The Grove Visualization",
+    body: "Every member of your congregation is a tree. You see the entire grove — seeds, sprouts, young trees, fruitful trees, forest builders. The spiritual state of your people. Visible. Real.",
+  },
+  {
+    icon: "👥",
+    title: "Cohort Management",
+    body: "Organize your congregation into cohorts — groups going through the same module together with a shared timeline. Assign peer guides. Track progress. Support members who fall behind.",
+  },
+  {
+    icon: "👤",
+    title: "Member Profiles",
+    body: "See each member's current module, peer guide status, fruits earned, and activity. Add private leadership notes. Never see their private reflections, assignment answers, or prayer journal. Privacy protected.",
+  },
+  {
+    icon: "📢",
+    title: "Announcements",
+    body: "Post announcements visible to your congregation inside the app. Pin the important ones. Schedule future announcements. Your church notice board — inside P2P Global.",
+  },
+  {
+    icon: "📷",
+    title: "QR Invite Code",
+    body: "A scannable QR code that brings your congregation straight into your church grove. Show it on screen Sunday morning. Print it in your bulletin. One scan — they join.",
+  },
+] as const;
+
+// ─── ADDITIONAL FAQ ITEMS ─────────────────────────────────────
+export const faqItemsAdditional = [
+  {
+    q: "What is a peer guide?",
+    a: "A peer guide is a fellow believer who is one step ahead of you on the discipleship journey. Not a pastor or teacher — a further-along peer who walks alongside you through every lesson, reads your reflections, prays with you, and notices when you go quiet.",
+  },
+  {
+    q: "What is the Living Tree?",
+    a: "Your Living Tree is a real-time visualization of your discipleship journey inside the app. Your roots represent modules completed. Your trunk represents faithfulness over time. Your branches represent the people you are guiding. Your fruit represents milestones earned. Your grain represents the people you have invited who joined.",
+  },
+  {
+    q: "What is a Seed, Sprout, or Fruitful Tree?",
+    a: "These are the six growth stages of your Living Tree — from Seed (just joined) through Sprout, Young Tree, Fruitful Tree, and Forest Builder to Forest of Nations. Each stage reflects real progress in your discipleship journey and in guiding others.",
+  },
+  {
+    q: "What is Grain?",
+    a: "Grain is your harvest record. Every person who joins P2P Global through your personal invite link adds one Grain to your profile. Based on John 12:24 — a grain of wheat that falls into the earth and dies bears much fruit.",
+  },
+  {
+    q: "What is the Blue Tick?",
+    a: "The blue tick on a profile means that member has verified their real identity through our verification system — a selfie reviewed by our team within 72 hours. It confirms a real person is behind the account and builds trust in the network.",
+  },
+  {
+    q: "What is Kingdom School?",
+    a: "Kingdom School is the educational structure of P2P Global. The Foundation is 12 modules and 84 lessons — the complete discipleship journey from new believer to disciple-maker. The Electives are 144 plans across 10 categories for every season of life.",
+  },
+  {
+    q: "What is The Completion Moment?",
+    a: "When you complete all 12 Foundation modules — The Completion Moment fires. A cinematic experience. A letter from your peer guide. The Forest Reveal showing your full discipleship lineage. And the Commission: You are ready. Go find your person.",
+  },
+  {
+    q: "What languages is P2P Global available in?",
+    a: "The app is available in 20 or more languages with on-demand translation. Lessons translate automatically when you request them in your language and are cached permanently for every subsequent user who needs the same lesson.",
+  },
+  {
+    q: "Is the Church Discipleship Portal really free?",
+    a: "Yes. Completely. No subscription. No payment. No tier. Every church gets full access to everything — the grove dashboard, cohort management, member profiles, announcements, and the QR invite system. Free. Always.",
+  },
+  {
+    q: "What is a Peer Circle?",
+    a: "A Peer Circle is a group of 3 to 8 believers going through the same plan or module together. Group calls. Shared discussions. Consensus evaluation. Anyone can create or join a circle — and members can span any number of nations.",
+  },
+  {
+    q: "Can I use P2P Global without a peer guide?",
+    a: "Yes — you can start Module 1 on your own while the smart matching system finds you a guide. You can also find a peer guide by searching their @username directly if you already know who you want.",
+  },
+  {
+    q: "What is the Generational Forest?",
+    a: "The Generational Forest shows your full discipleship lineage — your tree at the center, your mentees surrounding you, their mentees further out. A world map shows which nations your discipleship chain has reached. It is the most distinctive visualization in P2P Global.",
+  },
 ] as const;

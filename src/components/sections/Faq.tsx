@@ -1,5 +1,7 @@
 import Reveal from "@/components/motion/Reveal";
-import { faqItems } from "@/content/copy";
+import { faqItems, faqItemsAdditional } from "@/content/copy";
+
+const allFaqItems = [...faqItems, ...faqItemsAdditional];
 
 type Props = {
   tone?: "light" | "dark";
@@ -19,7 +21,7 @@ export default function Faq({ tone = "light" }: Props) {
         </Reveal>
 
         <div className={`mt-12 divide-y ${isDark ? "divide-paper/15" : "divide-ink/10"}`}>
-          {faqItems.map((item) => (
+          {allFaqItems.map((item) => (
             <details key={item.q} className="group py-5">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-left text-lg font-medium marker:content-none">
                 {item.q}

@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import HeroVideo from "@/components/sections/HeroVideo";
+import HowItActuallyWorks from "@/components/sections/HowItActuallyWorks";
 import JesusCenter from "@/components/sections/JesusCenter";
 import ScriptureFull from "@/components/sections/ScriptureFull";
 import SeedToNations from "@/components/sections/SeedToNations";
@@ -18,6 +19,7 @@ export default function Home() {
     <>
       <Hero />
       <HeroVideo />
+      <HowItActuallyWorks />
       <JesusCenter />
       <ScriptureFull
         eyebrow="Vision"

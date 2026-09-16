@@ -15,6 +15,17 @@ const routes = [
   "/about",
   "/faq",
   "/join",
+  "/how-it-works",
+  "/how-it-works/getting-started",
+  "/how-it-works/living-tree",
+  "/how-it-works/kingdom-school",
+  "/how-it-works/peer-guide",
+  "/how-it-works/peer-circles",
+  "/how-it-works/generational-forest",
+  "/how-it-works/messaging",
+  "/how-it-works/prayer",
+  "/how-it-works/profile",
+  "/how-it-works/grain",
   ...kingdomStoryCategories.map((c) => `/kingdom-stories/${c.slug}`),
 ];
 
