@@ -15,7 +15,7 @@ const steps = [
   {
     number: "03",
     title: "Guide someone else",
-    body: "When you complete the Foundation you are commissioned as a peer guide. The pattern of 2 Timothy 2:2 continues through you.",
+    body: "The moment you are one step ahead of someone, you are ready to guide them. The pattern of 2 Timothy 2:2 continues through you.",
   },
 ];
 

@@ -552,7 +552,7 @@ export const peerGuideExplainer = {
     { label: "Background sensitivity", detail: "For members with specific pastoral needs" },
     { label: "GPS-verified location", detail: "No fake profiles — real people, real places" },
   ],
-  becoming_a_guide: "When you complete all 12 Foundation modules — The Completion Moment fires and you are commissioned as a peer guide. From that point you can accept mentees and guide them through the same journey you just completed. The pattern of 2 Timothy 2:2 made real.",
+  becoming_a_guide: "You do not need to finish the whole Foundation before you can guide someone else. The moment you are one lesson — one step — ahead of another believer, you are already qualified to walk with them through it. That is the pattern of 2 Timothy 2:2: what you have received, you pass on, right where you are. The Completion Moment, when you finish all 12 Foundation modules, is a milestone worth celebrating — but it was never the starting line for guiding someone.",
 } as const;
 
 // ─── KINGDOM SCHOOL ───────────────────────────────────────────

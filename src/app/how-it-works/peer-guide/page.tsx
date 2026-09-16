@@ -69,7 +69,7 @@ export default function PeerGuidePage() {
         </div>
       </section>
 
-      <Prose eyebrow="Becoming a Guide" heading="When you finish — you begin" tone="dark">
+      <Prose eyebrow="Becoming a Guide" heading="One step ahead is enough" tone="dark">
         <p>{peerGuideExplainer.becoming_a_guide}</p>
       </Prose>
     </>
