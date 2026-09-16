@@ -20,7 +20,7 @@ export default function Hero() {
       className="relative flex h-[100svh] items-center justify-center overflow-hidden bg-ink"
       style={{
         backgroundImage:
-          "radial-gradient(120% 90% at 50% 15%, rgba(221,192,125,0.16) 0%, rgba(11,12,10,0) 55%), linear-gradient(120deg, #12211f 0%, #0b0c0a 55%, #1a1408 100%)",
+          "radial-gradient(120% 90% at 50% 15%, rgba(255,255,255,0.08) 0%, rgba(10,10,10,0) 55%), linear-gradient(120deg, #1c1c1c 0%, #0a0a0a 55%, #141414 100%)",
       }}
     >
       <motion.div

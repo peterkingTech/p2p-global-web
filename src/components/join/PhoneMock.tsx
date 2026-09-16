@@ -20,7 +20,7 @@ export default function PhoneMock({ platform }: Props) {
         <div className="absolute top-2 left-1/2 z-10 h-1.5 w-1.5 -translate-x-1/2 rounded-full bg-paper/30" />
       )}
 
-      <div className="relative h-full w-full overflow-hidden rounded-[1.75rem] bg-gradient-to-b from-[#163135] to-[#0b1517] p-4 pt-8">
+      <div className="relative h-full w-full overflow-hidden rounded-[1.75rem] bg-gradient-to-b from-[#1c1c1c] to-[#0a0a0a] p-4 pt-8">
         <p className="font-display text-center text-xs tracking-[0.25em] text-gold-soft/90">P2P</p>
         <div className="mt-6 space-y-2">
           <div className="h-2 w-3/4 rounded-full bg-paper/20" />
