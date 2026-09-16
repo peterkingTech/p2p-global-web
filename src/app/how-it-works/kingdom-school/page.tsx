@@ -50,7 +50,7 @@ export default function KingdomSchoolPage() {
       <section className="bg-paper py-24 text-ink">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12 text-center">
-            <p className="text-xs tracking-[0.35em] text-water uppercase">Four Modules — Order Not Fixed</p>
+            <p className="text-xs tracking-[0.35em] text-water uppercase">The Starting Point</p>
             <h2 className="font-display mt-4 text-3xl tracking-tight">The Gospel &amp; Salvation</h2>
           </Reveal>
 
