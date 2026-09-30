@@ -50,12 +50,12 @@ export default function Hero() {
           >
             Experience P2P
           </Link>
-          <Link
-            href="/#vision"
+          <a
+            href="#vision"
             className="rounded-full border border-paper/40 px-8 py-3.5 text-sm tracking-wide text-paper/90 transition-colors hover:border-paper hover:text-paper"
           >
             Explore the Vision
-          </Link>
+          </a>
         </div>
 
         <p className="mt-6 text-xs tracking-[0.15em] text-paper/40 uppercase">

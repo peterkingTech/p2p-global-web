@@ -43,13 +43,13 @@ export default function Nav() {
 
         <nav className="hidden items-center gap-5 xl:flex">
           {nav.map((item) => (
-            <Link
+            <a
               key={item.href}
               href={item.href}
               className="py-2 text-sm tracking-wide text-paper/80 transition-colors hover:text-gold-soft"
             >
               {item.label}
-            </Link>
+            </a>
           ))}
           <Link
             href="/join"
@@ -86,14 +86,14 @@ export default function Nav() {
           >
             <nav className="flex flex-col gap-1 px-6 py-6">
               {nav.map((item) => (
-                <Link
+                <a
                   key={item.href}
                   href={item.href}
                   onClick={() => setOpen(false)}
                   className="py-3 text-lg text-paper/85"
                 >
                   {item.label}
-                </Link>
+                </a>
               ))}
               <Link
                 href="/join"
