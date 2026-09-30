@@ -13,7 +13,7 @@ export default function JoinPage() {
     <>
       <section className="flex min-h-[70vh] items-center justify-center bg-ink px-6 py-32 text-center">
         <Reveal className="mx-auto max-w-xl text-paper">
-          <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">Join {brand.name}</p>
+          <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">Experience {brand.name}</p>
           <h1 className="font-display mt-6 text-4xl tracking-tight sm:text-6xl">Who Will You Help Grow?</h1>
           <p className="mt-8 text-lg leading-relaxed text-paper/80">{brand.tagline}</p>
 

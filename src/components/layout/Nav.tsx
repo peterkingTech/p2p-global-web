@@ -55,7 +55,7 @@ export default function Nav() {
             href="/join"
             className="rounded-full border border-gold-soft/60 px-5 py-2 text-sm tracking-wide text-gold-soft transition-colors hover:bg-gold-soft hover:text-ink"
           >
-            Join P2P
+            Experience P2P
           </Link>
         </nav>
 
@@ -100,7 +100,7 @@ export default function Nav() {
                 onClick={() => setOpen(false)}
                 className="mt-3 rounded-full border border-gold-soft/60 px-5 py-3 text-center text-sm tracking-wide text-gold-soft"
               >
-                Join P2P
+                Experience P2P
               </Link>
             </nav>
           </motion.div>

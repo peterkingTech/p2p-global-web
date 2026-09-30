@@ -24,7 +24,7 @@ export default function FinalCTA() {
               href="/join"
               className="rounded-full bg-gold-soft px-8 py-3.5 text-sm font-medium tracking-wide text-ink transition-transform hover:scale-[1.03]"
             >
-              Join P2P
+              Experience P2P
             </Link>
             <Link
               href="/vision"

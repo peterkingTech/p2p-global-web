@@ -48,16 +48,19 @@ export default function Hero() {
             href="/join"
             className="rounded-full bg-gold-soft px-8 py-3.5 text-sm font-medium tracking-wide text-ink transition-transform hover:scale-[1.03]"
           >
-            Join P2P
+            Experience P2P
           </Link>
           <Link
-            href="/vision"
+            href="/#vision"
             className="rounded-full border border-paper/40 px-8 py-3.5 text-sm tracking-wide text-paper/90 transition-colors hover:border-paper hover:text-paper"
           >
             Explore the Vision
           </Link>
         </div>
 
+        <p className="mt-6 text-xs tracking-[0.15em] text-paper/40 uppercase">
+          This website helps you understand P2P. The app is where you experience it.
+        </p>
       </motion.div>
 
       <motion.p

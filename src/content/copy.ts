@@ -29,14 +29,9 @@ export const brand = {
 } as const;
 
 export const nav = [
-  { label: "Vision", href: "/vision" },
-  { label: "How It Works", href: "/how-it-works" },
-  { label: "Discipleship", href: "/discipleship" },
-  { label: "Gifts & Service", href: "/gifts" },
-  { label: "Missions", href: "/missions" },
-  { label: "Stories", href: "/kingdom-stories" },
-  { label: "Communities", href: "/churches" },
-  { label: "About", href: "/about" },
+  { label: "Vision", href: "/#vision" },
+  { label: "How It Works", href: "/#how-it-works" },
+  { label: "Stories", href: "/#stories" },
 ] as const;
 
 export const footerLinks = [
@@ -195,6 +190,19 @@ export const ecosystem = [
   { key: "church", title: "CHURCH", body: "P2P serves the local church. It does not replace it.", href: "/churches" },
   { key: "missions", title: "MISSIONS", body: "See the field. Hear the story. Pray for the workers.", href: "/missions" },
   { key: "stories", title: "STORIES", body: "Discover what God has done.", href: "/kingdom-stories" },
+] as const;
+
+export const howItWorksTopics = [
+  { title: "Getting Started", href: "/how-it-works/getting-started", icon: "🌰", description: "Your first week on P2P Global — step by step." },
+  { title: "Your Living Tree", href: "/how-it-works/living-tree", icon: "🌳", description: "What every part of your tree means — roots, trunk, branches, fruit, grain." },
+  { title: "Kingdom School", href: "/how-it-works/kingdom-school", icon: "📖", description: "The Foundation (12 modules) and the Electives (144 plans across 10 categories)." },
+  { title: "Your Peer Guide", href: "/how-it-works/peer-guide", icon: "🤝", description: "What a peer guide is, how matching works, and how to become one." },
+  { title: "Peer Circles", href: "/how-it-works/peer-circles", icon: "👥", description: "Group learning for 3 to 8 believers going through a plan together." },
+  { title: "The Generational Forest", href: "/how-it-works/generational-forest", icon: "🌍", description: "Your full discipleship lineage — who you guided, who they guided, which nations were reached." },
+  { title: "Messaging and Calls", href: "/how-it-works/messaging", icon: "💬", description: "The inbox, audio calls, video calls, group calls, and break rooms." },
+  { title: "Prayer", href: "/how-it-works/prayer", icon: "🙏", description: "The Sinner's Prayer, prayer library, confession builder, and prayer journal." },
+  { title: "Profile and Identity", href: "/how-it-works/profile", icon: "✓", description: "@username, the blue tick, GPS verification, and your public profile." },
+  { title: "Grain and Invitations", href: "/how-it-works/grain", icon: "🌾", description: "Your personal harvest record and how to invite others to Kingdom School." },
 ] as const;
 
 export const kingdomStoryCategories = [
