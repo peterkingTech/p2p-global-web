@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/sections/PageHero";
 import Faq from "@/components/sections/Faq";
 
-export const metadata: Metadata = {
-  title: "FAQ",
-  description: "Answers to common questions about P2P — what it is, what it isn't, and how it relates to your church.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("FaqPage");
+  return { title: t("metaTitle"), description: t("metaDescription") };
+}
 
-export default function FaqPage() {
+export default async function FaqPage() {
+  const t = await getTranslations("FaqPage");
   return (
     <>
-      <PageHero eyebrow="FAQ" title="Common Questions" mediaKey="about" />
+      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} mediaKey="about" />
       <Faq />
     </>
   );

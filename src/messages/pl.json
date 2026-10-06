@@ -1,0 +1,253 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "Globalna sieć uczniostwa peer-to-peer skoncentrowana na Jezusie Chrystusie — Pismo, modlitwa, wspólnota i misja. Każdy uczy się od kogoś. Każdy może pomóc komuś wzrastać.",
+    "shortDescription": "Każdy uczy się od kogoś. Każdy może pomóc komuś wzrastać."
+  },
+  "LanguageSwitcher": { "label": "Język" },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "Każdy uczy się od kogoś. Każdy może pomóc komuś wzrastać.",
+    "centerLine1": "Nie nasze dzieło. Jego dzieło.",
+    "centerLine2": "Nie nasza chwała. Jego chwała.",
+    "centerLine3": "Jezus Chrystus w centrum."
+  },
+  "Nav": {
+    "vision": "Wizja",
+    "howItWorks": "Jak to działa",
+    "stories": "Historie",
+    "experienceP2p": "Doświadcz P2P",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
+  },
+  "Footer": {
+    "vision": "Wizja",
+    "howItWorks": "Jak to działa",
+    "discipleship": "Uczniostwo",
+    "gifts": "Dary",
+    "missions": "Misje",
+    "kingdomStories": "Historie Królestwa",
+    "kingdomWins": "Zwycięstwa Królestwa",
+    "families": "Rodziny",
+    "churches": "Kościoły",
+    "about": "O nas",
+    "faq": "Najczęściej zadawane pytania",
+    "privacy": "Prywatność",
+    "terms": "Warunki",
+    "contact": "Kontakt",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "Wspierane przez Amen Kingdom Tech Ministry"
+  },
+  "Hero": {
+    "eyebrowSuffix": "Globalna Sieć",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "Globalna Sieć Uczniostwa",
+    "tagline1": "Każdy uczy się od kogoś.",
+    "tagline2": "Każdy może pomóc komuś wzrastać.",
+    "description": "Globalna sieć uczniostwa peer-to-peer skoncentrowana na Jezusie Chrystusie — Pismo, modlitwa, wspólnota i misja.",
+    "ctaExperience": "Doświadcz P2P",
+    "ctaVision": "Odkryj Wizję",
+    "understandVsExperience": "Ta strona pomaga zrozumieć P2P. Aplikacja to miejsce, w którym tego doświadczasz.",
+    "discoverJourney": "Odkryj podróż ↓"
+  },
+  "HeroVideo": { "ariaLabel": "Wiele rąk razem trzymających Biblię" },
+  "HowItActuallyWorks": {
+    "eyebrow": "Jak to działa",
+    "heading": "Oto co się naprawdę dzieje",
+    "subheading": "Trzy kroki. Jedna podróż.",
+    "learnMore": "Dowiedz się więcej o tym, jak to działa",
+    "steps": {
+      "download": { "title": "Pobierz i dołącz", "body": "Utwórz konto. Wybierz swoją @nazwę użytkownika. Ustal etap wiary i cele. Poznaj swojego przewodnika rówieśniczego dzięki naszemu inteligentnemu systemowi dopasowania." },
+      "kingdomSchool": { "title": "Rozpocznij Kingdom School", "body": "17 modułów — wprowadzenie, ścieżka Ewangelii i Zbawienia oraz 12-modułowy Fundament Chrześcijański. Przejdź każdy z przewodnikiem rówieśniczym, we własnym tempie, w swoim języku, z dowolnego miejsca na ziemi." },
+      "guide": { "title": "Prowadź kogoś innego", "body": "W chwili, gdy jesteś krok przed kimś, jesteś gotowy, by go prowadzić. Wzorzec z 2 Tymoteusza 2:2 trwa przez ciebie." }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "Zgłęb temat",
+    "heading": "Strona to podręcznik. Aplikacja to doświadczenie.",
+    "body": "Każda funkcja poniżej jest w pełni wyjaśniona na swojej własnej stronie — przeczytaj to, co jest teraz dla ciebie istotne, albo wróć później. Gdy będziesz gotowy, aplikacja to miejsce, w którym naprawdę to przeżyjesz."
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "Pierwsze kroki", "description": "Twój pierwszy tydzień w P2P Global — krok po kroku." },
+    "livingTree": { "title": "Twoje Żywe Drzewo", "description": "Co oznacza każda część twojego drzewa — korzenie, pień, gałęzie, owoc, ziarno." },
+    "kingdomSchool": { "title": "Kingdom School", "description": "Fundament (12 modułów) i przedmioty fakultatywne (144 plany w 10 kategoriach)." },
+    "peerGuide": { "title": "Twój Przewodnik Rówieśniczy", "description": "Czym jest przewodnik rówieśniczy, jak działa dopasowanie i jak nim zostać." },
+    "peerCircles": { "title": "Kręgi Rówieśnicze", "description": "Nauka grupowa dla 3 do 8 wierzących, którzy wspólnie przechodzą jeden plan." },
+    "generationalForest": { "title": "Las Pokoleń", "description": "Twoja pełna linia uczniostwa — kogo prowadziłeś, kogo oni prowadzili, do jakich narodów dotarto." },
+    "messaging": { "title": "Wiadomości i Połączenia", "description": "Skrzynka odbiorcza, połączenia głosowe, połączenia wideo, połączenia grupowe i pokoje przerw." },
+    "prayer": { "title": "Modlitwa", "description": "Modlitwa grzesznika, biblioteka modlitw, kreator wyznania i dziennik modlitwy." },
+    "profile": { "title": "Profil i Tożsamość", "description": "@nazwa użytkownika, niebieski znacznik, weryfikacja GPS i twój publiczny profil." },
+    "grain": { "title": "Ziarno i Zaproszenia", "description": "Twój osobisty rejestr zbiorów i jak zapraszać innych do Kingdom School." }
+  },
+  "JesusCenter": {
+    "heading": "Jezus Chrystus w centrum.",
+    "body": "P2P nie jest bohaterem tej historii. To narzędzie, które pomaga wierzącym się uczyć, wzrastać, towarzyszyć innym, służyć, czynić uczniami i się rozmnażać — nigdy nie zastępując Jezusa, Pisma, Ducha Świętego ani lokalnego Kościoła."
+  },
+  "Scripture": {
+    "vision": { "eyebrow": "Wizja", "reference": "Habakuka 2:14", "text": "Ziemia bowiem będzie napełniona poznaniem chwały PANA, jak wody wypełniają morze." },
+    "mission": { "eyebrow": "Misja", "reference": "2 Tymoteusza 2:2", "text": "A co słyszałeś ode mnie wobec wielu świadków, to powierz wiernym ludziom, którzy będą zdolni nauczać także innych.", "footer": "Każdy uczy się od kogoś i pomaga komuś wzrastać. To centralny model uczniostwa P2P." },
+    "gifts": { "reference": "1 Piotra 4:10", "text": "Każdy, jak otrzymał dar, tak nim usługujcie jedni drugim, jako dobrzy szafarze rozlicznej łaski Bożej." }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "Centralna Metafora",
+    "heading": "Od Ziarna do Narodów",
+    "body": "Dzieło Boże często zaczyna się w sposób, który wydaje się mały. Jedna osoba. Jedna rozmowa. Jeden fragment Pisma. Jeden akt posłuszeństwa. Następnie zaczyna się rozmnażanie."
+  },
+  "SeedToNations": {
+    "seed": { "stage": "Pojedyncze ziarno", "title": "POJEDYNCZE ZIARNO", "body": "Jedna osoba słyszy ewangelię." },
+    "tree": { "stage": "Staje się drzewem", "title": "STAJE SIĘ DRZEWEM", "body": "Zakorzenione w doktrynie. Wzrastające w wierze. Uczniostwo to nie tylko zbieranie informacji — korzenie się pogłębiają, charakter wzrasta, wiara dojrzewa." },
+    "forest": { "stage": "Drzewa stają się lasem", "title": "DRZEWA STAJĄ SIĘ LASEM", "body": "Uczniowie rozmnażają się z pokolenia na pokolenie. Jeden uczeń pomaga drugiemu, który pomaga kolejnemu. Proces staje się pokoleniowy." },
+    "continents": { "stage": "Lasy rozprzestrzeniają się na kontynentach", "title": "LASY ROZPRZESTRZENIAJĄ SIĘ NA KONTYNENTACH", "body": "Miasta i narody pełne wierzących. To jest wizja — nie twierdzenie o obecnych liczbach." },
+    "glory": { "stage": "Ziemia pokryta Jego chwałą", "title": "ZIEMIA POKRYTA JEGO CHWAŁĄ", "body": "Jak wody wypełniają morze. — Habakuka 2:14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "Jak rozmnażają się uczniowie",
+    "heading": "Wzorzec jest prosty",
+    "body": "Nie musisz znać historii Pawła i Tymoteusza, aby zrozumieć ten wzorzec: ktoś otrzymuje, ktoś wzrasta, ktoś pomaga, ktoś naucza, ktoś się rozmnaża.",
+    "steps": {
+      "learn": { "title": "UCZĘ SIĘ", "body": "Otrzymując od mojego przewodnika rówieśniczego — Pismo, rozmowa, nauka." },
+      "grow": { "title": "WZRASTAM", "body": "Korzenie się pogłębiają. Wiara się umacnia. Charakter dojrzewa." },
+      "helpSomeone": { "title": "POMAGAM KOMUŚ WZRASTAĆ", "body": "Prowadząc kogoś, ucząc tego, czego mnie nauczono — relacyjnie, nie hierarchicznie." },
+      "theyHelp": { "title": "ONI POMAGAJĄ KOMUŚ WZRASTAĆ", "body": "Zaczyna się uczniostwo drugiego pokolenia." },
+      "multiply": { "title": "UCZNIOWIE SIĘ ROZMNAŻAJĄ", "body": "Wpływ pokoleniowy się rozszerza." },
+      "nations": { "title": "NARODY OSIĄGNIĘTE", "body": "Ziemia napełniona Jego chwałą." }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "Twoja Podróż Wzrostu",
+    "heading": "Podróż, Nie Status",
+    "body": "Wzrost nie dotyczy statusu. Dotyczy zakorzenienia, owocności i zdolności do pomagania innym wzrastać.",
+    "ariaLabel": "Etapy podróży uczniostwa P2P",
+    "stages": {
+      "seed": { "title": "ZIARNO", "body": "Dopiero dołączył. Podróż się zaczyna." },
+      "sprout": { "title": "KIEŁEK", "body": "Moduły podstawowe. Pierwsze relacje mentorskie." },
+      "young": { "title": "MŁODE DRZEWO", "body": "W połowie podróży. Aktywnie pomaga innym." },
+      "fruitful": { "title": "OWOCUJĄCE DRZEWO", "body": "Głęboko w programie nauczania. Owoc na gałęziach." },
+      "forestBuilder": { "title": "BUDOWNICZY LASU", "body": "Uczniowie czyniący uczniami innych w różnych miastach." },
+      "forestNations": { "title": "LAS NARODÓW", "body": "Narody dotknięte przez pokoleniowe uczniostwo — stan wizji, a nie twierdzenie o obecnym osiągnięciu." }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "Każdy Wierzący Ma Dary",
+    "heading": "Silnik Ciała Chrystusa",
+    "intro": "Wierzący nie tylko uczą się lekcji biblijnych — to, czego się uczysz, może kształtować to, jak służysz, a to, co Bóg złożył w tobie, może umocnić kogoś innego. Uczniostwo staje się służbą, służba staje się wkładem, a wkład staje się rozmnażaniem.",
+    "exampleEyebrow": "Ilustracyjnie — Przykład",
+    "exampleHeading": "Twój Dar Może Służyć Komuś",
+    "discoverGifts": "Odkryj Wizję Darów",
+    "categories": {
+      "care": { "title": "OPIEKA I DOBROSTAN", "examples": "Psychologia, terapia, poradnictwo, wsparcie dobrostanu psychicznego, opieka społeczna", "outcome": "KRĘGI UZDROWIENIA I ZACHĘTY" },
+      "tech": { "title": "TECHNOLOGIA I CYFRYZACJA", "examples": "Programowanie, projektowanie UI/UX, cyberbezpieczeństwo, tworzenie stron i aplikacji mobilnych", "outcome": "ROZWÓJ APLIKACJI I NARZĘDZI" },
+      "leadership": { "title": "PRZYWÓDZTWO I ADMINISTRACJA", "examples": "Administracja, zarządzanie projektami, finanse, operacje, strategia", "outcome": "ORGANIZACJA I SKALOWANIE" },
+      "creative": { "title": "KREATYWNOŚĆ I MEDIA", "examples": "Muzyka, fotografia, pisanie, projektowanie, wideo, opowiadanie historii", "outcome": "TREŚCI I OPOWIADANIE HISTORII" },
+      "education": { "title": "EDUKACJA", "examples": "Nauczanie, coaching językowy, korepetycje akademickie, rozwój programów nauczania", "outcome": "NAUKA I SZKOLENIE" },
+      "ministry": { "title": "DARY SŁUŻBY", "examples": "Ewangelizacja, modlitwa i wstawiennictwo, uwielbienie, uczniostwo, nauczanie biblijne", "outcome": "ROZMNAŻANIE DUCHOWE" }
+    },
+    "examples": {
+      "therapist": { "title": "TERAPEUTA + UCZEŃ", "tags": ["Poradnictwo", "Uczniostwo"], "body": "Prowadzi skoncentrowaną na Piśmie grupę wsparcia dla osób przeżywających trudne okresy. Profesjonalna opieka i wsparcie duchowe mogą współistnieć — jedno nie zastępuje drugiego." },
+      "programmer": { "title": "PROGRAMISTA + MISJONARZ", "tags": ["Programowanie", "Ewangelizacja"], "body": "Pomaga budować narzędzia cyfrowe, mentoruje programistów i wspiera cyfrową ewangelizację." },
+      "administrator": { "title": "ADMINISTRATOR + MENTOR", "tags": ["Operacje", "Przywództwo"], "body": "Pomaga organizować grupy uczniostwa, koordynuje zespoły i wspiera inicjatywy modlitewne." },
+      "artist": { "title": "ARTYSTA + LIDER UWIELBIENIA", "tags": ["Projektowanie", "Uwielbienie"], "body": "Tworzy materiały wizualne, wspiera społeczności uwielbienia i wnosi wkład w materiały uczniostwa." }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "Wizja Tego, Jak Służą Wierzący",
+    "heading": "Twój Dar Może Zaspokoić Potrzebę",
+    "intro": "Ciało Chrystusa jest najsilniejsze, gdy ludzie pytają nie tylko \"Co mogę otrzymać?\", ale także \"Co mogę dać?\"",
+    "lookingForHelp": "Szukam Pomocy",
+    "offeringGift": "Oferuję Swój Dar",
+    "disclaimer": "To są przykłady ilustrujące wizję, nie aktywny katalog. P2P nie jest rynkiem freelancerów, platformą płatnych usług ani niezweryfikowanym katalogiem zawodowym — każda przyszła funkcja odkrywania darów będzie obejmować weryfikację tożsamości, ochronę, prywatność i odpowiednią moderację.",
+    "queries": {
+      "programmers": "Znajdź chrześcijańskich programistów w pobliżu",
+      "translator": "Potrzebuję tłumacza do treści uczniostwa",
+      "accountability": "Szukam partnera odpowiedzialności za modlitwę",
+      "worship": "Szukam kogoś doświadczonego w uwielbieniu",
+      "website": "Potrzebuję pomocy przy stronie służby",
+      "english": "Szukam kogoś, kto może uczyć angielskiego"
+    },
+    "offers": {
+      "counseling": "Oferuję bezpłatne poradnictwo dla nowych wierzących",
+      "websiteDesign": "Mogę pomóc w projektowaniu strony służby",
+      "mentoring": "Mentoruję młodych profesjonalistów",
+      "translation": "Dostępny do pomocy w tłumaczeniu materiałów uczniostwa",
+      "programming": "Dostępny do nauczania programowania",
+      "worshipMusic": "Mogę pomóc w uwielbieniu i muzyce"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "Ekosystem P2P",
+    "heading": "Wszystko Wskazuje z Powrotem na Jezusa Chrystusa",
+    "explore": "Odkryj",
+    "items": {
+      "study": { "title": "STUDIUM", "body": "Zakorzenione w Piśmie — program nauczania, plany i przestrzeń do studiowania." },
+      "prayer": { "title": "MODLITWA", "body": "Modlitwa staje się uczestnictwem — prawdziwi ludzie, prawdziwa modlitwa, bez tabel wyników." },
+      "family": { "title": "RODZINA", "body": "Uczniostwo zaczyna się tam, gdzie żyjemy." },
+      "church": { "title": "KOŚCIÓŁ", "body": "P2P służy lokalnemu Kościołowi. Nie zastępuje go." },
+      "missions": { "title": "MISJE", "body": "Zobacz pole. Posłuchaj historii. Módl się za pracowników." },
+      "stories": { "title": "HISTORIE", "body": "Odkryj, co Bóg uczynił." }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "Globalna Społeczność",
+    "headingLine1": "Jedno Ciało.",
+    "headingLine2": "Wielu Ludzi.",
+    "headingLine3": "Jeden Pan.",
+    "journeyEyebrow": "Twoja Podróż Uczniostwa",
+    "journeySteps": {
+      "discover": "ODKRYJ",
+      "learn": "UCZ SIĘ",
+      "grow": "WZRASTAJ",
+      "walkWithOthers": "IDŹ Z INNYMI",
+      "helpSomeone": "POMÓŻ KOMUŚ",
+      "serve": "SŁUŻ",
+      "disciple": "CZYŃ UCZNIAMI",
+      "multiply": "ROZMNAŻAJ",
+      "nations": "NARODY"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "Prawdziwe Historie",
+    "heading": "Odkryj, Co Bóg Uczynił",
+    "body": "Historia, przebudzenie, globalny Kościół i ruchy, które ukształtowały to, jak dziś podążamy za Jezusem — opowiedziane starannie, bez przesady.",
+    "exploreAll": "Odkryj Wszystkie Historie Królestwa",
+    "readStory": "Przeczytaj historię"
+  },
+  "Faq": {
+    "eyebrow": "Pytania",
+    "heading": "Najczęściej Zadawane Pytania",
+    "items": {
+      "whatIsP2p": { "q": "Czym jest P2P?", "a": "Globalna sieć uczniostwa peer-to-peer skoncentrowana na Jezusie Chrystusie — Pismo, modlitwa, wspólnota i misja, zbudowana na idei, że każdy uczy się od kogoś i każdy może pomóc komuś wzrastać." },
+      "whoBuilt": { "q": "Kto stworzył P2P?", "a": "P2P Global Discipleship Network jest wspierana przez Amen Kingdom Tech Ministry — służbę technologiczną, która projektuje i buduje strony internetowe, aplikacje i systemy cyfrowe dla kościołów, organizacji i firm." },
+      "whatIsAmen": { "q": "Czym jest Amen Kingdom Tech Ministry?", "a": "Ukierunkowana na cel służba technologiczna, założona w posłuszeństwie Bożemu wezwaniu w erze cyfrowej, istniejąca, aby wiernie Go reprezentować na różnych górach wpływu w świecie technologii. Nazwa AMEN odzwierciedla zgodę z tym, co Bóg czyni poprzez budowane przez nią systemy — prowadzone przez Ducha Świętego, a nie tylko trendy, i budowane z doskonałością, precyzją i uczciwością." },
+      "commercial": { "q": "Czy P2P jest produktem komercyjnym stworzonym przez Amen Kingdom Tech?", "a": "Nie. P2P jest wyrazem służby tego samego powołania, a nie biznesem — właśnie dlatego każda funkcja jest bezpłatna." },
+      "replaceChurch": { "q": "Czy P2P zastępuje mój lokalny Kościół?", "a": "Nie. P2P zostało zbudowane, aby wzmacniać lokalny Kościół, a nie z nim konkurować. Członkostwo, opieka duszpasterska i sakramenty pozostają tam, gdzie powinny — w twojej wspólnocie." },
+      "therapyReplacement": { "q": "Czy P2P zastępuje terapię lub profesjonalne poradnictwo?", "a": "Nie. Tam, gdzie P2P dotyka opieki i dobrostanu, jest to zachęta rówieśnicza obok profesjonalnej pomocy, nigdy jej zastępstwo. Każdy w kryzysie powinien skontaktować się z licencjonowanym specjalistą lub lokalnymi służbami ratunkowymi." },
+      "giftsMarketplace": { "q": "Czy Sieć Darów i Służby to rynek, na którym płacę za pomoc?", "a": "Nie. To wizja tego, jak wierzący mogą oferować i znajdować pomoc w ramach społeczności — nie rynek freelancerów, nie platforma płatnych usług, ani niezweryfikowany katalog zawodowy. Każda przyszła wersja obejmie weryfikację tożsamości, ochronę i odpowiednią moderację." },
+      "whoCanJoin": { "q": "Kto może dołączyć do P2P?", "a": "Każdy, kto chce wzrastać jako uczeń Jezusa i pomóc komuś innemu robić to samo — zarówno nowi, jak i wieloletni wierzący. Przewodnik rówieśniczy to po prostu ktoś nieco dalej na drodze, nie odległy autorytet." },
+      "cost": { "q": "Czy dołączenie wiąże się z kosztami?", "a": "Nie — wszystko jest bezpłatne. Każdy zasób i narzędzie do wzrostu, zarówno dla osób, rodzin, jak i kościołów, jest oferowane bez opłat, a P2P nie pobiera opłat za żadną funkcję. To nie jest model biznesowy; to zadanie Królestwa i służba, realizowane w dążeniu do Bożej wizji, że ziemia napełni się poznaniem chwały Pana, jak wody wypełniają morze (Habakuka 2:14)." },
+      "whyFree": { "q": "Dlaczego wszystko jest bezpłatne?", "a": "Ponieważ P2P istnieje, by służyć tej wizji, a nie by generować z niej dochód. Pobieranie opłat za uczniostwo, modlitwę lub narzędzia pomagające komuś wzrastać byłoby sprzeczne z samym celem, dla którego ta sieć została zbudowana." },
+      "churchFree": { "q": "Czy mój Kościół również może korzystać z P2P za darmo?", "a": "Tak. Kościoły, rodziny i osoby indywidualne korzystają z tej samej bezpłatnej sieci — nie ma płatnego poziomu, planu premium ani żadnej funkcji ukrytej za murem płatności." },
+      "websiteVsApp": { "q": "Czym ta strona różni się od aplikacji P2P?", "a": "Ta strona przedstawia wizję i wyjaśnia model. Część opisanych rzeczy — jak odkrywanie usług opartych na darach — to kierunek, w którym P2P może zmierzać, a nie twierdzenie o tym, co aplikacja już dziś robi. Strona O nas wyjaśnia tę różnicę bardziej szczegółowo." },
+      "peerGuide": { "q": "Czym jest przewodnik rówieśniczy?", "a": "Przewodnik rówieśniczy to współwierzący, który jest o krok przed tobą na drodze uczniostwa. Nie pastor ani nauczyciel — ale bardziej zaawansowany rówieśnik, który towarzyszy ci w każdej lekcji, czyta twoje refleksje, modli się z tobą i zauważa, gdy milkniesz." },
+      "livingTree": { "q": "Czym jest Żywe Drzewo?", "a": "Twoje Żywe Drzewo to wizualizacja w czasie rzeczywistym twojej podróży uczniostwa w aplikacji. Twoje korzenie reprezentują ukończone moduły. Twój pień reprezentuje wierność w czasie. Twoje gałęzie reprezentują osoby, które prowadzisz. Twój owoc reprezentuje osiągnięte kamienie milowe. Twoje ziarno reprezentuje osoby, które zaprosiłeś i które dołączyły." },
+      "growthStages": { "q": "Czym jest Ziarno, Kiełek lub Owocujące Drzewo?", "a": "To sześć etapów wzrostu twojego Żywego Drzewa — od Ziarna (dopiero dołączył) przez Kiełek, Młode Drzewo, Owocujące Drzewo i Budowniczego Lasu aż po Las Narodów. Każdy etap odzwierciedla prawdziwy postęp w twojej podróży uczniostwa i prowadzeniu innych." },
+      "grain": { "q": "Czym jest Ziarno?", "a": "Ziarno to twój rejestr zbiorów. Każda osoba, która dołącza do P2P Global poprzez twój osobisty link zapraszający, dodaje jedno ziarno do twojego profilu. Oparte na Ewangelii Jana 12:24 — ziarno pszenicy, które pada w ziemię i obumiera, wydaje wiele owocu." },
+      "blueTick": { "q": "Czym jest Niebieski Znacznik?", "a": "Niebieski znacznik na profilu oznacza, że ten członek zweryfikował swoją prawdziwą tożsamość za pomocą naszego systemu weryfikacji — selfie sprawdzone przez nasz zespół w ciągu 72 godzin. Potwierdza to, że za kontem stoi prawdziwa osoba i buduje zaufanie w sieci." },
+      "kingdomSchool": { "q": "Czym jest Kingdom School?", "a": "Kingdom School to struktura edukacyjna P2P Global. Fundament obejmuje 12 modułów i 84 lekcje — pełną podróż uczniostwa od nowego wierzącego do twórcy uczniów. Przedmioty fakultatywne obejmują 144 plany w 10 kategoriach na każdy sezon życia." },
+      "completionMoment": { "q": "Czym jest Moment Ukończenia?", "a": "Gdy ukończysz wszystkie 12 modułów Fundamentu, uruchamia się Moment Ukończenia. Doświadczenie filmowe. List od twojego przewodnika rówieśniczego. Odsłonięcie Lasu pokazujące twoją pełną linię uczniostwa. I Misja: jesteś gotowy. Idź i znajdź swoją osobę." },
+      "languages": { "q": "W jakich językach dostępna jest P2P Global?", "a": "Aplikacja jest dostępna w 20 lub więcej językach z tłumaczeniem na żądanie. Lekcje tłumaczą się automatycznie, gdy żądasz ich w swoim języku, i pozostają zapisane na stałe dla każdego kolejnego użytkownika, który potrzebuje tej samej lekcji." },
+      "churchPortalFree": { "q": "Czy Portal Uczniostwa dla Kościołów jest naprawdę bezpłatny?", "a": "Tak. Całkowicie. Bez subskrypcji. Bez płatności. Bez poziomów. Każdy Kościół otrzymuje pełny dostęp do wszystkiego — pulpitu gaju, zarządzania kohortami, profili członków, ogłoszeń i systemu zaproszeń QR. Bezpłatnie. Zawsze." },
+      "peerCircle": { "q": "Czym jest Krąg Rówieśniczy?", "a": "Krąg Rówieśniczy to grupa 3 do 8 wierzących przechodzących razem ten sam plan lub moduł. Rozmowy grupowe. Wspólne dyskusje. Ocena przez konsensus. Każdy może stworzyć krąg lub do niego dołączyć — a członkowie mogą pochodzić z dowolnej liczby narodów." },
+      "withoutPeerGuide": { "q": "Czy mogę korzystać z P2P Global bez przewodnika rówieśniczego?", "a": "Tak — możesz rozpocząć Moduł 1 samodzielnie, podczas gdy inteligentny system dopasowania znajdzie ci przewodnika. Możesz również znaleźć przewodnika rówieśniczego, wyszukując bezpośrednio jego @nazwę użytkownika, jeśli już wiesz, kogo chcesz." },
+      "generationalForest": { "q": "Czym jest Las Pokoleń?", "a": "Las Pokoleń pokazuje twoją pełną linię uczniostwa — twoje drzewo w centrum, twoich podopiecznych wokół ciebie, ich podopiecznych dalej. Mapa świata pokazuje, które narody osiągnął twój łańcuch uczniostwa. To najbardziej charakterystyczna wizualizacja w P2P Global." }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "Każdy uczy się od kogoś.",
+    "headingLine2": "Każdy może pomóc komuś wzrastać.",
+    "question": "Komu pomożesz wzrastać?",
+    "ctaExperience": "Doświadcz P2P",
+    "ctaExplore": "Odkryj Sieć"
+  }
+}

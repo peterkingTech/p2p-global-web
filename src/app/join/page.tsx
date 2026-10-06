@@ -1,38 +1,51 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import Reveal from "@/components/motion/Reveal";
-import { brand, gettingStartedSteps } from "@/content/copy";
+import { gettingStartedStepKeys, gettingStartedStepNumbers } from "@/content/copy";
 
-export const metadata: Metadata = {
-  title: "Join P2P Global",
-  description: "Download P2P Global and begin your Kingdom School journey.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("JoinPage");
+  return { title: t("metaTitle"), description: t("metaDescription") };
+}
 
-export default function JoinPage() {
+export default async function JoinPage() {
+  const t = await getTranslations("JoinPage");
+  const tBrand = await getTranslations("Brand");
+  const tSteps = await getTranslations("GettingStartedSteps");
+  const tTopics = await getTranslations("HowItWorksTopics");
+  const tNav = await getTranslations("Nav");
+  const tFooter = await getTranslations("Footer");
+
+  const links = [
+    { label: tNav("howItWorks"), href: "/how-it-works" },
+    { label: tTopics("livingTree.title"), href: "/how-it-works/living-tree" },
+    { label: tTopics("kingdomSchool.title"), href: "/how-it-works/kingdom-school" },
+    { label: tTopics("peerGuide.title"), href: "/how-it-works/peer-guide" },
+    { label: tFooter("churches"), href: "/churches" },
+  ];
+
   return (
     <>
       <section className="flex min-h-[70vh] items-center justify-center bg-ink px-6 py-32 text-center">
         <Reveal className="mx-auto max-w-xl text-paper">
-          <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">Experience {brand.name}</p>
-          <h1 className="font-display mt-6 text-4xl tracking-tight sm:text-6xl">Who Will You Help Grow?</h1>
-          <p className="mt-8 text-lg leading-relaxed text-paper/80">{brand.tagline}</p>
+          <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">{t("eyebrow", { name: tBrand("name") })}</p>
+          <h1 className="font-display mt-6 text-4xl tracking-tight sm:text-6xl">{t("heading")}</h1>
+          <p className="mt-8 text-lg leading-relaxed text-paper/80">{tBrand("tagline")}</p>
 
           <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <span className="inline-flex cursor-not-allowed items-center gap-3 rounded-full bg-gold-soft/40 px-8 py-4 text-sm font-medium tracking-wide text-ink/60">
               <span aria-hidden="true">📱</span>
-              Android — Coming Soon
+              {t("androidComingSoon")}
             </span>
-            <span className="text-sm text-paper/40">iOS coming soon too</span>
+            <span className="text-sm text-paper/40">{t("iosComingSoon")}</span>
           </div>
-          <p className="mt-4 text-xs text-paper/40">
-            The Play Store listing isn&rsquo;t live yet — we&rsquo;d rather leave this honest than link somewhere
-            that doesn&rsquo;t exist.
-          </p>
+          <p className="mt-4 text-xs text-paper/40">{t("storeNote")}</p>
 
           <div className="mt-16 space-y-1 text-sm tracking-wide text-paper/50">
-            <p>{brand.centerLine1}</p>
-            <p>{brand.centerLine2}</p>
-            <p className="mt-3 text-gold-soft/90">{brand.centerLine3}</p>
+            <p>{tBrand("centerLine1")}</p>
+            <p>{tBrand("centerLine2")}</p>
+            <p className="mt-3 text-gold-soft/90">{tBrand("centerLine3")}</p>
           </div>
         </Reveal>
       </section>
@@ -40,17 +53,17 @@ export default function JoinPage() {
       <section className="bg-paper px-6 py-24 text-ink">
         <div className="mx-auto max-w-2xl">
           <Reveal className="mb-16 text-center">
-            <p className="text-xs tracking-[0.35em] text-water uppercase">Before You Begin</p>
-            <h2 className="font-display mt-4 text-3xl tracking-tight">Your first P2P Experience</h2>
+            <p className="text-xs tracking-[0.35em] text-water uppercase">{t("beforeEyebrow")}</p>
+            <h2 className="font-display mt-4 text-3xl tracking-tight">{t("beforeHeading")}</h2>
           </Reveal>
 
           <div className="flex flex-col gap-10">
-            {gettingStartedSteps.map((step) => (
-              <Reveal key={step.title} className="flex gap-6">
-                <span className="w-10 shrink-0 font-display text-3xl text-water/40">{step.step}</span>
+            {gettingStartedStepKeys.map((key) => (
+              <Reveal key={key} className="flex gap-6">
+                <span className="w-10 shrink-0 font-display text-3xl text-water/40">{gettingStartedStepNumbers[key]}</span>
                 <div className="border-l border-ink/10 pl-6">
-                  <h3 className="text-lg font-medium">{step.title}</h3>
-                  <p className="mt-2 leading-relaxed text-ink/70">{step.body}</p>
+                  <h3 className="text-lg font-medium">{tSteps(`${key}.title`)}</h3>
+                  <p className="mt-2 leading-relaxed text-ink/70">{tSteps(`${key}.body`)}</p>
                 </div>
               </Reveal>
             ))}
@@ -60,17 +73,9 @@ export default function JoinPage() {
 
       <section className="bg-ink px-6 py-20 text-center text-paper">
         <Reveal>
-          <p className="mb-8 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">
-            Want to understand more first?
-          </p>
+          <p className="mb-8 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">{t("understandMore")}</p>
           <div className="flex flex-wrap justify-center gap-4">
-            {[
-              { label: "How It Works", href: "/how-it-works" },
-              { label: "Your Living Tree", href: "/how-it-works/living-tree" },
-              { label: "Kingdom School", href: "/how-it-works/kingdom-school" },
-              { label: "Your Peer Guide", href: "/how-it-works/peer-guide" },
-              { label: "For Churches", href: "/churches" },
-            ].map((link) => (
+            {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}

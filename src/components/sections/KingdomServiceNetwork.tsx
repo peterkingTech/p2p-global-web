@@ -1,20 +1,18 @@
+import { getTranslations } from "next-intl/server";
 import Reveal from "@/components/motion/Reveal";
 import MediaCard from "@/components/sections/MediaCard";
-import { serviceQueries, serviceOffers } from "@/content/copy";
+import { serviceQueryKeys, serviceOfferKeys } from "@/content/copy";
 
-export default function KingdomServiceNetwork() {
+export default async function KingdomServiceNetwork() {
+  const t = await getTranslations("KingdomServiceNetwork");
+
   return (
     <section className="relative overflow-hidden bg-paper py-28">
       <div className="px-6 text-center">
         <Reveal>
-          <p className="text-xs tracking-[0.4em] text-water uppercase">A Vision for How Believers Serve</p>
-          <h2 className="font-display mt-4 text-4xl tracking-tight text-ink sm:text-6xl">
-            Your Gift Can Meet a Need
-          </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-left text-lg leading-relaxed text-ink/70">
-            The Body of Christ is strongest when people don&rsquo;t only ask &ldquo;What can I receive?&rdquo; but
-            also &ldquo;What can I give?&rdquo;
-          </p>
+          <p className="text-xs tracking-[0.4em] text-water uppercase">{t("eyebrow")}</p>
+          <h2 className="font-display mt-4 text-4xl tracking-tight text-ink sm:text-6xl">{t("heading")}</h2>
+          <p className="mx-auto mt-6 max-w-2xl text-left text-lg leading-relaxed text-ink/70">{t("intro")}</p>
         </Reveal>
       </div>
 
@@ -24,11 +22,11 @@ export default function KingdomServiceNetwork() {
             <span className="text-3xl" aria-hidden="true">
               🔍
             </span>
-            <h3 className="font-display mt-3 text-2xl tracking-tight">Looking for Help</h3>
+            <h3 className="font-display mt-3 text-2xl tracking-tight">{t("lookingForHelp")}</h3>
             <ul className="mt-6 space-y-4">
-              {serviceQueries.map((q) => (
-                <li key={q} className="border-l border-gold-soft/40 pl-4 text-sm text-paper/80 italic">
-                  &ldquo;{q}&rdquo;
+              {serviceQueryKeys.map((key) => (
+                <li key={key} className="border-l border-gold-soft/40 pl-4 text-sm text-paper/80 italic">
+                  &ldquo;{t(`queries.${key}`)}&rdquo;
                 </li>
               ))}
             </ul>
@@ -40,11 +38,11 @@ export default function KingdomServiceNetwork() {
             <span className="text-3xl" aria-hidden="true">
               ✋
             </span>
-            <h3 className="font-display mt-3 text-2xl tracking-tight">Offering Your Gift</h3>
+            <h3 className="font-display mt-3 text-2xl tracking-tight">{t("offeringGift")}</h3>
             <ul className="mt-6 space-y-4">
-              {serviceOffers.map((o) => (
-                <li key={o} className="border-l border-gold-soft/40 pl-4 text-sm text-paper/80 italic">
-                  &ldquo;{o}&rdquo;
+              {serviceOfferKeys.map((key) => (
+                <li key={key} className="border-l border-gold-soft/40 pl-4 text-sm text-paper/80 italic">
+                  &ldquo;{t(`offers.${key}`)}&rdquo;
                 </li>
               ))}
             </ul>
@@ -53,11 +51,7 @@ export default function KingdomServiceNetwork() {
       </div>
 
       <Reveal delay={0.15} className="mx-auto mt-10 max-w-2xl px-6">
-        <p className="text-left text-sm leading-relaxed text-ink/50">
-          These are illustrative examples of the vision, not a live directory. P2P is not a freelancer marketplace,
-          a paid services marketplace, or an unverified professional directory — any future gift-discovery feature
-          would include identity verification, safeguarding, privacy, and moderation appropriate to what is offered.
-        </p>
+        <p className="text-left text-sm leading-relaxed text-ink/50">{t("disclaimer")}</p>
       </Reveal>
     </section>
   );

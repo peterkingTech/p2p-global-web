@@ -1,40 +1,33 @@
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import Reveal from "@/components/motion/Reveal";
+import { NextArrow } from "@/components/ui/DirArrow";
 
-const steps = [
-  {
-    number: "01",
-    title: "Download and join",
-    body: "Create your account. Choose your @username. Set your faith stage and goals. Meet your peer guide through our smart matching system.",
-  },
-  {
-    number: "02",
-    title: "Begin Kingdom School",
-    body: "17 modules — orientation, the Gospel & Salvation track, and the 12-module Christian Foundation. Go through each one with your peer guide, at your pace, in your language, from anywhere on earth.",
-  },
-  {
-    number: "03",
-    title: "Guide someone else",
-    body: "The moment you are one step ahead of someone, you are ready to guide them. The pattern of 2 Timothy 2:2 continues through you.",
-  },
-];
+const stepKeys = ["download", "kingdomSchool", "guide"] as const;
+const stepNumbers: Record<(typeof stepKeys)[number], string> = {
+  download: "01",
+  kingdomSchool: "02",
+  guide: "03",
+};
 
-export default function HowItActuallyWorks() {
+export default async function HowItActuallyWorks() {
+  const t = await getTranslations("HowItActuallyWorks");
+
   return (
     <section className="bg-paper py-24 text-ink">
       <div className="mx-auto max-w-3xl px-6">
         <Reveal className="mb-16 text-center">
-          <p className="text-xs tracking-[0.35em] text-water uppercase">How It Works</p>
-          <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">Here is what actually happens</h2>
-          <p className="mt-4 text-lg leading-relaxed text-ink/70">Three steps. One journey.</p>
+          <p className="text-xs tracking-[0.35em] text-water uppercase">{t("eyebrow")}</p>
+          <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">{t("heading")}</h2>
+          <p className="mt-4 text-lg leading-relaxed text-ink/70">{t("subheading")}</p>
         </Reveal>
 
         <div className="grid gap-12 md:grid-cols-3">
-          {steps.map((step, i) => (
-            <Reveal key={step.number} delay={i * 0.06} className="flex flex-col gap-4">
-              <span className="font-display text-5xl text-ink/10">{step.number}</span>
-              <h3 className="font-display text-xl">{step.title}</h3>
-              <p className="leading-relaxed text-ink/70">{step.body}</p>
+          {stepKeys.map((key, i) => (
+            <Reveal key={key} delay={i * 0.06} className="flex flex-col gap-4">
+              <span className="font-display text-5xl text-ink/10">{stepNumbers[key]}</span>
+              <h3 className="font-display text-xl">{t(`steps.${key}.title`)}</h3>
+              <p className="leading-relaxed text-ink/70">{t(`steps.${key}.body`)}</p>
             </Reveal>
           ))}
         </div>
@@ -44,7 +37,7 @@ export default function HowItActuallyWorks() {
             href="/how-it-works"
             className="inline-block rounded-full border border-ink/20 px-8 py-3 text-sm tracking-wide transition hover:bg-ink hover:text-paper"
           >
-            Learn more about how it works →
+            {t("learnMore")} <NextArrow />
           </Link>
         </Reveal>
       </div>

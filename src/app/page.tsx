@@ -1,3 +1,4 @@
+import { getTranslations } from "next-intl/server";
 import Hero from "@/components/sections/Hero";
 import HeroVideo from "@/components/sections/HeroVideo";
 import HowItActuallyWorks from "@/components/sections/HowItActuallyWorks";
@@ -14,27 +15,29 @@ import GlobalCommunity from "@/components/sections/GlobalCommunity";
 import KingdomStoriesPreview from "@/components/sections/KingdomStoriesPreview";
 import Faq from "@/components/sections/Faq";
 import FinalCTA from "@/components/sections/FinalCTA";
-import { scripture } from "@/content/copy";
 
-export default function Home() {
+export default async function Home() {
+  const tVision = await getTranslations("Scripture.vision");
+  const tMission = await getTranslations("Scripture.mission");
+
   return (
     <>
       <Hero />
       <HeroVideo />
       <div id="vision">
         <ScriptureFull
-          eyebrow="Vision"
-          reference={scripture.vision.reference}
-          text={scripture.vision.text}
+          eyebrow={tVision("eyebrow")}
+          reference={tVision("reference")}
+          text={tVision("text")}
           mediaKey="vision"
         />
       </div>
       <ScriptureFull
-        eyebrow="Mission"
-        reference={scripture.mission.reference}
-        text={scripture.mission.text}
+        eyebrow={tMission("eyebrow")}
+        reference={tMission("reference")}
+        text={tMission("text")}
         mediaKey="mission"
-        footer="Everyone is learning from someone and helping someone grow. This is the core P2P discipleship model."
+        footer={tMission("footer")}
         reverse
       />
       <JesusCenter />

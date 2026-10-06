@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useReducedMotion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
-const FULL_TEXT = "Peer to Peer Global Discipleship Network";
 const TYPE_MS = 45;
 const DELETE_MS = 25;
 const HOLD_MS = 1800;
@@ -13,6 +13,8 @@ const RESTART_MS = 500;
 export default function TypewriterBrand({ className = "" }: { className?: string }) {
   const prefersReducedMotion = useReducedMotion();
   const [display, setDisplay] = useState("");
+  const t = useTranslations("Brand");
+  const fullText = t("fullName");
 
   useEffect(() => {
     if (prefersReducedMotion) return;
@@ -21,9 +23,9 @@ export default function TypewriterBrand({ className = "" }: { className?: string
     let timeout: ReturnType<typeof setTimeout>;
 
     const tick = () => {
-      setDisplay(FULL_TEXT.slice(0, i));
+      setDisplay(fullText.slice(0, i));
       if (!deleting) {
-        if (i < FULL_TEXT.length) {
+        if (i < fullText.length) {
           i++;
           timeout = setTimeout(tick, TYPE_MS);
         } else {
@@ -45,11 +47,11 @@ export default function TypewriterBrand({ className = "" }: { className?: string
 
     timeout = setTimeout(tick, 400);
     return () => clearTimeout(timeout);
-  }, [prefersReducedMotion]);
+  }, [prefersReducedMotion, fullText]);
 
   return (
     <span className={`font-display tracking-[0.08em] whitespace-nowrap ${className}`}>
-      {prefersReducedMotion ? FULL_TEXT : display}
+      {prefersReducedMotion ? fullText : display}
       {!prefersReducedMotion && (
         <span className="ml-0.5 inline-block h-[0.9em] w-[2px] align-middle bg-gold-soft motion-safe:animate-pulse" />
       )}

@@ -1,0 +1,253 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "Een wereldwijd peer-to-peer discipelschapsnetwerk gericht op Jezus Christus — Schrift, gebed, gemeenschap en zending. Iedereen leert van iemand. Iedereen kan iemand helpen groeien.",
+    "shortDescription": "Iedereen leert van iemand. Iedereen kan iemand helpen groeien."
+  },
+  "LanguageSwitcher": { "label": "Taal" },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "Iedereen leert van iemand. Iedereen kan iemand helpen groeien.",
+    "centerLine1": "Niet ons werk. Zijn werk.",
+    "centerLine2": "Niet onze eer. Zijn eer.",
+    "centerLine3": "Jezus Christus centraal."
+  },
+  "Nav": {
+    "vision": "Visie",
+    "howItWorks": "Hoe het werkt",
+    "stories": "Verhalen",
+    "experienceP2p": "Ervaar P2P",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "Footer": {
+    "vision": "Visie",
+    "howItWorks": "Hoe het werkt",
+    "discipleship": "Discipelschap",
+    "gifts": "Gaven",
+    "missions": "Zending",
+    "kingdomStories": "Koninkrijksverhalen",
+    "kingdomWins": "Koninkrijksoverwinningen",
+    "families": "Gezinnen",
+    "churches": "Kerken",
+    "about": "Over ons",
+    "faq": "Veelgestelde vragen",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "Mogelijk gemaakt door Amen Kingdom Tech Ministry"
+  },
+  "Hero": {
+    "eyebrowSuffix": "Wereldwijd Netwerk",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "Wereldwijd Discipelschapsnetwerk",
+    "tagline1": "Iedereen leert van iemand.",
+    "tagline2": "Iedereen kan iemand helpen groeien.",
+    "description": "Een wereldwijd peer-to-peer discipelschapsnetwerk gericht op Jezus Christus — Schrift, gebed, gemeenschap en zending.",
+    "ctaExperience": "Ervaar P2P",
+    "ctaVision": "Verken de Visie",
+    "understandVsExperience": "Deze website helpt je P2P te begrijpen. De app is waar je het echt ervaart.",
+    "discoverJourney": "Ontdek de reis ↓"
+  },
+  "HeroVideo": { "ariaLabel": "Veel handen die samen een Bijbel vasthouden" },
+  "HowItActuallyWorks": {
+    "eyebrow": "Hoe het werkt",
+    "heading": "Dit is wat er echt gebeurt",
+    "subheading": "Drie stappen. Eén reis.",
+    "learnMore": "Lees meer over hoe het werkt",
+    "steps": {
+      "download": { "title": "Download en doe mee", "body": "Maak je account aan. Kies je @gebruikersnaam. Stel je geloofsfase en doelen in. Ontmoet je peer-gids via ons slimme matchingsysteem." },
+      "kingdomSchool": { "title": "Begin met Kingdom School", "body": "17 modules — oriëntatie, het Evangelie- en Verlossingstraject, en het 12-module christelijke fundament. Doorloop elke module met je peer-gids, in jouw tempo, in jouw taal, vanaf elke plek op aarde." },
+      "guide": { "title": "Begeleid iemand anders", "body": "Zodra je iemand een stap voor bent, ben je klaar om hem of haar te begeleiden. Het patroon uit 2 Timoteüs 2:2 gaat door jou verder." }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "Verdiep je verder",
+    "heading": "De website is het handboek. De app is de ervaring.",
+    "body": "Elke functie hieronder wordt volledig uitgelegd op zijn eigen pagina — lees wat nu relevant voor je is, of kom later terug. Wanneer je er klaar voor bent, is de app de plek waar je het echt leeft."
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "Aan de slag", "description": "Je eerste week bij P2P Global — stap voor stap." },
+    "livingTree": { "title": "Jouw Levende Boom", "description": "Wat elk deel van je boom betekent — wortels, stam, takken, vrucht, graan." },
+    "kingdomSchool": { "title": "Kingdom School", "description": "Het Fundament (12 modules) en de Keuzevakken (144 plannen in 10 categorieën)." },
+    "peerGuide": { "title": "Jouw Peer-gids", "description": "Wat een peer-gids is, hoe matching werkt, en hoe je er zelf een wordt." },
+    "peerCircles": { "title": "Peer Circles", "description": "Groepsleren voor 3 tot 8 gelovigen die samen één plan doorlopen." },
+    "generationalForest": { "title": "Het Generationele Woud", "description": "Je volledige discipelschapslijn — wie je hebt begeleid, wie zij hebben begeleid, welke naties zijn bereikt." },
+    "messaging": { "title": "Berichten en Gesprekken", "description": "De inbox, audiogesprekken, videogesprekken, groepsgesprekken en pauzeruimtes." },
+    "prayer": { "title": "Gebed", "description": "Het Zondaarsgebed, de gebedsbibliotheek, de belijdenisbouwer en het gebedsdagboek." },
+    "profile": { "title": "Profiel en Identiteit", "description": "@gebruikersnaam, het blauwe vinkje, GPS-verificatie en je openbare profiel." },
+    "grain": { "title": "Graan en Uitnodigingen", "description": "Jouw persoonlijke oogstregister en hoe je anderen uitnodigt voor Kingdom School." }
+  },
+  "JesusCenter": {
+    "heading": "Jezus Christus centraal.",
+    "body": "P2P is niet de held van dit verhaal. Het is een instrument dat gelovigen helpt om te leren, te groeien, met anderen op te trekken, te dienen, te discipelen en zich te vermenigvuldigen — nooit een vervanging voor Jezus, de Schrift, de Heilige Geest of de plaatselijke kerk."
+  },
+  "Scripture": {
+    "vision": { "eyebrow": "Visie", "reference": "Habakuk 2:14", "text": "Want de aarde zal vol worden van kennis van des HEEREN heerlijkheid, gelijk de wateren de bodem der zee bedekken." },
+    "mission": { "eyebrow": "Missie", "reference": "2 Timoteüs 2:2", "text": "En hetgeen gij van mij gehoord hebt onder vele getuigen, dat vertrouw aan getrouwe mensen, welke bekwaam zullen zijn om ook anderen te leren.", "footer": "Iedereen leert van iemand en helpt iemand groeien. Dit is het centrale model van P2P-discipelschap." },
+    "gifts": { "reference": "1 Petrus 4:10", "text": "Een ieder, gelijk hij een gave ontvangen heeft, alzo bediene hij dezelve aan de anderen, als goede uitdelers der menigerlei genade Gods." }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "De Centrale Metafoor",
+    "heading": "Van Zaad tot Naties",
+    "body": "Gods werk begint vaak op manieren die klein lijken. Eén persoon. Eén gesprek. Eén Schriftplaats. Eén daad van gehoorzaamheid. Dan begint de vermenigvuldiging."
+  },
+  "SeedToNations": {
+    "seed": { "stage": "Eén enkel zaad", "title": "ÉÉN ENKEL ZAAD", "body": "Eén persoon hoort het evangelie." },
+    "tree": { "stage": "Wordt een boom", "title": "WORDT EEN BOOM", "body": "Geworteld in de leer. Groeiend in geloof. Discipelschap is niet simpelweg informatie verzamelen — wortels verdiepen zich, karakter groeit, geloof rijpt." },
+    "forest": { "stage": "Bomen worden een woud", "title": "BOMEN WORDEN EEN WOUD", "body": "Discipelen vermenigvuldigen zich generatie na generatie. Eén discipel helpt een ander, die weer een ander helpt. Het proces wordt generationeel." },
+    "continents": { "stage": "Wouden verspreiden zich over continenten", "title": "WOUDEN VERSPREIDEN ZICH OVER CONTINENTEN", "body": "Steden en naties vol gelovigen. Dit is de visie — geen bewering over huidige aantallen." },
+    "glory": { "stage": "De aarde bedekt met Zijn heerlijkheid", "title": "DE AARDE BEDEKT MET ZIJN HEERLIJKHEID", "body": "Zoals de wateren de bodem der zee bedekken. — Habakuk 2:14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "Hoe discipelen zich vermenigvuldigen",
+    "heading": "Het patroon is eenvoudig",
+    "body": "Je hoeft het verhaal van Paulus en Timoteüs niet te kennen om het patroon te begrijpen: iemand ontvangt, iemand groeit, iemand helpt, iemand onderwijst, iemand vermenigvuldigt zich.",
+    "steps": {
+      "learn": { "title": "IK LEER", "body": "Ontvangend van mijn peer-gids — Schrift, gesprek, leren." },
+      "grow": { "title": "IK GROEI", "body": "Wortels verdiepen zich. Geloof wordt sterker. Karakter rijpt." },
+      "helpSomeone": { "title": "IK HELP IEMAND GROEIEN", "body": "Iemand begeleiden, onderwijzen wat mij is geleerd — relationeel, niet hiërarchisch." },
+      "theyHelp": { "title": "ZIJ HELPEN IEMAND GROEIEN", "body": "Tweede-generatie discipelschap begint." },
+      "multiply": { "title": "DISCIPELEN VERMENIGVULDIGEN ZICH", "body": "Generationele impact breidt zich uit." },
+      "nations": { "title": "NATIES BEREIKT", "body": "De aarde vervuld met Zijn heerlijkheid." }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "Jouw Groeireis",
+    "heading": "Een Reis, Geen Status",
+    "body": "Groei gaat niet over status. Het gaat om geworteld, vruchtbaar en in staat te worden om anderen te helpen groeien.",
+    "ariaLabel": "Fasen van de P2P-discipelschapsreis",
+    "stages": {
+      "seed": { "title": "ZAAD", "body": "Net lid geworden. De reis begint." },
+      "sprout": { "title": "KIEM", "body": "Fundamentele modules. Eerste mentorrelaties." },
+      "young": { "title": "JONGE BOOM", "body": "Halverwege de reis. Helpt actief anderen." },
+      "fruitful": { "title": "VRUCHTBARE BOOM", "body": "Diep in het curriculum. Vrucht aan de takken." },
+      "forestBuilder": { "title": "WOUDBOUWER", "body": "Discipelen discipelen anderen in verschillende steden." },
+      "forestNations": { "title": "WOUD DER NATIES", "body": "Naties beïnvloed door generationeel discipelschap — een visioenstoestand, geen bewering van huidig resultaat." }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "Elke Gelovige Heeft Gaven",
+    "heading": "De Motor van het Lichaam van Christus",
+    "intro": "Gelovigen leren niet alleen Bijbellessen — wat je leert kan vormgeven hoe je dient, en wat God in je heeft gelegd kan iemand anders versterken. Discipelschap wordt dienst, dienst wordt bijdrage, en bijdrage wordt vermenigvuldiging.",
+    "exampleEyebrow": "Illustratief — Voorbeeld",
+    "exampleHeading": "Jouw Gave Kan Iemand Dienen",
+    "discoverGifts": "Ontdek de Visie op Gaven",
+    "categories": {
+      "care": { "title": "ZORG EN WELZIJN", "examples": "Psychologie, therapie, counseling, ondersteuning van mentaal welzijn, sociale zorg", "outcome": "GENEZINGS- EN BEMOEDIGINGSKRINGEN" },
+      "tech": { "title": "TECH EN DIGITAAL", "examples": "Programmeren, UI/UX-ontwerp, cybersecurity, web- en mobiele ontwikkeling", "outcome": "APP-ONTWIKKELING EN TOOLS" },
+      "leadership": { "title": "LEIDERSCHAP EN ADMINISTRATIE", "examples": "Administratie, projectmanagement, financiën, operaties, strategie", "outcome": "ORGANISATIE EN SCHAALVERGROTING" },
+      "creative": { "title": "CREATIEF EN MEDIA", "examples": "Muziek, fotografie, schrijven, ontwerp, video, verhalen vertellen", "outcome": "CONTENT EN VERHALEN VERTELLEN" },
+      "education": { "title": "ONDERWIJS", "examples": "Lesgeven, taalcoaching, bijles, curriculumontwikkeling", "outcome": "LEREN EN TRAINING" },
+      "ministry": { "title": "BEDIENINGSGAVEN", "examples": "Evangelisatie, gebed en voorbede, aanbidding, discipelschap, Bijbelonderwijs", "outcome": "GEESTELIJKE VERMENIGVULDIGING" }
+    },
+    "examples": {
+      "therapist": { "title": "THERAPEUT + DISCIPEL", "tags": ["Counseling", "Discipelschap"], "body": "Leidt een op de Schrift gerichte bemoedigingsgroep voor mensen die moeilijke tijden doormaken. Professionele zorg en geestelijke ondersteuning kunnen naast elkaar bestaan — het een vervangt het ander niet." },
+      "programmer": { "title": "PROGRAMMEUR + ZENDELING", "tags": ["Programmeren", "Evangelisatie"], "body": "Helpt digitale tools bouwen, begeleidt ontwikkelaars en ondersteunt digitale outreach." },
+      "administrator": { "title": "ADMINISTRATEUR + MENTOR", "tags": ["Operaties", "Leiderschap"], "body": "Helpt discipelschapsgroepen te organiseren, coördineert teams en ondersteunt gebedsinitiatieven." },
+      "artist": { "title": "KUNSTENAAR + AANBIDDINGSLEIDER", "tags": ["Ontwerp", "Aanbidding"], "body": "Creëert visuele middelen, ondersteunt aanbiddingsgemeenschappen en draagt bij aan discipelschapsmateriaal." }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "Een Visie op Hoe Gelovigen Dienen",
+    "heading": "Jouw Gave Kan in een Behoefte Voorzien",
+    "intro": "Het Lichaam van Christus is het sterkst wanneer mensen niet alleen vragen \"Wat kan ik ontvangen?\" maar ook \"Wat kan ik geven?\"",
+    "lookingForHelp": "Op Zoek naar Hulp",
+    "offeringGift": "Jouw Gave Aanbieden",
+    "disclaimer": "Dit zijn illustratieve voorbeelden van de visie, geen live directory. P2P is geen freelancermarktplaats, geen platform voor betaalde diensten, en geen ongeverifieerde professionele directory — elke toekomstige functie voor het ontdekken van gaven zou identiteitsverificatie, bescherming, privacy en passende moderatie omvatten.",
+    "queries": {
+      "programmers": "Christelijke programmeurs in mijn buurt vinden",
+      "translator": "Vertaler nodig voor discipelschapsinhoud",
+      "accountability": "Op zoek naar een verantwoordingspartner voor gebed",
+      "worship": "Op zoek naar iemand met ervaring in aanbidding",
+      "website": "Hulp nodig bij een bedieningswebsite",
+      "english": "Op zoek naar iemand die Engels kan onderwijzen"
+    },
+    "offers": {
+      "counseling": "Bied gratis counseling aan voor nieuwe gelovigen",
+      "websiteDesign": "Kan helpen met het ontwerp van een bedieningswebsite",
+      "mentoring": "Begeleidt jonge professionals",
+      "translation": "Beschikbaar om te helpen bij het vertalen van discipelschapsmateriaal",
+      "programming": "Beschikbaar om programmeren te onderwijzen",
+      "worshipMusic": "Kan helpen met aanbidding en muziek"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "Het P2P-Ecosysteem",
+    "heading": "Alles Verwijst Terug naar Jezus Christus",
+    "explore": "Verken",
+    "items": {
+      "study": { "title": "STUDIE", "body": "Geworteld in de Schrift — curriculum, plannen en een studieruimte." },
+      "prayer": { "title": "GEBED", "body": "Gebed wordt participatie — echte mensen, echt gebed, geen ranglijsten." },
+      "family": { "title": "GEZIN", "body": "Discipelschap begint waar we leven." },
+      "church": { "title": "KERK", "body": "P2P dient de plaatselijke kerk. Het vervangt haar niet." },
+      "missions": { "title": "ZENDING", "body": "Zie het veld. Hoor het verhaal. Bid voor de werkers." },
+      "stories": { "title": "VERHALEN", "body": "Ontdek wat God heeft gedaan." }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "Wereldwijde Gemeenschap",
+    "headingLine1": "Eén Lichaam.",
+    "headingLine2": "Vele Mensen.",
+    "headingLine3": "Eén Heer.",
+    "journeyEyebrow": "Jouw Discipelschapsreis",
+    "journeySteps": {
+      "discover": "ONTDEK",
+      "learn": "LEER",
+      "grow": "GROEI",
+      "walkWithOthers": "GA MET ANDEREN",
+      "helpSomeone": "HELP IEMAND",
+      "serve": "DIEN",
+      "disciple": "DISCIPEL",
+      "multiply": "VERMENIGVULDIG",
+      "nations": "NATIES"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "Echte Verhalen",
+    "heading": "Ontdek Wat God Heeft Gedaan",
+    "body": "Geschiedenis, opwekking, de wereldwijde kerk, en de bewegingen die vorm hebben gegeven aan hoe we Jezus vandaag volgen — zorgvuldig verteld, zonder overdrijving.",
+    "exploreAll": "Verken Alle Koninkrijksverhalen",
+    "readStory": "Lees het verhaal"
+  },
+  "Faq": {
+    "eyebrow": "Vragen",
+    "heading": "Veelgestelde Vragen",
+    "items": {
+      "whatIsP2p": { "q": "Wat is P2P?", "a": "Een wereldwijd peer-to-peer discipelschapsnetwerk gericht op Jezus Christus — Schrift, gebed, gemeenschap en zending, gebouwd op het idee dat iedereen van iemand leert en iedereen iemand kan helpen groeien." },
+      "whoBuilt": { "q": "Wie heeft P2P gebouwd?", "a": "P2P Global Discipleship Network wordt mogelijk gemaakt door Amen Kingdom Tech Ministry — een technologiebediening die websites, apps en digitale systemen ontwerpt en bouwt voor kerken, organisaties en bedrijven." },
+      "whatIsAmen": { "q": "Wat is Amen Kingdom Tech Ministry?", "a": "Een doelgerichte technologiebediening, opgericht vanuit gehoorzaamheid aan Gods roeping in het digitale tijdperk, die bestaat om Hem trouw te vertegenwoordigen op de verschillende invloedsbergen van de technologische wereld. De naam AMEN weerspiegelt instemming met wat God doet door de systemen die het bouwt — geleid door de Heilige Geest in plaats van alleen trends, en gebouwd met uitmuntendheid, precisie en integriteit." },
+      "commercial": { "q": "Is P2P een commercieel product gebouwd door Amen Kingdom Tech?", "a": "Nee. P2P is een bedieningsexpressie van diezelfde roeping, geen bedrijf — precies daarom is elke functie gratis." },
+      "replaceChurch": { "q": "Vervangt P2P mijn plaatselijke kerk?", "a": "Nee. P2P is gebouwd om de plaatselijke kerk te versterken, niet om ermee te concurreren. Lidmaatschap, pastorale zorg en de sacramenten blijven waar ze thuishoren — bij jouw gemeente." },
+      "therapyReplacement": { "q": "Is P2P een vervanging voor therapie of professionele counseling?", "a": "Nee. Waar P2P zorg en welzijn raakt, is het bemoediging door leeftijdsgenoten naast professionele hulp, nooit een vervanging ervoor. Iedereen in crisis moet contact opnemen met een erkende professional of lokale hulpdiensten." },
+      "giftsMarketplace": { "q": "Is het Gaven- en Dienstnetwerk een marktplaats waar ik betaal voor hulp?", "a": "Nee. Het is een visie op hoe gelovigen binnen de gemeenschap hulp kunnen aanbieden en vinden — geen freelancermarktplaats, geen platform voor betaalde diensten, en geen ongeverifieerde professionele directory. Elke toekomstige versie zou identiteitsverificatie, bescherming en passende moderatie omvatten." },
+      "whoCanJoin": { "q": "Wie kan lid worden van P2P?", "a": "Iedereen die wil groeien als discipel van Jezus en iemand anders wil helpen hetzelfde te doen — zowel nieuwe als langdurige gelovigen. Een peer-gids is gewoon iemand die wat verder op de weg is, geen verre autoriteit." },
+      "cost": { "q": "Zijn er kosten verbonden aan deelname?", "a": "Nee — alles is gratis. Elke bron en tool voor groei, voor individuen, gezinnen en kerken, wordt gratis aangeboden, en P2P rekent voor geen enkele functie kosten aan. Dit is geen verdienmodel; het is een koninkrijksopdracht en een bediening, uitgevoerd in het nastreven van Gods visie dat de aarde vol zal worden van kennis van de heerlijkheid van de Heer, zoals de wateren de bodem der zee bedekken (Habakuk 2:14)." },
+      "whyFree": { "q": "Waarom is alles gratis?", "a": "Omdat P2P bestaat om die visie te dienen, niet om er inkomsten uit te genereren. Geld vragen voor discipelschap, gebed, of de tools om iemand te helpen groeien, zou ingaan tegen het doel waarvoor dit netwerk is gebouwd." },
+      "churchFree": { "q": "Kan mijn kerk P2P ook gratis gebruiken?", "a": "Ja. Kerken, gezinnen en individuen gebruiken allemaal hetzelfde gratis netwerk — er is geen betaald niveau, geen premiumplan, en geen functie die achter een betaalmuur wordt gehouden." },
+      "websiteVsApp": { "q": "Hoe verschilt deze website van de P2P-app?", "a": "Deze site schetst de visie en legt het model uit. Sommige van de beschreven zaken — zoals gavengebaseerde dienstontdekking — zijn een richting waarin P2P kan gaan, geen bewering over wat de app vandaag al doet. De Over-ons-pagina legt dit onderscheid gedetailleerder uit." },
+      "peerGuide": { "q": "Wat is een peer-gids?", "a": "Een peer-gids is een mede-gelovige die je een stap voor is op de discipelschapsreis. Geen voorganger of leraar — maar een verder gevorderde leeftijdsgenoot die met je meeloopt door elke les, je reflecties leest, met je bidt en merkt wanneer je stil wordt." },
+      "livingTree": { "q": "Wat is de Levende Boom?", "a": "Je Levende Boom is een realtime visualisatie van je discipelschapsreis binnen de app. Je wortels vertegenwoordigen voltooide modules. Je stam vertegenwoordigt trouw in de tijd. Je takken vertegenwoordigen de mensen die je begeleidt. Je vrucht vertegenwoordigt behaalde mijlpalen. Je graan vertegenwoordigt de mensen die je hebt uitgenodigd en die zich hebben aangesloten." },
+      "growthStages": { "q": "Wat is een Zaad, Kiem of Vruchtbare Boom?", "a": "Dit zijn de zes groeifasen van je Levende Boom — van Zaad (net lid geworden) via Kiem, Jonge Boom, Vruchtbare Boom en Woudbouwer tot Woud der Naties. Elke fase weerspiegelt echte voortgang in je discipelschapsreis en in het begeleiden van anderen." },
+      "grain": { "q": "Wat is Graan?", "a": "Graan is jouw oogstregister. Elke persoon die zich via jouw persoonlijke uitnodigingslink bij P2P Global aansluit, voegt één graankorrel toe aan je profiel. Gebaseerd op Johannes 12:24 — een graankorrel die in de aarde valt en sterft, brengt veel vrucht voort." },
+      "blueTick": { "q": "Wat is het Blauwe Vinkje?", "a": "Het blauwe vinkje op een profiel betekent dat dat lid zijn of haar echte identiteit heeft geverifieerd via ons verificatiesysteem — een selfie die binnen 72 uur door ons team wordt beoordeeld. Het bevestigt dat er een echte persoon achter het account zit en bouwt vertrouwen op in het netwerk." },
+      "kingdomSchool": { "q": "Wat is Kingdom School?", "a": "Kingdom School is de educatieve structuur van P2P Global. Het Fundament bestaat uit 12 modules en 84 lessen — de volledige discipelschapsreis van nieuwe gelovige tot discipelmaker. De Keuzevakken bestaan uit 144 plannen in 10 categorieën voor elk seizoen van het leven." },
+      "completionMoment": { "q": "Wat is het Voltooiingsmoment?", "a": "Wanneer je alle 12 modules van het Fundament voltooit, gaat het Voltooiingsmoment af. Een filmische ervaring. Een brief van je peer-gids. De Woudonthulling die je volledige discipelschapslijn toont. En de Opdracht: je bent klaar. Ga je persoon vinden." },
+      "languages": { "q": "In welke talen is P2P Global beschikbaar?", "a": "De app is beschikbaar in 20 of meer talen met vertaling op aanvraag. Lessen worden automatisch vertaald wanneer je ze in je eigen taal aanvraagt en blijven permanent opgeslagen voor elke volgende gebruiker die dezelfde les nodig heeft." },
+      "churchPortalFree": { "q": "Is het Kerkelijke Discipelschapsportaal echt gratis?", "a": "Ja. Volledig. Geen abonnement. Geen betaling. Geen niveau. Elke kerk krijgt volledige toegang tot alles — het bosjedashboard, cohortbeheer, ledenprofielen, aankondigingen en het QR-uitnodigingssysteem. Gratis. Altijd." },
+      "peerCircle": { "q": "Wat is een Peer Circle?", "a": "Een Peer Circle is een groep van 3 tot 8 gelovigen die samen hetzelfde plan of dezelfde module doorlopen. Groepsgesprekken. Gedeelde discussies. Beoordeling op basis van consensus. Iedereen kan een kring maken of eraan deelnemen — en leden kunnen uit elk aantal naties komen." },
+      "withoutPeerGuide": { "q": "Kan ik P2P Global gebruiken zonder peer-gids?", "a": "Ja — je kunt zelfstandig met Module 1 beginnen terwijl het slimme matchingsysteem een gids voor je zoekt. Je kunt ook zelf een peer-gids vinden door direct zijn of haar @gebruikersnaam op te zoeken als je al weet wie je wilt." },
+      "generationalForest": { "q": "Wat is het Generationele Woud?", "a": "Het Generationele Woud toont je volledige discipelschapslijn — jouw boom in het midden, je mentees om je heen, hun mentees verder weg. Een wereldkaart laat zien welke naties jouw discipelschapsketen heeft bereikt. Het is de meest kenmerkende visualisatie in P2P Global." }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "Iedereen leert van iemand.",
+    "headingLine2": "Iedereen kan iemand helpen groeien.",
+    "question": "Wie ga jij helpen groeien?",
+    "ctaExperience": "Ervaar P2P",
+    "ctaExplore": "Verken het Netwerk"
+  }
+}

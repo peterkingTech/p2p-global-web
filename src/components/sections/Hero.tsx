@@ -3,13 +3,15 @@
 import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
-import { brand } from "@/content/copy";
+import { useTranslations } from "next-intl";
 
 /** Text-only opening hero — no photo or video, matching the site's original design. */
 export default function Hero() {
   const ref = useRef<HTMLDivElement>(null);
   const prefersReducedMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const t = useTranslations("Hero");
+  const tBrand = useTranslations("Brand");
 
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
   const textY = useTransform(scrollYProgress, [0, 1], [0, prefersReducedMotion ? 0 : -80]);
@@ -27,40 +29,37 @@ export default function Hero() {
         style={{ opacity, y: textY }}
         className="relative z-10 flex flex-col items-center px-6 text-center text-paper"
       >
-        <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">{brand.name} &mdash; Global Network</p>
+        <p className="text-xs tracking-[0.4em] text-gold-soft/90 uppercase">
+          {tBrand("name")} &mdash; {t("eyebrowSuffix")}
+        </p>
         <h1 className="font-display mt-6 max-w-4xl text-4xl leading-[1.1] tracking-tight sm:text-6xl md:text-7xl">
-          Peer to Peer
+          {t("titleLine1")}
           <br />
-          <span className="text-gold-soft">Global Discipleship Network</span>
+          <span className="text-gold-soft">{t("titleLine2")}</span>
         </h1>
         <p className="mt-8 max-w-xl text-lg leading-relaxed text-paper/85 sm:text-xl">
-          Everyone is learning from someone.
+          {t("tagline1")}
           <br />
-          Everyone can help someone grow.
+          {t("tagline2")}
         </p>
-        <p className="mt-6 max-w-md text-left text-sm text-paper/60">
-          A global peer-to-peer discipleship network centered on Jesus Christ, Scripture, prayer, community, and
-          mission.
-        </p>
+        <p className="mt-6 max-w-md text-left text-sm text-paper/60">{t("description")}</p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
           <Link
             href="/join"
             className="rounded-full bg-gold-soft px-8 py-3.5 text-sm font-medium tracking-wide text-ink transition-transform hover:scale-[1.03]"
           >
-            Experience P2P
+            {t("ctaExperience")}
           </Link>
           <a
             href="#vision"
             className="rounded-full border border-paper/40 px-8 py-3.5 text-sm tracking-wide text-paper/90 transition-colors hover:border-paper hover:text-paper"
           >
-            Explore the Vision
+            {t("ctaVision")}
           </a>
         </div>
 
-        <p className="mt-6 text-xs tracking-[0.15em] text-paper/40 uppercase">
-          This website helps you understand P2P. The app is where you experience it.
-        </p>
+        <p className="mt-6 text-xs tracking-[0.15em] text-paper/40 uppercase">{t("understandVsExperience")}</p>
       </motion.div>
 
       <motion.p
@@ -68,7 +67,7 @@ export default function Hero() {
         transition={{ repeat: Infinity, duration: 2.4, ease: "easeInOut" }}
         className="absolute bottom-10 left-1/2 z-10 -translate-x-1/2 text-xs tracking-[0.3em] text-paper/50 uppercase"
       >
-        Discover the Journey ↓
+        {t("discoverJourney")}
       </motion.p>
     </div>
   );

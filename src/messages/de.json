@@ -1,0 +1,253 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "Ein globales Peer-to-Peer-Jüngerschaftsnetzwerk, das sich auf Jesus Christus konzentriert — Schrift, Gebet, Gemeinschaft und Mission. Jeder lernt von jemandem. Jeder kann jemandem beim Wachsen helfen.",
+    "shortDescription": "Jeder lernt von jemandem. Jeder kann jemandem beim Wachsen helfen."
+  },
+  "LanguageSwitcher": { "label": "Sprache" },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "Jeder lernt von jemandem. Jeder kann jemandem beim Wachsen helfen.",
+    "centerLine1": "Nicht unser Werk. Sein Werk.",
+    "centerLine2": "Nicht unsere Ehre. Seine Ehre.",
+    "centerLine3": "Jesus Christus im Mittelpunkt."
+  },
+  "Nav": {
+    "vision": "Vision",
+    "howItWorks": "So funktioniert's",
+    "stories": "Geschichten",
+    "experienceP2p": "P2P erleben",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "Footer": {
+    "vision": "Vision",
+    "howItWorks": "So funktioniert's",
+    "discipleship": "Jüngerschaft",
+    "gifts": "Gaben",
+    "missions": "Mission",
+    "kingdomStories": "Reich-Geschichten",
+    "kingdomWins": "Reich-Erfolge",
+    "families": "Familien",
+    "churches": "Gemeinden",
+    "about": "Über uns",
+    "faq": "FAQ",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "Betrieben von Amen Kingdom Tech Ministry"
+  },
+  "Hero": {
+    "eyebrowSuffix": "Globales Netzwerk",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "Globales Jüngerschaftsnetzwerk",
+    "tagline1": "Jeder lernt von jemandem.",
+    "tagline2": "Jeder kann jemandem beim Wachsen helfen.",
+    "description": "Ein globales Peer-to-Peer-Jüngerschaftsnetzwerk, das sich auf Jesus Christus konzentriert — Schrift, Gebet, Gemeinschaft und Mission.",
+    "ctaExperience": "P2P erleben",
+    "ctaVision": "Die Vision entdecken",
+    "understandVsExperience": "Diese Website hilft dir, P2P zu verstehen. Die App ist der Ort, an dem du es erlebst.",
+    "discoverJourney": "Entdecke die Reise ↓"
+  },
+  "HeroVideo": { "ariaLabel": "Viele Hände, die gemeinsam eine Bibel halten" },
+  "HowItActuallyWorks": {
+    "eyebrow": "So funktioniert's",
+    "heading": "So läuft es wirklich ab",
+    "subheading": "Drei Schritte. Eine Reise.",
+    "learnMore": "Mehr darüber erfahren, wie es funktioniert",
+    "steps": {
+      "download": { "title": "Herunterladen und beitreten", "body": "Erstelle dein Konto. Wähle deinen @Benutzernamen. Lege deine Glaubensstufe und Ziele fest. Lerne deinen Peer Guide durch unser intelligentes Matching-System kennen." },
+      "kingdomSchool": { "title": "Beginne die Kingdom School", "body": "17 Module — Orientierung, der Evangeliums- und Erlösungspfad und das 12-Module-Fundament des christlichen Glaubens. Durchlaufe jedes mit deinem Peer Guide, in deinem Tempo, in deiner Sprache, von überall auf der Erde." },
+      "guide": { "title": "Führe jemand anderen", "body": "In dem Moment, in dem du jemandem einen Schritt voraus bist, bist du bereit, ihn zu führen. Das Muster aus 2. Timotheus 2,2 setzt sich durch dich fort." }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "Tiefer eintauchen",
+    "heading": "Die Website ist das Handbuch. Die App ist das Erlebnis.",
+    "body": "Jede Funktion unten wird auf ihrer eigenen Seite vollständig erklärt — lies, was für dich jetzt relevant ist, oder komm später zurück. Wenn du bereit bist, ist die App der Ort, an dem du es wirklich lebst."
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "Erste Schritte", "description": "Deine erste Woche bei P2P Global — Schritt für Schritt." },
+    "livingTree": { "title": "Dein lebendiger Baum", "description": "Was jeder Teil deines Baumes bedeutet — Wurzeln, Stamm, Äste, Frucht, Korn." },
+    "kingdomSchool": { "title": "Kingdom School", "description": "Das Fundament (12 Module) und die Wahlfächer (144 Pläne in 10 Kategorien)." },
+    "peerGuide": { "title": "Dein Peer Guide", "description": "Was ein Peer Guide ist, wie das Matching funktioniert und wie man selbst einer wird." },
+    "peerCircles": { "title": "Peer Circles", "description": "Gruppenlernen für 3 bis 8 Gläubige, die gemeinsam einen Plan durcharbeiten." },
+    "generationalForest": { "title": "Der generationenübergreifende Wald", "description": "Deine vollständige Jüngerschaftslinie — wen du geführt hast, wen sie geführt haben, welche Nationen erreicht wurden." },
+    "messaging": { "title": "Nachrichten und Anrufe", "description": "Der Posteingang, Audioanrufe, Videoanrufe, Gruppenanrufe und Break Rooms." },
+    "prayer": { "title": "Gebet", "description": "Das Sündergebet, die Gebetsbibliothek, der Bekenntnis-Baukasten und das Gebetstagebuch." },
+    "profile": { "title": "Profil und Identität", "description": "@Benutzername, das blaue Häkchen, GPS-Verifizierung und dein öffentliches Profil." },
+    "grain": { "title": "Korn und Einladungen", "description": "Dein persönliches Erntearchiv und wie du andere zur Kingdom School einlädst." }
+  },
+  "JesusCenter": {
+    "heading": "Jesus Christus im Mittelpunkt.",
+    "body": "P2P ist nicht der Held dieser Geschichte. Es ist ein Werkzeug, das Gläubigen hilft zu lernen, zu wachsen, mit anderen zu gehen, zu dienen, Jünger zu machen und sich zu vermehren — niemals ein Ersatz für Jesus, die Schrift, den Heiligen Geist oder die örtliche Gemeinde."
+  },
+  "Scripture": {
+    "vision": { "eyebrow": "Vision", "reference": "Habakuk 2,14", "text": "Denn die Erde wird voll werden von Erkenntnis der Herrlichkeit des HERRN, wie Wasser das Meer bedeckt." },
+    "mission": { "eyebrow": "Mission", "reference": "2. Timotheus 2,2", "text": "Und was du von mir gehört hast durch viele Zeugen, das vertraue treuen Menschen an, die fähig sind, auch andere zu lehren.", "footer": "Jeder lernt von jemandem und hilft jemandem beim Wachsen. Das ist das Kernmodell der P2P-Jüngerschaft." },
+    "gifts": { "reference": "1. Petrus 4,10", "text": "Dient einander, ein jeder mit der Gabe, die er empfangen hat, als gute Haushalter der mancherlei Gnade Gottes." }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "Die Grundmetapher",
+    "heading": "Vom Samen zu den Nationen",
+    "body": "Gottes Werk beginnt oft auf eine Weise, die klein aussieht. Ein Mensch. Ein Gespräch. Eine Schriftstelle. Ein Akt des Gehorsams. Dann beginnt die Vermehrung."
+  },
+  "SeedToNations": {
+    "seed": { "stage": "Ein einzelner Same", "title": "EIN EINZELNER SAME", "body": "Ein Mensch hört das Evangelium." },
+    "tree": { "stage": "Wird zu einem Baum", "title": "WIRD ZU EINEM BAUM", "body": "Verwurzelt in der Lehre. Wachsend im Glauben. Jüngerschaft ist nicht nur das Sammeln von Informationen — Wurzeln vertiefen sich, Charakter wächst, Glaube reift." },
+    "forest": { "stage": "Bäume werden zu einem Wald", "title": "BÄUME WERDEN ZU EINEM WALD", "body": "Jünger vermehren sich über Generationen. Ein Jünger hilft einem anderen, der wiederum einem anderen hilft. Der Prozess wird generationenübergreifend." },
+    "continents": { "stage": "Wälder breiten sich über Kontinente aus", "title": "WÄLDER BREITEN SICH ÜBER KONTINENTE AUS", "body": "Städte und Nationen voller Gläubiger. Das ist die Vision — keine Aussage über aktuelle Zahlen." },
+    "glory": { "stage": "Die Erde bedeckt mit Seiner Herrlichkeit", "title": "DIE ERDE BEDECKT MIT SEINER HERRLICHKEIT", "body": "Wie die Wasser das Meer bedecken. — Habakuk 2,14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "Wie Jünger sich vermehren",
+    "heading": "Das Muster ist einfach",
+    "body": "Du musst die Geschichte von Paulus und Timotheus nicht kennen, um das Muster zu verstehen: Jemand empfängt, jemand wächst, jemand hilft, jemand lehrt, jemand vermehrt sich.",
+    "steps": {
+      "learn": { "title": "ICH LERNE", "body": "Empfangen von meinem Peer Guide — Schrift, Gespräch, Lernen." },
+      "grow": { "title": "ICH WACHSE", "body": "Wurzeln vertiefen sich. Glaube wird stärker. Charakter reift." },
+      "helpSomeone": { "title": "ICH HELFE JEMANDEM ZU WACHSEN", "body": "Jemanden begleiten, lehren, was ich gelernt habe — in Beziehung, nicht hierarchisch." },
+      "theyHelp": { "title": "SIE HELFEN JEMANDEM ZU WACHSEN", "body": "Jüngerschaft der zweiten Generation beginnt." },
+      "multiply": { "title": "JÜNGER VERMEHREN SICH", "body": "Generationenübergreifende Wirkung breitet sich aus." },
+      "nations": { "title": "NATIONEN ERREICHT", "body": "Die Erde erfüllt mit Seiner Herrlichkeit." }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "Deine Wachstumsreise",
+    "heading": "Eine Reise, kein Status",
+    "body": "Wachstum geht nicht um Status. Es geht darum, verwurzelt, fruchtbar und fähig zu werden, anderen beim Wachsen zu helfen.",
+    "ariaLabel": "Stufen der P2P-Jüngerschaftsreise",
+    "stages": {
+      "seed": { "title": "SAME", "body": "Gerade beigetreten. Die Reise beginnt." },
+      "sprout": { "title": "KEIMLING", "body": "Grundlegende Module. Erste Mentoring-Beziehungen." },
+      "young": { "title": "JUNGER BAUM", "body": "Mitten in der Reise. Aktiv anderen helfend." },
+      "fruitful": { "title": "FRUCHTBARER BAUM", "body": "Tief im Lehrplan. Frucht an den Ästen." },
+      "forestBuilder": { "title": "WALDBAUER", "body": "Jünger machen Jünger in verschiedenen Städten." },
+      "forestNations": { "title": "WALD DER NATIONEN", "body": "Nationen beeinflusst durch generationenübergreifende Jüngerschaft — ein Vision-Zustand, keine aktuelle Erfolgsbehauptung." }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "Jeder Gläubige hat Gaben",
+    "heading": "Der Leib-Christi-Motor",
+    "intro": "Gläubige lernen nicht nur Bibellektionen — was du lernst, kann prägen, wie du dienst, und was Gott in dich gelegt hat, kann jemand anderen stärken. Jüngerschaft wird zu Dienst, Dienst wird zu Beitrag, und Beitrag wird zu Vermehrung.",
+    "exampleEyebrow": "Veranschaulichend — Beispiel",
+    "exampleHeading": "Deine Gabe kann jemandem dienen",
+    "discoverGifts": "Die Gaben-Vision entdecken",
+    "categories": {
+      "care": { "title": "FÜRSORGE & WOHLERGEHEN", "examples": "Psychologie, Therapie, Beratung, Unterstützung des mentalen Wohlbefindens, soziale Fürsorge", "outcome": "HEILUNGS- UND ERMUTIGUNGSKREISE" },
+      "tech": { "title": "TECHNIK & DIGITAL", "examples": "Programmierung, UI/UX-Design, Cybersicherheit, Web- & Mobile-Entwicklung", "outcome": "APP-ENTWICKLUNG & WERKZEUGE" },
+      "leadership": { "title": "FÜHRUNG & VERWALTUNG", "examples": "Verwaltung, Projektmanagement, Finanzen, Betrieb, Strategie", "outcome": "ORGANISATION & SKALIERUNG" },
+      "creative": { "title": "KREATIVES & MEDIEN", "examples": "Musik, Fotografie, Schreiben, Design, Video, Storytelling", "outcome": "INHALTE & STORYTELLING" },
+      "education": { "title": "BILDUNG", "examples": "Unterrichten, Sprachcoaching, akademische Nachhilfe, Lehrplanentwicklung", "outcome": "LERNEN & SCHULUNG" },
+      "ministry": { "title": "DIENST-GABEN", "examples": "Evangelisation, Gebet & Fürbitte, Lobpreis, Jüngerschaft, Bibellehre", "outcome": "GEISTLICHE VERMEHRUNG" }
+    },
+    "examples": {
+      "therapist": { "title": "THERAPEUT + JÜNGER", "tags": ["Beratung", "Jüngerschaft"], "body": "Leitet eine schriftzentrierte Ermutigungsgruppe für Menschen in schwierigen Lebensphasen. Professionelle Fürsorge und geistliche Unterstützung können koexistieren — eines ersetzt das andere nicht." },
+      "programmer": { "title": "PROGRAMMIERER + MISSIONAR", "tags": ["Programmierung", "Evangelisation"], "body": "Hilft beim Aufbau digitaler Werkzeuge, betreut Entwickler und unterstützt digitale Outreach-Arbeit." },
+      "administrator": { "title": "VERWALTER + MENTOR", "tags": ["Betrieb", "Führung"], "body": "Hilft bei der Organisation von Jüngerschaftsgruppen, koordiniert Teams und unterstützt Gebetsinitiativen." },
+      "artist": { "title": "KÜNSTLER + LOBPREISLEITER", "tags": ["Design", "Lobpreis"], "body": "Erstellt visuelle Materialien, unterstützt Lobpreisgemeinschaften und trägt zu Jüngerschaftsmaterialien bei." }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "Eine Vision dafür, wie Gläubige dienen",
+    "heading": "Deine Gabe kann einem Bedürfnis begegnen",
+    "intro": "Der Leib Christi ist am stärksten, wenn Menschen nicht nur fragen „Was kann ich empfangen?“, sondern auch „Was kann ich geben?“",
+    "lookingForHelp": "Hilfe suchen",
+    "offeringGift": "Deine Gabe anbieten",
+    "disclaimer": "Dies sind veranschaulichende Beispiele der Vision, kein aktives Verzeichnis. P2P ist kein Freelancer-Marktplatz, kein bezahlter Dienstleistungsmarktplatz und kein unverifiziertes Berufsverzeichnis — jede zukünftige Funktion zur Gabenfindung würde Identitätsprüfung, Schutzmaßnahmen, Datenschutz und angemessene Moderation umfassen.",
+    "queries": {
+      "programmers": "Christliche Programmierer in meiner Nähe finden",
+      "translator": "Übersetzer für Jüngerschaftsinhalte gesucht",
+      "accountability": "Gebetspartner zur gegenseitigen Rechenschaft finden",
+      "worship": "Jemand mit Lobpreis-Erfahrung gesucht",
+      "website": "Hilfe bei einer Gemeinde-Website benötigt",
+      "english": "Jemand gesucht, der Englisch unterrichten kann"
+    },
+    "offers": {
+      "counseling": "Biete kostenlose Beratung für neue Gläubige an",
+      "websiteDesign": "Kann bei Gemeinde-Website-Design helfen",
+      "mentoring": "Betreue junge Berufstätige",
+      "translation": "Verfügbar, um bei der Übersetzung von Jüngerschaftsmaterialien zu helfen",
+      "programming": "Verfügbar, um Programmieren zu unterrichten",
+      "worshipMusic": "Kann bei Lobpreis und Musik helfen"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "Das P2P-Ökosystem",
+    "heading": "Alles führt zurück zu Jesus Christus",
+    "explore": "Entdecken",
+    "items": {
+      "study": { "title": "STUDIUM", "body": "Verwurzelt in der Schrift — Lehrplan, Pläne und ein Studienbereich." },
+      "prayer": { "title": "GEBET", "body": "Gebet wird zur Teilhabe — echte Menschen, echtes Gebet, keine Ranglisten." },
+      "family": { "title": "FAMILIE", "body": "Jüngerschaft beginnt dort, wo wir leben." },
+      "church": { "title": "GEMEINDE", "body": "P2P dient der örtlichen Gemeinde. Es ersetzt sie nicht." },
+      "missions": { "title": "MISSION", "body": "Sieh das Feld. Höre die Geschichte. Bete für die Arbeiter." },
+      "stories": { "title": "GESCHICHTEN", "body": "Entdecke, was Gott getan hat." }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "Globale Gemeinschaft",
+    "headingLine1": "Ein Leib.",
+    "headingLine2": "Viele Menschen.",
+    "headingLine3": "Ein Herr.",
+    "journeyEyebrow": "Deine Jüngerschaftsreise",
+    "journeySteps": {
+      "discover": "ENTDECKEN",
+      "learn": "LERNEN",
+      "grow": "WACHSEN",
+      "walkWithOthers": "MIT ANDEREN GEHEN",
+      "helpSomeone": "JEMANDEM HELFEN",
+      "serve": "DIENEN",
+      "disciple": "JÜNGER MACHEN",
+      "multiply": "VERMEHREN",
+      "nations": "NATIONEN"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "Echte Geschichten",
+    "heading": "Entdecke, was Gott getan hat",
+    "body": "Geschichte, Erweckung, die weltweite Kirche und die Bewegungen, die geprägt haben, wie wir Jesus heute nachfolgen — sorgfältig erzählt, ohne Übertreibung.",
+    "exploreAll": "Alle Reich-Geschichten entdecken",
+    "readStory": "Die Geschichte lesen"
+  },
+  "Faq": {
+    "eyebrow": "Fragen",
+    "heading": "Häufig gestellte Fragen",
+    "items": {
+      "whatIsP2p": { "q": "Was ist P2P?", "a": "Ein globales Peer-to-Peer-Jüngerschaftsnetzwerk, zentriert auf Jesus Christus — Schrift, Gebet, Gemeinschaft und Mission, aufgebaut auf der Idee, dass jeder von jemandem lernt und jeder jemandem beim Wachsen helfen kann." },
+      "whoBuilt": { "q": "Wer hat P2P gebaut?", "a": "Das P2P Global Discipleship Network wird von Amen Kingdom Tech Ministry betrieben — einem Technologie-Dienst, der Websites, Apps und digitale Systeme für Gemeinden, Organisationen und Unternehmen entwirft und baut." },
+      "whatIsAmen": { "q": "Was ist Amen Kingdom Tech Ministry?", "a": "Ein zweckgebundener Technologie-Dienst, gegründet aus Gehorsam gegenüber Gottes Ruf im digitalen Zeitalter, der existiert, um Ihn treu auf den verschiedenen Einflussbergen der Technologiewelt zu repräsentieren. Der Name AMEN spiegelt die Zustimmung zu dem wider, was Gott durch die von ihm gebauten Systeme tut — geleitet vom Heiligen Geist statt nur von Trends, und mit Exzellenz, Präzision und Integrität gebaut." },
+      "commercial": { "q": "Ist P2P ein kommerzielles Produkt von Amen Kingdom Tech?", "a": "Nein. P2P ist ein dienstlicher Ausdruck derselben Berufung, kein Geschäft — genau deshalb ist jede Funktion kostenlos." },
+      "replaceChurch": { "q": "Ersetzt P2P meine örtliche Gemeinde?", "a": "Nein. P2P wurde gebaut, um die örtliche Gemeinde zu stärken, nicht mit ihr zu konkurrieren. Mitgliedschaft, seelsorgerliche Betreuung und die Sakramente bleiben dort, wo sie hingehören — bei deiner Gemeinde." },
+      "therapyReplacement": { "q": "Ist P2P ein Ersatz für Therapie oder professionelle Beratung?", "a": "Nein. Wo P2P Fürsorge und Wohlergehen berührt, ist es Ermutigung unter Gleichgesinnten neben professioneller Hilfe, niemals ein Ersatz dafür. Jeder in einer Krise sollte sich an eine lizenzierte Fachkraft oder den örtlichen Notdienst wenden." },
+      "giftsMarketplace": { "q": "Ist das Gaben- & Dienst-Netzwerk ein Marktplatz, auf dem ich für Hilfe bezahle?", "a": "Nein. Es ist eine Vision dafür, wie Gläubige Hilfe innerhalb der Gemeinschaft anbieten und finden können — kein Freelancer-Marktplatz, keine bezahlte Dienstleistungsplattform, kein unverifiziertes Berufsverzeichnis. Jede zukünftige Version würde Identitätsprüfung, Schutzmaßnahmen und angemessene Moderation umfassen." },
+      "whoCanJoin": { "q": "Wer kann P2P beitreten?", "a": "Jeder, der als Jünger Jesu wachsen und jemand anderem helfen möchte, dasselbe zu tun — neue Gläubige und langjährige Gläubige gleichermaßen. Ein Peer Guide ist einfach jemand, der ein kleines Stück weiter auf dem Weg ist, keine ferne Autorität." },
+      "cost": { "q": "Kostet der Beitritt etwas?", "a": "Nein — alles ist kostenlos. Jede Ressource und jedes Werkzeug für Wachstum, für Einzelpersonen, Familien und Gemeinden gleichermaßen, wird kostenlos angeboten, und P2P berechnet für keine Funktion etwas. Dies ist kein Geschäftsmodell; es ist ein Reichsauftrag und ein Dienst, ausgeführt im Streben nach Gottes Vision, dass die Erde voll werde von der Erkenntnis der Herrlichkeit des HERRN, wie Wasser das Meer bedeckt (Habakuk 2,14)." },
+      "whyFree": { "q": "Warum ist alles kostenlos?", "a": "Weil P2P existiert, um dieser Vision zu dienen, nicht um damit Einnahmen zu erzielen. Geld für Jüngerschaft, Gebet oder die Werkzeuge zu verlangen, jemandem beim Wachsen zu helfen, würde dem widersprechen, wofür dieses Netzwerk gebaut wurde." },
+      "churchFree": { "q": "Kann meine Gemeinde P2P auch kostenlos nutzen?", "a": "Ja. Gemeinden, Familien und Einzelpersonen nutzen alle dasselbe kostenlose Netzwerk — es gibt keine kostenpflichtige Stufe, keinen Premium-Plan und keine Funktion, die hinter einer Bezahlschranke zurückgehalten wird." },
+      "websiteVsApp": { "q": "Wie unterscheidet sich diese Website von der P2P-App?", "a": "Diese Seite vermittelt die Vision und erklärt das Modell. Einiges von dem, was beschrieben wird — wie gabenbasierte Dienstfindung — ist eine Richtung, in die sich P2P entwickeln kann, keine Aussage darüber, was die App heute bereits tut. Die Über-uns-Seite erläutert diesen Unterschied genauer." },
+      "peerGuide": { "q": "Was ist ein Peer Guide?", "a": "Ein Peer Guide ist ein Mitgläubiger, der dir auf der Jüngerschaftsreise einen Schritt voraus ist. Kein Pastor oder Lehrer — ein weiter fortgeschrittener Gleichgesinnter, der dich durch jede Lektion begleitet, deine Reflexionen liest, mit dir betet und bemerkt, wenn du still wirst." },
+      "livingTree": { "q": "Was ist der lebendige Baum?", "a": "Dein lebendiger Baum ist eine Echtzeit-Visualisierung deiner Jüngerschaftsreise innerhalb der App. Deine Wurzeln stehen für abgeschlossene Module. Dein Stamm steht für Treue über die Zeit. Deine Äste stehen für die Menschen, die du führst. Deine Frucht steht für erreichte Meilensteine. Dein Korn steht für die Menschen, die du eingeladen hast und die beigetreten sind." },
+      "growthStages": { "q": "Was sind Same, Keimling oder fruchtbarer Baum?", "a": "Dies sind die sechs Wachstumsstufen deines lebendigen Baumes — vom Samen (gerade beigetreten) über Keimling, jungen Baum, fruchtbaren Baum und Waldbauer bis zum Wald der Nationen. Jede Stufe spiegelt echten Fortschritt in deiner Jüngerschaftsreise und bei der Führung anderer wider." },
+      "grain": { "q": "Was ist Korn?", "a": "Korn ist dein Erntearchiv. Jede Person, die über deinen persönlichen Einladungslink P2P Global beitritt, fügt deinem Profil ein Korn hinzu. Basiert auf Johannes 12,24 — ein Weizenkorn, das in die Erde fällt und stirbt, bringt viel Frucht." },
+      "blueTick": { "q": "Was ist das blaue Häkchen?", "a": "Das blaue Häkchen auf einem Profil bedeutet, dass dieses Mitglied seine echte Identität durch unser Verifizierungssystem bestätigt hat — ein Selfie, das unser Team innerhalb von 72 Stunden überprüft. Es bestätigt, dass eine echte Person hinter dem Konto steht, und baut Vertrauen im Netzwerk auf." },
+      "kingdomSchool": { "q": "Was ist Kingdom School?", "a": "Kingdom School ist die Bildungsstruktur von P2P Global. Das Fundament umfasst 12 Module und 84 Lektionen — die vollständige Jüngerschaftsreise vom neuen Gläubigen zum Jüngermacher. Die Wahlfächer umfassen 144 Pläne in 10 Kategorien für jede Lebensphase." },
+      "completionMoment": { "q": "Was ist der Vollendungsmoment?", "a": "Wenn du alle 12 Module des Fundaments abschließt, löst sich der Vollendungsmoment aus. Ein filmisches Erlebnis. Ein Brief von deinem Peer Guide. Die Waldenthüllung, die deine vollständige Jüngerschaftslinie zeigt. Und der Auftrag: Du bist bereit. Geh und finde deinen Menschen." },
+      "languages": { "q": "In welchen Sprachen ist P2P Global verfügbar?", "a": "Die App ist in 20 oder mehr Sprachen mit bedarfsgerechter Übersetzung verfügbar. Lektionen werden automatisch übersetzt, wenn du sie in deiner Sprache anforderst, und bleiben dauerhaft für jeden nachfolgenden Nutzer gespeichert, der dieselbe Lektion benötigt." },
+      "churchPortalFree": { "q": "Ist das Gemeinde-Jüngerschaftsportal wirklich kostenlos?", "a": "Ja. Vollständig. Kein Abonnement. Keine Zahlung. Keine Stufe. Jede Gemeinde erhält vollen Zugang zu allem — das Hain-Dashboard, Kohortenverwaltung, Mitgliederprofile, Ankündigungen und das QR-Einladungssystem. Kostenlos. Immer." },
+      "peerCircle": { "q": "Was ist ein Peer Circle?", "a": "Ein Peer Circle ist eine Gruppe von 3 bis 8 Gläubigen, die gemeinsam denselben Plan oder dasselbe Modul durcharbeiten. Gruppenanrufe. Gemeinsame Diskussionen. Konsens-Bewertung. Jeder kann einen Kreis erstellen oder beitreten — und die Mitglieder können aus beliebig vielen Nationen stammen." },
+      "withoutPeerGuide": { "q": "Kann ich P2P Global ohne Peer Guide nutzen?", "a": "Ja — du kannst Modul 1 auf eigene Faust beginnen, während das intelligente Matching-System einen Guide für dich findet. Du kannst auch einen Peer Guide finden, indem du direkt nach seinem @Benutzernamen suchst, wenn du bereits weißt, wen du möchtest." },
+      "generationalForest": { "q": "Was ist der generationenübergreifende Wald?", "a": "Der generationenübergreifende Wald zeigt deine vollständige Jüngerschaftslinie — deinen Baum im Zentrum, deine Mentees um dich herum, deren Mentees weiter außen. Eine Weltkarte zeigt, welche Nationen deine Jüngerschaftskette erreicht hat. Es ist die unverwechselbarste Visualisierung in P2P Global." }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "Jeder lernt von jemandem.",
+    "headingLine2": "Jeder kann jemandem beim Wachsen helfen.",
+    "question": "Wem wirst du beim Wachsen helfen?",
+    "ctaExperience": "P2P erleben",
+    "ctaExplore": "Das Netzwerk entdecken"
+  }
+}

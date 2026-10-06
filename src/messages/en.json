@@ -1,0 +1,890 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "A global peer-to-peer discipleship network centered on Jesus Christ, Scripture, prayer, community, and mission. Everyone is learning from someone. Everyone can help someone grow.",
+    "shortDescription": "Everyone is learning from someone. Everyone can help someone grow."
+  },
+  "LanguageSwitcher": {
+    "label": "Language"
+  },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "Everyone is learning from someone. Everyone can help someone grow.",
+    "centerLine1": "Not our work. His work.",
+    "centerLine2": "Not our glory. His glory.",
+    "centerLine3": "Jesus Christ at the center."
+  },
+  "Nav": {
+    "vision": "Vision",
+    "howItWorks": "How It Works",
+    "stories": "Stories",
+    "experienceP2p": "Experience P2P",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "vision": "Vision",
+    "howItWorks": "How It Works",
+    "discipleship": "Discipleship",
+    "gifts": "Gifts",
+    "missions": "Missions",
+    "kingdomStories": "Kingdom Stories",
+    "kingdomWins": "Kingdom Wins",
+    "families": "Families",
+    "churches": "Churches",
+    "about": "About",
+    "faq": "FAQ",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "Powered by Amen Kingdom Tech Ministry"
+  },
+  "Hero": {
+    "eyebrowSuffix": "Global Network",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "Global Discipleship Network",
+    "tagline1": "Everyone is learning from someone.",
+    "tagline2": "Everyone can help someone grow.",
+    "description": "A global peer-to-peer discipleship network centered on Jesus Christ, Scripture, prayer, community, and mission.",
+    "ctaExperience": "Experience P2P",
+    "ctaVision": "Explore the Vision",
+    "understandVsExperience": "This website helps you understand P2P. The app is where you experience it.",
+    "discoverJourney": "Discover the Journey ↓"
+  },
+  "HeroVideo": {
+    "ariaLabel": "Many hands together holding up one Bible"
+  },
+  "HowItActuallyWorks": {
+    "eyebrow": "How It Works",
+    "heading": "Here is what actually happens",
+    "subheading": "Three steps. One journey.",
+    "learnMore": "Learn more about how it works",
+    "steps": {
+      "download": {
+        "title": "Download and join",
+        "body": "Create your account. Choose your @username. Set your faith stage and goals. Meet your peer guide through our smart matching system."
+      },
+      "kingdomSchool": {
+        "title": "Begin Kingdom School",
+        "body": "17 modules — orientation, the Gospel & Salvation track, and the 12-module Christian Foundation. Go through each one with your peer guide, at your pace, in your language, from anywhere on earth."
+      },
+      "guide": {
+        "title": "Guide someone else",
+        "body": "The moment you are one step ahead of someone, you are ready to guide them. The pattern of 2 Timothy 2:2 continues through you."
+      }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "Go Deeper",
+    "heading": "The website is the manual. The app is the experience.",
+    "body": "Every feature below is explained in full on its own page — read what's relevant to you now, or come back later. When you're ready, the app is where you actually live it."
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "Getting Started", "description": "Your first week on P2P Global — step by step." },
+    "livingTree": { "title": "Your Living Tree", "description": "What every part of your tree means — roots, trunk, branches, fruit, grain." },
+    "kingdomSchool": { "title": "Kingdom School", "description": "The Foundation (12 modules) and the Electives (144 plans across 10 categories)." },
+    "peerGuide": { "title": "Your Peer Guide", "description": "What a peer guide is, how matching works, and how to become one." },
+    "peerCircles": { "title": "Peer Circles", "description": "Group learning for 3 to 8 believers going through a plan together." },
+    "generationalForest": { "title": "The Generational Forest", "description": "Your full discipleship lineage — who you guided, who they guided, which nations were reached." },
+    "messaging": { "title": "Messaging and Calls", "description": "The inbox, audio calls, video calls, group calls, and break rooms." },
+    "prayer": { "title": "Prayer", "description": "The Sinner's Prayer, prayer library, confession builder, and prayer journal." },
+    "profile": { "title": "Profile and Identity", "description": "@username, the blue tick, GPS verification, and your public profile." },
+    "grain": { "title": "Grain and Invitations", "description": "Your personal harvest record and how to invite others to Kingdom School." }
+  },
+  "JesusCenter": {
+    "heading": "Jesus Christ at the center.",
+    "body": "P2P is not the hero of this story. It is an instrument that helps believers learn, grow, walk with others, serve, disciple, and multiply — never a replacement for Jesus, Scripture, the Holy Spirit, or the local church."
+  },
+  "Scripture": {
+    "vision": {
+      "eyebrow": "Vision",
+      "reference": "Habakkuk 2:14",
+      "text": "For the earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea."
+    },
+    "mission": {
+      "eyebrow": "Mission",
+      "reference": "2 Timothy 2:2",
+      "text": "And the things that you have heard from me among many witnesses, commit these to faithful men who will be able to teach others also.",
+      "footer": "Everyone is learning from someone and helping someone grow. This is the core P2P discipleship model."
+    },
+    "gifts": {
+      "reference": "1 Peter 4:10",
+      "text": "Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace."
+    }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "The Master Metaphor",
+    "heading": "From Seed to Nations",
+    "body": "God's work often begins in ways that look small. One person. One conversation. One Scripture. One act of obedience. Then multiplication begins."
+  },
+  "SeedToNations": {
+    "seed": { "stage": "A single seed", "title": "A SINGLE SEED", "body": "One person hears the gospel." },
+    "tree": { "stage": "Becomes a tree", "title": "BECOMES A TREE", "body": "Rooted in doctrine. Growing in faith. Discipleship is not simply collecting information — roots deepen, character grows, faith matures." },
+    "forest": { "stage": "Trees become a forest", "title": "TREES BECOME A FOREST", "body": "Disciples multiply generationally. One disciple helps another, who helps someone else. The process becomes generational." },
+    "continents": { "stage": "Forests spread across continents", "title": "FORESTS SPREAD ACROSS CONTINENTS", "body": "Cities and nations filled with believers. This is the vision — not a claim about current numbers." },
+    "glory": { "stage": "The earth covered with His glory", "title": "THE EARTH COVERED WITH HIS GLORY", "body": "As the waters cover the sea. — Habakkuk 2:14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "How Disciples Multiply",
+    "heading": "The Pattern Is Simple",
+    "body": "You don't need to know the story of Paul and Timothy to understand the pattern: someone receives, someone grows, someone helps, someone teaches, someone multiplies.",
+    "steps": {
+      "learn": { "title": "I LEARN", "body": "Receiving from my peer guide — Scripture, conversation, learning." },
+      "grow": { "title": "I GROW", "body": "Roots deepen. Faith strengthens. Character matures." },
+      "helpSomeone": { "title": "I HELP SOMEONE GROW", "body": "Guiding someone, teaching what I was taught — relational, not hierarchical." },
+      "theyHelp": { "title": "THEY HELP SOMEONE GROW", "body": "Second-generation discipleship begins." },
+      "multiply": { "title": "DISCIPLES MULTIPLY", "body": "Generational impact expands." },
+      "nations": { "title": "NATIONS REACHED", "body": "The earth filled with His glory." }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "Your Journey of Growth",
+    "heading": "A Journey, Not a Status",
+    "body": "Growth is not about status. It is about becoming rooted, fruitful, and able to help others grow.",
+    "ariaLabel": "Stages of the P2P discipleship journey",
+    "stages": {
+      "seed": { "title": "SEED", "body": "Just joined. Beginning the journey." },
+      "sprout": { "title": "SPROUT", "body": "Foundational modules. First mentoring relationships." },
+      "young": { "title": "YOUNG TREE", "body": "Mid-journey. Actively helping others." },
+      "fruitful": { "title": "FRUITFUL TREE", "body": "Deep in the curriculum. Fruit on the branches." },
+      "forestBuilder": { "title": "FOREST BUILDER", "body": "Disciples discipling others across cities." },
+      "forestNations": { "title": "FOREST OF NATIONS", "body": "Nations impacted through generational discipleship — a vision state, not a current achievement claim." }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "Every Believer Has Gifts",
+    "heading": "The Body of Christ Engine",
+    "intro": "Believers do not only learn Bible lessons — what you learn can shape how you serve, and what God has placed in you can strengthen someone else. Discipleship becomes service, service becomes contribution, and contribution becomes multiplication.",
+    "exampleEyebrow": "Illustrative — Example",
+    "exampleHeading": "Your Gift Can Serve Someone",
+    "discoverGifts": "Discover the Gifts Vision",
+    "categories": {
+      "care": { "title": "CARE & WELLNESS", "examples": "Psychology, therapy, counseling, mental wellbeing support, social care", "outcome": "HEALING & ENCOURAGEMENT CIRCLES" },
+      "tech": { "title": "TECH & DIGITAL", "examples": "Programming, UI/UX design, cybersecurity, web & mobile development", "outcome": "APP DEVELOPMENT & TOOLS" },
+      "leadership": { "title": "LEADERSHIP & ADMIN", "examples": "Administration, project management, finance, operations, strategy", "outcome": "ORGANIZATION & SCALING" },
+      "creative": { "title": "CREATIVE & MEDIA", "examples": "Music, photography, writing, design, video, storytelling", "outcome": "CONTENT & STORYTELLING" },
+      "education": { "title": "EDUCATION", "examples": "Teaching, language coaching, academic tutoring, curriculum development", "outcome": "LEARNING & TRAINING" },
+      "ministry": { "title": "MINISTRY GIFTS", "examples": "Evangelism, prayer & intercession, worship, discipleship, Bible teaching", "outcome": "SPIRITUAL MULTIPLICATION" }
+    },
+    "examples": {
+      "therapist": { "title": "THERAPIST + DISCIPLE", "tags": ["Counseling", "Discipleship"], "body": "Hosts a Scripture-centered encouragement group for people walking through difficult seasons. Professional care and spiritual support can coexist — one does not replace the other." },
+      "programmer": { "title": "PROGRAMMER + MISSIONARY", "tags": ["Programming", "Evangelism"], "body": "Helps build digital tools, mentors developers, and supports digital outreach." },
+      "administrator": { "title": "ADMINISTRATOR + MENTOR", "tags": ["Operations", "Leadership"], "body": "Helps organize discipleship cohorts, coordinate teams, and support prayer initiatives." },
+      "artist": { "title": "ARTIST + WORSHIP LEADER", "tags": ["Design", "Worship"], "body": "Creates visual resources, supports worship communities, and contributes discipleship materials." }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "A Vision for How Believers Serve",
+    "heading": "Your Gift Can Meet a Need",
+    "intro": "The Body of Christ is strongest when people don't only ask \"What can I receive?\" but also \"What can I give?\"",
+    "lookingForHelp": "Looking for Help",
+    "offeringGift": "Offering Your Gift",
+    "disclaimer": "These are illustrative examples of the vision, not a live directory. P2P is not a freelancer marketplace, a paid services marketplace, or an unverified professional directory — any future gift-discovery feature would include identity verification, safeguarding, privacy, and moderation appropriate to what is offered.",
+    "queries": {
+      "programmers": "Find Christian programmers near me",
+      "translator": "Need a translator for discipleship content",
+      "accountability": "Find an accountability partner for prayer",
+      "worship": "Looking for someone experienced in worship",
+      "website": "Need help with a ministry website",
+      "english": "Looking for someone who can teach English"
+    },
+    "offers": {
+      "counseling": "Offering free counseling for new believers",
+      "websiteDesign": "Can help with ministry website design",
+      "mentoring": "Mentoring young professionals",
+      "translation": "Available to help translate discipleship materials",
+      "programming": "Available to teach programming",
+      "worshipMusic": "Can help with worship and music"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "The P2P Ecosystem",
+    "heading": "Everything Points Back To Jesus Christ",
+    "explore": "Explore",
+    "items": {
+      "study": { "title": "STUDY", "body": "Rooted in Scripture — curriculum, plans, and a study workspace." },
+      "prayer": { "title": "PRAYER", "body": "Prayer becomes participation — real people, real prayer, no leaderboards." },
+      "family": { "title": "FAMILY", "body": "Discipleship starts where we live." },
+      "church": { "title": "CHURCH", "body": "P2P serves the local church. It does not replace it." },
+      "missions": { "title": "MISSIONS", "body": "See the field. Hear the story. Pray for the workers." },
+      "stories": { "title": "STORIES", "body": "Discover what God has done." }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "Global Community",
+    "headingLine1": "One Body.",
+    "headingLine2": "Many People.",
+    "headingLine3": "One Lord.",
+    "journeyEyebrow": "Your Discipleship Journey",
+    "journeySteps": {
+      "discover": "DISCOVER",
+      "learn": "LEARN",
+      "grow": "GROW",
+      "walkWithOthers": "WALK WITH OTHERS",
+      "helpSomeone": "HELP SOMEONE",
+      "serve": "SERVE",
+      "disciple": "DISCIPLE",
+      "multiply": "MULTIPLY",
+      "nations": "NATIONS"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "Real Stories",
+    "heading": "Discover What God Has Done",
+    "body": "History, revival, the global Church, and the movements that shaped how we follow Jesus today — told carefully, without exaggeration.",
+    "exploreAll": "Explore All Kingdom Stories",
+    "readStory": "Read the story"
+  },
+  "Faq": {
+    "eyebrow": "Questions",
+    "heading": "Frequently Asked Questions",
+    "items": {
+      "whatIsP2p": { "q": "What is P2P?", "a": "A global peer-to-peer discipleship network centered on Jesus Christ — Scripture, prayer, community, and mission, built around the idea that everyone is learning from someone and everyone can help someone grow." },
+      "whoBuilt": { "q": "Who built P2P?", "a": "P2P Global Discipleship Network is powered by Amen Kingdom Tech Ministry — a technology ministry that designs and builds websites, apps, and digital systems for churches, organizations, and businesses." },
+      "whatIsAmen": { "q": "What is Amen Kingdom Tech Ministry?", "a": "A purpose-driven technology ministry founded through obedience to God's calling in the digital age, existing to represent Him faithfully across the various mountains of influence in the tech world. The name AMEN reflects agreement with what God is doing through the systems it builds — guided by the Holy Spirit rather than trends alone, and built with excellence, precision, and integrity." },
+      "commercial": { "q": "Is P2P a commercial product built by Amen Kingdom Tech?", "a": "No. P2P is a ministry expression of that same calling, not a business — which is exactly why every feature is free." },
+      "replaceChurch": { "q": "Does P2P replace my local church?", "a": "No. P2P is built to strengthen the local church, not compete with it. Membership, pastoral care, and the sacraments stay where they belong — with your congregation." },
+      "therapyReplacement": { "q": "Is P2P a replacement for therapy or professional counseling?", "a": "No. Where P2P touches care and wellness, it's peer encouragement alongside professional help, never a substitute for it. Anyone in crisis should reach out to a licensed professional or local emergency services." },
+      "giftsMarketplace": { "q": "Is the Gifts & Service Network a marketplace where I pay for help?", "a": "No. It's a vision for how believers can offer and find help within the community — not a freelancer marketplace, a paid services platform, or an unverified professional directory. Any future version would include identity verification, safeguarding, and moderation appropriate to what's being offered." },
+      "whoCanJoin": { "q": "Who can join P2P?", "a": "Anyone who wants to grow as a disciple of Jesus and help someone else do the same — new believers and long-time believers alike. A peer guide is simply someone a little further along the road, not a distant authority." },
+      "cost": { "q": "Is there a cost to join?", "a": "No — everything is free. Every resource and tool for growth, for individuals, families, and churches alike, is offered at no charge, and P2P does not charge for any feature. This isn't a business model; it's a kingdom assignment and a ministry, carried out in pursuit of God's vision that the earth would be filled with the knowledge of the glory of the Lord, as the waters cover the sea (Habakkuk 2:14)." },
+      "whyFree": { "q": "Why is everything free?", "a": "Because P2P exists to serve that vision, not to generate revenue from it. Charging for discipleship, prayer, or the tools to help someone grow would work against the very thing this network was built to do." },
+      "churchFree": { "q": "Can my church use P2P for free too?", "a": "Yes. Churches, families, and individuals all use the same free network — there's no paid tier, no premium plan, and no feature held back behind a paywall." },
+      "websiteVsApp": { "q": "How is this website different from the P2P app?", "a": "This site casts the vision and explains the model. Some of what's described — like gift-based service discovery — is a direction for where P2P can go, not a claim about what the app already does today. The About page spells out that distinction in more detail." },
+      "peerGuide": { "q": "What is a peer guide?", "a": "A peer guide is a fellow believer who is one step ahead of you on the discipleship journey. Not a pastor or teacher — a further-along peer who walks alongside you through every lesson, reads your reflections, prays with you, and notices when you go quiet." },
+      "livingTree": { "q": "What is the Living Tree?", "a": "Your Living Tree is a real-time visualization of your discipleship journey inside the app. Your roots represent modules completed. Your trunk represents faithfulness over time. Your branches represent the people you are guiding. Your fruit represents milestones earned. Your grain represents the people you have invited who joined." },
+      "growthStages": { "q": "What is a Seed, Sprout, or Fruitful Tree?", "a": "These are the six growth stages of your Living Tree — from Seed (just joined) through Sprout, Young Tree, Fruitful Tree, and Forest Builder to Forest of Nations. Each stage reflects real progress in your discipleship journey and in guiding others." },
+      "grain": { "q": "What is Grain?", "a": "Grain is your harvest record. Every person who joins P2P Global through your personal invite link adds one Grain to your profile. Based on John 12:24 — a grain of wheat that falls into the earth and dies bears much fruit." },
+      "blueTick": { "q": "What is the Blue Tick?", "a": "The blue tick on a profile means that member has verified their real identity through our verification system — a selfie reviewed by our team within 72 hours. It confirms a real person is behind the account and builds trust in the network." },
+      "kingdomSchool": { "q": "What is Kingdom School?", "a": "Kingdom School is the educational structure of P2P Global. The Foundation is 12 modules and 84 lessons — the complete discipleship journey from new believer to disciple-maker. The Electives are 144 plans across 10 categories for every season of life." },
+      "completionMoment": { "q": "What is The Completion Moment?", "a": "When you complete all 12 Foundation modules — The Completion Moment fires. A cinematic experience. A letter from your peer guide. The Forest Reveal showing your full discipleship lineage. And the Commission: You are ready. Go find your person." },
+      "languages": { "q": "What languages is P2P Global available in?", "a": "The app is available in 20 or more languages with on-demand translation. Lessons translate automatically when you request them in your language and are cached permanently for every subsequent user who needs the same lesson." },
+      "churchPortalFree": { "q": "Is the Church Discipleship Portal really free?", "a": "Yes. Completely. No subscription. No payment. No tier. Every church gets full access to everything — the grove dashboard, cohort management, member profiles, announcements, and the QR invite system. Free. Always." },
+      "peerCircle": { "q": "What is a Peer Circle?", "a": "A Peer Circle is a group of 3 to 8 believers going through the same plan or module together. Group calls. Shared discussions. Consensus evaluation. Anyone can create or join a circle — and members can span any number of nations." },
+      "withoutPeerGuide": { "q": "Can I use P2P Global without a peer guide?", "a": "Yes — you can start Module 1 on your own while the smart matching system finds you a guide. You can also find a peer guide by searching their @username directly if you already know who you want." },
+      "generationalForest": { "q": "What is the Generational Forest?", "a": "The Generational Forest shows your full discipleship lineage — your tree at the center, your mentees surrounding you, their mentees further out. A world map shows which nations your discipleship chain has reached. It is the most distinctive visualization in P2P Global." }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "Everyone is learning from someone.",
+    "headingLine2": "Everyone can help someone grow.",
+    "question": "Who will you help grow?",
+    "ctaExperience": "Experience P2P",
+    "ctaExplore": "Explore the Network"
+  },
+  "KingdomStoryCategories": {
+    "christian-history": {
+      "title": "CHRISTIAN HISTORY",
+      "body": "The long story of the Church, from the early creeds to today.",
+      "article": [
+        "The Church's story begins in the first century with a small band of disciples in Jerusalem, and the book of Acts records how the gospel spread rapidly along Roman trade routes through the missionary journeys of Paul and others, reaching most of the Mediterranean world within a few decades.",
+        "The early centuries were shaped by seasons of Roman persecution alongside the steady work of clarifying core Christian belief. Councils such as Nicaea (325) and Chalcedon (451) produced the creeds still recited in churches worldwide today, affirming the church's shared confession about who Jesus is.",
+        "In the centuries that followed, monastic communities preserved learning and Scripture through the medieval period, the Eastern and Western churches formally divided in 1054, and the Reformation of the 16th century — sparked by Martin Luther's 1517 challenge to the Church at Wittenberg — renewed the call to Scripture as the church's final authority. From there, the gospel continued to spread outward through the missionary movements of the following centuries, which is where the next category picks up."
+      ]
+    },
+    "revival": {
+      "title": "REVIVAL",
+      "body": "Seasons when God moved in unusual, widely-witnessed ways.",
+      "article": [
+        "Church history includes recurring seasons where renewed conviction and prayer spread through whole communities faster than any single person organized. The First Great Awakening swept Britain and the American colonies in the 1730s–40s under preachers like George Whitefield and Jonathan Edwards, followed by a Second Great Awakening in the early 1800s.",
+        "The Welsh Revival of 1904–05, associated with a young evangelist named Evan Roberts, saw a wave of conversions and public prayer across Wales that was reported in newspapers of the day. Soon after, the Azusa Street Revival began in Los Angeles in 1906 under William J. Seymour, a meeting that historians widely credit as the origin point of the modern global Pentecostal movement.",
+        "Revivals like the East African Revival of the 1930s onward reshaped whole regional churches around confession, reconciliation, and renewed discipleship. What these seasons share isn't a formula — it's ordinary believers responding to an extraordinary sense that God was near, in ways that outlasted the moment itself."
+      ]
+    },
+    "global-church": {
+      "title": "GLOBAL CHURCH",
+      "body": "How believers across cultures and continents live out the same faith.",
+      "article": [
+        "One of the most significant shifts in modern church history has been geographic: researchers who track global Christianity — including the Center for the Study of Global Christianity and the Pew Research Center — have documented for decades how the church's center of gravity has moved away from Europe and North America toward Africa, Asia, and Latin America, where the fastest growth has occurred over the past century.",
+        "That means the 'typical' Christian today is less likely to be a European or North American than at almost any point since the early church, and more likely to worship in a language, style, and setting shaped by a very different culture than the ones that sent the first modern missionaries.",
+        "What holds this global, culturally diverse church together isn't uniformity — it's a shared confession about Jesus Christ, expressed through remarkably different languages, music, and forms of gathering. P2P's own peer-to-peer model reflects that same conviction: the faith travels through relationships, not through any one culture's ownership of it."
+      ]
+    },
+    "missions": {
+      "title": "MISSIONS",
+      "body": "Those sent to carry the gospel across cultures and borders.",
+      "article": [
+        "Christian mission goes back to the New Testament itself, but the modern missionary movement is often dated to William Carey, an English cobbler-turned-missionary whose 1792 pamphlet and subsequent work in India helped launch a wave of Protestant missionary societies that would send workers across the globe through the 19th century.",
+        "Figures like Hudson Taylor, who founded the China Inland Mission in 1865 and pioneered missionaries adopting local dress and customs rather than imposing Western culture, shaped how later generations thought about crossing cultures with the gospel respectfully rather than as an extension of colonial power.",
+        "Today, one of the clearest trends in global missions is its reversal: churches in Africa, Asia, and Latin America — many of them planted by 19th- and 20th-century missionaries — now send significant numbers of their own missionaries worldwide, including back to the historically Christian West. Mission has become something the whole global church does together, in every direction."
+      ]
+    },
+    "people": {
+      "title": "PEOPLE",
+      "body": "Figures whose faith shaped the Church that followed them.",
+      "article": [
+        "Church history is carried forward by particular people whose lives are still studied today. Augustine of Hippo (354–430) shaped Western theology for over a thousand years after his conversion and his writing on grace, sin, and the nature of the church. Athanasius spent much of his life defending the Nicene understanding of Christ against fierce opposition, at real personal cost.",
+        "Francis of Assisi in the 13th century embodied simplicity and care for the poor in a way that still shapes how Christians think about possessions and creation. The Reformation produced Martin Luther and later John Calvin, while the 18th-century Wesleyan revival under John and Charles Wesley left behind not just hymns still sung today, but a whole model of small-group discipleship built around mutual accountability.",
+        "Missionary figures like Hudson Taylor and Amy Carmichael, who spent decades serving vulnerable children in India, remind us that faithfulness is usually measured in decades of unglamorous work, not single dramatic moments. None of these figures were without flaws — but their lives are part of the inheritance every believer today has received."
+      ]
+    },
+    "movements": {
+      "title": "MOVEMENTS",
+      "body": "Moments when discipleship multiplied faster than anyone expected.",
+      "article": [
+        "Alongside individual figures, church history includes whole movements built around a particular way of forming disciples. Early monasticism, formalized by Benedict of Nursia's Rule in the 6th century, created communities organized around shared prayer, work, and Scripture that preserved the faith through unstable centuries.",
+        "The 18th-century Methodist movement under John Wesley organized converts into small 'class meetings' of a dozen or so people who met weekly for mutual accountability and encouragement in the faith — a structure historians credit with sustaining Methodism's rapid growth, and one that peer-to-peer discipleship models draw directly on today.",
+        "More recently, the house-church movement that sustained the Chinese church through decades of restriction, and the global spread of campus ministries and small-group or cell-church discipleship models, all share a common thread: faith multiplies fastest not through institutions alone, but through ordinary believers deliberately investing in a few others."
+      ]
+    },
+    "persecution": {
+      "title": "PERSECUTION & PERSEVERANCE",
+      "body": "The cost some believers carry, and the faith that sustains them.",
+      "article": [
+        "Persecution is part of the church's story from its earliest days — the book of Acts records the stoning of Stephen, widely regarded as the first Christian martyr, and Roman emperors including Nero and later Diocletian carried out organized persecutions in the first three centuries before Christianity was legalized in the empire.",
+        "The early church father Tertullian wrote that 'the blood of the martyrs is the seed of the church' — a pattern historians have observed repeat since: persecution has often coincided with growth rather than extinguishing the church it targeted.",
+        "Persecution of Christians continues in parts of the world today, and organizations such as Open Doors and Voice of the Martyrs document these situations in detail for anyone who wants to understand or pray specifically. We won't attach specific figures or claims here that we haven't verified — but we hold the reality in view, and it shapes how P2P thinks about prayer for the persecuted church as part of ordinary discipleship, not a separate concern."
+      ]
+    },
+    "christianity-today": {
+      "title": "CHRISTIANITY TODAY",
+      "body": "What God is doing in the Church right now, told honestly.",
+      "article": [
+        "Christianity remains the world's largest religion by number of adherents, and — as the Global Church category above touches on — its fastest-growing regions today are in the Global South rather than the historically Christian West, which is seeing continued secularization in many places even as immigration and renewal movements bring their own changes.",
+        "Digital tools have reshaped how many believers engage with Scripture, teaching, and community, for better and for worse — the same technology that lets a believer in one country study alongside a peer guide in another can also make faith feel like something consumed alone rather than lived in community. That tension is part of why P2P exists: to use technology in service of real relationships, not as a replacement for them.",
+        "None of this is a finished story. Whatever else is true of this moment in church history, ordinary discipleship — one person helping another follow Jesus — remains exactly as available and exactly as needed as it was in the first century."
+      ]
+    }
+  },
+  "GenerationalForestPage": {
+    "metaTitle": "The Generational Forest",
+    "metaDescription": "Your full discipleship lineage — who you guided, who they guided, and which nations were reached.",
+    "heroEyebrow": "The Generational Forest",
+    "heroTitle": "Your discipleship impact, made visible.",
+    "heroSubtitle": "Not just your journey. Everyone your journey has touched.",
+    "prose1Eyebrow": "What Is the Generational Forest",
+    "prose1Heading": "Beyond your own tree",
+    "prose1Body": "Your Living Tree shows your personal journey. The Generational Forest shows your impact. Every person you guided has a tree. Every person they guided has a tree. The forest grows from one act of faithfulness — yours.",
+    "layersEyebrow": "How to Read Your Forest",
+    "layersHeading": "What you see in the Generational Forest",
+    "prose2Eyebrow": "The Global Tab",
+    "prose2Heading": "A world map of your discipleship reach",
+    "prose2Body": "Inside the Generational Forest — a second tab shows a world map. Your country is lit in green. Nations where your disciples or their disciples are located glow gold. Nations with no P2P presence yet are shown in dark — a quiet missions prompt. The earth being filled with His glory, tracked one discipleship relationship at a time.",
+    "prose3Eyebrow": "The Forest Reveal",
+    "prose3Heading": "When the forest is revealed for the first time",
+    "prose3Body": "When you complete all 12 Foundation modules — The Completion Moment fires. Phase 3 is the Forest Reveal. The screen zooms out from your tree to show your full forest for the first time — every tree, every nation, every root connection. The stats appear one by one. Then the Commission: <em>You are ready. Go find your person.</em>"
+  },
+  "ForestLayers": {
+    "yourTree": { "label": "Your tree", "detail": "At the center. Full size. This is you and your journey." },
+    "generation1": { "label": "Generation 1", "detail": "Your direct mentees. Smaller trees surrounding yours, connected by glowing root lines underground." },
+    "generation2": { "label": "Generation 2", "detail": "Your mentees' mentees. People you have never met who are growing because of your faithfulness." },
+    "generation3plus": { "label": "Generation 3+", "detail": "Dots and seedlings at the edge of the forest. The harvest you cannot fully see yet." },
+    "ancestry": { "label": "Your ancestry", "detail": "Looking backward — who discipled you, who discipled them. The spiritual genealogy trace going back through the network." }
+  },
+  "GrainPage": {
+    "metaTitle": "Grain and Invitations",
+    "metaDescription": "Your personal harvest record and how to invite others to Kingdom School.",
+    "heroEyebrow": "Grain and Invitations",
+    "heroTitle": "A grain of wheat that falls into the earth.",
+    "heroSubtitle": "Your personal record of who you've invited into this — and the fruit that follows.",
+    "prose1Eyebrow": "What Grain Is",
+    "prose1Heading": "Not a score. A testimony.",
+    "prose1Body1": "Every person who joins P2P Global through your personal invite link adds one Grain to your profile. It's based on John 12:24 — a grain of wheat that falls into the earth and dies bears much fruit. Grain isn't a leaderboard number or a currency you spend. It's a quiet, permanent record of who you brought into the journey with you.",
+    "prose1Body2": "Your personal invite link lives in your profile. Share it with someone, and if they join, that's a Grain — a small, specific memory of one more person now walking this road."
+  },
+  "ProfilePage": {
+    "metaTitle": "Profile and Identity",
+    "metaDescription": "@username, the blue tick, GPS verification, and your public profile on P2P Global.",
+    "heroEyebrow": "Profile and Identity",
+    "heroTitle": "A real identity, in a real network.",
+    "heroSubtitle": "Who you are on P2P Global — and why the network can trust it.",
+    "prose1Eyebrow": "Why Identity Matters",
+    "prose1Heading": "Real people, not anonymous accounts",
+    "prose1Body": "Discipleship is relational — it doesn't work well between strangers hiding behind anonymous handles. P2P Global builds identity and trust into the profile itself, without turning it into a public performance.",
+    "featuresEyebrow": "On Your Profile",
+    "featuresHeading": "What makes up your profile"
+  },
+  "ProfileFeatures": {
+    "username": { "title": "Your @Username", "body": "Your unique identity across the entire P2P Global network. Find people, be found, and invite others — all by username." },
+    "verification": { "title": "Identity Verification", "body": "Submit a selfie with a handwritten note. Our team reviews it within 72 hours. The blue tick confirms you are a real person with a real identity. It builds trust across the network." },
+    "location": { "title": "GPS-Verified Location", "body": "Your location is verified by your device GPS — not typed manually. City and country displayed on your profile. Coordinates are never shared with other users." },
+    "grain": { "title": "Grain", "body": "Every person who joins P2P Global through your personal invite link adds one Grain to your harvest record. Based on John 12:24." }
+  },
+  "PrayerPage": {
+    "metaTitle": "Prayer",
+    "metaDescription": "The Sinner's Prayer, prayer library, confession builder, and prayer journal inside P2P Global.",
+    "heroEyebrow": "Prayer",
+    "heroTitle": "Prayer, built into the app, not bolted on.",
+    "heroSubtitle": "From your first prayer of commitment to a daily rhythm you keep for years.",
+    "prose1Eyebrow": "Why It's Here",
+    "prose1Heading": "Prayer becomes participation",
+    "prose1Body": "Discipleship without prayer is just information. P2P Global keeps prayer close to everything else you do — accessible from wherever you are in the app, not tucked away in a separate corner.",
+    "toolsEyebrow": "The Prayer Tools",
+    "toolsHeading": "Four ways to pray"
+  },
+  "PrayerFeatures": {
+    "sinnersPrayer": { "title": "The Sinner's Prayer", "body": "A sacred screen — always accessible. A prayer of commitment for anyone who wants to begin with Jesus or recommit their life to Him. When you pray it — you can tell your peer guide immediately." },
+    "library": { "title": "Prayer Library", "body": "Four categories — Grace and Mercy, Favour, Healing, and Confessions and Declarations. Biblical prayers grounded in Scripture, available any time." },
+    "confessionBuilder": { "title": "Confession Builder", "body": "Build your personal daily confession. Select scriptures. Arrange them. Set a morning notification. Wake up to your own words of faith." },
+    "journal": { "title": "Prayer Journal", "body": "Write your prayers. Mark them answered. Your answered prayers become your personal testimony record — proof of God's faithfulness in your own life." }
+  },
+  "PeerGuidePage": {
+    "metaTitle": "Your Peer Guide",
+    "metaDescription": "What a peer guide is, how matching works, and how to become one.",
+    "heroEyebrow": "Your Peer Guide",
+    "heroTitle": "Someone one step ahead. Walking beside you.",
+    "heroSubtitle": "Not a pastor. Not a teacher. A further-along peer who goes through every lesson with you.",
+    "prose1Eyebrow": "What Is a Peer Guide",
+    "prose1Heading": "A guide, not clergy",
+    "prose1Body": "Paul taught Timothy. Timothy taught others. They taught others still. The chain was not institutional — it was relational. P2P exists to make that same pattern practical today, across every language and timezone.",
+    "whatTheyDoEyebrow": "What They Do",
+    "whatTheyDoHeading": "What a peer guide actually does",
+    "matchingEyebrow": "Smart Matching",
+    "matchingHeading": "How you are matched",
+    "matchingBody": "P2P Global matches you with a peer guide based on five factors. You can also find a guide by their @username if you know who you want.",
+    "becomingEyebrow": "Becoming a Guide",
+    "becomingHeading": "One step ahead is enough"
+  },
+  "PeerGuideExplainer": {
+    "definition": "A peer guide is a fellow believer who is one step ahead of you on the journey — ready to walk alongside you now. Not a pastor. Not a teacher. Not an authority over you. A further-along peer.",
+    "whatTheyDo": [
+      "Go through every lesson with you",
+      "Read your reflection answers",
+      "Ask good questions",
+      "Pray with you",
+      "Notice when you go quiet",
+      "Evaluate your submissions before the next lesson unlocks"
+    ],
+    "matchingFactors": {
+      "language": { "label": "Language", "detail": "You share a content language" },
+      "timezone": { "label": "Timezone", "detail": "Sessions work across your schedules" },
+      "lifeStage": { "label": "Life stage", "detail": "Matched to where you are" },
+      "background": { "label": "Background sensitivity", "detail": "For members with specific pastoral needs" },
+      "location": { "label": "GPS-verified location", "detail": "No fake profiles — real people, real places" }
+    },
+    "becomingAGuide": "You do not need to finish the whole Foundation before you can guide someone else. The moment you are one lesson — one step — ahead of another believer, you are already qualified to walk with them through it. That is the pattern of 2 Timothy 2:2: what you have received, you pass on, right where you are. The Completion Moment, when you finish all 12 Foundation modules, is a milestone worth celebrating — but it was never the starting line for guiding someone."
+  },
+  "PeerCirclesPage": {
+    "metaTitle": "Peer Circles",
+    "metaDescription": "Group learning for 3 to 8 believers going through the same plan together.",
+    "heroEyebrow": "Peer Circles",
+    "heroTitle": "Discipleship does not have to be one-on-one.",
+    "heroSubtitle": "Groups of 3 to 8 believers going through the same plan together — from anywhere in the world.",
+    "prose1Eyebrow": "What Is a Peer Circle",
+    "prose1Body": "In a standard peer guide relationship — one guide, one learner. In a circle — everyone contributes to everyone else's growth. The discussion is richer. The accountability is shared. The community is real. And the nations represented around the circle make the Body of Christ visible in a way one-on-one cannot.",
+    "howEyebrow": "How It Works",
+    "howHeading": "What happens in a circle",
+    "fruitsEyebrow": "Fruits",
+    "fruitsHeading": "What a circle earns"
+  },
+  "PeerCircleExplainer": {
+    "definition": "Peer Circles are groups of 3 to 8 believers going through the same plan or module together — from anywhere in the world. Discipleship does not have to be one-on-one.",
+    "howItWorks": [
+      "A circle leader creates the circle and invites members by @username",
+      "Everyone reads the lesson individually at their own pace",
+      "The group meets on an in-app group call — audio or video, built into P2P Global itself",
+      "The circle leader guides the discussion questions",
+      "Members submit their reflections individually",
+      "Any 2 circle members can approve a submission — no single person holds progress back"
+    ],
+    "fruits": [
+      "The Fellowship Fruit — for completing a plan through a circle",
+      "The Unity Fruit — if circle members are from different nations",
+      "The Shepherd Fruit — for the circle leader when members complete modules"
+    ]
+  },
+  "MessagingPage": {
+    "metaTitle": "Messaging and Calls",
+    "metaDescription": "The complete communication system inside P2P Global — messages, audio, video, group calls, and break rooms.",
+    "heroEyebrow": "Messaging and Calls",
+    "heroTitle": "All communication in one place.",
+    "heroSubtitle": "Messages, calls, and community — built for a discipleship relationship, not a social feed.",
+    "inboxEyebrow": "Your Inbox",
+    "inboxHeading": "Five tabs, one inbox",
+    "inboxBody": "Every conversation you have on P2P Global — with your peer guide, your Peer Circle, or anyone else in your network — lives in one inbox, organized into five tabs so the conversation that matters most is never buried.",
+    "featuresEyebrow": "Every Way to Connect",
+    "featuresHeading": "Messages, calls, and community",
+    "officialEyebrow": "Official Messages",
+    "officialHeading": "When P2P Global messages you directly",
+    "officialBody1": "If the P2P Global team ever reaches out to you — in response to a Help Request, Crisis Response, Support, or Marketing message you sent through Contact P2P Global, or for a safety or moderation reason — it will always come from a verified official account, carrying the same blue tick used to verify real members across the network.",
+    "officialBody2": "Crisis Response is treated as its own priority department, not a general inbox. That said, P2P Global is a peer discipleship network, not an emergency service: anyone in immediate danger or crisis should still contact local emergency services or a licensed professional directly, alongside reaching out here.",
+    "callsEyebrow": "Audio and Video",
+    "callsHeading": "Calls that serve discipleship.",
+    "callsBody": "Every call type in P2P Global is designed for discipleship — not casual chat. The lesson is always accessible. The conversation has purpose."
+  },
+  "MessagingFeatures": {
+    "directMessages": { "title": "Direct Messages", "body": "Message any connection directly — your peer guide, circle members, and fellow believers in your network." },
+    "pinnedMessages": { "title": "Pinned Messages", "body": "Pin any message in a conversation with a label — Important, Follow Up, Scripture Reference, Action Item." },
+    "audioCalls": { "title": "Audio Calls", "body": "One-tap audio calls with your peer guide. Works on low-bandwidth connections anywhere in the world." },
+    "videoCalls": { "title": "Video Calls", "body": "Face to face with your peer guide. The lesson stays accessible in a sidebar during the call." },
+    "groupCalls": { "title": "Group Calls", "body": "Your Peer Circle meets live. Up to 8 participants. Raise your hand. Discussion questions on screen." },
+    "breakRooms": { "title": "Break Rooms", "body": "Spontaneous audio rooms in the Discover tab. Morning Prayer. Bible Q&A. Kingdom Men. Kingdom Women. Open rooms that disappear when the last person leaves." },
+    "contactP2p": { "title": "Contact P2P Global", "body": "Message the team directly from the Messages tab. Select a department — Help Request, Crisis Response, Support, or Marketing. A team member responds in your inbox." }
+  },
+  "InboxTabs": {
+    "all": { "tab": "All", "description": "Every conversation, ordered by most recent activity." },
+    "unread": { "tab": "Unread", "description": "Only conversations with messages you have not read yet." },
+    "favourites": { "tab": "Favourites", "description": "Your peer guide and pinned contacts. Always at hand." },
+    "peerGroups": { "tab": "Peer Groups", "description": "Informal groups — study groups, prayer partners, community conversations." },
+    "circles": { "tab": "Circles", "description": "Your Peer Circle conversations — tied to your learning plans." }
+  },
+  "CallDetails": {
+    "audio": { "title": "Audio calls", "body": "One-tap audio with your peer guide directly from the conversation. No scheduling required. Works on low-bandwidth connections in any country. Mute, speakerphone, end — simple controls. The call duration appears in the conversation thread afterward." },
+    "video": { "title": "Video calls", "body": "Face to face with your peer guide. A floating self-view in the corner. Flip camera. Blur your background if you need privacy. If your connection drops — the call automatically switches to audio only rather than disconnecting." },
+    "group": { "title": "Group calls for Peer Circles", "body": "Up to 8 participants in a grid view. The circle leader controls the flow. Discussion questions appear on screen — the leader advances them. A raise-hand system queues speakers so everyone is heard. When the session ends the attendance is logged automatically in the circle's record." },
+    "breakRooms": { "title": "Break Rooms", "body": "Spontaneous audio rooms visible in the Discover tab. Morning Prayer. Bible Q&A. Kingdom Men. Kingdom Women. Language rooms. Topic rooms tied to plan categories. Anyone can create a room. It disappears when the last person leaves. Maximum 20 participants. A flag button for inappropriate content is always visible." }
+  },
+  "KingdomSchoolPage": {
+    "metaTitle": "Kingdom School",
+    "metaDescription": "A short orientation, the Gospel & Salvation track, the 12-module Christian Foundation, and over 144 Electives across 10 categories.",
+    "heroEyebrow": "Kingdom School",
+    "heroTitle": "A Core Curriculum. Over 144 Electives to Keep You Growing.",
+    "heroSubtitle": "The complete discipleship curriculum — free, at your pace, in your language.",
+    "prose1Eyebrow": "The Path",
+    "prose1Heading": "Three parts. One journey.",
+    "prose1Body1": "Every believer starts with a short orientation, then the Gospel & Salvation track, then the 12-module Christian Foundation — the core curriculum this site refers to elsewhere simply as \"the Foundation.\" None of it is a course to rush through. You go one lesson at a time with your peer guide. No deadlines. No rush. In your language. At your pace.",
+    "prose1Body2": "When you complete all 12 Christian Foundation modules — The Completion Moment fires. A cinematic experience. A letter from your peer guide. The Forest Reveal showing your full discipleship lineage. And the Commission.",
+    "beforeModule1": "Before Module 1",
+    "gospelEyebrow": "The Starting Point",
+    "gospelHeading": "The Gospel & Salvation",
+    "foundationEyebrow": "12 Modules",
+    "foundationHeading": "The Christian Foundation",
+    "prose2Eyebrow": "The Electives",
+    "prose2Heading": "Over 144 plans. Choose what matches your season.",
+    "prose2Body": "After — or alongside — the Foundation, every member can choose from over 144 elective plans across 10 categories. Plans are sequential within each category: complete the first to unlock the next. Start with whatever speaks to your current season of life.",
+    "plansCount": "{count} plans"
+  },
+  "OrientationModule": {
+    "title": "Peer-to-Peer Orientation",
+    "description": "Before Module 1 begins, this short orientation explains how P2P actually works — what a peer guide is, what to expect from the journey ahead, and why discipleship here is relational, not just informational."
+  },
+  "GospelSalvationModules": {
+    "gospel": { "title": "The Gospel — Who Jesus Is and What He Did", "description": "The actual good news, stated plainly and then explored in depth: who Jesus genuinely is, why He died, why the resurrection matters, and what it means that He now reigns as Lord." },
+    "responding": { "title": "Responding to the Gospel and Knowing You're Saved", "description": "Understanding the gospel is not the same as responding to it. This module walks through what genuine repentance and faith actually involve, and how you can know — with real confidence — that your salvation is genuine." },
+    "convert": { "title": "From Convert to Disciple", "description": "Believing in Jesus was the beginning, not the finish line. This module explains what it actually means to follow Him as an ongoing disciple, the habits that will sustain your growth, and why you were never meant to walk this road alone." },
+    "before": { "title": "Before You Believed", "description": "Before you can fully appreciate the good news, it helps to understand the bad news it answers. This module tells the honest, biblical story of where every person starts — including you, before you trusted Christ." }
+  },
+  "FoundationModules": {
+    "identity": { "title": "Your New Identity in Christ", "description": "Who you were before Christ isn't who you are now. This module unpacks what Scripture actually says about your new identity — not how you feel about yourself, but who God says you are now that you belong to Him." },
+    "knowingGod": { "title": "Knowing God", "description": "Believing facts about God is not the same as knowing Him. This module moves from information to relationship — learning who God actually is, and what it means to walk with Him personally, not just believe in Him abstractly." },
+    "lordship": { "title": "The Lordship of Jesus Christ", "description": "Jesus is not only Savior — He is Lord. This module explores what it means to actually submit your life to His authority, not just accept His forgiveness." },
+    "holySpirit": { "title": "The Holy Spirit and You", "description": "The Holy Spirit is not an abstract doctrine — He is a Person who lives in every believer. This module explains who He is, how He works, and how to walk in step with Him day to day." },
+    "bible": { "title": "The Bible—God's Word to You", "description": "The Bible is not just a book of rules or history — it is God speaking to you. This module builds the habits and confidence to read Scripture for yourself and let it actually shape your life." },
+    "prayer": { "title": "Prayer—Talking With God", "description": "Prayer is not a performance or a formula — it's a real conversation with a real Father. This module walks through how to actually talk with God, and how to keep listening too." },
+    "church": { "title": "The Church—Your New Family", "description": "You were never meant to follow Jesus alone. This module explains what the local church actually is, why it matters, and how to belong to one as family, not just attend one as a visitor." },
+    "baptism": { "title": "Water Baptism and the Lord's Supper", "description": "Two simple, physical acts that carry deep meaning. This module explains what baptism and communion actually represent, and why Jesus asked believers to keep doing them." },
+    "sin": { "title": "The Christian and Sin", "description": "Becoming a believer doesn't mean the fight with sin is over. This module gives an honest, grace-filled framework for understanding sin, confession, and ongoing growth — without shame and without pretending it doesn't matter." },
+    "sharingFaith": { "title": "Sharing Your Faith", "description": "Evangelism doesn't have to feel like a performance. This module gives practical, natural ways to talk about what Jesus has done in your life with the people around you." },
+    "disciplines": { "title": "Spiritual Disciplines", "description": "Growth isn't accidental — it's built through consistent habits. This module covers the practices — prayer, fasting, Scripture, solitude, and more — that keep a life anchored in Christ over the long run." },
+    "eternity": { "title": "Living With Eternity in View", "description": "This life is not all there is. This final module reorients everything you've learned around eternity — how the hope of what's coming should shape how you live, give, and love right now." }
+  },
+  "ElectiveCategories": {
+    "faithKingdom": "Faith and Kingdom Living",
+    "ministryLeadership": "Ministry and Leadership",
+    "spiritualGrowth": "Spiritual Growth",
+    "familyRelationships": "Family and Relationships",
+    "identitySalvation": "Identity and Salvation",
+    "marketplacePurpose": "Marketplace and Purpose",
+    "prayer": "Prayer",
+    "holySpirit": "Holy Spirit",
+    "healingFreedom": "Healing and Freedom",
+    "churchCommunity": "Church and Community"
+  },
+  "LivingTreePage": {
+    "metaTitle": "Your Living Tree",
+    "metaDescription": "Every stage of the Living Tree explained — from Seed to Forest of Nations.",
+    "heroEyebrow": "Your Living Tree",
+    "heroTitle": "Not decoration. Every part means something.",
+    "heroSubtitle": "Your tree grows in real time as you learn, guide, and multiply.",
+    "prose1Eyebrow": "What Is the Living Tree",
+    "prose1Heading": "A real-time picture of your journey",
+    "prose1Body": "Every believer on P2P Global has a Living Tree — a visualization that reflects your actual discipleship journey. It is not a gamification system. It is not points. It is a mirror. Your roots show doctrinal depth. Your trunk shows faithfulness. Your branches show who you are guiding. Your fruit shows what you have accomplished. Your grain shows who you have brought in.",
+    "stagesEyebrow": "Growth Stages",
+    "stagesHeading": "Six stages. One direction.",
+    "stageOf": "Stage {n} of 6",
+    "inTheApp": "In the app: ",
+    "anatomyEyebrow": "The Anatomy",
+    "anatomyHeading": "Every part of your tree explained"
+  },
+  "GrowthStages": {
+    "seed": { "title": "SEED", "headline": "The journey begins.", "body": "You have taken the first step. You have created your account and your seed is in the soil. The roots have not yet appeared above the surface — but something has begun. Every forest on earth started exactly here.", "whatItMeans": "You just joined. You are completing your onboarding journey and meeting your peer guide." },
+    "sprout": { "title": "SPROUT", "headline": "Something is above the surface.", "body": "You have completed your first module or connected with your first peer guide. Growth has begun. The sprout is fragile but it is real. This is the most important stage — the decision to keep going when it is still new.", "whatItMeans": "You have completed Module 1 or are actively engaged with your peer guide." },
+    "youngTree": { "title": "YOUNG TREE", "headline": "Roots going deeper.", "body": "You are working through the middle modules. You are actively learning, submitting reflections, engaging with your peer guide — and you have begun to walk alongside someone else. The tree is gaining strength.", "whatItMeans": "You have completed 4 or more modules and are actively guiding at least one other person." },
+    "fruitfulTree": { "title": "FRUITFUL TREE", "headline": "The branches are bearing fruit.", "body": "You are in the later modules of the Foundation. Disciples are growing under your guidance. Fruit is appearing — not just for you but through you. This is the stage 2 Timothy 2:2 describes: the things you received, you are entrusting to faithful people.", "whatItMeans": "You have completed 9 or more modules, are guiding multiple people, and have earned 5 or more fruits." },
+    "forestBuilder": { "title": "FOREST BUILDER", "headline": "Your disciples have disciples.", "body": "You have completed all 12 Foundation modules. The people you guided are now guiding others. You are no longer just a tree — you are the beginning of a forest. Generational discipleship is no longer a concept. It is happening.", "whatItMeans": "Foundation complete. Your mentees have their own mentees. Second-generation discipleship is active." },
+    "forestOfNations": { "title": "FOREST OF NATIONS", "headline": "The earth being filled.", "body": "Your generational discipleship impact has spread across nations. People you have never met, in countries you have never visited, are growing in Christ because of a chain of faithfulness that began with you. Habakkuk 2:14 is not just a verse. It is a trajectory. You are on it.", "whatItMeans": "Your discipleship lineage spans multiple nations. The forest is spreading." }
+  },
+  "TreeAnatomy": {
+    "roots": { "part": "Roots", "explanation": "Every module you complete deepens your roots. 12 modules — 12 visible roots. Roots cannot be seen from the outside but they hold everything up. The deeper the roots the stronger the tree." },
+    "trunk": { "part": "Trunk", "explanation": "Your trunk grows with faithfulness over time. Days active. Sessions held. Consistency across weeks and months. The trunk does not lie — it reflects how long and how steadily you have been at this." },
+    "branches": { "part": "Branches", "explanation": "Each branch represents a mentee — someone you are guiding. Active mentees glow green. A mentee who has gone quiet shows a wilting branch — a gentle signal that they may need a check-in. No branch is forgotten." },
+    "fruit": { "part": "Fruit", "explanation": "52 named biblical fruits — each one a real milestone. Completing a module. Guiding someone through their first lesson. Inviting someone who joins. Fruit is permanent. It never falls from your tree." },
+    "grain": { "part": "Grain", "explanation": "Every person you invite who joins P2P Global adds one Grain to your profile. Grain is your harvest record — not a score, not a currency. A testimony. Based on John 12:24." }
+  },
+  "GettingStartedPage": {
+    "metaTitle": "Getting Started",
+    "metaDescription": "Your first P2P Experience — step by step.",
+    "heroEyebrow": "Getting Started",
+    "heroTitle": "Your first P2P Experience, step by step.",
+    "heroSubtitle": "No deadline. No pressure. No clock. Just a clear path for what happens first.",
+    "proseEyebrow": "What Comes Next",
+    "proseHeading": "The rhythm is yours to keep",
+    "proseBody": "From here, it's simple: one lesson at a time, at whatever pace fits your life. Your peer guide is there for every step, and when you're ready, the journey keeps going — through the rest of Kingdom School and eventually into guiding someone else."
+  },
+  "KingdomStoriesPage": {
+    "metaTitle": "Kingdom Stories",
+    "metaDescription": "Christian history, revival, the global Church, missions, and movements — discover what God has done.",
+    "heroEyebrow": "Kingdom Stories",
+    "heroTitle": "Discover What God Has Done",
+    "heroSubtitle": "History, revival, the global Church, and the movements that shaped how we follow Jesus today.",
+    "discoveryEyebrow": "Editorial Discovery",
+    "discoveryHeading": "Eight ways into the story",
+    "discoveryBody": "This isn't a feed to scroll past — each card opens into a real overview of that part of the Church's story.",
+    "readStory": "Read the story",
+    "prose1Eyebrow": "A Note on Accuracy",
+    "prose1Heading": "Stories, told carefully",
+    "prose1Body1": "This is a growing editorial library, not a source of fabricated statistics or unverified claims. Where a story is shared, we aim to represent it accurately and give proper context — Christian history deserves the same honesty we'd want applied to our own.",
+    "prose1Body2": "Each overview above is a starting point, not the final word on its topic — deeper individual stories will be added over time, sourced and reviewed before publishing."
+  },
+  "KingdomStorySlugPage": {
+    "backToStories": "Back to Kingdom Stories"
+  },
+  "PrivacyPage": {
+    "metaTitle": "Privacy",
+    "metaDescription": "P2P privacy policy.",
+    "eyebrow": "Legal",
+    "heading": "Privacy Policy",
+    "body": "A full privacy policy will be published here before P2P collects any personal data through this website. Nothing on this site currently stores personal information beyond what your browser retains locally."
+  },
+  "TermsPage": {
+    "metaTitle": "Terms",
+    "metaDescription": "P2P terms of use.",
+    "eyebrow": "Legal",
+    "heading": "Terms of Use",
+    "body": "Full terms of use will be published here as P2P's product features go live. This website is currently an informational and vision-casting site for the P2P Global Discipleship Network."
+  },
+  "GettingStartedSteps": {
+    "account": { "title": "Create your account", "body": "Register with your name and email. Choose your @username — this is how the whole network knows you. Set your ministry role (new believer, growing believer, pastor, etc) — this shapes your experience from the start." },
+    "onboarding": { "title": "The Onboarding Journey", "body": "Five steps anchored in Romans 15:7 — Accept one another, just as Christ accepted you. You meet your peer guide, share your story, pray together, plant your tree, and begin Module 1." },
+    "firstLesson": { "title": "Your first lesson", "body": "Read through Lesson 1 of Module 1 at your own pace. Answer the reflection questions. Submit when you are ready. Your peer guide reviews your answers and responds. That is the beginning. No pressure. No deadline. No clock." },
+    "rhythm": { "title": "The rhythm continues", "body": "One lesson at a time. Submit. Peer guide reviews. Unlock the next lesson. Some take a week. Some take a month. The journey is yours." }
+  },
+  "JoinPage": {
+    "metaTitle": "Join P2P Global",
+    "metaDescription": "Download P2P Global and begin your Kingdom School journey.",
+    "eyebrow": "Experience {name}",
+    "heading": "Who Will You Help Grow?",
+    "androidComingSoon": "Android — Coming Soon",
+    "iosComingSoon": "iOS coming soon too",
+    "storeNote": "The Play Store listing isn't live yet — we'd rather leave this honest than link somewhere that doesn't exist.",
+    "beforeEyebrow": "Before You Begin",
+    "beforeHeading": "Your first P2P Experience",
+    "understandMore": "Want to understand more first?",
+    "forChurches": "For Churches"
+  },
+  "FaqPage": {
+    "metaTitle": "FAQ",
+    "metaDescription": "Answers to common questions about P2P — what it is, what it isn't, and how it relates to your church.",
+    "heroEyebrow": "FAQ",
+    "heroTitle": "Common Questions"
+  },
+  "KingdomWinsPage": {
+    "metaTitle": "Kingdom Wins",
+    "metaDescription": "Look what God has done — a place for believers to share stories of His work in their lives.",
+    "heroEyebrow": "Kingdom Wins",
+    "heroTitle": "Look What God Has Done",
+    "heroSubtitle": "A space for the community to share what He is doing — in words, pictures, and video.",
+    "prose1Eyebrow": "Whose Glory",
+    "prose1Heading": "P2P is not the object of the story",
+    "prose1Body": "When someone shares a Kingdom win, the point is never P2P's growth or reach. The story always points to Jesus — what He has done in a life, a family, or a community.",
+    "shapeEyebrow": "The Shape of a Win",
+    "shapeHeading": "What gets shared here",
+    "shapeBody": "These are the kinds of stories this page will hold — categories, not claims. No specific wins are published yet.",
+    "categories": {
+      "prayer": { "title": "ANSWERED PRAYER", "outcome": "God moving in a specific, named need." },
+      "life": { "title": "A LIFE CHANGED", "outcome": "Someone coming to know Jesus, or growing in Him." },
+      "family": { "title": "A FAMILY RESTORED", "outcome": "Reconciliation, healing, renewed hope at home." },
+      "group": { "title": "A GROUP FORMED", "outcome": "Believers finding each other and starting to grow together." },
+      "church": { "title": "A CHURCH STRENGTHENED", "outcome": "A local congregation encouraged or equipped." },
+      "sent": { "title": "SOMEONE SENT", "outcome": "A believer stepping into service or mission." }
+    },
+    "howEyebrow": "How It Will Work",
+    "howHeading": "A simple, honest process",
+    "steps": {
+      "share": { "title": "Share", "body": "A believer shares what God has done — in words, a photo, or a short video." },
+      "reviewed": { "title": "Reviewed", "body": "Shared honestly, with context, before it's published — no exaggeration, no fabrication." },
+      "pointsToHim": { "title": "Points to Him", "body": "Published in a way that gives glory to Jesus, not to P2P or to the person sharing." }
+    },
+    "prose2Eyebrow": "Honesty First",
+    "prose2Heading": "No fabricated stories",
+    "prose2Body": "This page will hold real testimonies from real people as the community grows. Until then, we won't fabricate stories, numbers, or partnerships just to make this page feel fuller than it is."
+  },
+  "MissionsPage": {
+    "metaTitle": "Missions",
+    "metaDescription": "See the field. Hear the story. Pray for the workers. Learn from the work. Go where God sends you.",
+    "heroEyebrow": "Missions",
+    "heroTitle": "See the Mission. Hear the Story.",
+    "heroSubtitle": "Pray for the workers. Learn from the work. Go where God sends you.",
+    "prose1Eyebrow": "Not P2P's Call to Make",
+    "prose1Heading": "P2P does not determine your calling",
+    "prose1Body": "Mission work belongs to God, carried out through the local church and the people He sends. P2P's role is simply to help believers see the field, learn well, pray specifically, and stay connected to what He is doing — never to decide someone's calling for them.",
+    "prose2Eyebrow": "Preparation Matters",
+    "prose2Heading": "Faithful, not just urgent",
+    "prose2Body": "A heart for missions isn't enough on its own — the workers who last are the ones who prepared well: in Scripture, in character, in cross-cultural humility, and in real accountability to a sending church. P2P's discipleship pathway exists partly to build that foundation before anyone goes.",
+    "closingBody": "Pray for the workers. Give as you're able. Go where He sends you.",
+    "closingCta": "Start With Discipleship",
+    "journey": {
+      "field": { "title": "FIELD", "body": "See where God is at work around the world." },
+      "story": { "title": "STORY", "body": "Hear how He is moving, told honestly and without exaggeration." },
+      "scripture": { "title": "SCRIPTURE", "body": "Ground every mission in the Word, not just in urgency." },
+      "prayer": { "title": "PRAYER", "body": "Pray specifically for the workers, not just the need." },
+      "learning": { "title": "LEARNING", "body": "Learn what cross-cultural, faithful mission actually requires." },
+      "response": { "title": "RESPONSE", "body": "Respond as God leads you — in prayer, giving, or going." }
+    }
+  },
+  "ChurchPortalFeatures": {
+    "dashboard": { "title": "The Grove Dashboard", "body": "A real-time view of your congregation's discipleship activity. Active learners, lessons this week, peer guides, nations reached, and who needs a check-in. Not attendance numbers — discipleship. The thing Jesus commanded." },
+    "visualization": { "title": "The Grove Visualization", "body": "Every member of your congregation is a tree. You see the entire grove — seeds, sprouts, young trees, fruitful trees, forest builders. The spiritual state of your people. Visible. Real." },
+    "cohorts": { "title": "Cohort Management", "body": "Organize your congregation into cohorts — groups going through the same module together with a shared timeline. Assign peer guides. Track progress. Support members who fall behind." },
+    "profiles": { "title": "Member Profiles", "body": "See each member's current module, peer guide status, fruits earned, and activity. Add private leadership notes. Never see their private reflections, assignment answers, or prayer journal. Privacy protected." },
+    "announcements": { "title": "Announcements", "body": "Post announcements visible to your congregation inside the app. Pin the important ones. Schedule future announcements. Your church notice board — inside P2P Global." },
+    "qrCode": { "title": "QR Invite Code", "body": "A scannable QR code that brings your congregation straight into your church grove. Show it on screen Sunday morning. Print it in your bulletin. One scan — they join." }
+  },
+  "ChurchesPage": {
+    "metaTitle": "For Churches",
+    "metaDescription": "The Church Discipleship Portal — completely free for every church, always.",
+    "heroEyebrow": "For Churches",
+    "heroTitle": "The Church Discipleship Portal.",
+    "heroSubtitle": "Completely free. Every church. Full access. Always.",
+    "prose1Eyebrow": "The Core Commitment",
+    "prose1Heading": "Not a subscription. Not a tier. Free.",
+    "prose1Body1": "The Church Discipleship Portal is completely free for every church that registers. No subscription. No payment. No feature held back behind a paywall. We do not charge for the kingdom. Every church — small or large, house church or megachurch, new plant or established congregation — gets full access to everything.",
+    "prose1Body2": "P2P Global exists to serve the local church, not to sell to it.",
+    "prose2Eyebrow": "The Most Important Question",
+    "prose2Heading": "Are we actually making disciples?",
+    "prose2Body1": "Every pastor knows this tension. They can count attendance. They can count giving. They cannot count discipleship. They have no visibility into whether their members are actually being formed in the Word, whether new believers are being followed up, or whether anyone is being multiplied into disciple-makers.",
+    "prose2Body2": "The Church Discipleship Portal makes discipleship visible at the congregational level for the first time. Not attendance. Not giving. Discipleship — the thing Jesus commanded.",
+    "featuresEyebrow": "What You Get",
+    "featuresHeading": "Everything your church needs to track discipleship.",
+    "groveEyebrow": "The Grove",
+    "groveHeading": "Your congregation as a living forest.",
+    "groveBody": "Individual users on P2P Global have trees. A church has a grove. The pastor opens the grove dashboard and sees the spiritual state of their people — not just who attended, but who is growing.",
+    "groveStages": {
+      "seeds": "Members who just joined or have not yet begun Module 1.",
+      "sprouts": "Members who have started the Foundation and are in the early modules.",
+      "youngTrees": "Members actively working through the middle modules with a peer guide.",
+      "fruitfulTrees": "Members in the later modules who are guiding others and earning fruit.",
+      "forestBuilders": "Members who have completed the Foundation and whose disciples have disciples."
+    },
+    "groveStageLabels": {
+      "seeds": "Seeds",
+      "sprouts": "Sprouts",
+      "youngTrees": "Young Trees",
+      "fruitfulTrees": "Fruitful Trees",
+      "forestBuilders": "Forest Builders"
+    },
+    "rolesEyebrow": "Church Roles",
+    "rolesHeading": "Built around your church structure.",
+    "roles": {
+      "seniorPastor": { "role": "Senior Pastor or Lead Elder", "access": "Full access to everything — grove dashboard, all member profiles, all cohorts, all settings." },
+      "discipleshipPastor": { "role": "Discipleship Pastor", "access": "Manage cohorts, see member profiles, assign peer guides, view their group's progress." },
+      "smallGroupLeader": { "role": "Small Group Leader", "access": "Manage their specific group — member progress, cohort activity, check-ins." },
+      "churchMember": { "role": "Church Member", "access": "Standard P2P experience. Church announcements and cohorts appear in their app. They choose whether leadership can see their progress." }
+    },
+    "prose3Eyebrow": "Privacy",
+    "prose3Heading": "Leadership sees progress. Never private content.",
+    "prose3Body1": "Church leadership can see which module a member is in, whether they have a peer guide, their tree stage, and whether they have been active recently. Leadership cannot see the content of session discussions, reflection answers, assignments, or prayer journal entries. Member privacy is protected by design — not as an add-on.",
+    "prose3Body2": "Members can also choose to make their profile invisible to leadership in their privacy settings. When they do — only anonymised data appears in the grove.",
+    "ctaEyebrow": "Get Started",
+    "ctaHeading": "Register your church in minutes.",
+    "ctaBody": "Any pastor or church leader can register directly from the P2P Global app. Your congregation joins using your unique invite link or QR code. Free. Immediate. No approval required.",
+    "ctaButton": "Download the app to register"
+  },
+  "FamiliesPage": {
+    "metaTitle": "Families",
+    "metaDescription": "Discipleship starts where we live — family gathering, Scripture, prayer, and shared growth.",
+    "heroEyebrow": "Families",
+    "heroTitle": "Discipleship Starts Where We Live",
+    "heroSubtitle": "Before it happens in a group or a curriculum, discipleship happens at the kitchen table.",
+    "prose1Eyebrow": "The First Classroom",
+    "prose1Heading": "Family as the first discipleship context",
+    "prose1Body": "Deuteronomy 6 puts the responsibility for passing on faith squarely in the home — talking about God's Word \"when you sit in your house, when you walk by the way, when you lie down, and when you rise.\" P2P doesn't try to replace that. It tries to support it: simple Scripture, prayer, and study rhythms families can actually build into ordinary life together.",
+    "prose2Eyebrow": "Not Another App to Manage",
+    "prose2Heading": "Rhythms, not requirements",
+    "prose2Body": "None of this is meant to add pressure to already-full households. The aim is small, repeatable rhythms — a few minutes, a few times a week — not one more obligation competing for a family's time.",
+    "rows": {
+      "gather": { "title": "GATHER AROUND THE WORD", "body": "A short passage, read together — around the table, in the car, before bed. Scripture doesn't need a classroom to take root." },
+      "pray": { "title": "PRAY TOGETHER", "body": "Simple, honest prayer as a family rhythm — naming what's hard, thanking God for what's good." },
+      "study": { "title": "STUDY TOGETHER", "body": "Age-appropriate study rhythms parents and children can actually keep, not another program to manage." },
+      "grow": { "title": "GROW TOGETHER", "body": "Faith that's caught as much as taught — children watching parents wrestle with Scripture honestly, and grow." }
+    }
+  },
+  "GiftsPage": {
+    "metaTitle": "Gifts & Service",
+    "metaDescription": "The Body of Christ engine: how professional, creative, and ministry gifts can serve the Kingdom.",
+    "heroEyebrow": "Gifts & Service",
+    "heroTitle": "Every Believer Has Gifts",
+    "heroSubtitle": "Discipleship is not only receiving. It is also learning to give what God has placed in you.",
+    "prose1Eyebrow": "The Body of Christ",
+    "prose1Heading": "More than Bible lessons",
+    "prose1Body1": "A believer is not only a student of Scripture. They are a therapist, a developer, an administrator, an artist, a teacher, a worship leader — someone with real skills and real gifts that can strengthen the Kingdom, not just their own career.",
+    "prose1Body2": "What you learn can shape how you serve. What God has placed in you can strengthen someone else.",
+    "prose2Eyebrow": "Boundaries",
+    "prose2Heading": "Service, not status",
+    "prose2Body": "This is deliberately not a place for influence, rankings, or \"top contributor\" badges. The only word that matters here is <strong>service</strong>. And where care touches sensitive areas — counseling, mental health, medical topics — professional qualifications and appropriate boundaries always matter; spiritual encouragement is not a substitute for professional treatment, and the two can coexist."
+  },
+  "DiscipleshipPage": {
+    "metaTitle": "Discipleship",
+    "metaDescription": "The P2P discipleship model: peer learning, growth, guidance, and multiplication rooted in 2 Timothy 2:2.",
+    "heroEyebrow": "Discipleship",
+    "heroTitle": "Everyone Is Learning From Someone",
+    "heroSubtitle": "Everyone can help someone grow. That single sentence is the whole P2P model.",
+    "prose1Eyebrow": "The Biblical Pattern",
+    "prose1Heading": "The pattern is biblical",
+    "prose1Body1": "Paul taught Timothy. Timothy was called to entrust what he'd received to faithful people, who would then teach others also. That is not a management hierarchy — it is a relational chain of faithfulness that Scripture assumes will keep going, generation after generation.",
+    "prose1Body2": "P2P exists to make that pattern practical: Scripture, prayer, and community structured around real relationships, not passive content consumption.",
+    "prose2Eyebrow": "Guidance, Not Hierarchy",
+    "prose2Heading": "A guide, not clergy",
+    "prose2Body": "In P2P, a \"peer guide\" is someone a little further along the road, walking alongside you — not a titled authority standing over you. Guiding someone is simply teaching what you were taught, in relationship. <strong>Anyone who has grown can help someone else grow.</strong>",
+    "beginJourney": "Begin the Journey"
+  },
+  "AboutPage": {
+    "metaTitle": "About",
+    "metaDescription": "Why P2P exists, its theological foundation, and its relationship to Scripture and the local church.",
+    "heroEyebrow": "About",
+    "heroTitle": "Why P2P Exists",
+    "heroSubtitle": "Not a bigger platform. A faithful instrument for an ancient pattern.",
+    "prose1Eyebrow": "Theological Foundation",
+    "prose1Heading": "Jesus Christ at the center",
+    "prose1Body": "P2P is not the hero of its own story. It is not a replacement for Jesus, Scripture, the Holy Spirit, or the local church. It exists as one instrument among many that God can use to help believers learn, grow, walk with others, serve, disciple, and multiply.",
+    "prose2Eyebrow": "Discipleship Philosophy",
+    "prose2Heading": "Peer to peer, not top-down",
+    "prose2Body": "The name isn't incidental. P2P assumes that spiritual growth is relational and mutual — everyone is learning from someone, and everyone, no matter how new in the faith, has something to offer someone else. A guide is a further-along peer, not a distant authority.",
+    "prose3Eyebrow": "Relationship to Scripture",
+    "prose3Heading": "The Word has the final word",
+    "prose3Body": "Every study plan, prompt, and piece of content in P2P is meant to point a person back to the Bible itself, not to stand in for it. Where anything here ever seems to add to or override what Scripture says, Scripture wins — P2P is a tool for engaging the text, never a substitute authority over it.",
+    "prose4Eyebrow": "Relationship to the Church",
+    "prose4Heading": "A supporting instrument, not a substitute",
+    "prose4Body": "P2P assumes every believer using it belongs, or is being pointed toward belonging, to a local church — with its own leadership, sacraments, and accountability. Nothing here is designed to be a person's only spiritual community. See how this plays out in practice on the <churches>Churches</churches> and <families>Families</families> pages.",
+    "prose5Eyebrow": "Looking Ahead",
+    "prose5Heading": "A vision still unfolding",
+    "prose5Body": "Some of what's described across this site — like gift-based service discovery — is a vision for where this can go, not a claim about what exists today. As the actual P2P product grows, this site will be updated to reflect exactly what is real, and clearly label what is still ahead."
+  },
+  "VisionPage": {
+    "metaTitle": "Vision",
+    "metaDescription": "For the earth will be filled with the knowledge of the glory of the Lord as the waters cover the sea. The vision behind P2P.",
+    "heroEyebrow": "Vision",
+    "heroTitle": "The Earth Filled With His Glory",
+    "heroSubtitle": "Habakkuk 2:14 is not a slogan for P2P — it is the horizon everything here is aimed at.",
+    "prose1Eyebrow": "Where This Begins",
+    "prose1Heading": "A vision bigger than a platform",
+    "prose1Body1": "P2P is not ultimately about building a bigger platform, a larger user base, or a more impressive product. It is about participating — in a small, ordinary, faithful way — in the spread of the knowledge of the glory of the Lord across every city and nation.",
+    "prose1Body2": "That means the measure of success is never the network itself. It is whether people are actually coming to know Jesus Christ more deeply, and helping someone else do the same.",
+    "prose2Eyebrow": "Jesus at the Center",
+    "prose2Heading": "Not our work. His work.",
+    "prose2Body": "P2P is an instrument — a set of tools and relationships that help believers learn, grow, walk with others, serve, disciple, and multiply. It is not a replacement for Jesus, for Scripture, for the Holy Spirit, or for the local church. Where this vision succeeds, the glory belongs to Him, not to a platform."
+  },
+  "HowItWorksPage": {
+    "metaTitle": "How It Works",
+    "metaDescription": "A complete guide to the P2P Global Kingdom School app — from your first day to guiding others.",
+    "heroEyebrow": "How It Works",
+    "heroTitle": "The Manual for the App",
+    "heroSubtitle": "Everything explained — from your first day to guiding others across nations.",
+    "proseEyebrow": "Before You Begin",
+    "proseHeading": "The website is the manual. The app is the experience.",
+    "proseBody": "This section explains every feature of P2P Global in plain language so that when you open the app you already understand what you are walking into. Read what is relevant to you — or read everything. The app will make more sense for it."
+  }
+}

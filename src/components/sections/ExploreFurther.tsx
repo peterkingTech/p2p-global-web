@@ -1,21 +1,20 @@
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import Reveal from "@/components/motion/Reveal";
 import { howItWorksTopics } from "@/content/copy";
 
 /** Quick-link grid into the full app manual — the website explains, the app delivers the experience. */
-export default function ExploreFurther() {
+export default async function ExploreFurther() {
+  const t = await getTranslations("ExploreFurther");
+  const tTopics = await getTranslations("HowItWorksTopics");
+
   return (
     <section className="bg-paper px-6 py-24 text-ink">
       <div className="mx-auto max-w-2xl text-center">
         <Reveal>
-          <p className="text-xs tracking-[0.35em] text-water uppercase">Go Deeper</p>
-          <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">
-            The website is the manual. The app is the experience.
-          </h2>
-          <p className="mt-6 text-left text-lg leading-relaxed text-ink/70">
-            Every feature below is explained in full on its own page — read what&rsquo;s relevant to you now, or
-            come back later. When you&rsquo;re ready, the app is where you actually live it.
-          </p>
+          <p className="text-xs tracking-[0.35em] text-water uppercase">{t("eyebrow")}</p>
+          <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">{t("heading")}</h2>
+          <p className="mt-6 text-left text-lg leading-relaxed text-ink/70">{t("body")}</p>
         </Reveal>
       </div>
 
@@ -30,8 +29,8 @@ export default function ExploreFurther() {
                 {topic.icon}
               </span>
               <div>
-                <h3 className="text-base font-medium">{topic.title}</h3>
-                <p className="mt-1 text-sm leading-relaxed text-ink/60">{topic.description}</p>
+                <h3 className="text-base font-medium">{tTopics(`${topic.key}.title`)}</h3>
+                <p className="mt-1 text-sm leading-relaxed text-ink/60">{tTopics(`${topic.key}.description`)}</p>
               </div>
             </Link>
           </Reveal>

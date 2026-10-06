@@ -1,0 +1,253 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "İsa Mesih merkezli küresel bir akrandan akrana öğrencilik ağı — Kutsal Kitap, dua, topluluk ve misyon. Herkes birinden öğreniyor. Herkes birinin büyümesine yardım edebilir.",
+    "shortDescription": "Herkes birinden öğreniyor. Herkes birinin büyümesine yardım edebilir."
+  },
+  "LanguageSwitcher": { "label": "Dil" },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "Herkes birinden öğreniyor. Herkes birinin büyümesine yardım edebilir.",
+    "centerLine1": "Bizim işimiz değil. O'nun işi.",
+    "centerLine2": "Bizim yüceliğimiz değil. O'nun yüceliği.",
+    "centerLine3": "Merkezde İsa Mesih."
+  },
+  "Nav": {
+    "vision": "Vizyon",
+    "howItWorks": "Nasıl çalışır",
+    "stories": "Hikayeler",
+    "experienceP2p": "P2P'yi deneyimle",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "Footer": {
+    "vision": "Vizyon",
+    "howItWorks": "Nasıl çalışır",
+    "discipleship": "Öğrencilik",
+    "gifts": "Armağanlar",
+    "missions": "Misyonlar",
+    "kingdomStories": "Krallık Hikayeleri",
+    "kingdomWins": "Krallık Zaferleri",
+    "families": "Aileler",
+    "churches": "Kiliseler",
+    "about": "Hakkımızda",
+    "faq": "Sıkça Sorulan Sorular",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "contact": "İletişim",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "Amen Kingdom Tech Ministry tarafından desteklenmektedir"
+  },
+  "Hero": {
+    "eyebrowSuffix": "Küresel Ağ",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "Küresel Öğrencilik Ağı",
+    "tagline1": "Herkes birinden öğreniyor.",
+    "tagline2": "Herkes birinin büyümesine yardım edebilir.",
+    "description": "İsa Mesih merkezli küresel bir akrandan akrana öğrencilik ağı — Kutsal Kitap, dua, topluluk ve misyon.",
+    "ctaExperience": "P2P'yi deneyimle",
+    "ctaVision": "Vizyonu keşfet",
+    "understandVsExperience": "Bu web sitesi P2P'yi anlamana yardımcı olur. Uygulama ise onu gerçekten deneyimlediğin yerdir.",
+    "discoverJourney": "Yolculuğu keşfet ↓"
+  },
+  "HeroVideo": { "ariaLabel": "Birçok elin birlikte bir İncil tuttuğu görüntü" },
+  "HowItActuallyWorks": {
+    "eyebrow": "Nasıl çalışır",
+    "heading": "Aslında gerçekleşen şey bu",
+    "subheading": "Üç adım. Bir yolculuk.",
+    "learnMore": "Nasıl çalıştığı hakkında daha fazla bilgi edin",
+    "steps": {
+      "download": { "title": "İndir ve katıl", "body": "Hesabını oluştur. @kullanıcı adını seç. İman aşamanı ve hedeflerini belirle. Akıllı eşleştirme sistemimiz aracılığıyla akran rehberinle tanış." },
+      "kingdomSchool": { "title": "Kingdom School'a başla", "body": "17 modül — oryantasyon, İncil ve Kurtuluş yolu, ve 12 modülden oluşan Hristiyan Temeli. Her birini akran rehberinle birlikte, kendi hızında, kendi dilinde, dünyanın herhangi bir yerinden tamamla." },
+      "guide": { "title": "Başka birine rehberlik et", "body": "Birinden bir adım önde olduğun anda, ona rehberlik etmeye hazırsındır. 2. Timoteos 2:2'deki örüntü senin aracılığınla devam eder." }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "Daha derine in",
+    "heading": "Web sitesi rehberdir. Uygulama ise deneyimin kendisidir.",
+    "body": "Aşağıdaki her özellik kendi sayfasında tam olarak açıklanmıştır — şu anda senin için önemli olanı oku, ya da daha sonra geri dön. Hazır olduğunda, uygulama onu gerçekten yaşadığın yerdir."
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "Başlarken", "description": "P2P Global'deki ilk haftan — adım adım." },
+    "livingTree": { "title": "Yaşayan Ağacın", "description": "Ağacının her parçasının anlamı — kökler, gövde, dallar, meyve, tahıl." },
+    "kingdomSchool": { "title": "Kingdom School", "description": "Temel (12 modül) ve Seçmeli Dersler (10 kategoride 144 plan)." },
+    "peerGuide": { "title": "Akran Rehberin", "description": "Akran rehberi nedir, eşleştirme nasıl çalışır, ve nasıl biri olunur." },
+    "peerCircles": { "title": "Akran Çemberleri", "description": "Aynı planı birlikte takip eden 3 ila 8 inanlı için grup öğrenimi." },
+    "generationalForest": { "title": "Nesiller Ormanı", "description": "Tam öğrencilik soy ağacın — kimi yönlendirdin, onlar kimi yönlendirdi, hangi uluslara ulaşıldı." },
+    "messaging": { "title": "Mesajlaşma ve Aramalar", "description": "Gelen kutusu, sesli aramalar, görüntülü aramalar, grup aramaları ve ara odaları." },
+    "prayer": { "title": "Dua", "description": "Günahkarın Duası, dua kütüphanesi, itiraf oluşturucu ve dua günlüğü." },
+    "profile": { "title": "Profil ve Kimlik", "description": "@kullanıcı adı, mavi tik, GPS doğrulaması ve herkese açık profilin." },
+    "grain": { "title": "Tahıl ve Davetler", "description": "Kişisel hasat kaydın ve başkalarını Kingdom School'a nasıl davet edeceğin." }
+  },
+  "JesusCenter": {
+    "heading": "Merkezde İsa Mesih.",
+    "body": "P2P bu hikayenin kahramanı değildir. İnanlıların öğrenmesine, büyümesine, başkalarıyla yürümesine, hizmet etmesine, öğrenci yetiştirmesine ve çoğalmasına yardımcı olan bir araçtır — asla İsa'nın, Kutsal Kitap'ın, Kutsal Ruh'un veya yerel kilisenin yerine geçmez."
+  },
+  "Scripture": {
+    "vision": { "eyebrow": "Vizyon", "reference": "Habakkuk 2:14", "text": "Çünkü sular denizi nasıl dolduruyorsa, yeryüzü de RAB'bin yüceliğinin bilgisiyle öyle dolacak." },
+    "mission": { "eyebrow": "Misyon", "reference": "2. Timoteos 2:2", "text": "Birçok tanık önünde benden işittiklerini, başkalarına da öğretmeye yeterli olacak güvenilir kişilere emanet et.", "footer": "Herkes birinden öğreniyor ve birinin büyümesine yardım ediyor. Bu, P2P öğrencilik modelinin özüdür." },
+    "gifts": { "reference": "1. Petrus 4:10", "text": "Her biriniz, Tanrı'nın çok yönlü lütfunun iyi kahyaları olarak, aldığı armağanla öbürlerine hizmet etsin." }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "Temel Benzetme",
+    "heading": "Taneden Uluslara",
+    "body": "Tanrı'nın işi genellikle küçük görünen şekillerde başlar. Bir kişi. Bir sohbet. Bir Kutsal Kitap ayeti. Bir itaat eylemi. Sonra çoğalma başlar."
+  },
+  "SeedToNations": {
+    "seed": { "stage": "Tek bir tane", "title": "TEK BİR TANE", "body": "Bir kişi müjdeyi duyar." },
+    "tree": { "stage": "Bir ağaç olur", "title": "BİR AĞAÇ OLUR", "body": "Öğretide köklenmiş. İmanda büyüyen. Öğrencilik sadece bilgi toplamak değildir — kökler derinleşir, karakter büyür, iman olgunlaşır." },
+    "forest": { "stage": "Ağaçlar orman olur", "title": "AĞAÇLAR ORMAN OLUR", "body": "Öğrenciler nesiller boyunca çoğalır. Bir öğrenci başka birine yardım eder, o da bir başkasına yardım eder. Süreç nesilsel hale gelir." },
+    "continents": { "stage": "Ormanlar kıtalara yayılır", "title": "ORMANLAR KITALARA YAYILIR", "body": "İnanlılarla dolu şehirler ve uluslar. Bu vizyondur — mevcut sayılar hakkında bir iddia değil." },
+    "glory": { "stage": "Yeryüzü O'nun yüceliğiyle kaplanmış", "title": "YERYÜZÜ O'NUN YÜCELİĞİYLE KAPLANMIŞ", "body": "Sular denizi nasıl kaplıyorsa. — Habakkuk 2:14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "Öğrenciler nasıl çoğalır",
+    "heading": "Örüntü basittir",
+    "body": "Örüntüyü anlamak için Pavlus ve Timoteos'un hikayesini bilmene gerek yok: biri alır, biri büyür, biri yardım eder, biri öğretir, biri çoğalır.",
+    "steps": {
+      "learn": { "title": "ÖĞRENİYORUM", "body": "Akran rehberimden alarak — Kutsal Kitap, sohbet, öğrenme." },
+      "grow": { "title": "BÜYÜYORUM", "body": "Kökler derinleşir. İman güçlenir. Karakter olgunlaşır." },
+      "helpSomeone": { "title": "BİRİNİN BÜYÜMESİNE YARDIM EDİYORUM", "body": "Birine rehberlik etmek, bana öğretileni öğretmek — hiyerarşik değil, ilişkisel." },
+      "theyHelp": { "title": "ONLAR BİRİNİN BÜYÜMESİNE YARDIM EDİYOR", "body": "İkinci nesil öğrencilik başlar." },
+      "multiply": { "title": "ÖĞRENCİLER ÇOĞALIR", "body": "Nesiller arası etki genişler." },
+      "nations": { "title": "ULUSLARA ULAŞILDI", "body": "Yeryüzü O'nun yüceliğiyle dolu." }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "Büyüme Yolculuğun",
+    "heading": "Bir Yolculuk, Bir Statü Değil",
+    "body": "Büyüme statü hakkında değildir. Köklenmiş, verimli ve başkalarının büyümesine yardım edebilecek hale gelmekle ilgilidir.",
+    "ariaLabel": "P2P öğrencilik yolculuğunun aşamaları",
+    "stages": {
+      "seed": { "title": "TANE", "body": "Yeni katıldı. Yolculuk başlıyor." },
+      "sprout": { "title": "FİLİZ", "body": "Temel modüller. İlk mentorluk ilişkileri." },
+      "young": { "title": "GENÇ AĞAÇ", "body": "Yolculuğun ortasında. Aktif olarak başkalarına yardım ediyor." },
+      "fruitful": { "title": "VERİMLİ AĞAÇ", "body": "Müfredatın derinliklerinde. Dallarda meyve." },
+      "forestBuilder": { "title": "ORMAN KURUCUSU", "body": "Öğrenciler, şehirler genelinde başkalarına öğrencilik ediyor." },
+      "forestNations": { "title": "ULUSLAR ORMANI", "body": "Nesiller arası öğrencilik yoluyla etkilenen uluslar — bu bir vizyon durumudur, mevcut bir başarı iddiası değil." }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "Her İnanlının Armağanları Vardır",
+    "heading": "Mesih'in Bedeni Motoru",
+    "intro": "İnanlılar sadece Kutsal Kitap derslerini öğrenmez — öğrendiğin şey nasıl hizmet ettiğini şekillendirebilir ve Tanrı'nın içine koyduğu şey başka birini güçlendirebilir. Öğrencilik hizmete dönüşür, hizmet katkıya dönüşür, katkı da çoğalmaya dönüşür.",
+    "exampleEyebrow": "Açıklayıcı — Örnek",
+    "exampleHeading": "Armağanın Birine Hizmet Edebilir",
+    "discoverGifts": "Armağanlar vizyonunu keşfet",
+    "categories": {
+      "care": { "title": "BAKIM VE İYİLİK HALİ", "examples": "Psikoloji, terapi, danışmanlık, zihinsel iyilik hali desteği, sosyal bakım", "outcome": "İYİLEŞME VE CESARETLENDİRME ÇEMBERLERİ" },
+      "tech": { "title": "TEKNOLOJİ VE DİJİTAL", "examples": "Programlama, UI/UX tasarımı, siber güvenlik, web ve mobil geliştirme", "outcome": "UYGULAMA GELİŞTİRME VE ARAÇLAR" },
+      "leadership": { "title": "LİDERLİK VE YÖNETİM", "examples": "Yönetim, proje yönetimi, finans, operasyonlar, strateji", "outcome": "ORGANİZASYON VE BÜYÜME" },
+      "creative": { "title": "YARATICILIK VE MEDYA", "examples": "Müzik, fotoğrafçılık, yazarlık, tasarım, video, hikaye anlatımı", "outcome": "İÇERİK VE HİKAYE ANLATIMI" },
+      "education": { "title": "EĞİTİM", "examples": "Öğretmenlik, dil koçluğu, akademik özel ders, müfredat geliştirme", "outcome": "ÖĞRENME VE EĞİTİM" },
+      "ministry": { "title": "HİZMET ARMAĞANLARI", "examples": "Müjdeleme, dua ve şefaat, tapınma, öğrencilik, Kutsal Kitap öğretimi", "outcome": "RUHSAL ÇOĞALMA" }
+    },
+    "examples": {
+      "therapist": { "title": "TERAPİST + ÖĞRENCİ", "tags": ["Danışmanlık", "Öğrencilik"], "body": "Zorlu dönemlerden geçen insanlar için Kutsal Kitap merkezli bir cesaretlendirme grubuna ev sahipliği yapar. Profesyonel bakım ve ruhsal destek bir arada var olabilir — biri diğerinin yerini almaz." },
+      "programmer": { "title": "PROGRAMCI + MİSYONER", "tags": ["Programlama", "Müjdeleme"], "body": "Dijital araçların oluşturulmasına yardımcı olur, geliştiricilere mentorluk yapar ve dijital erişimi destekler." },
+      "administrator": { "title": "YÖNETİCİ + MENTOR", "tags": ["Operasyonlar", "Liderlik"], "body": "Öğrencilik gruplarının organize edilmesine yardımcı olur, ekipleri koordine eder ve dua girişimlerini destekler." },
+      "artist": { "title": "SANATÇI + TAPINMA LİDERİ", "tags": ["Tasarım", "Tapınma"], "body": "Görsel kaynaklar oluşturur, tapınma topluluklarını destekler ve öğrencilik materyallerine katkıda bulunur." }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "İnanlıların Nasıl Hizmet Ettiğine Dair Bir Vizyon",
+    "heading": "Armağanın Bir İhtiyacı Karşılayabilir",
+    "intro": "Mesih'in bedeni, insanlar sadece \"Ne alabilirim?\" değil, aynı zamanda \"Ne verebilirim?\" diye sorduğunda en güçlüsüdür.",
+    "lookingForHelp": "Yardım Arıyor",
+    "offeringGift": "Armağanını Sunmak",
+    "disclaimer": "Bunlar vizyonun açıklayıcı örnekleridir, canlı bir dizin değildir. P2P bir serbest çalışan pazarı, ücretli hizmet platformu veya doğrulanmamış bir profesyonel dizin değildir — gelecekteki herhangi bir armağan keşfi özelliği kimlik doğrulama, koruma, gizlilik ve uygun moderasyon içerecektir.",
+    "queries": {
+      "programmers": "Yakınımdaki Hristiyan programcıları bul",
+      "translator": "Öğrencilik içeriği için çevirmene ihtiyacım var",
+      "accountability": "Dua için hesap verebilirlik ortağı arıyorum",
+      "worship": "Tapınma konusunda deneyimli birini arıyorum",
+      "website": "Hizmet web sitesi için yardıma ihtiyacım var",
+      "english": "İngilizce öğretebilecek birini arıyorum"
+    },
+    "offers": {
+      "counseling": "Yeni inanlılar için ücretsiz danışmanlık sunuyorum",
+      "websiteDesign": "Hizmet web sitesi tasarımında yardımcı olabilirim",
+      "mentoring": "Genç profesyonellere mentorluk yapıyorum",
+      "translation": "Öğrencilik materyallerini çevirmeye yardımcı olmak için uygunum",
+      "programming": "Programlama öğretmek için uygunum",
+      "worshipMusic": "Tapınma ve müzik konusunda yardımcı olabilirim"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "P2P Ekosistemi",
+    "heading": "Her Şey İsa Mesih'e Geri Dönüyor",
+    "explore": "Keşfet",
+    "items": {
+      "study": { "title": "ÇALIŞMA", "body": "Kutsal Kitap'ta köklenmiş — müfredat, planlar ve bir çalışma alanı." },
+      "prayer": { "title": "DUA", "body": "Dua katılım haline gelir — gerçek insanlar, gerçek dua, lider tabloları olmadan." },
+      "family": { "title": "AİLE", "body": "Öğrencilik yaşadığımız yerde başlar." },
+      "church": { "title": "KİLİSE", "body": "P2P yerel kiliseye hizmet eder. Onun yerini almaz." },
+      "missions": { "title": "MİSYONLAR", "body": "Alanı gör. Hikayeyi dinle. İşçiler için dua et." },
+      "stories": { "title": "HİKAYELER", "body": "Tanrı'nın ne yaptığını keşfet." }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "Küresel Topluluk",
+    "headingLine1": "Tek Beden.",
+    "headingLine2": "Birçok İnsan.",
+    "headingLine3": "Tek Rab.",
+    "journeyEyebrow": "Öğrencilik Yolculuğun",
+    "journeySteps": {
+      "discover": "KEŞFET",
+      "learn": "ÖĞREN",
+      "grow": "BÜYÜ",
+      "walkWithOthers": "BAŞKALARIYLA YÜRÜ",
+      "helpSomeone": "BİRİNE YARDIM ET",
+      "serve": "HİZMET ET",
+      "disciple": "ÖĞRENCİ YETİŞTİR",
+      "multiply": "ÇOĞAL",
+      "nations": "ULUSLAR"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "Gerçek Hikayeler",
+    "heading": "Tanrı'nın Ne Yaptığını Keşfet",
+    "body": "Tarih, uyanış, küresel kilise ve bugün İsa'yı nasıl takip ettiğimizi şekillendiren hareketler — abartısız, özenle anlatılmış.",
+    "exploreAll": "Tüm Krallık Hikayelerini Keşfet",
+    "readStory": "Hikayeyi oku"
+  },
+  "Faq": {
+    "eyebrow": "Sorular",
+    "heading": "Sıkça Sorulan Sorular",
+    "items": {
+      "whatIsP2p": { "q": "P2P nedir?", "a": "İsa Mesih merkezli küresel bir akrandan akrana öğrencilik ağı — Kutsal Kitap, dua, topluluk ve misyon; herkesin birinden öğrendiği ve herkesin birinin büyümesine yardım edebileceği fikri üzerine kurulmuştur." },
+      "whoBuilt": { "q": "P2P'yi kim inşa etti?", "a": "P2P Global Discipleship Network, kiliseler, kuruluşlar ve işletmeler için web siteleri, uygulamalar ve dijital sistemler tasarlayan ve inşa eden bir teknoloji hizmeti olan Amen Kingdom Tech Ministry tarafından desteklenmektedir." },
+      "whatIsAmen": { "q": "Amen Kingdom Tech Ministry nedir?", "a": "Dijital çağda Tanrı'nın çağrısına itaat ederek kurulmuş, amaç odaklı bir teknoloji hizmetidir; teknoloji dünyasının çeşitli etki dağlarında O'nu sadakatle temsil etmek için var olur. AMEN adı, sadece trendlerden değil Kutsal Ruh tarafından yönlendirilen ve mükemmellik, hassasiyet ve dürüstlükle inşa edilen sistemler aracılığıyla Tanrı'nın yaptığı şeyle uyumu yansıtır." },
+      "commercial": { "q": "P2P, Amen Kingdom Tech tarafından inşa edilmiş ticari bir ürün mü?", "a": "Hayır. P2P aynı çağrının hizmetsel bir ifadesidir, bir iş değildir — her özelliğin ücretsiz olmasının tam nedeni de budur." },
+      "replaceChurch": { "q": "P2P yerel kilisemin yerini mi alıyor?", "a": "Hayır. P2P, yerel kiliseyle rekabet etmek için değil, onu güçlendirmek için inşa edilmiştir. Üyelik, pastoral bakım ve kutsal törenler ait oldukları yerde kalır — cemaatinizde." },
+      "therapyReplacement": { "q": "P2P terapi veya profesyonel danışmanlığın yerini mi alıyor?", "a": "Hayır. P2P'nin bakım ve iyilik haline değindiği yerlerde, bu profesyonel yardımın yanında akran cesaretlendirmesidir, asla onun yerine geçmez. Kriz içindeki herkes lisanslı bir profesyonele veya yerel acil servislere başvurmalıdır." },
+      "giftsMarketplace": { "q": "Armağanlar ve Hizmet Ağı, yardım için ödeme yaptığım bir pazar yeri mi?", "a": "Hayır. Bu, inanlıların topluluk içinde nasıl yardım sunabileceği ve bulabileceğine dair bir vizyondur — serbest çalışan pazarı, ücretli hizmet platformu veya doğrulanmamış profesyonel dizin değildir. Gelecekteki herhangi bir sürüm kimlik doğrulama, koruma ve uygun moderasyon içerecektir." },
+      "whoCanJoin": { "q": "P2P'ye kim katılabilir?", "a": "İsa'nın bir öğrencisi olarak büyümek ve başka birinin de aynısını yapmasına yardım etmek isteyen herkes — hem yeni inanlılar hem de uzun süredir inanlı olanlar. Akran rehberi sadece yolda biraz daha ileride olan biridir, uzak bir otorite değildir." },
+      "cost": { "q": "Katılmanın bir bedeli var mı?", "a": "Hayır — her şey ücretsizdir. Bireyler, aileler ve kiliseler için büyüme amaçlı her kaynak ve araç ücretsiz olarak sunulur ve P2P hiçbir özellik için ücret talep etmez. Bu bir iş modeli değildir; sular denizi nasıl kaplıyorsa, yeryüzünün de RAB'bin yüceliğinin bilgisiyle dolacağına dair Tanrı'nın vizyonunu (Habakkuk 2:14) takip etmek için yürütülen bir krallık görevi ve hizmetidir." },
+      "whyFree": { "q": "Neden her şey ücretsiz?", "a": "Çünkü P2P o vizyona hizmet etmek için var, ondan gelir elde etmek için değil. Öğrencilik, dua veya birinin büyümesine yardım eden araçlar için ücret almak, bu ağın kurulma amacına tamamen aykırı olurdu." },
+      "churchFree": { "q": "Kilisem de P2P'yi ücretsiz kullanabilir mi?", "a": "Evet. Kiliseler, aileler ve bireyler hepsi aynı ücretsiz ağı kullanır — ücretli bir seviye, premium bir plan veya ödeme duvarının arkasında tutulan bir özellik yoktur." },
+      "websiteVsApp": { "q": "Bu web sitesi P2P uygulamasından nasıl farklı?", "a": "Bu site vizyonu ortaya koyar ve modeli açıklar. Açıklanan bazı şeyler — armağan temelli hizmet keşfi gibi — P2P'nin gidebileceği bir yöndür, uygulamanın bugün zaten yaptığı bir şey hakkında bir iddia değildir. Hakkımızda sayfası bu ayrımı daha ayrıntılı olarak açıklar." },
+      "peerGuide": { "q": "Akran rehberi nedir?", "a": "Akran rehberi, öğrencilik yolculuğunda senden bir adım önde olan bir iman kardeşidir. Ne bir pastör ne de bir öğretmen — her derste seninle birlikte yürüyen, düşüncelerini okuyan, seninle dua eden ve sessizleştiğinde fark eden daha ileri bir akrandır." },
+      "livingTree": { "q": "Yaşayan Ağaç nedir?", "a": "Yaşayan Ağacın, uygulama içindeki öğrencilik yolculuğunun gerçek zamanlı bir görselleştirmesidir. Köklerin tamamlanan modülleri temsil eder. Gövden zaman içindeki sadakati temsil eder. Dalların rehberlik ettiğin kişileri temsil eder. Meyven elde edilen dönüm noktalarını temsil eder. Tahılın davet ettiğin ve katılan kişileri temsil eder." },
+      "growthStages": { "q": "Tane, Filiz veya Verimli Ağaç nedir?", "a": "Bunlar Yaşayan Ağacının altı büyüme aşamasıdır — Taneden (yeni katıldı) Filiz, Genç Ağaç, Verimli Ağaç ve Orman Kurucusu'na, oradan da Uluslar Ormanı'na kadar. Her aşama, öğrencilik yolculuğunda ve başkalarına rehberlik etmede gerçek ilerlemeyi yansıtır." },
+      "grain": { "q": "Tahıl nedir?", "a": "Tahıl, hasat kayıttır. Kişisel davet linkin aracılığıyla P2P Global'e katılan her kişi profiline bir tahıl ekler. Yuhanna 12:24'e dayanır — toprağa düşüp ölen bir buğday tanesi çok ürün verir." },
+      "blueTick": { "q": "Mavi tik nedir?", "a": "Bir profildeki mavi tik, o üyenin doğrulama sistemimiz aracılığıyla gerçek kimliğini doğruladığı anlamına gelir — ekibimizin 72 saat içinde incelediği bir selfie. Bu, hesabın arkasında gerçek bir kişi olduğunu doğrular ve ağda güven oluşturur." },
+      "kingdomSchool": { "q": "Kingdom School nedir?", "a": "Kingdom School, P2P Global'in eğitim yapısıdır. Temel, 12 modül ve 84 dersten oluşur — yeni bir inanlıdan öğrenci yetiştiren birine kadar tam öğrencilik yolculuğu. Seçmeli Dersler, yaşamın her mevsimi için 10 kategoride 144 plandan oluşur." },
+      "completionMoment": { "q": "Tamamlanma Anı nedir?", "a": "Temel'in tüm 12 modülünü tamamladığında — Tamamlanma Anı devreye girer. Sinematik bir deneyim. Akran rehberinden bir mektup. Tam öğrencilik soy ağacını gösteren Orman Ortaya Çıkışı. Ve Görevlendirme: Hazırsın. Git ve kendi insanını bul." },
+      "languages": { "q": "P2P Global hangi dillerde mevcuttur?", "a": "Uygulama, talep üzerine çeviri ile 20 veya daha fazla dilde mevcuttur. Dersleri kendi dilinde talep ettiğinde otomatik olarak çevrilir ve aynı derse ihtiyaç duyan her sonraki kullanıcı için kalıcı olarak saklanır." },
+      "churchPortalFree": { "q": "Kilise Öğrencilik Portalı gerçekten ücretsiz mi?", "a": "Evet. Tamamen. Abonelik yok. Ödeme yok. Seviye yok. Her kilise her şeye tam erişim kazanır — koru panosu, kohort yönetimi, üye profilleri, duyurular ve QR davet sistemi. Ücretsiz. Her zaman." },
+      "peerCircle": { "q": "Akran Çemberi nedir?", "a": "Akran Çemberi, aynı planı veya modülü birlikte takip eden 3 ila 8 inanlıdan oluşan bir gruptur. Grup aramaları. Paylaşılan tartışmalar. Fikir birliğiyle değerlendirme. Herkes bir çember oluşturabilir veya katılabilir — üyeler herhangi bir sayıda ulustan gelebilir." },
+      "withoutPeerGuide": { "q": "P2P Global'i akran rehberi olmadan kullanabilir miyim?", "a": "Evet — akıllı eşleştirme sistemi sana bir rehber bulurken Modül 1'e kendi başına başlayabilirsin. Kimi istediğini zaten biliyorsan, doğrudan @kullanıcı adını arayarak da bir akran rehberi bulabilirsin." },
+      "generationalForest": { "q": "Nesiller Ormanı nedir?", "a": "Nesiller Ormanı, tam öğrencilik soy ağacını gösterir — merkezde ağacın, etrafında yönlendirdiğin kişiler, daha ötede onların yönlendirdikleri. Bir dünya haritası, öğrencilik zincirinin hangi uluslara ulaştığını gösterir. Bu, P2P Global'deki en ayırt edici görselleştirmedir." }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "Herkes birinden öğreniyor.",
+    "headingLine2": "Herkes birinin büyümesine yardım edebilir.",
+    "question": "Kimin büyümesine yardım edeceksin?",
+    "ctaExperience": "P2P'yi deneyimle",
+    "ctaExplore": "Ağı keşfet"
+  }
+}

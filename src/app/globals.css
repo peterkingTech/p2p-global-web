@@ -63,6 +63,66 @@ summary::-webkit-details-marker {
   outline-offset: 3px;
 }
 
+/* ─── RTL support ──────────────────────────────────────────────
+   Flexbox/grid layouts throughout this site use direction-aware
+   properties (flex-direction: row, gap, justify-*) that already mirror
+   correctly under dir="rtl" per the CSS spec — no change needed there.
+   What does NOT auto-mirror is every *physical* left/right utility class
+   actually used in the codebase (audited via grep), so each is paired
+   with its logical opposite here. */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+@media (min-width: 40rem) {
+  [dir="rtl"] .sm\:text-left {
+    text-align: right;
+  }
+}
+@media (min-width: 48rem) {
+  [dir="rtl"] .md\:text-left {
+    text-align: right;
+  }
+}
+[dir="rtl"] .border-l {
+  border-left-width: 0;
+  border-right-width: 1px;
+}
+[dir="rtl"] .border-l-2 {
+  border-left-width: 0;
+  border-right-width: 2px;
+}
+[dir="rtl"] .pl-3 {
+  padding-left: 0;
+  padding-right: 0.75rem;
+}
+[dir="rtl"] .pl-4 {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+[dir="rtl"] .pl-5 {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+[dir="rtl"] .pl-6 {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+[dir="rtl"] .pr-7 {
+  padding-right: 0;
+  padding-left: 1.75rem;
+}
+[dir="rtl"] .ml-0\.5 {
+  margin-left: 0;
+  margin-right: 0.125rem;
+}
+[dir="rtl"] .right-2 {
+  right: auto;
+  left: 0.5rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

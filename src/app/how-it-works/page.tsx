@@ -1,30 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Reveal from "@/components/motion/Reveal";
 import { howItWorksTopics } from "@/content/copy";
 
-export const metadata: Metadata = {
-  title: "How It Works",
-  description: "A complete guide to the P2P Global Kingdom School app — from your first day to guiding others.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("HowItWorksPage");
+  return { title: t("metaTitle"), description: t("metaDescription") };
+}
 
-export default function HowItWorksPage() {
+export default async function HowItWorksPage() {
+  const t = await getTranslations("HowItWorksPage");
+  const tTopics = await getTranslations("HowItWorksTopics");
+
   return (
     <>
-      <PageHero
-        eyebrow="How It Works"
-        title="The Manual for the App"
-        subtitle="Everything explained — from your first day to guiding others across nations."
-      />
+      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} />
 
-      <Prose eyebrow="Before You Begin" heading="The website is the manual. The app is the experience.">
-        <p>
-          This section explains every feature of P2P Global in plain language so that when you open the app you
-          already understand what you are walking into. Read what is relevant to you — or read everything. The
-          app will make more sense for it.
-        </p>
+      <Prose eyebrow={t("proseEyebrow")} heading={t("proseHeading")}>
+        <p>{t("proseBody")}</p>
       </Prose>
 
       <section className="bg-paper px-6 py-24 text-ink">
@@ -39,8 +35,8 @@ export default function HowItWorksPage() {
                   {s.icon}
                 </span>
                 <div>
-                  <h3 className="text-lg font-medium">{s.title}</h3>
-                  <p className="mt-1 text-sm leading-relaxed text-ink/60">{s.description}</p>
+                  <h3 className="text-lg font-medium">{tTopics(`${s.key}.title`)}</h3>
+                  <p className="mt-1 text-sm leading-relaxed text-ink/60">{tTopics(`${s.key}.description`)}</p>
                 </div>
               </Link>
             </Reveal>

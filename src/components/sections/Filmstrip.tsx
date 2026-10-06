@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CinematicMedia from "@/components/media/CinematicMedia";
 import Reveal from "@/components/motion/Reveal";
+import { NextArrow } from "@/components/ui/DirArrow";
 
 export type FilmstripItem = {
   mediaKey: string;
@@ -8,6 +9,8 @@ export type FilmstripItem = {
   title: string;
   body: string;
   href?: string;
+  /** Translated "Read the story" label, shown only when `href` is set. */
+  readMore?: string;
 };
 
 type Props = {
@@ -38,7 +41,9 @@ export default function Filmstrip({ items, ariaLabel }: Props) {
                 <h3 className="font-display mt-3 text-xl tracking-tight">{item.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-paper/70">{item.body}</p>
                 {item.href && (
-                  <span className="mt-3 text-xs tracking-[0.2em] text-gold-soft/90 uppercase">Read the story →</span>
+                  <span className="mt-3 text-xs tracking-[0.2em] text-gold-soft/90 uppercase">
+                    {item.readMore} <NextArrow />
+                  </span>
                 )}
               </div>
             </>

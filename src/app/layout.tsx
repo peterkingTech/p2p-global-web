@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
 import { siteUrl } from "@/lib/site";
+import { getLocaleDir } from "@/i18n/locales";
 import "./globals.css";
 
 const display = Playfair_Display({
@@ -16,43 +19,53 @@ const body = Inter({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: {
-    default: "Peer to Peer Global Discipleship Network | P2P",
-    template: "%s | P2P",
-  },
-  description:
-    "A global peer-to-peer discipleship network centered on Jesus Christ, Scripture, prayer, community, and mission. Everyone is learning from someone. Everyone can help someone grow.",
-  keywords: [
-    "Christian discipleship",
-    "peer-to-peer discipleship",
-    "Scripture study",
-    "prayer",
-    "Christian community",
-    "missions",
-  ],
-  openGraph: {
-    title: "Peer to Peer Global Discipleship Network | P2P",
-    description: "Everyone is learning from someone. Everyone can help someone grow.",
-    url: siteUrl,
-    siteName: "P2P",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Peer to Peer Global Discipleship Network | P2P",
-    description: "Everyone is learning from someone. Everyone can help someone grow.",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("Metadata");
+  const title = t("title");
+  const description = t("description");
+  return {
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: title,
+      template: `%s | ${t("brandShort")}`,
+    },
+    description,
+    keywords: [
+      "Christian discipleship",
+      "peer-to-peer discipleship",
+      "Scripture study",
+      "prayer",
+      "Christian community",
+      "missions",
+    ],
+    openGraph: {
+      title,
+      description: t("shortDescription"),
+      url: siteUrl,
+      siteName: t("brandShort"),
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: t("shortDescription"),
+    },
+  };
+}
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+  const dir = getLocaleDir(locale);
+
   return (
-    <html lang="en" className={`${display.variable} ${body.variable} h-full`}>
+    <html lang={locale} dir={dir} className={`${display.variable} ${body.variable} h-full`}>
       <body className="flex min-h-full flex-col bg-paper text-ink antialiased">
-        <Nav />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <NextIntlClientProvider messages={messages}>
+          <Nav />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

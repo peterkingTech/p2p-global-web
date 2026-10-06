@@ -1,0 +1,253 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "一個以耶穌基督為中心的全球同伴門訓網絡——聖經、禱告、團契與宣教。每個人都在向某人學習。每個人都能幫助別人成長。",
+    "shortDescription": "每個人都在向某人學習。每個人都能幫助別人成長。"
+  },
+  "LanguageSwitcher": { "label": "語言" },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "每個人都在向某人學習。每個人都能幫助別人成長。",
+    "centerLine1": "不是我們的工作，而是祂的工作。",
+    "centerLine2": "不是我們的榮耀，而是祂的榮耀。",
+    "centerLine3": "耶穌基督居於中心。"
+  },
+  "Nav": {
+    "vision": "異象",
+    "howItWorks": "運作方式",
+    "stories": "故事",
+    "experienceP2p": "體驗 P2P",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單"
+  },
+  "Footer": {
+    "vision": "異象",
+    "howItWorks": "運作方式",
+    "discipleship": "門訓",
+    "gifts": "恩賜",
+    "missions": "宣教",
+    "kingdomStories": "天國故事",
+    "kingdomWins": "天國得勝",
+    "families": "家庭",
+    "churches": "教會",
+    "about": "關於我們",
+    "faq": "常見問題",
+    "privacy": "隱私政策",
+    "terms": "使用條款",
+    "contact": "聯絡我們",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "由 Amen Kingdom Tech Ministry 提供支援"
+  },
+  "Hero": {
+    "eyebrowSuffix": "全球網絡",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "全球門訓網絡",
+    "tagline1": "每個人都在向某人學習。",
+    "tagline2": "每個人都能幫助別人成長。",
+    "description": "一個以耶穌基督為中心的全球同伴門訓網絡——聖經、禱告、團契與宣教。",
+    "ctaExperience": "體驗 P2P",
+    "ctaVision": "探索異象",
+    "understandVsExperience": "這個網站幫助你理解 P2P，而應用程式是你真正體驗它的地方。",
+    "discoverJourney": "發現旅程 ↓"
+  },
+  "HeroVideo": { "ariaLabel": "許多雙手一起捧著一本聖經" },
+  "HowItActuallyWorks": {
+    "eyebrow": "運作方式",
+    "heading": "這就是實際發生的事",
+    "subheading": "三個步驟。一段旅程。",
+    "learnMore": "了解更多運作方式",
+    "steps": {
+      "download": { "title": "下載並加入", "body": "建立你的帳戶。選擇你的 @使用者名稱。設定你的信仰階段和目標。透過我們的智慧配對系統認識你的同伴導師。" },
+      "kingdomSchool": { "title": "開始 Kingdom School", "body": "17 個模組——入門引導、福音與救恩課程，以及12模組的基督教根基課程。與你的同伴導師一起，按照你的節奏，用你的語言，從地球上任何地方完成每一個模組。" },
+      "guide": { "title": "引導他人", "body": "當你比某人領先一步時，你就已經準備好引導他們了。提摩太後書2:2的模式藉著你延續下去。" }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "深入了解",
+    "heading": "網站是手冊，應用程式才是體驗。",
+    "body": "下面的每個功能都在其專屬頁面上詳細說明——閱讀現在與你相關的內容，或稍後再回來看。當你準備好時，應用程式才是你真正生活其中的地方。"
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "開始使用", "description": "你在 P2P Global 的第一週——一步一步來。" },
+    "livingTree": { "title": "你的生命樹", "description": "你的樹的每個部分代表什麼——根、樹幹、樹枝、果實、穀粒。" },
+    "kingdomSchool": { "title": "Kingdom School", "description": "根基課程（12個模組）和選修課程（10個類別共144個計畫）。" },
+    "peerGuide": { "title": "你的同伴導師", "description": "什麼是同伴導師，配對如何運作，以及如何成為一名導師。" },
+    "peerCircles": { "title": "同伴圈子", "description": "3到8位信徒一起完成同一計畫的小組學習。" },
+    "generationalForest": { "title": "世代森林", "description": "你完整的門訓譜系——你引導過誰，他們又引導了誰，哪些國家被觸及。" },
+    "messaging": { "title": "訊息與通話", "description": "收件匣、語音通話、視訊通話、群組通話和休息室。" },
+    "prayer": { "title": "禱告", "description": "罪人的禱告、禱告文庫、認信建構器和禱告日記。" },
+    "profile": { "title": "個人資料與身分", "description": "@使用者名稱、藍色認證標誌、GPS驗證，以及你的公開資料。" },
+    "grain": { "title": "穀粒與邀請", "description": "你的個人收穫記錄，以及如何邀請他人加入 Kingdom School。" }
+  },
+  "JesusCenter": {
+    "heading": "耶穌基督居於中心。",
+    "body": "P2P 不是這個故事的主角。它是一種工具，幫助信徒學習、成長、與他人同行、服事、門訓並倍增——但永遠不能取代耶穌、聖經、聖靈或地方教會。"
+  },
+  "Scripture": {
+    "vision": { "eyebrow": "異象", "reference": "哈巴谷書 2:14", "text": "認識耶和華榮耀的知識要充滿遍地，好像水充滿洋海一般。" },
+    "mission": { "eyebrow": "使命", "reference": "提摩太後書 2:2", "text": "你在許多見證人面前聽見我所教訓的，也要交託那忠心能教導別人的人。", "footer": "每個人都在向某人學習，並幫助別人成長。這是 P2P 門訓的核心模式。" },
+    "gifts": { "reference": "彼得前書 4:10", "text": "各人要照所得的恩賜彼此服事，作神百般恩賜的好管家。" }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "核心比喻",
+    "heading": "從一粒種子到萬國",
+    "body": "神的工作往往以看似微小的方式開始。一個人。一次對話。一節經文。一個順服的行動。然後倍增就開始了。"
+  },
+  "SeedToNations": {
+    "seed": { "stage": "一粒種子", "title": "一粒種子", "body": "一個人聽見了福音。" },
+    "tree": { "stage": "成為一棵樹", "title": "成為一棵樹", "body": "紮根於教義，在信仰中成長。門訓不僅僅是收集資訊——根扎得更深，品格成長，信心成熟。" },
+    "forest": { "stage": "樹木成為森林", "title": "樹木成為森林", "body": "門徒代代倍增。一個門徒幫助另一個，那個又幫助另一個。這個過程成為世代相傳的。" },
+    "continents": { "stage": "森林遍布各大洲", "title": "森林遍布各大洲", "body": "城市和國家充滿了信徒。這是異象——不是關於目前數字的聲明。" },
+    "glory": { "stage": "大地被祂的榮耀遮蓋", "title": "大地被祂的榮耀遮蓋", "body": "正如水遮蓋洋海一般。——哈巴谷書 2:14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "門徒如何倍增",
+    "heading": "模式很簡單",
+    "body": "你不需要了解保羅和提摩太的故事就能理解這個模式：有人領受，有人成長，有人幫助，有人教導，有人倍增。",
+    "steps": {
+      "learn": { "title": "我在學習", "body": "從我的同伴導師那裡領受——聖經、對話、學習。" },
+      "grow": { "title": "我在成長", "body": "根扎得更深。信心更堅固。品格更成熟。" },
+      "helpSomeone": { "title": "我幫助別人成長", "body": "引導他人，教導我所學到的——是關係性的，不是階層性的。" },
+      "theyHelp": { "title": "他們幫助別人成長", "body": "第二代門訓開始了。" },
+      "multiply": { "title": "門徒倍增", "body": "世代影響力擴大。" },
+      "nations": { "title": "萬國被觸及", "body": "大地充滿祂的榮耀。" }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "你的成長旅程",
+    "heading": "是旅程，不是地位",
+    "body": "成長無關地位，而是關乎紮根、結果子，以及有能力幫助他人成長。",
+    "ariaLabel": "P2P 門訓旅程的各階段",
+    "stages": {
+      "seed": { "title": "種子", "body": "剛剛加入，旅程開始。" },
+      "sprout": { "title": "萌芽", "body": "基礎模組。初次的師徒關係。" },
+      "young": { "title": "幼樹", "body": "旅程中期，積極幫助他人。" },
+      "fruitful": { "title": "結果的樹", "body": "深入課程，枝頭結果。" },
+      "forestBuilder": { "title": "森林建造者", "body": "門徒在各城市培養門徒。" },
+      "forestNations": { "title": "萬國之森", "body": "透過世代門訓影響的國家——這是異象狀態，而非目前成就的聲明。" }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "每位信徒都有恩賜",
+    "heading": "基督身體的引擎",
+    "intro": "信徒不只是學習聖經課程——你所學的可以塑造你如何服事，神放在你裡面的可以堅固他人。門訓變為服事，服事變為貢獻，貢獻變為倍增。",
+    "exampleEyebrow": "示範——範例",
+    "exampleHeading": "你的恩賜可以服事他人",
+    "discoverGifts": "探索恩賜異象",
+    "categories": {
+      "care": { "title": "關懷與健康", "examples": "心理學、治療、輔導、心理健康支持、社會關懷", "outcome": "醫治與鼓勵圈子" },
+      "tech": { "title": "科技與數位", "examples": "程式設計、UI/UX設計、網路安全、網頁與行動開發", "outcome": "應用開發與工具" },
+      "leadership": { "title": "領導與行政", "examples": "行政、專案管理、財務、營運、策略", "outcome": "組織與擴展" },
+      "creative": { "title": "創意與媒體", "examples": "音樂、攝影、寫作、設計、影片、說故事", "outcome": "內容與說故事" },
+      "education": { "title": "教育", "examples": "教學、語言指導、學業輔導、課程開發", "outcome": "學習與培訓" },
+      "ministry": { "title": "事工恩賜", "examples": "傳福音、禱告與代禱、敬拜、門訓、聖經教導", "outcome": "屬靈倍增" }
+    },
+    "examples": {
+      "therapist": { "title": "治療師 + 門徒", "tags": ["輔導", "門訓"], "body": "為經歷艱難季節的人主持以聖經為中心的鼓勵小組。專業關懷與屬靈支持可以並存——一個不能取代另一個。" },
+      "programmer": { "title": "程式設計師 + 宣教士", "tags": ["程式設計", "傳福音"], "body": "幫助建構數位工具，指導開發者，並支援數位宣教事工。" },
+      "administrator": { "title": "行政人員 + 導師", "tags": ["營運", "領導"], "body": "幫助組織門訓小組，協調團隊，並支援禱告事工。" },
+      "artist": { "title": "藝術家 + 敬拜帶領者", "tags": ["設計", "敬拜"], "body": "創作視覺資源，支援敬拜團體，並為門訓材料作出貢獻。" }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "關於信徒如何服事的異象",
+    "heading": "你的恩賜可以滿足需要",
+    "intro": "當人們不僅問「我能得到什麼？」而是也問「我能給予什麼？」時，基督的身體才最強壯。",
+    "lookingForHelp": "尋求幫助",
+    "offeringGift": "奉獻你的恩賜",
+    "disclaimer": "這些是異象的示範性範例，不是即時目錄。P2P 不是自由工作者市場、付費服務平台，也不是未經驗證的專業目錄——任何未來的恩賜發掘功能都將包括身分驗證、保護措施、隱私和適當的審核。",
+    "queries": {
+      "programmers": "尋找附近的基督徒程式設計師",
+      "translator": "需要門訓內容的翻譯",
+      "accountability": "尋找禱告問責夥伴",
+      "worship": "尋找有敬拜經驗的人",
+      "website": "需要事工網站方面的幫助",
+      "english": "尋找能教英語的人"
+    },
+    "offers": {
+      "counseling": "為新信徒提供免費輔導",
+      "websiteDesign": "可以幫助事工網站設計",
+      "mentoring": "指導年輕專業人士",
+      "translation": "可協助翻譯門訓材料",
+      "programming": "可以教授程式設計",
+      "worshipMusic": "可以幫助敬拜與音樂"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "P2P 生態系統",
+    "heading": "一切都指向耶穌基督",
+    "explore": "探索",
+    "items": {
+      "study": { "title": "學習", "body": "紮根於聖經——課程、計畫，以及一個學習空間。" },
+      "prayer": { "title": "禱告", "body": "禱告成為參與——真實的人，真實的禱告，沒有排行榜。" },
+      "family": { "title": "家庭", "body": "門訓從我們生活的地方開始。" },
+      "church": { "title": "教會", "body": "P2P 服事地方教會，而不是取代它。" },
+      "missions": { "title": "宣教", "body": "看見工場，聆聽故事，為工人禱告。" },
+      "stories": { "title": "故事", "body": "發現神所做的事。" }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "全球社群",
+    "headingLine1": "一個身體。",
+    "headingLine2": "眾多的人。",
+    "headingLine3": "一位主。",
+    "journeyEyebrow": "你的門訓旅程",
+    "journeySteps": {
+      "discover": "發現",
+      "learn": "學習",
+      "grow": "成長",
+      "walkWithOthers": "與他人同行",
+      "helpSomeone": "幫助他人",
+      "serve": "服事",
+      "disciple": "門訓",
+      "multiply": "倍增",
+      "nations": "萬國"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "真實故事",
+    "heading": "發現神所做的事",
+    "body": "歷史、復興、全球教會，以及塑造我們今天如何跟隨耶穌的運動——用心講述，不誇大其詞。",
+    "exploreAll": "探索所有天國故事",
+    "readStory": "閱讀故事"
+  },
+  "Faq": {
+    "eyebrow": "問題",
+    "heading": "常見問題",
+    "items": {
+      "whatIsP2p": { "q": "什麼是 P2P？", "a": "一個以耶穌基督為中心的全球同伴門訓網絡——聖經、禱告、團契與宣教，建立在這樣一個理念之上：每個人都在向某人學習，每個人都能幫助別人成長。" },
+      "whoBuilt": { "q": "誰建立了 P2P？", "a": "P2P Global Discipleship Network 由 Amen Kingdom Tech Ministry 提供支援——這是一個為教會、機構和企業設計與建造網站、應用程式和數位系統的科技事工。" },
+      "whatIsAmen": { "q": "什麼是 Amen Kingdom Tech Ministry？", "a": "這是一個有使命感的科技事工，因順服神在數位時代的呼召而創立，旨在於科技世界的各個影響領域忠心地代表祂。AMEN 這個名字反映了對神藉著它所建造的系統正在做的事的認同——由聖靈引導，而非僅僅追隨潮流，並以卓越、精準和正直建造而成。" },
+      "commercial": { "q": "P2P 是 Amen Kingdom Tech 建造的商業產品嗎？", "a": "不是。P2P 是同一呼召的事工性表達，而非商業——這正是每項功能都免費的原因。" },
+      "replaceChurch": { "q": "P2P 會取代我的地方教會嗎？", "a": "不會。P2P 的建立是為了堅固地方教會，而不是與之競爭。會籍、牧養關懷和聖禮仍留在它們所屬之處——你的會眾中。" },
+      "therapyReplacement": { "q": "P2P 是治療或專業輔導的替代品嗎？", "a": "不是。在 P2P 涉及關懷與健康的地方，它是與專業幫助並行的同伴鼓勵，絕不能替代專業幫助。任何處於危機中的人都應聯繫有執照的專業人員或當地緊急服務。" },
+      "giftsMarketplace": { "q": "恩賜與服務網絡是我付費尋求幫助的市場嗎？", "a": "不是。這是一個關於信徒如何在社群內提供和尋找幫助的異象——不是自由工作者市場、付費服務平台，也不是未經驗證的專業目錄。任何未來版本都將包括身分驗證、保護措施和適當的審核。" },
+      "whoCanJoin": { "q": "誰可以加入 P2P？", "a": "任何想要作為耶穌的門徒成長、並幫助別人也這樣做的人——無論是新信徒還是資深信徒皆可。同伴導師只是在路上稍微領先一點的人，而不是遙遠的權威。" },
+      "cost": { "q": "加入需要付費嗎？", "a": "不需要——一切都是免費的。每一項成長資源和工具，無論是對個人、家庭還是教會，都免費提供，P2P 不會為任何功能收費。這不是一種商業模式；這是一項天國的使命和事工，為追求神的異象——使大地充滿認識耶和華榮耀的知識，好像水充滿洋海一般（哈巴谷書2:14）——而展開。" },
+      "whyFree": { "q": "為什麼一切都是免費的？", "a": "因為 P2P 的存在是為了服事這個異象，而不是從中產生收入。為門訓、禱告，或幫助他人成長的工具收費，將違背這個網絡建立的初衷。" },
+      "churchFree": { "q": "我的教會也可以免費使用 P2P 嗎？", "a": "可以。教會、家庭和個人都使用同一個免費網絡——沒有付費等級，沒有高級方案，沒有任何功能被隱藏在付費牆後面。" },
+      "websiteVsApp": { "q": "這個網站和 P2P 應用程式有什麼不同？", "a": "這個網站展示異象並解釋模式。其中一些描述的內容——例如基於恩賜的服務發掘——是 P2P 未來可能發展的方向，而不是對應用程式今天已經實現的功能的聲明。關於我們頁面更詳細地闡述了這一區別。" },
+      "peerGuide": { "q": "什麼是同伴導師？", "a": "同伴導師是一位在門訓旅程中比你領先一步的信徒同伴。不是牧師也不是教師——而是一位更進深的同伴，陪伴你走過每一課，閱讀你的反思，與你一同禱告，並在你沉默時留意到。" },
+      "livingTree": { "q": "什麼是生命樹？", "a": "你的生命樹是你在應用程式內門訓旅程的即時視覺化呈現。你的根代表已完成的模組。你的樹幹代表歷久彌堅的忠心。你的樹枝代表你正在引導的人。你的果實代表已獲得的里程碑。你的穀粒代表你邀請並已加入的人。" },
+      "growthStages": { "q": "什麼是種子、萌芽或結果的樹？", "a": "這些是你生命樹的六個成長階段——從種子（剛加入）經過萌芽、幼樹、結果的樹和森林建造者，到萬國之森。每個階段都反映了你在門訓旅程中以及引導他人方面的真實進步。" },
+      "grain": { "q": "什麼是穀粒？", "a": "穀粒是你的收穫記錄。每個透過你的個人邀請連結加入 P2P Global 的人都會為你的資料新增一粒穀粒。基於約翰福音12:24——一粒麥子落在地裡死了，就結出許多子粒來。" },
+      "blueTick": { "q": "什麼是藍色認證標誌？", "a": "資料上的藍色標誌表示該成員已透過我們的驗證系統核實了真實身分——一張由我們團隊在72小時內審核的自拍照。這確認了帳戶背後是一個真實的人，並在網絡中建立信任。" },
+      "kingdomSchool": { "q": "什麼是 Kingdom School？", "a": "Kingdom School 是 P2P Global 的教育結構。根基課程包含12個模組和84節課——從新信徒到門徒培育者的完整門訓旅程。選修課程涵蓋10個類別共144個計畫，適用於人生的每個階段。" },
+      "completionMoment": { "q": "什麼是完成時刻？", "a": "當你完成根基課程的全部12個模組時——完成時刻就會觸發。一段電影般的體驗。一封來自你同伴導師的信。展現你完整門訓譜系的森林揭曉。以及使命：你已準備好了，去尋找屬於你的人。" },
+      "languages": { "q": "P2P Global 支援哪些語言？", "a": "該應用程式支援20種或更多語言，並提供按需翻譯。當你用自己的語言請求課程時，它們會自動翻譯，並為每位需要相同課程的後續使用者永久保存。" },
+      "churchPortalFree": { "q": "教會門訓入口網站真的是免費的嗎？", "a": "是的，完全免費。沒有訂閱，沒有付費，沒有等級。每個教會都能完全存取所有內容——林地儀表板、小組管理、成員資料、公告，以及QR code邀請系統。免費，永遠如此。" },
+      "peerCircle": { "q": "什麼是同伴圈子？", "a": "同伴圈子是3到8位信徒一起完成同一計畫或模組的小組。小組通話、共同討論、共識評估。任何人都可以建立或加入一個圈子——成員可以來自任意數量的國家。" },
+      "withoutPeerGuide": { "q": "我可以在沒有同伴導師的情況下使用 P2P Global 嗎？", "a": "可以——你可以獨自開始模組1，同時智慧配對系統會為你尋找導師。如果你已經知道想要誰，你也可以直接搜尋對方的 @使用者名稱來找到同伴導師。" },
+      "generationalForest": { "q": "什麼是世代森林？", "a": "世代森林展示了你完整的門訓譜系——你的樹位於中心，你的門徒環繞在你周圍，他們的門徒則在更遠處。一張世界地圖顯示了你的門訓鏈觸及了哪些國家。這是 P2P Global 中最具特色的視覺化呈現。" }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "每個人都在向某人學習。",
+    "headingLine2": "每個人都能幫助別人成長。",
+    "question": "你會幫助誰成長？",
+    "ctaExperience": "體驗 P2P",
+    "ctaExplore": "探索網絡"
+  }
+}

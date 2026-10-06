@@ -1,19 +1,18 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import Prose from "@/components/sections/Prose";
 
-export const metadata: Metadata = {
-  title: "Privacy",
-  description: "P2P privacy policy.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("PrivacyPage");
+  return { title: t("metaTitle"), description: t("metaDescription") };
+}
 
-export default function PrivacyPage() {
+export default async function PrivacyPage() {
+  const t = await getTranslations("PrivacyPage");
   return (
     <div className="pt-24">
-      <Prose eyebrow="Legal" heading="Privacy Policy">
-        <p>
-          A full privacy policy will be published here before P2P collects any personal data through this website.
-          Nothing on this site currently stores personal information beyond what your browser retains locally.
-        </p>
+      <Prose eyebrow={t("eyebrow")} heading={t("heading")}>
+        <p>{t("body")}</p>
       </Prose>
     </div>
   );

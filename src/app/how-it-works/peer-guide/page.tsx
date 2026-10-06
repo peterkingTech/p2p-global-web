@@ -1,45 +1,44 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Reveal from "@/components/motion/Reveal";
 import Quote from "@/components/sections/Quote";
-import { peerGuideExplainer, scripture } from "@/content/copy";
+import { NextArrow } from "@/components/ui/DirArrow";
+import { peerGuideMatchingFactorKeys } from "@/content/copy";
 
-export const metadata: Metadata = {
-  title: "Your Peer Guide",
-  description: "What a peer guide is, how matching works, and how to become one.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("PeerGuidePage");
+  return { title: t("metaTitle"), description: t("metaDescription") };
+}
 
-export default function PeerGuidePage() {
+export default async function PeerGuidePage() {
+  const t = await getTranslations("PeerGuidePage");
+  const tExplainer = await getTranslations("PeerGuideExplainer");
+  const tScripture = await getTranslations("Scripture.mission");
+  const whatTheyDo = tExplainer.raw("whatTheyDo") as string[];
+
   return (
     <>
-      <PageHero
-        eyebrow="Your Peer Guide"
-        title="Someone one step ahead. Walking beside you."
-        subtitle="Not a pastor. Not a teacher. A further-along peer who goes through every lesson with you."
-      />
+      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} />
 
-      <Prose eyebrow="What Is a Peer Guide" heading="A guide, not clergy">
-        <p>{peerGuideExplainer.definition}</p>
-        <Quote reference={scripture.mission.reference} text={scripture.mission.text} />
-        <p>
-          Paul taught Timothy. Timothy taught others. They taught others still. The chain was not institutional —
-          it was relational. P2P exists to make that same pattern practical today, across every language and
-          timezone.
-        </p>
+      <Prose eyebrow={t("prose1Eyebrow")} heading={t("prose1Heading")}>
+        <p>{tExplainer("definition")}</p>
+        <Quote reference={tScripture("reference")} text={tScripture("text")} />
+        <p>{t("prose1Body")}</p>
       </Prose>
 
       <section className="bg-ink py-24 text-paper">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">What They Do</p>
-            <h2 className="font-display text-3xl tracking-tight">What a peer guide actually does</h2>
+            <p className="mb-4 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">{t("whatTheyDoEyebrow")}</p>
+            <h2 className="font-display text-3xl tracking-tight">{t("whatTheyDoHeading")}</h2>
           </Reveal>
           <div className="flex flex-col gap-4">
-            {peerGuideExplainer.what_they_do.map((item, i) => (
+            {whatTheyDo.map((item, i) => (
               <Reveal key={i} className="flex items-start gap-4">
                 <span className="mt-1 shrink-0 text-gold-soft/70" aria-hidden="true">
-                  →
+                  <NextArrow />
                 </span>
                 <p className="leading-relaxed text-paper/80">{item}</p>
               </Reveal>
@@ -51,26 +50,23 @@ export default function PeerGuidePage() {
       <section className="bg-paper py-24 text-ink">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-water uppercase">Smart Matching</p>
-            <h2 className="font-display text-3xl tracking-tight">How you are matched</h2>
-            <p className="mt-4 leading-relaxed text-ink/70">
-              P2P Global matches you with a peer guide based on five factors. You can also find a guide by their
-              @username if you know who you want.
-            </p>
+            <p className="mb-4 text-xs tracking-[0.35em] text-water uppercase">{t("matchingEyebrow")}</p>
+            <h2 className="font-display text-3xl tracking-tight">{t("matchingHeading")}</h2>
+            <p className="mt-4 leading-relaxed text-ink/70">{t("matchingBody")}</p>
           </Reveal>
           <div className="flex flex-col gap-6">
-            {peerGuideExplainer.matching_factors.map((factor) => (
-              <Reveal key={factor.label} className="flex gap-4 border-b border-ink/10 pb-6 last:border-0">
-                <div className="w-36 shrink-0 font-medium">{factor.label}</div>
-                <p className="text-ink/60">{factor.detail}</p>
+            {peerGuideMatchingFactorKeys.map((key) => (
+              <Reveal key={key} className="flex gap-4 border-b border-ink/10 pb-6 last:border-0">
+                <div className="w-36 shrink-0 font-medium">{tExplainer(`matchingFactors.${key}.label`)}</div>
+                <p className="text-ink/60">{tExplainer(`matchingFactors.${key}.detail`)}</p>
               </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      <Prose eyebrow="Becoming a Guide" heading="One step ahead is enough" tone="dark">
-        <p>{peerGuideExplainer.becoming_a_guide}</p>
+      <Prose eyebrow={t("becomingEyebrow")} heading={t("becomingHeading")} tone="dark">
+        <p>{tExplainer("becomingAGuide")}</p>
       </Prose>
     </>
   );

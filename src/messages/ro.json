@@ -1,0 +1,253 @@
+{
+  "Metadata": {
+    "title": "Peer to Peer Global Discipleship Network | P2P",
+    "brandShort": "P2P",
+    "description": "O rețea globală de ucenicie de la egal la egal, centrată pe Isus Hristos — Scriptură, rugăciune, comunitate și misiune. Fiecare învață de la cineva. Fiecare poate ajuta pe cineva să crească.",
+    "shortDescription": "Fiecare învață de la cineva. Fiecare poate ajuta pe cineva să crească."
+  },
+  "LanguageSwitcher": { "label": "Limbă" },
+  "Brand": {
+    "name": "P2P",
+    "fullName": "Peer to Peer Global Discipleship Network",
+    "tagline": "Fiecare învață de la cineva. Fiecare poate ajuta pe cineva să crească.",
+    "centerLine1": "Nu lucrarea noastră. Lucrarea Lui.",
+    "centerLine2": "Nu slava noastră. Slava Lui.",
+    "centerLine3": "Isus Hristos în centru."
+  },
+  "Nav": {
+    "vision": "Viziune",
+    "howItWorks": "Cum funcționează",
+    "stories": "Povești",
+    "experienceP2p": "Experimentează P2P",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul"
+  },
+  "Footer": {
+    "vision": "Viziune",
+    "howItWorks": "Cum funcționează",
+    "discipleship": "Ucenicie",
+    "gifts": "Daruri",
+    "missions": "Misiuni",
+    "kingdomStories": "Povești ale Împărăției",
+    "kingdomWins": "Victorii ale Împărăției",
+    "families": "Familii",
+    "churches": "Biserici",
+    "about": "Despre noi",
+    "faq": "Întrebări frecvente",
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
+    "contact": "Contact",
+    "copyright": "© {year} P2P Global Discipleship Network.",
+    "poweredBy": "Susținut de Amen Kingdom Tech Ministry"
+  },
+  "Hero": {
+    "eyebrowSuffix": "Rețea Globală",
+    "titleLine1": "Peer to Peer",
+    "titleLine2": "Rețea Globală de Ucenicie",
+    "tagline1": "Fiecare învață de la cineva.",
+    "tagline2": "Fiecare poate ajuta pe cineva să crească.",
+    "description": "O rețea globală de ucenicie de la egal la egal, centrată pe Isus Hristos — Scriptură, rugăciune, comunitate și misiune.",
+    "ctaExperience": "Experimentează P2P",
+    "ctaVision": "Explorează Viziunea",
+    "understandVsExperience": "Acest site te ajută să înțelegi P2P. Aplicația este locul unde o experimentezi.",
+    "discoverJourney": "Descoperă călătoria ↓"
+  },
+  "HeroVideo": { "ariaLabel": "Multe mâini împreună ținând o Biblie" },
+  "HowItActuallyWorks": {
+    "eyebrow": "Cum funcționează",
+    "heading": "Iată ce se întâmplă de fapt",
+    "subheading": "Trei pași. O călătorie.",
+    "learnMore": "Află mai multe despre cum funcționează",
+    "steps": {
+      "download": { "title": "Descarcă și alătură-te", "body": "Creează-ți contul. Alege-ți @numele de utilizator. Stabilește etapa ta de credință și obiectivele. Cunoaște-ți ghidul de echipă prin sistemul nostru inteligent de potrivire." },
+      "kingdomSchool": { "title": "Începe Kingdom School", "body": "17 module — orientare, parcursul Evangheliei și Mântuirii, și Fundamentul Creștin de 12 module. Parcurge fiecare cu ghidul tău, în ritmul tău, în limba ta, de oriunde de pe pământ." },
+      "guide": { "title": "Ghidează pe altcineva", "body": "În momentul în care ești cu un pas înaintea cuiva, ești pregătit să-l ghidezi. Modelul din 2 Timotei 2:2 continuă prin tine." }
+    }
+  },
+  "ExploreFurther": {
+    "eyebrow": "Aprofundează",
+    "heading": "Site-ul este manualul. Aplicația este experiența.",
+    "body": "Fiecare funcție de mai jos este explicată integral pe propria pagină — citește ce este relevant pentru tine acum, sau revino mai târziu. Când ești gata, aplicația este locul unde o trăiești cu adevărat."
+  },
+  "HowItWorksTopics": {
+    "gettingStarted": { "title": "Primii pași", "description": "Prima ta săptămână în P2P Global — pas cu pas." },
+    "livingTree": { "title": "Copacul tău Viu", "description": "Ce înseamnă fiecare parte a copacului tău — rădăcini, trunchi, ramuri, fruct, grâu." },
+    "kingdomSchool": { "title": "Kingdom School", "description": "Fundamentul (12 module) și cursurile opționale (144 planuri în 10 categorii)." },
+    "peerGuide": { "title": "Ghidul tău de Echipă", "description": "Ce este un ghid de echipă, cum funcționează potrivirea și cum devii unul." },
+    "peerCircles": { "title": "Cercuri de Echipă", "description": "Învățare în grup pentru 3 până la 8 credincioși care parcurg împreună un plan." },
+    "generationalForest": { "title": "Pădurea Generațională", "description": "Întreaga ta linie de ucenicie — pe cine ai ghidat, pe cine au ghidat ei, ce națiuni au fost atinse." },
+    "messaging": { "title": "Mesagerie și Apeluri", "description": "Căsuța de mesaje, apeluri audio, apeluri video, apeluri de grup și camere de pauză." },
+    "prayer": { "title": "Rugăciune", "description": "Rugăciunea Păcătosului, biblioteca de rugăciuni, generatorul de mărturisiri și jurnalul de rugăciune." },
+    "profile": { "title": "Profil și Identitate", "description": "@numele de utilizator, bifa albastră, verificarea GPS și profilul tău public." },
+    "grain": { "title": "Grâu și Invitații", "description": "Registrul tău personal de recoltă și cum să inviți alții la Kingdom School." }
+  },
+  "JesusCenter": {
+    "heading": "Isus Hristos în centru.",
+    "body": "P2P nu este eroul acestei povești. Este un instrument care îi ajută pe credincioși să învețe, să crească, să meargă alături de alții, să slujească, să facă ucenici și să se multiplice — niciodată un înlocuitor pentru Isus, Scriptură, Duhul Sfânt sau biserica locală."
+  },
+  "Scripture": {
+    "vision": { "eyebrow": "Viziune", "reference": "Habacuc 2:14", "text": "Căci pământul va fi plin de cunoștința slavei Domnului, cum este marea plină de apă." },
+    "mission": { "eyebrow": "Misiune", "reference": "2 Timotei 2:2", "text": "Și ce ai auzit de la mine, în fața multor martori, încredințează la oameni de încredere, care să fie în stare să învețe și pe alții.", "footer": "Fiecare învață de la cineva și ajută pe cineva să crească. Acesta este modelul central al uceniciei P2P." },
+    "gifts": { "reference": "1 Petru 4:10", "text": "Fiecare, după darul pe care l-a primit, să-l puneți în slujba altora, ca buni ispravnici ai harului felurit al lui Dumnezeu." }
+  },
+  "SeedToNationsSection": {
+    "eyebrow": "Metafora Centrală",
+    "heading": "De la Sămânță la Națiuni",
+    "body": "Lucrarea lui Dumnezeu începe adesea în moduri care par mici. O persoană. O conversație. Un verset. Un act de ascultare. Apoi începe multiplicarea."
+  },
+  "SeedToNations": {
+    "seed": { "stage": "O singură sămânță", "title": "O SINGURĂ SĂMÂNȚĂ", "body": "O persoană aude evanghelia." },
+    "tree": { "stage": "Devine un copac", "title": "DEVINE UN COPAC", "body": "Înrădăcinat în doctrină. Crescând în credință. Ucenicia nu înseamnă doar colectarea de informații — rădăcinile se adâncesc, caracterul crește, credința se maturizează." },
+    "forest": { "stage": "Copacii devin o pădure", "title": "COPACII DEVIN O PĂDURE", "body": "Ucenicii se multiplică din generație în generație. Un ucenic ajută pe altul, care ajută pe altcineva. Procesul devine generațional." },
+    "continents": { "stage": "Pădurile se răspândesc pe continente", "title": "PĂDURILE SE RĂSPÂNDESC PE CONTINENTE", "body": "Orașe și națiuni pline de credincioși. Aceasta este viziunea — nu o afirmație despre cifrele actuale." },
+    "glory": { "stage": "Pământul acoperit cu slava Lui", "title": "PĂMÂNTUL ACOPERIT CU SLAVA LUI", "body": "Cum este marea plină de apă. — Habacuc 2:14" }
+  },
+  "DiscipleMultiplication": {
+    "eyebrow": "Cum se multiplică ucenicii",
+    "heading": "Modelul este simplu",
+    "body": "Nu trebuie să cunoști povestea lui Pavel și Timotei pentru a înțelege modelul: cineva primește, cineva crește, cineva ajută, cineva învață, cineva se multiplică.",
+    "steps": {
+      "learn": { "title": "EU ÎNVĂȚ", "body": "Primind de la ghidul meu de echipă — Scriptură, conversație, învățare." },
+      "grow": { "title": "EU CRESC", "body": "Rădăcinile se adâncesc. Credința se întărește. Caracterul se maturizează." },
+      "helpSomeone": { "title": "AJUT PE CINEVA SĂ CREASCĂ", "body": "Ghidând pe cineva, învățând ce am fost învățat — relațional, nu ierarhic." },
+      "theyHelp": { "title": "EI AJUTĂ PE CINEVA SĂ CREASCĂ", "body": "Începe ucenicia de a doua generație." },
+      "multiply": { "title": "UCENICII SE MULTIPLICĂ", "body": "Impactul generațional se extinde." },
+      "nations": { "title": "NAȚIUNI ATINSE", "body": "Pământul plin de slava Lui." }
+    }
+  },
+  "TreeJourney": {
+    "eyebrow": "Călătoria Ta de Creștere",
+    "heading": "O Călătorie, Nu un Statut",
+    "body": "Creșterea nu este despre statut. Este despre a deveni înrădăcinat, roditor și capabil să ajuți pe alții să crească.",
+    "ariaLabel": "Etapele călătoriei de ucenicie P2P",
+    "stages": {
+      "seed": { "title": "SĂMÂNȚĂ", "body": "Tocmai s-a alăturat. Călătoria începe." },
+      "sprout": { "title": "LĂSTAR", "body": "Module fundamentale. Primele relații de mentorat." },
+      "young": { "title": "COPAC TÂNĂR", "body": "La jumătatea călătoriei. Ajută activ pe alții." },
+      "fruitful": { "title": "COPAC RODITOR", "body": "Adânc în curriculum. Fruct pe ramuri." },
+      "forestBuilder": { "title": "CONSTRUCTOR DE PĂDURE", "body": "Ucenici care fac ucenici în diferite orașe." },
+      "forestNations": { "title": "PĂDUREA NAȚIUNILOR", "body": "Națiuni afectate prin ucenicia generațională — o stare de viziune, nu o afirmație despre o realizare actuală." }
+    }
+  },
+  "BodyOfChristEngine": {
+    "eyebrow": "Fiecare Credincios Are Daruri",
+    "heading": "Motorul Trupului lui Hristos",
+    "intro": "Credincioșii nu doar învață lecții biblice — ceea ce înveți poate modela cum slujești, iar ceea ce Dumnezeu a pus în tine poate întări pe altcineva. Ucenicia devine slujire, slujirea devine contribuție, iar contribuția devine multiplicare.",
+    "exampleEyebrow": "Ilustrativ — Exemplu",
+    "exampleHeading": "Darul Tău Poate Sluji pe Cineva",
+    "discoverGifts": "Descoperă Viziunea Darurilor",
+    "categories": {
+      "care": { "title": "ÎNGRIJIRE ȘI BUNĂSTARE", "examples": "Psihologie, terapie, consiliere, sprijin pentru bunăstarea mentală, îngrijire socială", "outcome": "CERCURI DE VINDECARE ȘI ÎNCURAJARE" },
+      "tech": { "title": "TEHNOLOGIE ȘI DIGITAL", "examples": "Programare, design UI/UX, securitate cibernetică, dezvoltare web și mobilă", "outcome": "DEZVOLTARE DE APLICAȚII ȘI INSTRUMENTE" },
+      "leadership": { "title": "LIDERSHIP ȘI ADMINISTRARE", "examples": "Administrare, managementul proiectelor, finanțe, operațiuni, strategie", "outcome": "ORGANIZARE ȘI EXTINDERE" },
+      "creative": { "title": "CREATIVITATE ȘI MEDIA", "examples": "Muzică, fotografie, scris, design, video, povestire", "outcome": "CONȚINUT ȘI POVESTIRE" },
+      "education": { "title": "EDUCAȚIE", "examples": "Predare, coaching lingvistic, meditații academice, dezvoltare de curriculum", "outcome": "ÎNVĂȚARE ȘI PREGĂTIRE" },
+      "ministry": { "title": "DARURI DE SLUJIRE", "examples": "Evanghelizare, rugăciune și mijlocire, închinare, ucenicie, învățătură biblică", "outcome": "MULTIPLICARE SPIRITUALĂ" }
+    },
+    "examples": {
+      "therapist": { "title": "TERAPEUT + UCENIC", "tags": ["Consiliere", "Ucenicie"], "body": "Găzduiește un grup de încurajare centrat pe Scriptură pentru persoane care trec prin perioade dificile. Îngrijirea profesională și sprijinul spiritual pot coexista — unul nu îl înlocuiește pe celălalt." },
+      "programmer": { "title": "PROGRAMATOR + MISIONAR", "tags": ["Programare", "Evanghelizare"], "body": "Ajută la construirea instrumentelor digitale, mentorează dezvoltatori și sprijină evanghelizarea digitală." },
+      "administrator": { "title": "ADMINISTRATOR + MENTOR", "tags": ["Operațiuni", "Leadership"], "body": "Ajută la organizarea grupurilor de ucenicie, coordonează echipe și sprijină inițiativele de rugăciune." },
+      "artist": { "title": "ARTIST + LIDER DE ÎNCHINARE", "tags": ["Design", "Închinare"], "body": "Creează resurse vizuale, sprijină comunități de închinare și contribuie la materiale de ucenicie." }
+    }
+  },
+  "KingdomServiceNetwork": {
+    "eyebrow": "O Viziune Asupra Modului în Care Slujesc Credincioșii",
+    "heading": "Darul Tău Poate Satisface o Nevoie",
+    "intro": "Trupul lui Hristos este cel mai puternic atunci când oamenii nu întreabă doar \"Ce pot primi?\", ci și \"Ce pot oferi?\"",
+    "lookingForHelp": "Caut Ajutor",
+    "offeringGift": "Îmi Ofer Darul",
+    "disclaimer": "Acestea sunt exemple ilustrative ale viziunii, nu un director activ. P2P nu este o piață de freelanceri, o platformă de servicii plătite sau un director profesional neverificat — orice funcție viitoare de descoperire a darurilor va include verificarea identității, protecție, confidențialitate și moderare adecvată.",
+    "queries": {
+      "programmers": "Caut programatori creștini din apropiere",
+      "translator": "Am nevoie de un traducător pentru conținut de ucenicie",
+      "accountability": "Caut un partener de responsabilitate pentru rugăciune",
+      "worship": "Caut pe cineva cu experiență în închinare",
+      "website": "Am nevoie de ajutor cu un site de slujire",
+      "english": "Caut pe cineva care poate preda engleza"
+    },
+    "offers": {
+      "counseling": "Ofer consiliere gratuită pentru credincioșii noi",
+      "websiteDesign": "Pot ajuta cu design-ul unui site de slujire",
+      "mentoring": "Mentorez tineri profesioniști",
+      "translation": "Disponibil pentru a ajuta la traducerea materialelor de ucenicie",
+      "programming": "Disponibil pentru a preda programare",
+      "worshipMusic": "Pot ajuta cu închinarea și muzica"
+    }
+  },
+  "Ecosystem": {
+    "eyebrow": "Ecosistemul P2P",
+    "heading": "Totul Se Întoarce la Isus Hristos",
+    "explore": "Explorează",
+    "items": {
+      "study": { "title": "STUDIU", "body": "Înrădăcinat în Scriptură — curriculum, planuri și un spațiu de studiu." },
+      "prayer": { "title": "RUGĂCIUNE", "body": "Rugăciunea devine participare — oameni reali, rugăciune reală, fără clasamente." },
+      "family": { "title": "FAMILIE", "body": "Ucenicia începe acolo unde trăim." },
+      "church": { "title": "BISERICĂ", "body": "P2P slujește biserica locală. Nu o înlocuiește." },
+      "missions": { "title": "MISIUNI", "body": "Vezi câmpul. Ascultă povestea. Roagă-te pentru lucrători." },
+      "stories": { "title": "POVEȘTI", "body": "Descoperă ce a făcut Dumnezeu." }
+    }
+  },
+  "GlobalCommunity": {
+    "eyebrow": "Comunitate Globală",
+    "headingLine1": "Un Trup.",
+    "headingLine2": "Mulți Oameni.",
+    "headingLine3": "Un Domn.",
+    "journeyEyebrow": "Călătoria Ta de Ucenicie",
+    "journeySteps": {
+      "discover": "DESCOPERĂ",
+      "learn": "ÎNVAȚĂ",
+      "grow": "CREȘTE",
+      "walkWithOthers": "MERGI CU ALȚII",
+      "helpSomeone": "AJUTĂ PE CINEVA",
+      "serve": "SLUJEȘTE",
+      "disciple": "FĂ UCENICI",
+      "multiply": "MULTIPLICĂ",
+      "nations": "NAȚIUNI"
+    }
+  },
+  "KingdomStoriesPreview": {
+    "eyebrow": "Povești Reale",
+    "heading": "Descoperă Ce a Făcut Dumnezeu",
+    "body": "Istorie, trezire, biserica globală și mișcările care au modelat felul în care Îl urmăm pe Isus astăzi — relatate cu grijă, fără exagerare.",
+    "exploreAll": "Explorează Toate Poveștile Împărăției",
+    "readStory": "Citește povestea"
+  },
+  "Faq": {
+    "eyebrow": "Întrebări",
+    "heading": "Întrebări Frecvente",
+    "items": {
+      "whatIsP2p": { "q": "Ce este P2P?", "a": "O rețea globală de ucenicie de la egal la egal, centrată pe Isus Hristos — Scriptură, rugăciune, comunitate și misiune, construită pe ideea că fiecare învață de la cineva și fiecare poate ajuta pe cineva să crească." },
+      "whoBuilt": { "q": "Cine a construit P2P?", "a": "P2P Global Discipleship Network este susținută de Amen Kingdom Tech Ministry — o slujire tehnologică ce proiectează și construiește site-uri, aplicații și sisteme digitale pentru biserici, organizații și afaceri." },
+      "whatIsAmen": { "q": "Ce este Amen Kingdom Tech Ministry?", "a": "O slujire tehnologică orientată spre scop, fondată din ascultare față de chemarea lui Dumnezeu în era digitală, existând pentru a-L reprezenta cu fidelitate în diferitele sfere de influență din lumea tehnologiei. Numele AMEN reflectă acordul cu ceea ce face Dumnezeu prin sistemele pe care le construiește — ghidat de Duhul Sfânt, nu doar de tendințe, și construit cu excelență, precizie și integritate." },
+      "commercial": { "q": "Este P2P un produs comercial construit de Amen Kingdom Tech?", "a": "Nu. P2P este o expresie de slujire a aceleiași chemări, nu o afacere — exact de aceea fiecare funcție este gratuită." },
+      "replaceChurch": { "q": "P2P înlocuiește biserica mea locală?", "a": "Nu. P2P este construit pentru a întări biserica locală, nu pentru a concura cu ea. Membriatul, îngrijirea pastorală și sacramentele rămân acolo unde le este locul — în comunitatea ta." },
+      "therapyReplacement": { "q": "Este P2P un înlocuitor pentru terapie sau consiliere profesională?", "a": "Nu. Acolo unde P2P atinge îngrijirea și bunăstarea, este încurajare între egali alături de ajutor profesional, niciodată un înlocuitor al acestuia. Oricine se află în criză ar trebui să contacteze un profesionist autorizat sau serviciile locale de urgență." },
+      "giftsMarketplace": { "q": "Este Rețeaua de Daruri și Slujire o piață unde plătesc pentru ajutor?", "a": "Nu. Este o viziune despre cum pot credincioșii să ofere și să găsească ajutor în cadrul comunității — nu o piață de freelanceri, o platformă de servicii plătite sau un director profesional neverificat. Orice versiune viitoare va include verificarea identității, protecție și moderare adecvată." },
+      "whoCanJoin": { "q": "Cine se poate alătura P2P?", "a": "Oricine dorește să crească ca ucenic al lui Isus și să ajute pe altcineva să facă același lucru — atât credincioși noi, cât și cei de mult timp. Un ghid de echipă este pur și simplu cineva puțin mai avansat pe cale, nu o autoritate îndepărtată." },
+      "cost": { "q": "Există vreun cost pentru a te alătura?", "a": "Nu — totul este gratuit. Fiecare resursă și instrument pentru creștere, pentru persoane, familii și biserici deopotrivă, este oferit gratuit, iar P2P nu percepe taxe pentru nicio funcție. Acesta nu este un model de afaceri; este o misiune a Împărăției și o slujire, desfășurată în urmărirea viziunii lui Dumnezeu ca pământul să fie plin de cunoștința slavei Domnului, cum este marea plină de apă (Habacuc 2:14)." },
+      "whyFree": { "q": "De ce este totul gratuit?", "a": "Pentru că P2P există pentru a sluji acea viziune, nu pentru a genera venituri din ea. A percepe taxe pentru ucenicie, rugăciune sau instrumentele care ajută pe cineva să crească ar contraveni chiar scopului pentru care a fost construită această rețea." },
+      "churchFree": { "q": "Poate biserica mea să folosească și ea P2P gratuit?", "a": "Da. Bisericile, familiile și persoanele individuale folosesc toate aceeași rețea gratuită — nu există nivel plătit, plan premium sau vreo funcție reținută în spatele unui zid de plată." },
+      "websiteVsApp": { "q": "Cum diferă acest site de aplicația P2P?", "a": "Acest site prezintă viziunea și explică modelul. O parte din ceea ce este descris — cum ar fi descoperirea serviciilor bazată pe daruri — reprezintă o direcție spre care poate merge P2P, nu o afirmație despre ceea ce face deja aplicația astăzi. Pagina Despre noi detaliază această distincție mai pe larg." },
+      "peerGuide": { "q": "Ce este un ghid de echipă?", "a": "Un ghid de echipă este un coleg credincios care este cu un pas înaintea ta pe calea uceniciei. Nu un pastor sau un profesor — ci un coleg mai avansat care merge alături de tine prin fiecare lecție, îți citește reflecțiile, se roagă cu tine și observă când devii tăcut." },
+      "livingTree": { "q": "Ce este Copacul Viu?", "a": "Copacul tău Viu este o vizualizare în timp real a călătoriei tale de ucenicie din aplicație. Rădăcinile tale reprezintă modulele finalizate. Trunchiul tău reprezintă fidelitatea în timp. Ramurile tale reprezintă persoanele pe care le ghidezi. Fructul tău reprezintă reperele atinse. Grâul tău reprezintă persoanele pe care le-ai invitat și care s-au alăturat." },
+      "growthStages": { "q": "Ce este o Sămânță, un Lăstar sau un Copac Roditor?", "a": "Acestea sunt cele șase etape de creștere ale Copacului tău Viu — de la Sămânță (tocmai s-a alăturat) prin Lăstar, Copac Tânăr, Copac Roditor și Constructor de Pădure până la Pădurea Națiunilor. Fiecare etapă reflectă progres real în călătoria ta de ucenicie și în ghidarea altora." },
+      "grain": { "q": "Ce este Grâul?", "a": "Grâul este registrul tău de recoltă. Fiecare persoană care se alătură P2P Global prin linkul tău personal de invitație adaugă un grăunte în profilul tău. Bazat pe Ioan 12:24 — un grăunte de grâu care cade în pământ și moare aduce mult rod." },
+      "blueTick": { "q": "Ce este Bifa Albastră?", "a": "Bifa albastră de pe un profil înseamnă că acel membru și-a verificat identitatea reală prin sistemul nostru de verificare — un selfie examinat de echipa noastră în 72 de ore. Confirmă că există o persoană reală în spatele contului și construiește încredere în rețea." },
+      "kingdomSchool": { "q": "Ce este Kingdom School?", "a": "Kingdom School este structura educațională a P2P Global. Fundamentul include 12 module și 84 de lecții — întreaga călătorie de ucenicie de la credincios nou la cel care face ucenici. Cursurile opționale includ 144 de planuri în 10 categorii pentru fiecare anotimp al vieții." },
+      "completionMoment": { "q": "Ce este Momentul Finalizării?", "a": "Când finalizezi toate cele 12 module ale Fundamentului, se declanșează Momentul Finalizării. O experiență cinematografică. O scrisoare de la ghidul tău de echipă. Dezvăluirea Pădurii care îți arată întreaga linie de ucenicie. Și Misiunea: ești pregătit. Du-te și găsește-ți persoana." },
+      "languages": { "q": "În ce limbi este disponibil P2P Global?", "a": "Aplicația este disponibilă în 20 sau mai multe limbi cu traducere la cerere. Lecțiile se traduc automat când le ceri în limba ta și rămân salvate permanent pentru fiecare utilizator următor care are nevoie de aceeași lecție." },
+      "churchPortalFree": { "q": "Este Portalul de Ucenicie pentru Biserici cu adevărat gratuit?", "a": "Da. Complet. Fără abonament. Fără plată. Fără niveluri. Fiecare biserică primește acces complet la tot — tabloul de bord al crângului, gestionarea cohortelor, profilurile membrilor, anunțurile și sistemul de invitație prin cod QR. Gratuit. Mereu." },
+      "peerCircle": { "q": "Ce este un Cerc de Echipă?", "a": "Un Cerc de Echipă este un grup de 3 până la 8 credincioși care parcurg împreună același plan sau modul. Apeluri de grup. Discuții comune. Evaluare prin consens. Oricine poate crea sau se poate alătura unui cerc — iar membrii pot proveni din orice număr de națiuni." },
+      "withoutPeerGuide": { "q": "Pot folosi P2P Global fără un ghid de echipă?", "a": "Da — poți începe Modulul 1 singur, în timp ce sistemul inteligent de potrivire îți găsește un ghid. Poți găsi un ghid de echipă și căutându-i direct @numele de utilizator dacă știi deja pe cine vrei." },
+      "generationalForest": { "q": "Ce este Pădurea Generațională?", "a": "Pădurea Generațională îți arată întreaga linie de ucenicie — copacul tău în centru, ucenicii tăi în jurul tău, ucenicii lor mai departe. O hartă a lumii arată ce națiuni a atins lanțul tău de ucenicie. Este cea mai distinctivă vizualizare din P2P Global." }
+    }
+  },
+  "FinalCTA": {
+    "headingLine1": "Fiecare învață de la cineva.",
+    "headingLine2": "Fiecare poate ajuta pe cineva să crească.",
+    "question": "Pe cine vei ajuta să crească?",
+    "ctaExperience": "Experimentează P2P",
+    "ctaExplore": "Explorează Rețeaua"
+  }
+}

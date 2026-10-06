@@ -1,19 +1,18 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import Prose from "@/components/sections/Prose";
 
-export const metadata: Metadata = {
-  title: "Terms",
-  description: "P2P terms of use.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations("TermsPage");
+  return { title: t("metaTitle"), description: t("metaDescription") };
+}
 
-export default function TermsPage() {
+export default async function TermsPage() {
+  const t = await getTranslations("TermsPage");
   return (
     <div className="pt-24">
-      <Prose eyebrow="Legal" heading="Terms of Use">
-        <p>
-          Full terms of use will be published here as P2P&rsquo;s product features go live. This website is
-          currently an informational and vision-casting site for the P2P Global Discipleship Network.
-        </p>
+      <Prose eyebrow={t("eyebrow")} heading={t("heading")}>
+        <p>{t("body")}</p>
       </Prose>
     </div>
   );
