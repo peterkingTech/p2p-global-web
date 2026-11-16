@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Filmstrip from "@/components/sections/Filmstrip";
+import KingdomStoriesExperience from "@/components/sections/KingdomStoriesExperience";
 import Reveal from "@/components/motion/Reveal";
 import { NextArrow } from "@/components/ui/DirArrow";
 import { pageMetadata } from "@/lib/seo";
@@ -27,6 +28,8 @@ export default async function KingdomStoriesPage() {
         <p>{t("introBody1")}</p>
         <p>{t("introBody2")}</p>
       </Prose>
+
+      <KingdomStoriesExperience />
 
       {/* The six agreed content areas */}
       <section className="bg-ink py-24 text-paper">

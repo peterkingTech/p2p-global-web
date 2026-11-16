@@ -35,7 +35,7 @@ export default async function KingdomStoriesPreview() {
 
       <Reveal className="mt-12 text-center">
         <Link
-          href="/kingdom-stories"
+          href="/kingdom-stories#preview"
           className="inline-block rounded-full border border-paper/40 px-8 py-3.5 text-sm tracking-wide text-paper transition-colors hover:bg-paper hover:text-ink"
         >
           {t("exploreAll")}

@@ -134,14 +134,14 @@ export const ecosystem = [
   { key: "study", href: "/how-it-works/study-together" },
   { key: "prayer", href: "/how-it-works/prayer" },
   { key: "missions", href: "/missions" },
-  { key: "stories", href: "/kingdom-stories" },
+  { key: "stories", href: "/#stories" },
 ] as const;
 
 /** Learning & Scripture homepage section. */
 export const learningJourneyItems = [
   { key: "bible", mediaKey: "study", href: "/how-it-works/bible" },
   { key: "kingdomSchool", mediaKey: "mission", href: "/how-it-works/kingdom-school" },
-  { key: "stories", mediaKey: "stories", href: "/kingdom-stories" },
+  { key: "stories", mediaKey: "stories", href: "/#stories" },
   { key: "studyTogether", mediaKey: "discipleGrow", href: "/how-it-works/study-together" },
 ] as const;
 

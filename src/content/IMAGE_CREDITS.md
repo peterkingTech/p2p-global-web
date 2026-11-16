@@ -24,3 +24,16 @@ locally; nothing is hot-linked.
 
 Earlier photos (Pexels License stock and official P2P artwork) are described
 per entry in `src/content/media.ts`.
+
+## Kingdom Stories — Creation (P2P Global | Creative Studios)
+
+Supplied by P2P Global for website use; shown with the credit
+"Image: P2P Global | Creative Studios", as in the app.
+
+| File (`public/media/stories/creation/`) | Used for |
+| --- | --- |
+| `creation-cover.jpg` | Story cover (Kingdom Stories preview) |
+| `creation-hero.jpg` | Featured story hero |
+| `creation-overview.jpg` | Introduction (story overview) image |
+| `creation-introduction.mp3` | Narration — Introduction (P2P app recording) |
+| `creation-chapter-1.mp3` | Narration — Chapter 1 (P2P app recording) |
