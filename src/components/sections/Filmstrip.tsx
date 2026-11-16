@@ -25,23 +25,21 @@ export default function Filmstrip({ items, ariaLabel }: Props) {
       <div
         role="group"
         aria-label={ariaLabel}
+        tabIndex={0}
         className="flex snap-x snap-mandatory gap-5 overflow-x-auto px-6 pb-6 [scrollbar-width:thin] sm:px-[max(1.5rem,calc((100vw-72rem)/2))]"
       >
         {items.map((item) => {
           const className = "relative h-[380px] w-[75vw] shrink-0 snap-start overflow-hidden rounded-lg sm:w-[320px]";
           const content = (
             <>
-              <CinematicMedia mediaKey={item.mediaKey} />
+              <CinematicMedia mediaKey={item.mediaKey} grain={false} vignette={false} />
+              {/* Readability: a firm forest gradient under the text, photo clear above it. */}
+              <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/75 to-transparent to-70%" aria-hidden="true" />
               <div className="relative z-10 flex h-full flex-col justify-end p-6 text-paper">
-                {item.icon && (
-                  <span className="text-3xl" aria-hidden="true">
-                    {item.icon}
-                  </span>
-                )}
-                <h3 className="font-display mt-3 text-xl tracking-tight">{item.title}</h3>
+                <h3 className="type-card">{item.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-paper/70">{item.body}</p>
                 {item.href && (
-                  <span className="mt-3 text-xs tracking-[0.2em] text-gold-soft/90 uppercase">
+                  <span className="mt-3 type-eyebrow text-sage">
                     {item.readMore} <NextArrow />
                   </span>
                 )}

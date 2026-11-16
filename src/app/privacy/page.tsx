@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import Prose from "@/components/sections/Prose";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("PrivacyPage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/privacy" });
 }
 
 export default async function PrivacyPage() {

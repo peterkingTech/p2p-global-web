@@ -7,12 +7,13 @@ export default async function JesusCenter() {
   const tBrand = await getTranslations("Brand");
 
   return (
-    <section className="flex min-h-[70vh] items-center justify-center bg-paper px-6 py-32 text-center">
-      <Reveal>
-        <p className="text-xs tracking-[0.4em] text-water uppercase">{tBrand("centerLine1")}</p>
-        <p className="text-xs tracking-[0.4em] text-water uppercase">{tBrand("centerLine2")}</p>
-        <h2 className="font-display mt-8 text-4xl tracking-tight text-ink sm:text-6xl">{t("heading")}</h2>
-        <p className="mx-auto mt-8 max-w-lg text-left text-base leading-relaxed text-ink/60">{t("body")}</p>
+    <section className="flex min-h-[80svh] items-center bg-paper px-6 py-32 text-ink">
+      <Reveal className="mx-auto max-w-4xl text-center">
+        <p className="type-eyebrow text-emerald">
+          {tBrand("centerLine1")} <span aria-hidden="true">&middot;</span> {tBrand("centerLine2")}
+        </p>
+        <h2 className="type-hero mt-8">{t("heading")}</h2>
+        <p className="type-lead mx-auto mt-10 max-w-2xl text-ink/70">{t("body")}</p>
       </Reveal>
     </section>
   );

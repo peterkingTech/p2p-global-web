@@ -12,9 +12,9 @@ export default async function ExploreFurther() {
     <section className="bg-paper px-6 py-24 text-ink">
       <div className="mx-auto max-w-2xl text-center">
         <Reveal>
-          <p className="text-xs tracking-[0.35em] text-water uppercase">{t("eyebrow")}</p>
-          <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">{t("heading")}</h2>
-          <p className="mt-6 text-left text-lg leading-relaxed text-ink/70">{t("body")}</p>
+          <p className="type-eyebrow text-emerald">{t("eyebrow")}</p>
+          <h2 className="type-section mt-4">{t("heading")}</h2>
+          <p className="type-lead mt-6 text-ink/70">{t("body")}</p>
         </Reveal>
       </div>
 

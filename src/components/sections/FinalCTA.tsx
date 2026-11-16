@@ -9,23 +9,24 @@ export default async function FinalCTA() {
 
   return (
     <section className="bg-ink">
-      <div className="relative h-[60vh] min-h-[360px] overflow-hidden">
+      <div className="relative h-[70svh] min-h-[380px] overflow-hidden">
         <CinematicMedia mediaKey="finalCta" grain={false} />
       </div>
 
       <div className="px-6 py-24 text-center">
         <Reveal className="mx-auto max-w-2xl text-paper">
-          <h2 className="font-display text-3xl leading-tight tracking-tight sm:text-5xl">
+          <h2 className="type-hero text-[clamp(2.2rem,4vw+1rem,4rem)]">
             {t("headingLine1")}
             <br />
             {t("headingLine2")}
           </h2>
-          <p className="font-display mt-8 text-xl text-gold-soft sm:text-2xl">{t("question")}</p>
+          <p className="type-scripture mt-8 text-2xl text-gold sm:text-3xl">{t("question")}</p>
+          <p className="mt-6 text-sm text-paper/55">{t("freeNote")}</p>
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
               href="/join"
-              className="rounded-full bg-gold-soft px-8 py-3.5 text-sm font-medium tracking-wide text-ink transition-transform hover:scale-[1.03]"
+              className="rounded-full px-8 py-3.5 text-sm font-medium tracking-wide transition-colors bg-emerald-bright text-white hover:bg-emerald"
             >
               {t("ctaExperience")}
             </Link>
@@ -40,7 +41,7 @@ export default async function FinalCTA() {
           <div className="mt-20 space-y-1 text-sm tracking-wide text-paper/60">
             <p>{tBrand("centerLine1")}</p>
             <p>{tBrand("centerLine2")}</p>
-            <p className="mt-3 text-gold-soft/90">{tBrand("centerLine3")}</p>
+            <p className="mt-3 text-paper">{tBrand("centerLine3")}</p>
           </div>
         </Reveal>
       </div>

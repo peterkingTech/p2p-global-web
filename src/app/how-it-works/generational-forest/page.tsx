@@ -4,17 +4,18 @@ import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Reveal from "@/components/motion/Reveal";
 import Quote from "@/components/sections/Quote";
+import { pageMetadata } from "@/lib/seo";
 import { forestLayerKeys } from "@/content/copy";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("GenerationalForestPage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/how-it-works/generational-forest" });
 }
 
 export default async function GenerationalForestPage() {
   const t = await getTranslations("GenerationalForestPage");
   const tLayers = await getTranslations("ForestLayers");
-  const tScripture = await getTranslations("Scripture.vision");
+  const tScripture = await getTranslations("Scripture.mission");
 
   return (
     <>
@@ -28,28 +29,26 @@ export default async function GenerationalForestPage() {
       <section className="bg-ink py-24 text-paper">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">{t("layersEyebrow")}</p>
-            <h2 className="font-display text-3xl tracking-tight">{t("layersHeading")}</h2>
+            <p className="mb-4 type-eyebrow text-sage">{t("layersEyebrow")}</p>
+            <h2 className="type-section">{t("layersHeading")}</h2>
           </Reveal>
-          <div className="flex flex-col gap-8">
-            {forestLayerKeys.map((key) => (
-              <Reveal key={key} className="flex gap-6 border-b border-paper/10 pb-8 last:border-0">
-                <div className="w-32 shrink-0">
-                  <p className="font-medium text-gold-soft/80">{tLayers(`${key}.label`)}</p>
-                </div>
-                <p className="leading-relaxed text-paper/70">{tLayers(`${key}.detail`)}</p>
-              </Reveal>
+          {/* Each generation steps inward, so the chain reads as a lineage rather than a list. */}
+          <ol className="flex flex-col gap-6">
+            {forestLayerKeys.map((key, i) => (
+              <li key={key} style={{ marginInlineStart: `${i * 1.25}rem` }}>
+                <Reveal className="border-s border-paper/25 ps-6">
+                  <span className="font-display text-sm text-paper/40">{`0${i + 1}`}</span>
+                  <p className="font-display mt-1 text-xl text-paper">{tLayers(`${key}.label`)}</p>
+                  <p className="mt-2 leading-relaxed text-paper/70">{tLayers(`${key}.detail`)}</p>
+                </Reveal>
+              </li>
             ))}
-          </div>
+          </ol>
         </div>
       </section>
 
-      <Prose eyebrow={t("prose2Eyebrow")} heading={t("prose2Heading")} tone="dark">
+      <Prose eyebrow={t("prose2Eyebrow")} heading={t("prose2Heading")}>
         <p>{t("prose2Body")}</p>
-      </Prose>
-
-      <Prose eyebrow={t("prose3Eyebrow")} heading={t("prose3Heading")}>
-        <p>{t.rich("prose3Body", { em: (chunks) => <em>{chunks}</em> })}</p>
       </Prose>
     </>
   );

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import PageHero from "@/components/sections/PageHero";
 import Reveal from "@/components/motion/Reveal";
 import { BackArrow } from "@/components/ui/DirArrow";
@@ -16,10 +17,11 @@ export async function generateMetadata(props: PageProps<"/kingdom-stories/[slug]
   const category = kingdomStoryCategories.find((c) => c.slug === slug);
   if (!category) return {};
   const t = await getTranslations("KingdomStoryCategories");
-  return {
+  return pageMetadata({
     title: t(`${category.slug}.title`),
     description: t(`${category.slug}.body`),
-  };
+    path: `/kingdom-stories/${category.slug}`,
+  });
 }
 
 export default async function KingdomStoryPage(props: PageProps<"/kingdom-stories/[slug]">) {
@@ -45,7 +47,7 @@ export default async function KingdomStoryPage(props: PageProps<"/kingdom-storie
           </Reveal>
 
           <Reveal delay={0.1} className="mt-14 border-t border-ink/10 pt-8">
-            <Link href="/kingdom-stories" className="text-sm tracking-wide text-water hover:text-ink">
+            <Link href="/kingdom-stories" className="text-sm tracking-wide text-emerald underline-offset-4 hover:text-ink hover:underline">
               <BackArrow /> {tPage("backToStories")}
             </Link>
           </Reveal>

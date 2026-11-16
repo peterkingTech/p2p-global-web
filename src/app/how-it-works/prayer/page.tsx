@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Reveal from "@/components/motion/Reveal";
@@ -7,7 +8,7 @@ import { prayerFeatureKeys, prayerFeatureIcons } from "@/content/copy";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("PrayerPage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/how-it-works/prayer" });
 }
 
 export default async function PrayerPage() {
@@ -25,8 +26,8 @@ export default async function PrayerPage() {
       <section className="bg-ink py-24 text-paper">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">{t("toolsEyebrow")}</p>
-            <h2 className="font-display text-3xl tracking-tight">{t("toolsHeading")}</h2>
+            <p className="mb-4 type-eyebrow text-sage/90">{t("toolsEyebrow")}</p>
+            <h2 className="type-section">{t("toolsHeading")}</h2>
           </Reveal>
           <div className="flex flex-col gap-8">
             {prayerFeatureKeys.map((key) => (

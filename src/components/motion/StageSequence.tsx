@@ -1,7 +1,8 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useScroll, useReducedMotion, type MotionValue } from "framer-motion";
+import { motion, useScroll, type MotionValue } from "framer-motion";
+import { useHydratedReducedMotion } from "@/components/motion/useHydratedReducedMotion";
 import { useStageMotion } from "@/components/motion/useStageMotion";
 import Reveal from "@/components/motion/Reveal";
 
@@ -17,11 +18,11 @@ type Props = {
 
 function StageCard({ stage }: { stage: Stage }) {
   return (
-    <div className="w-full max-w-md rounded-lg border border-paper/10 bg-charcoal p-8 text-center shadow-2xl shadow-black/40">
+    <div className="w-full max-w-md rounded-lg border border-paper/10 bg-surface p-8 text-center shadow-2xl shadow-black/40">
       <span className="text-5xl" aria-hidden="true">
         {stage.icon}
       </span>
-      <h3 className="font-display mt-5 text-3xl tracking-tight text-paper">{stage.title}</h3>
+      <h3 className="type-card mt-5 text-paper">{stage.title}</h3>
       <p className="mt-4 text-base leading-relaxed text-paper/75">{stage.body}</p>
     </div>
   );
@@ -50,7 +51,7 @@ function StageLayer({
 /** Sticky pinned scroll sequence — each stage is a self-contained card that rises in, holds, then cuts out sharply. */
 export default function StageSequence({ stages }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const prefersReducedMotion = useReducedMotion();
+  const prefersReducedMotion = useHydratedReducedMotion();
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end end"],
@@ -58,7 +59,8 @@ export default function StageSequence({ stages }: Props) {
 
   if (prefersReducedMotion) {
     return (
-      <div className="mx-auto flex max-w-md flex-col gap-8 px-6">
+      // The ref stays attached so useScroll always has a hydrated target.
+      <div ref={containerRef} className="mx-auto flex max-w-md flex-col gap-8 px-6">
         {stages.map((stage, i) => (
           <Reveal key={i}>
             <StageCard stage={stage} />

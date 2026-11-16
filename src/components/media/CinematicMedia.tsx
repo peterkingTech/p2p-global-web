@@ -35,7 +35,8 @@ export default function CinematicMedia({
       {asset.video ? (
         <div className="absolute inset-0" style={backdrop}>
           <video
-            className={`absolute inset-0 h-full w-full object-contain motion-reduce:hidden ${kenBurns ? "animate-kenburns" : ""}`}
+            className={`absolute inset-0 h-full w-full object-cover motion-reduce:hidden ${kenBurns ? "animate-kenburns" : ""}`}
+            style={{ objectPosition: asset.position }}
             src={asset.video}
             poster={asset.photo}
             preload="metadata"
@@ -51,7 +52,10 @@ export default function CinematicMedia({
           <img
             src={asset.photo}
             alt=""
-            className={`absolute inset-0 h-full w-full object-contain ${kenBurns ? "animate-kenburns" : ""}`}
+            loading="lazy"
+            decoding="async"
+            className={`absolute inset-0 h-full w-full object-cover ${kenBurns ? "animate-kenburns" : ""}`}
+            style={{ objectPosition: asset.position }}
           />
         </div>
       ) : (

@@ -10,18 +10,18 @@ export default async function KingdomStoriesPreview() {
   const tCategories = await getTranslations("KingdomStoryCategories");
 
   return (
-    <section className="bg-ink py-24">
+    <section className="bg-forest py-24">
       <div className="mx-auto max-w-2xl px-6 text-center text-paper">
         <Reveal>
-          <p className="text-xs tracking-[0.35em] text-gold-soft/90 uppercase">{t("eyebrow")}</p>
-          <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">{t("heading")}</h2>
-          <p className="mt-6 text-left text-lg leading-relaxed text-paper/75">{t("body")}</p>
+          <p className="type-eyebrow text-sage">{t("eyebrow")}</p>
+          <h2 className="type-section mt-4">{t("heading")}</h2>
+          <p className="type-lead mt-6 text-paper/75">{t("body")}</p>
         </Reveal>
       </div>
 
       <div className="mt-14">
         <Filmstrip
-          items={kingdomStoryCategories.map((c) => ({
+          items={kingdomStoryCategories.slice(0, 7).map((c) => ({
             mediaKey: c.mediaKey,
             icon: c.icon,
             title: tCategories(`${c.slug}.title`),
@@ -36,7 +36,7 @@ export default async function KingdomStoriesPreview() {
       <Reveal className="mt-12 text-center">
         <Link
           href="/kingdom-stories"
-          className="inline-block rounded-full border border-gold-soft/60 px-8 py-3.5 text-sm tracking-wide text-gold-soft transition-colors hover:bg-gold-soft hover:text-ink"
+          className="inline-block rounded-full border border-paper/40 px-8 py-3.5 text-sm tracking-wide text-paper transition-colors hover:bg-paper hover:text-ink"
         >
           {t("exploreAll")}
         </Link>

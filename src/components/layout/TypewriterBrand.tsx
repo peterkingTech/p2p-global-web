@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useReducedMotion } from "framer-motion";
+import { useHydratedReducedMotion } from "@/components/motion/useHydratedReducedMotion";
 import { useTranslations } from "next-intl";
 
 const TYPE_MS = 45;
@@ -11,7 +11,7 @@ const RESTART_MS = 500;
 
 /** Continuously typing/deleting cinematic brand line. Static text when reduced motion is preferred. */
 export default function TypewriterBrand({ className = "" }: { className?: string }) {
-  const prefersReducedMotion = useReducedMotion();
+  const prefersReducedMotion = useHydratedReducedMotion();
   const [display, setDisplay] = useState("");
   const t = useTranslations("Brand");
   const fullText = t("fullName");
@@ -53,7 +53,7 @@ export default function TypewriterBrand({ className = "" }: { className?: string
     <span className={`font-display tracking-[0.08em] whitespace-nowrap ${className}`}>
       {prefersReducedMotion ? fullText : display}
       {!prefersReducedMotion && (
-        <span className="ml-0.5 inline-block h-[0.9em] w-[2px] align-middle bg-gold-soft motion-safe:animate-pulse" />
+        <span className="ml-0.5 inline-block h-[0.9em] w-[2px] align-middle bg-sage motion-safe:animate-pulse" />
       )}
     </span>
   );

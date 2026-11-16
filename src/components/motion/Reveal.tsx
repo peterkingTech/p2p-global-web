@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion } from "framer-motion";
+import { useHydratedReducedMotion } from "@/components/motion/useHydratedReducedMotion";
 
 type Props = {
   children: React.ReactNode;
@@ -13,7 +14,7 @@ type Props = {
 /** Fades/slides content in as it enters the viewport; collapses to a plain
  * fade when the visitor prefers reduced motion. */
 export default function Reveal({ children, className = "", delay = 0, y = 24 }: Props) {
-  const prefersReducedMotion = useReducedMotion();
+  const prefersReducedMotion = useHydratedReducedMotion();
 
   return (
     <motion.div

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Quote from "@/components/sections/Quote";
@@ -9,7 +10,7 @@ import TreeJourney from "@/components/sections/TreeJourney";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("DiscipleshipPage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/discipleship" });
 }
 
 export default async function DiscipleshipPage() {
@@ -18,7 +19,7 @@ export default async function DiscipleshipPage() {
 
   return (
     <>
-      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} mediaKey="discipleLearn" />
+      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} mediaKey="discipleshipHero" imageAlt={t("heroImageAlt")} />
 
       <Prose eyebrow={t("prose1Eyebrow")} heading={t("prose1Heading")}>
         <Quote reference={tScripture("reference")} text={tScripture("text")} />
@@ -37,7 +38,7 @@ export default async function DiscipleshipPage() {
       <div className="bg-paper px-6 py-20 text-center">
         <Link
           href="/join"
-          className="inline-block rounded-full bg-ink px-8 py-3.5 text-sm tracking-wide text-paper transition-transform hover:scale-[1.03]"
+          className="inline-block rounded-full px-8 py-3.5 text-sm tracking-wide bg-emerald-bright text-white hover:bg-emerald transition-colors"
         >
           {t("beginJourney")}
         </Link>

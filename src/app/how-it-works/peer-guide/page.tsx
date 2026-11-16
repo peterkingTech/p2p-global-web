@@ -5,11 +5,12 @@ import Prose from "@/components/sections/Prose";
 import Reveal from "@/components/motion/Reveal";
 import Quote from "@/components/sections/Quote";
 import { NextArrow } from "@/components/ui/DirArrow";
-import { peerGuideMatchingFactorKeys } from "@/content/copy";
+import { pageMetadata } from "@/lib/seo";
+import { peerGuideRelationshipKeys } from "@/content/copy";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("PeerGuidePage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/how-it-works/peer-guide" });
 }
 
 export default async function PeerGuidePage() {
@@ -31,39 +32,42 @@ export default async function PeerGuidePage() {
       <section className="bg-ink py-24 text-paper">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-gold-soft/90 uppercase">{t("whatTheyDoEyebrow")}</p>
-            <h2 className="font-display text-3xl tracking-tight">{t("whatTheyDoHeading")}</h2>
+            <p className="mb-4 type-eyebrow text-sage">{t("whatTheyDoEyebrow")}</p>
+            <h2 className="type-section">{t("whatTheyDoHeading")}</h2>
           </Reveal>
-          <div className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-4">
             {whatTheyDo.map((item, i) => (
-              <Reveal key={i} className="flex items-start gap-4">
-                <span className="mt-1 shrink-0 text-gold-soft/70" aria-hidden="true">
+              <Reveal key={i} className="flex items-start gap-4 border-b border-paper/10 pb-4 last:border-0">
+                <span className="mt-1 shrink-0 text-sage" aria-hidden="true">
                   <NextArrow />
                 </span>
-                <p className="leading-relaxed text-paper/80">{item}</p>
+                <p className="text-lg leading-relaxed text-paper/85">{item}</p>
+              </Reveal>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="bg-white py-24 text-ink">
+        <div className="mx-auto max-w-5xl px-6">
+          <Reveal className="mb-12 max-w-2xl">
+            <p className="mb-4 type-eyebrow text-emerald">{t("relationshipEyebrow")}</p>
+            <h2 className="type-section">{t("relationshipHeading")}</h2>
+          </Reveal>
+          <div className="grid gap-px overflow-hidden rounded-2xl border border-ink/10 bg-ink/10 sm:grid-cols-2">
+            {peerGuideRelationshipKeys.map((key, i) => (
+              <Reveal key={key} delay={i * 0.05} className="bg-white p-8">
+                <h3 className="type-card">{tExplainer(`relationship.${key}.title`)}</h3>
+                <p className="mt-3 leading-relaxed text-ink/70">{tExplainer(`relationship.${key}.body`)}</p>
               </Reveal>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-paper py-24 text-ink">
-        <div className="mx-auto max-w-2xl px-6">
-          <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-water uppercase">{t("matchingEyebrow")}</p>
-            <h2 className="font-display text-3xl tracking-tight">{t("matchingHeading")}</h2>
-            <p className="mt-4 leading-relaxed text-ink/70">{t("matchingBody")}</p>
-          </Reveal>
-          <div className="flex flex-col gap-6">
-            {peerGuideMatchingFactorKeys.map((key) => (
-              <Reveal key={key} className="flex gap-4 border-b border-ink/10 pb-6 last:border-0">
-                <div className="w-36 shrink-0 font-medium">{tExplainer(`matchingFactors.${key}.label`)}</div>
-                <p className="text-ink/60">{tExplainer(`matchingFactors.${key}.detail`)}</p>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      <Prose eyebrow={t("churchEyebrow")} heading={t("churchHeading")}>
+        <p>{t("churchBody")}</p>
+      </Prose>
 
       <Prose eyebrow={t("becomingEyebrow")} heading={t("becomingHeading")} tone="dark">
         <p>{tExplainer("becomingAGuide")}</p>

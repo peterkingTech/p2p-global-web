@@ -235,7 +235,7 @@ export default function Scene({ variant, className = "" }: { variant: SceneVaria
       viewBox="0 0 200 200"
       className={className}
       aria-hidden="true"
-      style={{ width: "42%", maxWidth: 180, opacity: 0.28, color: "var(--color-gold-soft)" }}
+      style={{ width: "42%", maxWidth: 180, opacity: 0.28, color: "var(--color-sage)" }}
     >
       {paths(variant)}
     </svg>

@@ -15,14 +15,14 @@ export default function Prose({ eyebrow, heading, children, tone = "light" }: Pr
       <div className="mx-auto max-w-2xl px-6">
         <Reveal>
           {eyebrow && (
-            <p className={`text-xs tracking-[0.35em] uppercase ${isDark ? "text-gold-soft/90" : "text-water"}`}>
+            <p className={`type-eyebrow ${isDark ? "text-sage/90" : "text-emerald"}`}>
               {eyebrow}
             </p>
           )}
-          {heading && <h2 className="font-display mt-4 text-3xl tracking-tight sm:text-4xl">{heading}</h2>}
+          {heading && <h2 className="type-section mt-4">{heading}</h2>}
           <div
             className={`mt-6 space-y-5 text-lg leading-relaxed [&_strong]:font-semibold ${
-              isDark ? "text-paper/80 [&_strong]:text-paper" : "text-ink/75 [&_strong]:text-ink"
+              isDark ? "text-paper/80 [&_strong]:text-paper [&_cite]:text-gold" : "text-ink/75 [&_strong]:text-ink [&_cite]:text-gold-deep"
             }`}
           >
             {children}

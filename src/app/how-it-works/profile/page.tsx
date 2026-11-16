@@ -1,18 +1,22 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Reveal from "@/components/motion/Reveal";
+import { NextArrow } from "@/components/ui/DirArrow";
+import { pageMetadata } from "@/lib/seo";
 import { profileFeatureKeys, profileFeatureIcons } from "@/content/copy";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("ProfilePage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/how-it-works/profile" });
 }
 
 export default async function ProfilePage() {
   const t = await getTranslations("ProfilePage");
   const tFeatures = await getTranslations("ProfileFeatures");
+  const tTopics = await getTranslations("HowItWorksTopics");
 
   return (
     <>
@@ -22,11 +26,11 @@ export default async function ProfilePage() {
         <p>{t("prose1Body")}</p>
       </Prose>
 
-      <section className="bg-paper py-24 text-ink">
+      <section className="bg-white py-24 text-ink">
         <div className="mx-auto max-w-2xl px-6">
           <Reveal className="mb-12">
-            <p className="mb-4 text-xs tracking-[0.35em] text-water uppercase">{t("featuresEyebrow")}</p>
-            <h2 className="font-display text-3xl tracking-tight">{t("featuresHeading")}</h2>
+            <p className="mb-4 type-eyebrow text-emerald">{t("featuresEyebrow")}</p>
+            <h2 className="type-section">{t("featuresHeading")}</h2>
           </Reveal>
           <div className="flex flex-col gap-8">
             {profileFeatureKeys.map((key) => (
@@ -44,6 +48,14 @@ export default async function ProfilePage() {
               </Reveal>
             ))}
           </div>
+          <Reveal className="mt-12">
+            <Link
+              href="/how-it-works/living-tree"
+              className="inline-block rounded-full border border-ink/25 px-6 py-3 text-sm tracking-wide transition hover:bg-ink hover:text-paper"
+            >
+              {tTopics("livingTree.title")} <NextArrow />
+            </Link>
+          </Reveal>
         </div>
       </section>
     </>

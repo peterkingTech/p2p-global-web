@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Quote from "@/components/sections/Quote";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("AboutPage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/about" });
 }
 
 export default async function AboutPage() {
@@ -16,7 +17,7 @@ export default async function AboutPage() {
 
   return (
     <>
-      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} mediaKey="about" />
+      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} />
 
       <Prose eyebrow={t("prose1Eyebrow")} heading={t("prose1Heading")}>
         <p>{t("prose1Body")}</p>
@@ -35,12 +36,12 @@ export default async function AboutPage() {
         <p>
           {t.rich("prose4Body", {
             churches: (chunks) => (
-              <Link href="/churches" className="underline decoration-gold-soft/50 underline-offset-4 hover:text-gold-soft">
+              <Link href="/churches" className="underline decoration-paper/40 underline-offset-4 hover:decoration-paper">
                 {chunks}
               </Link>
             ),
             families: (chunks) => (
-              <Link href="/families" className="underline decoration-gold-soft/50 underline-offset-4 hover:text-gold-soft">
+              <Link href="/families" className="underline decoration-paper/40 underline-offset-4 hover:decoration-paper">
                 {chunks}
               </Link>
             ),
@@ -48,7 +49,11 @@ export default async function AboutPage() {
         </p>
       </Prose>
 
-      <Prose eyebrow={t("prose5Eyebrow")} heading={t("prose5Heading")}>
+      <Prose eyebrow={t("prose6Eyebrow")} heading={t("prose6Heading")}>
+        <p>{t("prose6Body")}</p>
+      </Prose>
+
+      <Prose eyebrow={t("prose5Eyebrow")} heading={t("prose5Heading")} tone="dark">
         <p>{t("prose5Body")}</p>
       </Prose>
     </>

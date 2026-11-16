@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import PageHero from "@/components/sections/PageHero";
 import Prose from "@/components/sections/Prose";
 import Quote from "@/components/sections/Quote";
@@ -7,7 +8,7 @@ import SeedToNations from "@/components/sections/SeedToNations";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("VisionPage");
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  return pageMetadata({ title: t("metaTitle"), description: t("metaDescription"), path: "/vision" });
 }
 
 export default async function VisionPage() {
@@ -16,7 +17,7 @@ export default async function VisionPage() {
 
   return (
     <>
-      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} mediaKey="vision" />
+      <PageHero eyebrow={t("heroEyebrow")} title={t("heroTitle")} subtitle={t("heroSubtitle")} mediaKey="seedEarth" imageAlt={t("heroImageAlt")} />
 
       <Prose eyebrow={t("prose1Eyebrow")} heading={t("prose1Heading")}>
         <Quote reference={tScripture("reference")} text={tScripture("text")} />
